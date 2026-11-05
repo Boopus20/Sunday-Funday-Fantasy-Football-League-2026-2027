@@ -36,8 +36,7 @@ def main():
     for t in team_rows:
         tid = int(t["id"])
         name = t.get("name") or f"Team {tid}"
-        owners = t.get("owners", [])
-        teams[tid] = {"id": tid, "name": name, "shortName": name[:15], "owners": owners,
+        teams[tid] = {"id": tid, "name": name, "shortName": name[:15],
                       "wins": 0, "losses": 0, "ties": 0, "pointsFor": 0.0, "pointsAgainst": 0.0,
                       "allPlayWins": 0, "allPlayLosses": 0, "allPlayTies": 0,
                       "medianWins": 0, "medianLosses": 0, "medianTies": 0}
@@ -102,7 +101,8 @@ def main():
         row["averagePoints"] = round(sum(scores) / len(scores), 2) if scores else 0
         row["bestWeek"] = round(max(scores), 2) if scores else 0
         row["worstWeek"] = round(min(scores), 2) if scores else 0
-        row["pointsPerWeekStdDev"] = round((sum((v-row["averagePoints"])**2 for v in scores)/len(scores))**0.5, 2) if scores else 0
+        exact_mean = sum(scores) / len(scores) if scores else 0
+        row["pointsPerWeekStdDev"] = round((sum((v-exact_mean)**2 for v in scores)/len(scores))**0.5, 2) if scores else 0
         row["opponentAverage"] = round(row["pointsAgainst"]/len(scores), 2) if scores else 0
         row["topHalfWeeks"] = row["medianWins"]
         row["winsByOneScore"] = sum(1 for x in row["weeklyScores"] if x["opponentPoints"] is not None and 0 < x["points"]-x["opponentPoints"] <= 10)
