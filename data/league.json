@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-05T13:49:54.240219+00:00",
+  "updatedAt": "2026-11-05T13:53:32.846991+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -1344,13 +1344,57 @@
       "weeksWithPartialRosters": [],
       "errors": [],
       "draftAvailable": true,
-      "transactionsAvailable": true
+      "transactionsAvailable": true,
+      "sampleScoreFields": {},
+      "playersWithScores": 720,
+      "playersMissingScores": 0
     },
     "lineupIQ": [
       {
         "teamId": 1,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 122.32,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 83.46,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 85.82,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 84.72,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 164.34,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 115.84,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 125.16,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 117.16,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1358,8 +1402,49 @@
       },
       {
         "teamId": 2,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 133.66,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 155.38,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 130.48,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 100.32,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 123.96,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 120.36,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 126.42,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 81.76,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1367,8 +1452,49 @@
       },
       {
         "teamId": 3,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 106.72,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 142.12,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 114.26,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 180.4,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 123.34,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 93.62,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 146.28,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 98.3,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1376,8 +1502,49 @@
       },
       {
         "teamId": 4,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 103.56,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 111.9,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 99.14,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 145.38,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 147.38,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 106.48,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 118.02,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 102.5,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1385,8 +1552,49 @@
       },
       {
         "teamId": 5,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 127.46,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 132.18,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 125.98,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 105.34,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 146.22,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 90.98,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 140.08,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 159.38,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1394,8 +1602,49 @@
       },
       {
         "teamId": 6,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 132.1,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 72.76,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 150.48,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 121.56,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 141.24,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 123.74,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 137.92,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 133.3,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1403,8 +1652,49 @@
       },
       {
         "teamId": 7,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 143.26,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 104.62,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 78.64,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 161.1,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 121.02,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 67.78,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 106.22,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 133.78,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1412,8 +1702,49 @@
       },
       {
         "teamId": 8,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 151.1,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 141.0,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 144.52,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 122.78,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 133.14,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 116.38,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 118.42,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 112.64,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1421,8 +1752,49 @@
       },
       {
         "teamId": 9,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 171.16,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 151.12,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 163.46,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 109.32,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 145.2,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 105.4,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 82.5,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 152.96,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1430,8 +1802,49 @@
       },
       {
         "teamId": 10,
-        "weeksWithScoredStarters": 0,
-        "weekly": [],
+        "weeksWithScoredStarters": 8,
+        "weekly": [
+          {
+            "week": 1,
+            "actualStarterPoints": 164.96,
+            "scoredStarters": 9
+          },
+          {
+            "week": 2,
+            "actualStarterPoints": 80.14,
+            "scoredStarters": 9
+          },
+          {
+            "week": 3,
+            "actualStarterPoints": 149.12,
+            "scoredStarters": 9
+          },
+          {
+            "week": 4,
+            "actualStarterPoints": 117.28,
+            "scoredStarters": 9
+          },
+          {
+            "week": 5,
+            "actualStarterPoints": 148.96,
+            "scoredStarters": 9
+          },
+          {
+            "week": 6,
+            "actualStarterPoints": 119.1,
+            "scoredStarters": 9
+          },
+          {
+            "week": 7,
+            "actualStarterPoints": 100.8,
+            "scoredStarters": 9
+          },
+          {
+            "week": 8,
+            "actualStarterPoints": 154.38,
+            "scoredStarters": 9
+          }
+        ],
         "optimalPoints": null,
         "benchPointsLost": null,
         "efficiency": null,
@@ -1441,63 +1854,103 @@
     "positionPoints": [
       {
         "teamId": 1,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 898.82
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 2,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 972.34
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 3,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 1005.04
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 4,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 934.36
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 5,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 1027.62
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 6,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 1013.1
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 7,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 916.42
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 8,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 1039.98
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 9,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 1081.12
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       },
       {
         "teamId": 10,
-        "slots": {},
-        "gamesBySlot": {},
-        "weeks": 0
+        "slots": {
+          "QB": 1034.74
+        },
+        "gamesBySlot": {
+          "QB": 72
+        },
+        "weeks": 8
       }
     ],
     "draftPicks": [
