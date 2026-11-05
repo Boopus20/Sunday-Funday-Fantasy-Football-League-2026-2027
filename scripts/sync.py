@@ -40,6 +40,15 @@ def main():
                       "wins": 0, "losses": 0, "ties": 0, "pointsFor": 0.0, "pointsAgainst": 0.0,
                       "allPlayWins": 0, "allPlayLosses": 0, "allPlayTies": 0,
                       "medianWins": 0, "medianLosses": 0, "medianTies": 0}
+    fixtures=[]
+    for game in matchups.get("schedule",[]):
+        home,away=game.get("home") or {},game.get("away") or {}
+        hid,aid=home.get("teamId"),away.get("teamId")
+        if hid is None or aid is None: continue
+        if int(hid) not in teams or int(aid) not in teams: continue
+        fixtures.append({"week":int(game.get("matchupPeriodId",0)),
+            "homeId":int(hid),"awayId":int(aid),
+            "completed":game.get("winner") in ("HOME","AWAY","TIE")})
     weekly = {}
     schedule = {}
     completed = 0
@@ -118,7 +127,7 @@ def main():
                "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
                "currentWeek": league.get("scoringPeriodId"), "completedMatchups": completed,
                "completedWeeks": completed_weeks, "teams": list(teams.values()),
-               "scheduleSwap": swap}
+               "scheduleSwap": swap, "fixtures":fixtures}
     # Advanced features are best-effort and never block basic league standings.
     try:
         payload["advanced"] = extract_advanced(fetch, sorted(weekly), set(teams))
