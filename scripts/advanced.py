@@ -40,6 +40,7 @@ def extract_advanced(fetch, weeks, team_ids):
     player_names={}
     roster_status={}
     full_rosters=defaultdict(dict)
+    result["coverage"]["optimizationDiagnostics"]={}
     player_starts=defaultdict(lambda:{'starts':0,'points':0.0})
     result["coverage"]["weeksWithValidLineups"]=[]
     for week in weeks:
@@ -126,6 +127,11 @@ def extract_advanced(fetch, weeks, team_ids):
                     player_starts[key]["points"]+=e["points"]
             weekly_rows.append({"week":week,"actualStarterPoints":round(actual,2),
                 "scoredStarters":len(starters)})
+            result.setdefault("weeklyPositions",[]).append({"teamId":tid,"week":week,
+                "slots":dict((k,round(v,2)) for k,v in ((label,sum(e["points"] for e in starters if e["slot"]==label)) for label in ("QB","TE","FLEX","D/ST","K"))),
+                "RB":round(sum(e["points"] for e in starters if e["slot"]=="RB"),2),
+                "WR":round(sum(e["points"] for e in starters if e["slot"]=="WR"),2),
+                "players":[{"playerId":e["playerId"],"name":e["name"],"slot":e["slot"],"points":round(e["points"],2)} for e in starters]})
         result["positionPoints"].append({"teamId":tid,"slots":{k:round(v,2) for k,v in totals.items()},
             "gamesBySlot":dict(counts),"weeks":len(weekly_rows)})
         result["lineupIQ"].append({"teamId":tid,"weeksWithScoredStarters":len(weekly_rows),
@@ -151,11 +157,18 @@ def extract_advanced(fetch, weeks, team_ids):
                 eligible=player.get("eligibleSlots") or []
                 if pid is not None and score is not None and eligible:
                     candidates.append((int(pid),score,set(eligible)))
+            diag=result["coverage"]["optimizationDiagnostics"].setdefault(str(week),{"teams":0,"candidates":0,"missingStarters":0,"scoreMismatch":0,"eligibleMissing":0,"optimized":0})
+            diag["teams"]+=1
+            diag["candidates"]+=len(candidates)
             if len(candidates)<10: continue
             starter_ids={int(e["playerId"]) for e in actual_rows if e["playerId"] is not None}
             candidate_by_id={pid:pts for pid,pts,eligible in candidates}
-            if len(starter_ids)!=9 or not starter_ids.issubset(candidate_by_id): continue
-            if any(abs(candidate_by_id[int(e["playerId"])]-e["points"])>0.1 for e in actual_rows): continue
+            if len(starter_ids)!=9 or not starter_ids.issubset(candidate_by_id):
+                diag["missingStarters"]+=1
+                continue
+            if any(abs(candidate_by_id[int(e["playerId"])]-e["points"])>0.1 for e in actual_rows):
+                diag["scoreMismatch"]+=1
+                continue
             if not any(pid not in starter_ids for pid,pts,eligible in candidates): continue
             dp={0:0.0}
             for pid,pts,eligible in candidates:
@@ -167,7 +180,10 @@ def extract_advanced(fetch, weeks, team_ids):
                             next_dp[key]=max(next_dp.get(key,float("-inf")),value+pts)
                 dp=next_dp
             optimal=dp.get((1<<len(slot_ids))-1)
-            if optimal is None or optimal+0.05<actual: continue
+            if optimal is None or optimal+0.05<actual:
+                diag["eligibleMissing"]+=1
+                continue
+            diag["optimized"]+=1
             row=lineup_by_team[tid]
             row.setdefault("optimalWeekly",[]).append({"week":week,"actual":round(actual,2),
                 "optimal":round(optimal,2),"leftOnBench":round(max(0,optimal-actual),2)})
