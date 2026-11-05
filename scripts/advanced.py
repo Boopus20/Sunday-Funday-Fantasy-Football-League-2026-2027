@@ -37,6 +37,9 @@ def extract_advanced(fetch, weeks, team_ids):
             "transactionsAvailable":False,"sampleScoreFields":{},"playersWithScores":0,"playersMissingScores":0},
             "lineupIQ":[],"positionPoints":[],"draftPicks":[],"transactions":[]}
     weekly=defaultdict(dict)
+    player_names={}
+    roster_status={}
+    result["coverage"]["weeksWithValidLineups"]=[]
     for week in weeks:
         try:
             data=fetch("mBoxscore",{"scoringPeriodId":str(week)})
@@ -61,7 +64,9 @@ def extract_advanced(fetch, weeks, team_ids):
                                 pool=entry.get('playerPoolEntry') or {}
                                 result['coverage']['sampleScoreFields']={'entryKeys':sorted(entry.keys()),'poolKeys':sorted(pool.keys()),'playerKeys':sorted(player.keys()),'statKeys':sorted((player.get('stats') or [{}])[0].keys()),'statPeriods':[{'period':v.get('scoringPeriodId'),'source':v.get('statSourceId'),'applied':v.get('appliedTotal')} for v in (player.get('stats') or [])[:4]]}
                         else: result['coverage']['playersWithScores']+=1
-                        parsed.append({"playerId":entry.get("playerId",player.get("id")),
+                        pid=entry.get("playerId",player.get("id"))
+                        if pid is not None and player.get("fullName"): player_names[str(pid)]=player["fullName"]
+                        parsed.append({"playerId":pid,
                             "name":player.get("fullName") or player.get("name") or "Unknown",
                             "slotId":int(slot),"slot":SLOTS.get(int(slot),str(slot)),
                             "points":pts,"eligibleSlots":player.get("eligibleSlots",[])})
@@ -75,6 +80,7 @@ def extract_advanced(fetch, weeks, team_ids):
                         tid=int(team.get("id",-1))
                         if tid not in weekly[week]: continue
                         historical=(team.get("roster") or {}).get("entries") or []
+                        roster_status[str(week)]=roster_status.get(str(week),0)+len(historical)
                         slots={}
                         for entry in historical:
                             pid=entry.get("playerId") or (entry.get("playerPoolEntry") or {}).get("player",{}).get("id")
@@ -91,6 +97,7 @@ def extract_advanced(fetch, weeks, team_ids):
                     result["coverage"]["errors"].append(f"Historical roster lookup week {week}: {str(exc)[:100]}")
             count=len(weekly[week])
             if count==len(team_ids): result["coverage"]["weeksWithCompleteRosters"].append(week)
+            if count==len(team_ids) and all(len({e["slot"] for e in rows})>=5 for rows in weekly[week].values()): result["coverage"]["weeksWithValidLineups"].append(week)
             elif count: result["coverage"]["weeksWithPartialRosters"].append(week)
         except Exception as exc:
             result["coverage"]["errors"].append(f"Week {week}: {type(exc).__name__}: {str(exc)[:130]}")
@@ -117,6 +124,7 @@ def extract_advanced(fetch, weeks, team_ids):
         result["lineupIQ"].append({"teamId":tid,"weeksWithScoredStarters":len(weekly_rows),
             "weekly":weekly_rows,"optimalPoints":None,"benchPointsLost":None,
             "efficiency":None,"note":"Optimal lineup pending verified weekly bench scoring and roster eligibility."})
+    result["coverage"]["rosterLookupEntryCounts"]=roster_status
     result["coverage"]["rosterShape"]=[]
     for week, rosters in sorted(weekly.items()):
         if not rosters: continue
@@ -132,7 +140,7 @@ def extract_advanced(fetch, weeks, team_ids):
         if isinstance(picks,list):
             result["draftPicks"]=[{"teamId":p.get("teamId"),"playerId":p.get("playerId"),
                 "round":p.get("roundId"),"pick":p.get("roundPickNumber"),
-                "overallPick":p.get("overallPickNumber")} for p in picks]
+                "overallPick":p.get("overallPickNumber"),"playerName":player_names.get(str(p.get("playerId")))} for p in picks]
             result["coverage"]["draftAvailable"]=bool(picks)
     except Exception as exc: result["coverage"]["errors"].append("Draft: "+str(exc)[:130])
     try:
@@ -144,8 +152,9 @@ def extract_advanced(fetch, weeks, team_ids):
                 result["transactions"].append({"id":t.get("id"),"type":t.get("type"),
                     "status":t.get("status"),"proposingTeamId":t.get("proposingTeamId"),
                     "items":[{"playerId":i.get("playerId"),"type":i.get("type"),
-                        "fromTeamId":i.get("fromTeamId"),"toTeamId":i.get("toTeamId")}
+                        "fromTeamId":i.get("fromTeamId"),"toTeamId":i.get("toTeamId"),"playerName":player_names.get(str(i.get("playerId")))}
                         for i in t.get("items",[])]})
             result["coverage"]["transactionsAvailable"]=bool(records)
     except Exception as exc: result["coverage"]["errors"].append("Transactions: "+str(exc)[:130])
+    result["coverage"]["playerNamesResolved"]=len(player_names)
     return result
