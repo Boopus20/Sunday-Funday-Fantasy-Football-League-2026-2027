@@ -1,5 +1,5 @@
 
-name: Sync ESPN Fantasy League
+name: Sync ESPN Fantasy League and Publish
 
 on:
   workflow_dispatch:
