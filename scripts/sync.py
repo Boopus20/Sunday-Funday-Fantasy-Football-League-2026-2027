@@ -90,6 +90,21 @@ def main():
                 else: tie += 1
             swap[str(tid)][str(sid)] = {"wins": w, "losses": l, "ties": tie}
     completed_weeks = sum(1 for scores in weekly.values() if len(scores) == len(teams))
+    for tid, row in teams.items():
+        scores = [weekly[w][tid] for w in sorted(weekly) if tid in weekly[w]]
+        row["weeklyScores"] = [{"week": w, "points": round(weekly[w][tid], 2),
+            "opponentId": schedule.get(w, {}).get(tid),
+            "opponentPoints": round(weekly[w][schedule[w][tid]], 2) if tid in schedule.get(w, {}) else None}
+            for w in sorted(weekly) if tid in weekly[w]]
+        row["averagePoints"] = round(sum(scores) / len(scores), 2) if scores else 0
+        row["bestWeek"] = round(max(scores), 2) if scores else 0
+        row["worstWeek"] = round(min(scores), 2) if scores else 0
+        row["pointsPerWeekStdDev"] = round((sum((v-row["averagePoints"])**2 for v in scores)/len(scores))**0.5, 2) if scores else 0
+        row["opponentAverage"] = round(row["pointsAgainst"]/len(scores), 2) if scores else 0
+        row["topHalfWeeks"] = row["medianWins"]
+        row["winsByOneScore"] = sum(1 for x in row["weeklyScores"] if x["opponentPoints"] is not None and 0 < x["points"]-x["opponentPoints"] <= 10)
+        row["lossesByOneScore"] = sum(1 for x in row["weeklyScores"] if x["opponentPoints"] is not None and 0 < x["opponentPoints"]-x["points"] <= 10)
+
     for row in teams.values():
         row["expectedWins"] = round((row["allPlayWins"] + 0.5 * row["allPlayTies"]) / 9, 3)
         row["luck"] = round(row["wins"] + 0.5 * row["ties"] - row["expectedWins"], 3)
