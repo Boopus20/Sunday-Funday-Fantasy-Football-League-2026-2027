@@ -31,6 +31,16 @@ jobs:
       - name: Check Python syntax
         run: python -m compileall -q scripts
 
+      - name: Check dashboard JavaScript syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html=Path("index.html").read_text()
+          js=html.rsplit("<script>",1)[1].split("</script>",1)[0]
+          Path("/tmp/dashboard.js").write_text(js)
+          PY
+          node --check /tmp/dashboard.js
+
       - name: Fetch ESPN data and calculate statistics
         env:
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
