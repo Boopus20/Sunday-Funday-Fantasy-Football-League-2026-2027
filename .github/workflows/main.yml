@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   sync:
@@ -37,4 +39,12 @@ jobs:
             git add data/league.json
             git commit -m "Update ESPN fantasy statistics"
             git push
+
+      - name: Prepare Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Publish dashboard to GitHub Pages
+        uses: actions/deploy-pages@v4
           fi
