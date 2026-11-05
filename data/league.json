@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-05T14:04:16.381040+00:00",
+  "updatedAt": "2026-11-05T14:10:42.426120+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -10,9 +10,6 @@
       "id": 1,
       "name": "Maye I Touch Thy Naber ",
       "shortName": "Maye I Touch Th",
-      "owners": [
-        "{2D2E292F-C081-4CB2-93C1-10A3AF449D50}"
-      ],
       "wins": 3,
       "losses": 5,
       "ties": 0,
@@ -89,9 +86,6 @@
       "id": 2,
       "name": "Krafting Javontasty Rice",
       "shortName": "Krafting Javont",
-      "owners": [
-        "{3949B059-0F42-4AEC-865C-AF7DF8D23BEF}"
-      ],
       "wins": 4,
       "losses": 4,
       "ties": 0,
@@ -168,9 +162,6 @@
       "id": 3,
       "name": "Jeantanyahu can CeeDeez nuts",
       "shortName": "Jeantanyahu can",
-      "owners": [
-        "{D37AFC1D-8113-4290-BAFC-1D81131290BB}"
-      ],
       "wins": 3,
       "losses": 5,
       "ties": 0,
@@ -247,9 +238,6 @@
       "id": 4,
       "name": "Jackson 5 \ud83d\udd7a",
       "shortName": "Jackson 5 \ud83d\udd7a",
-      "owners": [
-        "{872030D5-A937-440A-BEF4-5C24E509F81A}"
-      ],
       "wins": 2,
       "losses": 6,
       "ties": 0,
@@ -326,9 +314,6 @@
       "id": 5,
       "name": "Chasing My Brown Brides Milk",
       "shortName": "Chasing My Brow",
-      "owners": [
-        "{16A0FF88-F78A-4E56-AF63-37B9F5095C43}"
-      ],
       "wins": 4,
       "losses": 4,
       "ties": 0,
@@ -405,9 +390,6 @@
       "id": 6,
       "name": "Win or lose we skattebooze",
       "shortName": "Win or lose we ",
-      "owners": [
-        "{10D92C06-1FEC-4A7C-8615-F6AC5D4BB9ED}"
-      ],
       "wins": 4,
       "losses": 4,
       "ties": 0,
@@ -484,9 +466,6 @@
       "id": 7,
       "name": "Buck Me ",
       "shortName": "Buck Me ",
-      "owners": [
-        "{8786AC96-B00C-4AAB-AFFD-4F739E2A48BF}"
-      ],
       "wins": 3,
       "losses": 5,
       "ties": 0,
@@ -563,9 +542,6 @@
       "id": 8,
       "name": "hamburger",
       "shortName": "hamburger",
-      "owners": [
-        "{D9B95C79-5D22-4584-8C53-56AE7B545DCC}"
-      ],
       "wins": 6,
       "losses": 2,
       "ties": 0,
@@ -642,9 +618,6 @@
       "id": 9,
       "name": "Gibbs me King-Sized Willy's",
       "shortName": "Gibbs me King-S",
-      "owners": [
-        "{494C6A1F-E14F-4B13-B868-C176944D3D8A}"
-      ],
       "wins": 6,
       "losses": 2,
       "ties": 0,
@@ -721,9 +694,6 @@
       "id": 10,
       "name": "Brock Solid",
       "shortName": "Brock Solid",
-      "owners": [
-        "{0CADE751-8BCE-4364-A3A5-9CAF2AE97BF3}"
-      ],
       "wins": 5,
       "losses": 3,
       "ties": 0,
@@ -1348,21 +1318,41 @@
       "sampleScoreFields": {},
       "playersWithScores": 720,
       "playersMissingScores": 0,
+      "weeksWithValidLineups": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "rosterLookupEntryCounts": {
+        "1": 163,
+        "2": 163,
+        "3": 166,
+        "4": 167,
+        "5": 170,
+        "6": 168,
+        "7": 165,
+        "8": 166
+      },
       "rosterShape": [
         {
           "week": 1,
           "teamId": 8,
           "count": 9,
           "slotIds": [
+            23,
+            2,
+            6,
+            16,
+            17,
+            4,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
+            2,
+            4
           ],
           "points": [
             1.2,
@@ -1388,15 +1378,15 @@
           "teamId": 5,
           "count": 9,
           "slotIds": [
+            16,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
+            4,
+            23,
+            2,
+            6,
+            17,
+            4,
+            2
           ],
           "points": [
             20.0,
@@ -1417,7 +1407,8 @@
             4259545
           ]
         }
-      ]
+      ],
+      "playerNamesResolved": 181
     },
     "lineupIQ": [
       {
@@ -1925,100 +1916,260 @@
       {
         "teamId": 1,
         "slots": {
-          "QB": 898.82
+          "K": 46.0,
+          "RB1": 155.8,
+          "D/ST": 48.0,
+          "QB": 168.14,
+          "WR1": 127.0,
+          "TE": 43.0,
+          "WR2": 108.1,
+          "FLEX": 78.68,
+          "RB2": 124.1
         },
         "gamesBySlot": {
-          "QB": 72
+          "K": 8,
+          "RB1": 8,
+          "D/ST": 8,
+          "QB": 8,
+          "WR1": 8,
+          "TE": 8,
+          "WR2": 8,
+          "FLEX": 8,
+          "RB2": 8
         },
         "weeks": 8
       },
       {
         "teamId": 2,
         "slots": {
-          "QB": 972.34
+          "QB": 141.64,
+          "RB1": 87.0,
+          "WR1": 133.9,
+          "D/ST": 64.0,
+          "FLEX": 130.1,
+          "WR2": 140.9,
+          "RB2": 121.9,
+          "TE": 89.9,
+          "K": 63.0
         },
         "gamesBySlot": {
-          "QB": 72
+          "QB": 8,
+          "RB1": 8,
+          "WR1": 8,
+          "D/ST": 8,
+          "FLEX": 8,
+          "WR2": 8,
+          "RB2": 8,
+          "TE": 8,
+          "K": 8
         },
         "weeks": 8
       },
       {
         "teamId": 3,
         "slots": {
-          "QB": 1005.04
+          "D/ST": 87.0,
+          "RB1": 83.1,
+          "TE": 83.3,
+          "WR1": 144.7,
+          "RB2": 145.7,
+          "K": 84.0,
+          "FLEX": 119.1,
+          "WR2": 147.7,
+          "QB": 110.44
         },
         "gamesBySlot": {
-          "QB": 72
+          "D/ST": 8,
+          "RB1": 8,
+          "TE": 8,
+          "WR1": 8,
+          "RB2": 8,
+          "K": 8,
+          "FLEX": 8,
+          "WR2": 8,
+          "QB": 8
         },
         "weeks": 8
       },
       {
         "teamId": 4,
         "slots": {
-          "QB": 934.36
+          "D/ST": 21.0,
+          "FLEX": 96.9,
+          "WR1": 159.2,
+          "WR2": 79.7,
+          "K": 54.0,
+          "TE": 100.7,
+          "QB": 147.86,
+          "RB1": 130.8,
+          "RB2": 144.2
         },
         "gamesBySlot": {
-          "QB": 72
+          "D/ST": 8,
+          "FLEX": 8,
+          "WR1": 8,
+          "WR2": 8,
+          "K": 8,
+          "TE": 8,
+          "QB": 8,
+          "RB1": 8,
+          "RB2": 8
         },
         "weeks": 8
       },
       {
         "teamId": 5,
         "slots": {
-          "QB": 1027.62
+          "WR1": 100.8,
+          "FLEX": 97.6,
+          "WR2": 90.7,
+          "RB1": 144.4,
+          "TE": 152.4,
+          "K": 79.0,
+          "QB": 199.22,
+          "RB2": 109.5,
+          "D/ST": 54.0
         },
         "gamesBySlot": {
-          "QB": 72
+          "WR1": 8,
+          "FLEX": 8,
+          "WR2": 8,
+          "RB1": 8,
+          "TE": 8,
+          "K": 8,
+          "QB": 8,
+          "RB2": 8,
+          "D/ST": 8
         },
         "weeks": 8
       },
       {
         "teamId": 6,
         "slots": {
-          "QB": 1013.1
+          "TE": 115.6,
+          "WR1": 137.2,
+          "RB1": 67.3,
+          "RB2": 127.9,
+          "FLEX": 142.6,
+          "QB": 143.9,
+          "K": 83.0,
+          "WR2": 126.6,
+          "D/ST": 69.0
         },
         "gamesBySlot": {
-          "QB": 72
+          "TE": 8,
+          "WR1": 8,
+          "RB1": 8,
+          "RB2": 8,
+          "FLEX": 8,
+          "QB": 8,
+          "K": 8,
+          "WR2": 8,
+          "D/ST": 8
         },
         "weeks": 8
       },
       {
         "teamId": 7,
         "slots": {
-          "QB": 916.42
+          "RB1": 128.1,
+          "RB2": 128.3,
+          "D/ST": 35.0,
+          "FLEX": 104.4,
+          "K": 70.0,
+          "QB": 140.22,
+          "TE": 62.4,
+          "WR1": 108.2,
+          "WR2": 139.8
         },
         "gamesBySlot": {
-          "QB": 72
+          "RB1": 8,
+          "RB2": 8,
+          "D/ST": 8,
+          "FLEX": 8,
+          "K": 8,
+          "QB": 8,
+          "TE": 8,
+          "WR1": 8,
+          "WR2": 8
         },
         "weeks": 8
       },
       {
         "teamId": 8,
         "slots": {
-          "QB": 1039.98
+          "FLEX": 80.3,
+          "RB1": 90.3,
+          "TE": 63.3,
+          "D/ST": 32.0,
+          "K": 69.0,
+          "WR1": 147.6,
+          "QB": 134.72,
+          "RB2": 188.8,
+          "WR2": 233.96
         },
         "gamesBySlot": {
-          "QB": 72
+          "FLEX": 8,
+          "RB1": 8,
+          "TE": 8,
+          "D/ST": 8,
+          "K": 8,
+          "WR1": 8,
+          "QB": 8,
+          "RB2": 8,
+          "WR2": 8
         },
         "weeks": 8
       },
       {
         "teamId": 9,
         "slots": {
-          "QB": 1081.12
+          "RB1": 224.9,
+          "QB": 212.22,
+          "TE": 83.3,
+          "FLEX": 111.6,
+          "WR1": 83.9,
+          "WR2": 100.6,
+          "K": 89.0,
+          "RB2": 151.6,
+          "D/ST": 24.0
         },
         "gamesBySlot": {
-          "QB": 72
+          "RB1": 8,
+          "QB": 8,
+          "TE": 8,
+          "FLEX": 8,
+          "WR1": 8,
+          "WR2": 8,
+          "K": 8,
+          "RB2": 8,
+          "D/ST": 8
         },
         "weeks": 8
       },
       {
         "teamId": 10,
         "slots": {
-          "QB": 1034.74
+          "FLEX": 111.6,
+          "RB1": 157.3,
+          "D/ST": 72.0,
+          "TE": 163.8,
+          "K": 60.0,
+          "WR1": 127.6,
+          "WR2": 110.1,
+          "RB2": 91.9,
+          "QB": 140.44
         },
         "gamesBySlot": {
-          "QB": 72
+          "FLEX": 8,
+          "RB1": 8,
+          "D/ST": 8,
+          "TE": 8,
+          "K": 8,
+          "WR1": 8,
+          "WR2": 8,
+          "RB2": 8,
+          "QB": 8
         },
         "weeks": 8
       }
@@ -2029,1120 +2180,1280 @@
         "playerId": 4429795,
         "round": 1,
         "pick": 1,
-        "overallPick": 1
+        "overallPick": 1,
+        "playerName": "Jahmyr Gibbs"
       },
       {
         "teamId": 10,
         "playerId": 4430807,
         "round": 1,
         "pick": 2,
-        "overallPick": 2
+        "overallPick": 2,
+        "playerName": "Bijan Robinson"
       },
       {
         "teamId": 5,
         "playerId": 4362628,
         "round": 1,
         "pick": 3,
-        "overallPick": 3
+        "overallPick": 3,
+        "playerName": "Ja'Marr Chase"
       },
       {
         "teamId": 6,
         "playerId": 4426515,
         "round": 1,
         "pick": 4,
-        "overallPick": 4
+        "overallPick": 4,
+        "playerName": "Puka Nacua"
       },
       {
         "teamId": 7,
         "playerId": 4374302,
         "round": 1,
         "pick": 5,
-        "overallPick": 5
+        "overallPick": 5,
+        "playerName": "Amon-Ra St. Brown"
       },
       {
         "teamId": 8,
         "playerId": 4430878,
         "round": 1,
         "pick": 6,
-        "overallPick": 6
+        "overallPick": 6,
+        "playerName": "Jaxon Smith-Njigba"
       },
       {
         "teamId": 2,
         "playerId": 3117251,
         "round": 1,
         "pick": 7,
-        "overallPick": 7
+        "overallPick": 7,
+        "playerName": "Christian McCaffrey"
       },
       {
         "teamId": 4,
         "playerId": 4242335,
         "round": 1,
         "pick": 8,
-        "overallPick": 8
+        "overallPick": 8,
+        "playerName": "Jonathan Taylor"
       },
       {
         "teamId": 3,
         "playerId": 4241389,
         "round": 1,
         "pick": 9,
-        "overallPick": 9
+        "overallPick": 9,
+        "playerName": "CeeDee Lamb"
       },
       {
         "teamId": 1,
         "playerId": 4262921,
         "round": 1,
         "pick": 10,
-        "overallPick": 10
+        "overallPick": 10,
+        "playerName": "Justin Jefferson"
       },
       {
         "teamId": 1,
         "playerId": 4379399,
         "round": 2,
         "pick": 1,
-        "overallPick": 11
+        "overallPick": 11,
+        "playerName": "James Cook III"
       },
       {
         "teamId": 3,
         "playerId": 4890973,
         "round": 2,
         "pick": 2,
-        "overallPick": 12
+        "overallPick": 12,
+        "playerName": "Ashton Jeanty"
       },
       {
         "teamId": 4,
         "playerId": 4429160,
         "round": 2,
         "pick": 3,
-        "overallPick": 13
+        "overallPick": 13,
+        "playerName": "De'Von Achane"
       },
       {
         "teamId": 2,
         "playerId": 3929630,
         "round": 2,
         "pick": 4,
-        "overallPick": 14
+        "overallPick": 14,
+        "playerName": "Saquon Barkley"
       },
       {
         "teamId": 8,
         "playerId": 4567048,
         "round": 2,
         "pick": 5,
-        "overallPick": 15
+        "overallPick": 15,
+        "playerName": "Kenneth Walker III"
       },
       {
         "teamId": 7,
         "playerId": 4685382,
         "round": 2,
         "pick": 6,
-        "overallPick": 16
+        "overallPick": 16,
+        "playerName": "Omarion Hampton"
       },
       {
         "teamId": 6,
         "playerId": 4426502,
         "round": 2,
         "pick": 7,
-        "overallPick": 17
+        "overallPick": 17,
+        "playerName": "Drake London"
       },
       {
         "teamId": 5,
         "playerId": 4047646,
         "round": 2,
         "pick": 8,
-        "overallPick": 18
+        "overallPick": 18,
+        "playerName": "A.J. Brown"
       },
       {
         "teamId": 10,
         "playerId": 4432665,
         "round": 2,
         "pick": 9,
-        "overallPick": 19
+        "overallPick": 19,
+        "playerName": "Brock Bowers"
       },
       {
         "teamId": 9,
         "playerId": 3043078,
         "round": 2,
         "pick": 10,
-        "overallPick": 20
+        "overallPick": 20,
+        "playerName": "Derrick Henry"
       },
       {
         "teamId": 9,
         "playerId": 3918298,
         "round": 3,
         "pick": 1,
-        "overallPick": 21
+        "overallPick": 21,
+        "playerName": "Josh Allen"
       },
       {
         "teamId": 10,
         "playerId": 4362238,
         "round": 3,
         "pick": 2,
-        "overallPick": 22
+        "overallPick": 22,
+        "playerName": "Chase Brown"
       },
       {
         "teamId": 5,
         "playerId": 4361307,
         "round": 3,
         "pick": 3,
-        "overallPick": 23
+        "overallPick": 23,
+        "playerName": "Trey McBride"
       },
       {
         "teamId": 6,
         "playerId": 4870808,
         "round": 3,
         "pick": 4,
-        "overallPick": 24
+        "overallPick": 24,
+        "playerName": "Jeremiyah Love"
       },
       {
         "teamId": 7,
         "playerId": 4258173,
         "round": 3,
         "pick": 5,
-        "overallPick": 25
+        "overallPick": 25,
+        "playerName": "Nico Collins"
       },
       {
         "teamId": 8,
         "playerId": 4361370,
         "round": 3,
         "pick": 6,
-        "overallPick": 26
+        "overallPick": 26,
+        "playerName": "Chris Olave"
       },
       {
         "teamId": 2,
         "playerId": 4428331,
         "round": 3,
         "pick": 7,
-        "overallPick": 27
+        "overallPick": 27,
+        "playerName": "Rashee Rice"
       },
       {
         "teamId": 4,
         "playerId": 4426354,
         "round": 3,
         "pick": 8,
-        "overallPick": 28
+        "overallPick": 28,
+        "playerName": "George Pickens"
       },
       {
         "teamId": 3,
         "playerId": 4241478,
         "round": 3,
         "pick": 9,
-        "overallPick": 29
+        "overallPick": 29,
+        "playerName": "DeVonta Smith"
       },
       {
         "teamId": 1,
         "playerId": 4239993,
         "round": 3,
         "pick": 10,
-        "overallPick": 30
+        "overallPick": 30,
+        "playerName": "Tee Higgins"
       },
       {
         "teamId": 1,
         "playerId": 4595348,
         "round": 4,
         "pick": 1,
-        "overallPick": 31
+        "overallPick": 31,
+        "playerName": "Malik Nabers"
       },
       {
         "teamId": 3,
         "playerId": 4047365,
         "round": 4,
         "pick": 2,
-        "overallPick": 32
+        "overallPick": 32,
+        "playerName": "Josh Jacobs"
       },
       {
         "teamId": 4,
         "playerId": 3916387,
         "round": 4,
         "pick": 3,
-        "overallPick": 33
+        "overallPick": 33,
+        "playerName": "Lamar Jackson"
       },
       {
         "teamId": 2,
         "playerId": 4361579,
         "round": 4,
         "pick": 4,
-        "overallPick": 34
+        "overallPick": 34,
+        "playerName": "Javonte Williams"
       },
       {
         "teamId": 8,
         "playerId": 4427366,
         "round": 4,
         "pick": 5,
-        "overallPick": 35
+        "overallPick": 35,
+        "playerName": "Breece Hall"
       },
       {
         "teamId": 7,
         "playerId": 4430737,
         "round": 4,
         "pick": 6,
-        "overallPick": 36
+        "overallPick": 36,
+        "playerName": "Kyren Williams"
       },
       {
         "teamId": 6,
         "playerId": 4567750,
         "round": 4,
         "pick": 7,
-        "overallPick": 37
+        "overallPick": 37,
+        "playerName": "Emeka Egbuka"
       },
       {
         "teamId": 5,
         "playerId": 4239996,
         "round": 4,
         "pick": 8,
-        "overallPick": 38
+        "overallPick": 38,
+        "playerName": "Travis Etienne Jr."
       },
       {
         "teamId": 10,
         "playerId": 4612826,
         "round": 4,
         "pick": 9,
-        "overallPick": 39
+        "overallPick": 39,
+        "playerName": "Ladd McConkey"
       },
       {
         "teamId": 9,
         "playerId": 4569618,
         "round": 4,
         "pick": 10,
-        "overallPick": 40
+        "overallPick": 40,
+        "playerName": "Garrett Wilson"
       },
       {
         "teamId": 9,
         "playerId": 4685472,
         "round": 5,
         "pick": 1,
-        "overallPick": 41
+        "overallPick": 41,
+        "playerName": "Tetairoa McMillan"
       },
       {
         "teamId": 10,
         "playerId": 4685278,
         "round": 5,
         "pick": 2,
-        "overallPick": 42
+        "overallPick": 42,
+        "playerName": "Luther Burden III"
       },
       {
         "teamId": 5,
         "playerId": 4685702,
         "round": 5,
         "pick": 3,
-        "overallPick": 43
+        "overallPick": 43,
+        "playerName": "Quinshon Judkins"
       },
       {
         "teamId": 6,
         "playerId": 4696981,
         "round": 5,
         "pick": 4,
-        "overallPick": 44
+        "overallPick": 44,
+        "playerName": "Cam Skattebo"
       },
       {
         "teamId": 7,
         "playerId": 4432710,
         "round": 5,
         "pick": 5,
-        "overallPick": 45
+        "overallPick": 45,
+        "playerName": null
       },
       {
         "teamId": 8,
         "playerId": 4723086,
         "round": 5,
         "pick": 6,
-        "overallPick": 46
+        "overallPick": 46,
+        "playerName": "Colston Loveland"
       },
       {
         "teamId": 2,
         "playerId": 4429615,
         "round": 5,
         "pick": 7,
-        "overallPick": 47
+        "overallPick": 47,
+        "playerName": "Zay Flowers"
       },
       {
         "teamId": 4,
         "playerId": 3121422,
         "round": 5,
         "pick": 8,
-        "overallPick": 48
+        "overallPick": 48,
+        "playerName": "Terry McLaurin"
       },
       {
         "teamId": 3,
         "playerId": 4431459,
         "round": 5,
         "pick": 9,
-        "overallPick": 49
+        "overallPick": 49,
+        "playerName": "Tyler Warren"
       },
       {
         "teamId": 1,
         "playerId": 5083076,
         "round": 5,
         "pick": 10,
-        "overallPick": 50
+        "overallPick": 50,
+        "playerName": "Harold Fannin Jr."
       },
       {
         "teamId": 1,
         "playerId": 4035538,
         "round": 6,
         "pick": 1,
-        "overallPick": 51
+        "overallPick": 51,
+        "playerName": "David Montgomery"
       },
       {
         "teamId": 3,
         "playerId": 4431452,
         "round": 6,
         "pick": 2,
-        "overallPick": 52
+        "overallPick": 52,
+        "playerName": "Drake Maye"
       },
       {
         "teamId": 4,
         "playerId": 16737,
         "round": 6,
         "pick": 3,
-        "overallPick": 53
+        "overallPick": 53,
+        "playerName": "Mike Evans"
       },
       {
         "teamId": 2,
         "playerId": 16800,
         "round": 6,
         "pick": 4,
-        "overallPick": 54
+        "overallPick": 54,
+        "playerName": "Davante Adams"
       },
       {
         "teamId": 8,
         "playerId": 4372016,
         "round": 6,
         "pick": 5,
-        "overallPick": 55
+        "overallPick": 55,
+        "playerName": "Jaylen Waddle"
       },
       {
         "teamId": 7,
         "playerId": 4596448,
         "round": 6,
         "pick": 6,
-        "overallPick": 56
+        "overallPick": 56,
+        "playerName": "Bucky Irving"
       },
       {
         "teamId": 6,
         "playerId": 4685512,
         "round": 6,
         "pick": 7,
-        "overallPick": 57
+        "overallPick": 57,
+        "playerName": "Jadarian Price"
       },
       {
         "teamId": 5,
         "playerId": 4259545,
         "round": 6,
         "pick": 8,
-        "overallPick": 58
+        "overallPick": 58,
+        "playerName": "D'Andre Swift"
       },
       {
         "teamId": 10,
         "playerId": 4248528,
         "round": 6,
         "pick": 9,
-        "overallPick": 59
+        "overallPick": 59,
+        "playerName": "Christian Watson"
       },
       {
         "teamId": 9,
         "playerId": 3915416,
         "round": 6,
         "pick": 10,
-        "overallPick": 60
+        "overallPick": 60,
+        "playerName": "DJ Moore"
       },
       {
         "teamId": 9,
         "playerId": 4882093,
         "round": 7,
         "pick": 1,
-        "overallPick": 61
+        "overallPick": 61,
+        "playerName": "Bhayshul Tuten"
       },
       {
         "teamId": 10,
         "playerId": 4426348,
         "round": 7,
         "pick": 2,
-        "overallPick": 62
+        "overallPick": 62,
+        "playerName": "Jayden Daniels"
       },
       {
         "teamId": 5,
         "playerId": 3915511,
         "round": 7,
         "pick": 3,
-        "overallPick": 63
+        "overallPick": 63,
+        "playerName": "Joe Burrow"
       },
       {
         "teamId": 6,
         "playerId": 4871023,
         "round": 7,
         "pick": 4,
-        "overallPick": 64
+        "overallPick": 64,
+        "playerName": null
       },
       {
         "teamId": 7,
         "playerId": 4432708,
         "round": 7,
         "pick": 5,
-        "overallPick": 65
+        "overallPick": 65,
+        "playerName": "Marvin Harrison Jr."
       },
       {
         "teamId": 8,
         "playerId": 4426388,
         "round": 7,
         "pick": 6,
-        "overallPick": 66
+        "overallPick": 66,
+        "playerName": "Jameson Williams"
       },
       {
         "teamId": 2,
         "playerId": 4431299,
         "round": 7,
         "pick": 7,
-        "overallPick": 67
+        "overallPick": 67,
+        "playerName": "Rome Odunze"
       },
       {
         "teamId": 4,
         "playerId": 4880281,
         "round": 7,
         "pick": 8,
-        "overallPick": 68
+        "overallPick": 68,
+        "playerName": null
       },
       {
         "teamId": 3,
         "playerId": 4569173,
         "round": 7,
         "pick": 9,
-        "overallPick": 69
+        "overallPick": 69,
+        "playerName": "Rhamondre Stevenson"
       },
       {
         "teamId": 1,
         "playerId": 4040715,
         "round": 7,
         "pick": 10,
-        "overallPick": 70
+        "overallPick": 70,
+        "playerName": "Jalen Hurts"
       },
       {
         "teamId": 1,
         "playerId": 4870795,
         "round": 8,
         "pick": 1,
-        "overallPick": 71
+        "overallPick": 71,
+        "playerName": "Makai Lemon"
       },
       {
         "teamId": 3,
         "playerId": 4432620,
         "round": 8,
         "pick": 2,
-        "overallPick": 72
+        "overallPick": 72,
+        "playerName": "Parker Washington"
       },
       {
         "teamId": 4,
         "playerId": 4569987,
         "round": 8,
         "pick": 3,
-        "overallPick": 73
+        "overallPick": 73,
+        "playerName": "Jaylen Warren"
       },
       {
         "teamId": 2,
         "playerId": 4432773,
         "round": 8,
         "pick": 4,
-        "overallPick": 74
+        "overallPick": 74,
+        "playerName": null
       },
       {
         "teamId": 8,
         "playerId": 4689114,
         "round": 8,
         "pick": 5,
-        "overallPick": 75
+        "overallPick": 75,
+        "playerName": "Jaxson Dart"
       },
       {
         "teamId": 7,
         "playerId": 4431611,
         "round": 8,
         "pick": 6,
-        "overallPick": 76
+        "overallPick": 76,
+        "playerName": "Caleb Williams"
       },
       {
         "teamId": 6,
         "playerId": 3916148,
         "round": 8,
         "pick": 7,
-        "overallPick": 77
+        "overallPick": 77,
+        "playerName": "Tony Pollard"
       },
       {
         "teamId": 5,
         "playerId": 4360078,
         "round": 8,
         "pick": 8,
-        "overallPick": 78
+        "overallPick": 78,
+        "playerName": "Alec Pierce"
       },
       {
         "teamId": 10,
         "playerId": 4035687,
         "round": 8,
         "pick": 9,
-        "overallPick": 79
+        "overallPick": 79,
+        "playerName": null
       },
       {
         "teamId": 9,
         "playerId": 4047650,
         "round": 8,
         "pick": 10,
-        "overallPick": 80
+        "overallPick": 80,
+        "playerName": "DK Metcalf"
       },
       {
         "teamId": 9,
         "playerId": 4241416,
         "round": 9,
         "pick": 1,
-        "overallPick": 81
+        "overallPick": 81,
+        "playerName": "Chuba Hubbard"
       },
       {
         "teamId": 10,
         "playerId": 4688813,
         "round": 9,
         "pick": 2,
-        "overallPick": 82
+        "overallPick": 82,
+        "playerName": "Josh Downs"
       },
       {
         "teamId": 5,
         "playerId": 4038815,
         "round": 9,
         "pick": 3,
-        "overallPick": 83
+        "overallPick": 83,
+        "playerName": null
       },
       {
         "teamId": 6,
         "playerId": 3128429,
         "round": 9,
         "pick": 4,
-        "overallPick": 84
+        "overallPick": 84,
+        "playerName": null
       },
       {
         "teamId": 7,
         "playerId": 4360248,
         "round": 9,
         "pick": 5,
-        "overallPick": 85
+        "overallPick": 85,
+        "playerName": "Kyle Pitts Sr."
       },
       {
         "teamId": 8,
         "playerId": 4241985,
         "round": 9,
         "pick": 6,
-        "overallPick": 86
+        "overallPick": 86,
+        "playerName": "J.K. Dobbins"
       },
       {
         "teamId": 2,
         "playerId": 4572680,
         "round": 9,
         "pick": 7,
-        "overallPick": 87
+        "overallPick": 87,
+        "playerName": "Tucker Kraft"
       },
       {
         "teamId": 4,
         "playerId": 4430027,
         "round": 9,
         "pick": 8,
-        "overallPick": 88
+        "overallPick": 88,
+        "playerName": "Sam LaPorta"
       },
       {
         "teamId": 3,
         "playerId": 4568490,
         "round": 9,
         "pick": 9,
-        "overallPick": 89
+        "overallPick": 89,
+        "playerName": "RJ Harvey"
       },
       {
         "teamId": 1,
         "playerId": 4360761,
         "round": 9,
         "pick": 10,
-        "overallPick": 90
+        "overallPick": 90,
+        "playerName": "Michael Wilson"
       },
       {
         "teamId": 1,
         "playerId": 4608686,
         "round": 10,
         "pick": 1,
-        "overallPick": 91
+        "overallPick": 91,
+        "playerName": null
       },
       {
         "teamId": 3,
         "playerId": 4429025,
         "round": 10,
         "pick": 2,
-        "overallPick": 92
+        "overallPick": 92,
+        "playerName": null
       },
       {
         "teamId": 4,
         "playerId": 4429205,
         "round": 10,
         "pick": 3,
-        "overallPick": 93
+        "overallPick": 93,
+        "playerName": "Jordan Addison"
       },
       {
         "teamId": 2,
         "playerId": 4575131,
         "round": 10,
         "pick": 4,
-        "overallPick": 94
+        "overallPick": 94,
+        "playerName": null
       },
       {
         "teamId": 8,
         "playerId": 3116165,
         "round": 10,
         "pick": 5,
-        "overallPick": 95
+        "overallPick": 95,
+        "playerName": "Chris Godwin Jr."
       },
       {
         "teamId": 7,
         "playerId": 4428209,
         "round": 10,
         "pick": 6,
-        "overallPick": 96
+        "overallPick": 96,
+        "playerName": null
       },
       {
         "teamId": 6,
         "playerId": 3121023,
         "round": 10,
         "pick": 7,
-        "overallPick": 97
+        "overallPick": 97,
+        "playerName": "Dallas Goedert"
       },
       {
         "teamId": 5,
         "playerId": 4569587,
         "round": 10,
         "pick": 8,
-        "overallPick": 98
+        "overallPick": 98,
+        "playerName": "Wan'Dale Robinson"
       },
       {
         "teamId": 10,
         "playerId": 4371733,
         "round": 10,
         "pick": 9,
-        "overallPick": 99
+        "overallPick": 99,
+        "playerName": null
       },
       {
         "teamId": 9,
         "playerId": 4595342,
         "round": 10,
         "pick": 10,
-        "overallPick": 100
+        "overallPick": 100,
+        "playerName": null
       },
       {
         "teamId": 9,
         "playerId": 4362249,
         "round": 11,
         "pick": 1,
-        "overallPick": 101
+        "overallPick": 101,
+        "playerName": null
       },
       {
         "teamId": 10,
         "playerId": 4678008,
         "round": 11,
         "pick": 2,
-        "overallPick": 102
+        "overallPick": 102,
+        "playerName": null
       },
       {
         "teamId": 5,
         "playerId": 3042519,
         "round": 11,
         "pick": 3,
-        "overallPick": 103
+        "overallPick": 103,
+        "playerName": "Aaron Jones Sr."
       },
       {
         "teamId": 6,
         "playerId": 4360310,
         "round": 11,
         "pick": 4,
-        "overallPick": 104
+        "overallPick": 104,
+        "playerName": "Trevor Lawrence"
       },
       {
         "teamId": 7,
         "playerId": 4429096,
         "round": 11,
         "pick": 5,
-        "overallPick": 105
+        "overallPick": 105,
+        "playerName": null
       },
       {
         "teamId": 8,
         "playerId": 15847,
         "round": 11,
         "pick": 6,
-        "overallPick": 106
+        "overallPick": 106,
+        "playerName": "Travis Kelce"
       },
       {
         "teamId": 2,
         "playerId": 4038941,
         "round": 11,
         "pick": 7,
-        "overallPick": 107
+        "overallPick": 107,
+        "playerName": "Justin Herbert"
       },
       {
         "teamId": 4,
         "playerId": 4361432,
         "round": 11,
         "pick": 8,
-        "overallPick": 108
+        "overallPick": 108,
+        "playerName": null
       },
       {
         "teamId": 3,
         "playerId": 3916433,
         "round": 11,
         "pick": 9,
-        "overallPick": 109
+        "overallPick": 109,
+        "playerName": null
       },
       {
         "teamId": 1,
         "playerId": 2577417,
         "round": 11,
         "pick": 10,
-        "overallPick": 110
+        "overallPick": 110,
+        "playerName": "Dak Prescott"
       },
       {
         "teamId": 1,
         "playerId": 4697815,
         "round": 12,
         "pick": 1,
-        "overallPick": 111
+        "overallPick": 111,
+        "playerName": "Rachaad White"
       },
       {
         "teamId": 3,
         "playerId": 4683062,
         "round": 12,
         "pick": 2,
-        "overallPick": 112
+        "overallPick": 112,
+        "playerName": null
       },
       {
         "teamId": 4,
         "playerId": 4360569,
         "round": 12,
         "pick": 3,
-        "overallPick": 113
+        "overallPick": 113,
+        "playerName": null
       },
       {
         "teamId": 2,
         "playerId": 4361741,
         "round": 12,
         "pick": 4,
-        "overallPick": 114
+        "overallPick": 114,
+        "playerName": "Brock Purdy"
       },
       {
         "teamId": 8,
         "playerId": 4870653,
         "round": 12,
         "pick": 5,
-        "overallPick": 115
+        "overallPick": 115,
+        "playerName": null
       },
       {
         "teamId": 7,
         "playerId": 3139477,
         "round": 12,
         "pick": 6,
-        "overallPick": 116
+        "overallPick": 116,
+        "playerName": "Patrick Mahomes"
       },
       {
         "teamId": 6,
         "playerId": 3040151,
         "round": 12,
         "pick": 7,
-        "overallPick": 117
+        "overallPick": 117,
+        "playerName": "George Kittle"
       },
       {
         "teamId": 5,
         "playerId": 4426385,
         "round": 12,
         "pick": 8,
-        "overallPick": 118
+        "overallPick": 118,
+        "playerName": null
       },
       {
         "teamId": 10,
         "playerId": 4695883,
         "round": 12,
         "pick": 9,
-        "overallPick": 119
+        "overallPick": 119,
+        "playerName": "Jalen Coker"
       },
       {
         "teamId": 9,
         "playerId": 4877706,
         "round": 12,
         "pick": 10,
-        "overallPick": 120
+        "overallPick": 120,
+        "playerName": null
       },
       {
         "teamId": 9,
         "playerId": 4429059,
         "round": 13,
         "pick": 1,
-        "overallPick": 121
+        "overallPick": 121,
+        "playerName": "Woody Marks"
       },
       {
         "teamId": 10,
         "playerId": 4360689,
         "round": 13,
         "pick": 2,
-        "overallPick": 122
+        "overallPick": 122,
+        "playerName": "Tyler Shough"
       },
       {
         "teamId": 5,
         "playerId": 12483,
         "round": 13,
         "pick": 3,
-        "overallPick": 123
+        "overallPick": 123,
+        "playerName": "Matthew Stafford"
       },
       {
         "teamId": 6,
         "playerId": 4701936,
         "round": 13,
         "pick": 4,
-        "overallPick": 124
+        "overallPick": 124,
+        "playerName": "Matthew Golden"
       },
       {
         "teamId": 7,
         "playerId": 4832800,
         "round": 13,
         "pick": 5,
-        "overallPick": 125
+        "overallPick": 125,
+        "playerName": "Denzel Boston"
       },
       {
         "teamId": 8,
         "playerId": 4426338,
         "round": 13,
         "pick": 6,
-        "overallPick": 126
+        "overallPick": 126,
+        "playerName": null
       },
       {
         "teamId": 2,
         "playerId": 4362619,
         "round": 13,
         "pick": 7,
-        "overallPick": 127
+        "overallPick": 127,
+        "playerName": null
       },
       {
         "teamId": 4,
         "playerId": 4373678,
         "round": 13,
         "pick": 8,
-        "overallPick": 128
+        "overallPick": 128,
+        "playerName": null
       },
       {
         "teamId": 3,
         "playerId": 3953687,
         "round": 13,
         "pick": 9,
-        "overallPick": 129
+        "overallPick": 129,
+        "playerName": "Brandon Aubrey"
       },
       {
         "teamId": 1,
         "playerId": 4362081,
         "round": 13,
         "pick": 10,
-        "overallPick": 130
+        "overallPick": 130,
+        "playerName": "Cameron Dicker"
       },
       {
         "teamId": 1,
         "playerId": -16007,
         "round": 14,
         "pick": 1,
-        "overallPick": 131
+        "overallPick": 131,
+        "playerName": "Broncos D/ST"
       },
       {
         "teamId": 3,
         "playerId": 3052587,
         "round": 14,
         "pick": 2,
-        "overallPick": 132
+        "overallPick": 132,
+        "playerName": null
       },
       {
         "teamId": 4,
         "playerId": 2971573,
         "round": 14,
         "pick": 3,
-        "overallPick": 133
+        "overallPick": 133,
+        "playerName": "Ka'imi Fairbairn"
       },
       {
         "teamId": 2,
         "playerId": 4385690,
         "round": 14,
         "pick": 4,
-        "overallPick": 134
+        "overallPick": 134,
+        "playerName": "Dalton Kincaid"
       },
       {
         "teamId": 8,
         "playerId": 2473037,
         "round": 14,
         "pick": 5,
-        "overallPick": 135
+        "overallPick": 135,
+        "playerName": "Jason Myers"
       },
       {
         "teamId": 7,
         "playerId": 4702555,
         "round": 14,
         "pick": 6,
-        "overallPick": 136
+        "overallPick": 136,
+        "playerName": null
       },
       {
         "teamId": 6,
         "playerId": 3046779,
         "round": 14,
         "pick": 7,
-        "overallPick": 137
+        "overallPick": 137,
+        "playerName": "Jared Goff"
       },
       {
         "teamId": 5,
         "playerId": -16017,
         "round": 14,
         "pick": 8,
-        "overallPick": 138
+        "overallPick": 138,
+        "playerName": "Patriots D/ST"
       },
       {
         "teamId": 10,
         "playerId": 4361050,
         "round": 14,
         "pick": 9,
-        "overallPick": 139
+        "overallPick": 139,
+        "playerName": "Isaiah Likely"
       },
       {
         "teamId": 9,
         "playerId": 4430834,
         "round": 14,
         "pick": 10,
-        "overallPick": 140
+        "overallPick": 140,
+        "playerName": null
       },
       {
         "teamId": 9,
         "playerId": -16014,
         "round": 15,
         "pick": 1,
-        "overallPick": 141
+        "overallPick": 141,
+        "playerName": "Rams D/ST"
       },
       {
         "teamId": 10,
         "playerId": 4685555,
         "round": 15,
         "pick": 2,
-        "overallPick": 142
+        "overallPick": 142,
+        "playerName": null
       },
       {
         "teamId": 5,
         "playerId": 17372,
         "round": 15,
         "pick": 3,
-        "overallPick": 143
+        "overallPick": 143,
+        "playerName": "Chris Boswell"
       },
       {
         "teamId": 6,
         "playerId": -16023,
         "round": 15,
         "pick": 4,
-        "overallPick": 144
+        "overallPick": 144,
+        "playerName": "Steelers D/ST"
       },
       {
         "teamId": 7,
         "playerId": 4723820,
         "round": 15,
         "pick": 5,
-        "overallPick": 145
+        "overallPick": 145,
+        "playerName": null
       },
       {
         "teamId": 8,
         "playerId": 4360516,
         "round": 15,
         "pick": 6,
-        "overallPick": 146
+        "overallPick": 146,
+        "playerName": null
       },
       {
         "teamId": 2,
         "playerId": 4686361,
         "round": 15,
         "pick": 7,
-        "overallPick": 147
+        "overallPick": 147,
+        "playerName": "Cam Little"
       },
       {
         "teamId": 4,
         "playerId": -16034,
         "round": 15,
         "pick": 8,
-        "overallPick": 148
+        "overallPick": 148,
+        "playerName": "Texans D/ST"
       },
       {
         "teamId": 3,
         "playerId": 4242355,
         "round": 15,
         "pick": 9,
-        "overallPick": 149
+        "overallPick": 149,
+        "playerName": null
       },
       {
         "teamId": 1,
         "playerId": 4382466,
         "round": 15,
         "pick": 10,
-        "overallPick": 150
+        "overallPick": 150,
+        "playerName": null
       },
       {
         "teamId": 1,
         "playerId": 3917315,
         "round": 16,
         "pick": 1,
-        "overallPick": 151
+        "overallPick": 151,
+        "playerName": "Kyler Murray"
       },
       {
         "teamId": 3,
         "playerId": -16033,
         "round": 16,
         "pick": 2,
-        "overallPick": 152
+        "overallPick": 152,
+        "playerName": "Ravens D/ST"
       },
       {
         "teamId": 4,
         "playerId": 4708049,
         "round": 16,
         "pick": 3,
-        "overallPick": 153
+        "overallPick": 153,
+        "playerName": null
       },
       {
         "teamId": 2,
         "playerId": -16026,
         "round": 16,
         "pick": 4,
-        "overallPick": 154
+        "overallPick": 154,
+        "playerName": "Seahawks D/ST"
       },
       {
         "teamId": 8,
         "playerId": -16024,
         "round": 16,
         "pick": 5,
-        "overallPick": 155
+        "overallPick": 155,
+        "playerName": "Chargers D/ST"
       },
       {
         "teamId": 7,
         "playerId": 4428557,
         "round": 16,
         "pick": 6,
-        "overallPick": 156
+        "overallPick": 156,
+        "playerName": null
       },
       {
         "teamId": 6,
         "playerId": 3055899,
         "round": 16,
         "pick": 7,
-        "overallPick": 157
+        "overallPick": 157,
+        "playerName": "Harrison Butker"
       },
       {
         "teamId": 5,
         "playerId": 4036133,
         "round": 16,
         "pick": 8,
-        "overallPick": 158
+        "overallPick": 158,
+        "playerName": "T.J. Hockenson"
       },
       {
         "teamId": 10,
         "playerId": 4870612,
         "round": 16,
         "pick": 9,
-        "overallPick": 159
+        "overallPick": 159,
+        "playerName": null
       },
       {
         "teamId": 9,
         "playerId": 3150744,
         "round": 16,
         "pick": 10,
-        "overallPick": 160
+        "overallPick": 160,
+        "playerName": "Chase McLaughlin"
       }
     ],
     "transactions": [
@@ -3156,13 +3467,15 @@
             "playerId": 4249087,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 4
+            "toTeamId": 4,
+            "playerName": "Matt Gay"
           },
           {
             "playerId": 17372,
             "type": "DROP",
             "fromTeamId": 4,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Chris Boswell"
           }
         ]
       },
@@ -3176,7 +3489,8 @@
             "playerId": 3126486,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 4
+            "toTeamId": 4,
+            "playerName": null
           }
         ]
       },
@@ -3190,13 +3504,15 @@
             "playerId": 4686658,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 1
+            "toTeamId": 1,
+            "playerName": null
           },
           {
             "playerId": 3126486,
             "type": "DROP",
             "fromTeamId": 1,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -3210,7 +3526,8 @@
             "playerId": 4696044,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 2
+            "toTeamId": 2,
+            "playerName": null
           }
         ]
       },
@@ -3224,13 +3541,15 @@
             "playerId": -16034,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 3
+            "toTeamId": 3,
+            "playerName": "Texans D/ST"
           },
           {
             "playerId": -16014,
             "type": "DROP",
             "fromTeamId": 3,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Rams D/ST"
           }
         ]
       },
@@ -3244,13 +3563,15 @@
             "playerId": 3054850,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 1
+            "toTeamId": 1,
+            "playerName": null
           },
           {
             "playerId": 3126486,
             "type": "DROP",
             "fromTeamId": 1,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -3264,7 +3585,8 @@
             "playerId": 2578570,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 4
+            "toTeamId": 4,
+            "playerName": "Jacoby Brissett"
           }
         ]
       },
@@ -3278,13 +3600,15 @@
             "playerId": 3126486,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 5
+            "toTeamId": 5,
+            "playerName": null
           },
           {
             "playerId": 4360635,
             "type": "DROP",
             "fromTeamId": 5,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -3298,13 +3622,15 @@
             "playerId": -16003,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 8
+            "toTeamId": 8,
+            "playerName": "Bears D/ST"
           },
           {
             "playerId": -16028,
             "type": "DROP",
             "fromTeamId": 8,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Commanders D/ST"
           }
         ]
       },
@@ -3318,13 +3644,15 @@
             "playerId": 4249087,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 5
+            "toTeamId": 5,
+            "playerName": "Matt Gay"
           },
           {
             "playerId": 4571557,
             "type": "DROP",
             "fromTeamId": 5,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Spencer Shrader"
           }
         ]
       },
@@ -3338,13 +3666,15 @@
             "playerId": 4360635,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 5
+            "toTeamId": 5,
+            "playerName": null
           },
           {
             "playerId": 3116365,
             "type": "DROP",
             "fromTeamId": 5,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Mark Andrews"
           }
         ]
       },
@@ -3358,7 +3688,8 @@
             "playerId": -16019,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 6
+            "toTeamId": 6,
+            "playerName": "Giants D/ST"
           }
         ]
       },
@@ -3372,7 +3703,8 @@
             "playerId": 3054850,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 3
+            "toTeamId": 3,
+            "playerName": null
           }
         ]
       },
@@ -3386,13 +3718,15 @@
             "playerId": 4689936,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 7
+            "toTeamId": 7,
+            "playerName": "Jake Bates"
           },
           {
             "playerId": 3055899,
             "type": "DROP",
             "fromTeamId": 7,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Harrison Butker"
           }
         ]
       },
@@ -3406,13 +3740,15 @@
             "playerId": 3054850,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 1
+            "toTeamId": 1,
+            "playerName": null
           },
           {
             "playerId": 5081432,
             "type": "DROP",
             "fromTeamId": 1,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -3426,13 +3762,15 @@
             "playerId": -16005,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 7
+            "toTeamId": 7,
+            "playerName": "Browns D/ST"
           },
           {
             "playerId": -16029,
             "type": "DROP",
             "fromTeamId": 7,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Panthers D/ST"
           }
         ]
       },
@@ -3446,13 +3784,15 @@
             "playerId": -16034,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 4
+            "toTeamId": 4,
+            "playerName": "Texans D/ST"
           },
           {
             "playerId": -16004,
             "type": "DROP",
             "fromTeamId": 4,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Bengals D/ST"
           }
         ]
       },
@@ -3466,7 +3806,8 @@
             "playerId": 5083754,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 2
+            "toTeamId": 2,
+            "playerName": null
           }
         ]
       },
@@ -3480,13 +3821,15 @@
             "playerId": 4242512,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 4
+            "toTeamId": 4,
+            "playerName": null
           },
           {
             "playerId": 15864,
             "type": "DROP",
             "fromTeamId": 4,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -3500,13 +3843,15 @@
             "playerId": 4570037,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 5
+            "toTeamId": 5,
+            "playerName": null
           },
           {
             "playerId": 3116165,
             "type": "DROP",
             "fromTeamId": 5,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Chris Godwin Jr."
           }
         ]
       },
@@ -3520,7 +3865,8 @@
             "playerId": 4432577,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 3
+            "toTeamId": 3,
+            "playerName": "C.J. Stroud"
           }
         ]
       },
@@ -3534,7 +3880,8 @@
             "playerId": -16018,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 6
+            "toTeamId": 6,
+            "playerName": null
           }
         ]
       },
@@ -3548,13 +3895,15 @@
             "playerId": 4597500,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 1
+            "toTeamId": 1,
+            "playerName": null
           },
           {
             "playerId": 3126486,
             "type": "DROP",
             "fromTeamId": 1,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -3568,7 +3917,8 @@
             "playerId": -16034,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 6
+            "toTeamId": 6,
+            "playerName": "Texans D/ST"
           }
         ]
       },
@@ -3582,13 +3932,15 @@
             "playerId": 2985659,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 5
+            "toTeamId": 5,
+            "playerName": null
           },
           {
             "playerId": 4571557,
             "type": "DROP",
             "fromTeamId": 5,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": "Spencer Shrader"
           }
         ]
       },
@@ -3602,13 +3954,15 @@
             "playerId": 4832955,
             "type": "ADD",
             "fromTeamId": 0,
-            "toTeamId": 10
+            "toTeamId": 10,
+            "playerName": null
           },
           {
             "playerId": 4360569,
             "type": "DROP",
             "fromTeamId": 10,
-            "toTeamId": 0
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       }
