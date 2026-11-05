@@ -12,7 +12,7 @@ def number(x):
     try: return float(x)
     except (ValueError,TypeError): return None
 
-def player_score(entry,week):
+def player_score(entry,week,allow_fallback=True):
     """Prefer weekly actual points over current or season totals."""
     pool=entry.get("playerPoolEntry") or {}
     player=pool.get("player") or {}
@@ -20,9 +20,10 @@ def player_score(entry,week):
         if str(stat.get("scoringPeriodId"))==str(week) and str(stat.get("statSourceId"))=="0":
             for key in ("appliedTotal","appliedStatTotal"):
                 if stat.get(key) is not None: return number(stat[key])
-    for obj in (entry,pool):
-        for key in ("appliedStatTotal","appliedTotal"):
-            if obj.get(key) is not None: return number(obj[key])
+    if allow_fallback:
+        for obj in (entry,pool):
+            for key in ("appliedStatTotal","appliedTotal"):
+                if obj.get(key) is not None: return number(obj[key])
     return None
 
 def find_entries(side):
@@ -154,13 +155,14 @@ def extract_advanced(fetch, weeks, team_ids):
                 pool=entry.get("playerPoolEntry") or {}
                 player=pool.get("player") or {}
                 pid=entry.get("playerId") or player.get("id")
-                score=player_score(entry,week)
+                score=player_score(entry,week,allow_fallback=False)
                 eligible=player.get("eligibleSlots") or []
                 if pid is not None and score is not None and eligible:
                     candidates.append((int(pid),score,set(eligible)))
             diag=result["coverage"]["optimizationDiagnostics"].setdefault(str(week),{"teams":0,"candidates":0,"missingStarters":0,"scoreMismatch":0,"eligibleMissing":0,"optimized":0})
             diag["teams"]+=1
             diag["candidates"]+=len(candidates)
+            diag["benchScoresAvailable"]=sum(1 for pid,pts,eligible in candidates if pid not in {int(e["playerId"]) for e in actual_rows if e["playerId"] is not None})
             if len(candidates)<10: continue
             starter_ids={int(e["playerId"]) for e in actual_rows if e["playerId"] is not None}
             candidate_by_id={pid:pts for pid,pts,eligible in candidates}
