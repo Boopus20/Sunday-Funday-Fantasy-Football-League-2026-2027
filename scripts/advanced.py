@@ -92,6 +92,15 @@ def extract_advanced(fetch, weeks, team_ids):
         result["lineupIQ"].append({"teamId":tid,"weeksWithScoredStarters":len(weekly_rows),
             "weekly":weekly_rows,"optimalPoints":None,"benchPointsLost":None,
             "efficiency":None,"note":"Optimal lineup pending verified weekly bench scoring and roster eligibility."})
+    result["coverage"]["rosterShape"]=[]
+    for week, rosters in sorted(weekly.items()):
+        if not rosters: continue
+        tid, entries=next(iter(rosters.items()))
+        result["coverage"]["rosterShape"].append({"week":week,"teamId":tid,
+            "count":len(entries),"slotIds":[e["slotId"] for e in entries],
+            "points":[e["points"] for e in entries[:12]],
+            "playerIds":[e["playerId"] for e in entries[:5]]})
+        if len(result["coverage"]["rosterShape"])>=2: break
     try:
         draft=fetch("mDraftDetail",{})
         picks=draft.get("draftDetail",{}).get("picks",[])
