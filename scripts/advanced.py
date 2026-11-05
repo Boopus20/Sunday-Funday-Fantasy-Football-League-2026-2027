@@ -151,7 +151,12 @@ def extract_advanced(fetch, weeks, team_ids):
                 eligible=player.get("eligibleSlots") or []
                 if pid is not None and score is not None and eligible:
                     candidates.append((int(pid),score,set(eligible)))
-            if len(candidates)<9: continue
+            if len(candidates)<10: continue
+            starter_ids={int(e["playerId"]) for e in actual_rows if e["playerId"] is not None}
+            candidate_by_id={pid:pts for pid,pts,eligible in candidates}
+            if len(starter_ids)!=9 or not starter_ids.issubset(candidate_by_id): continue
+            if any(abs(candidate_by_id[int(e["playerId"])]-e["points"])>0.1 for e in actual_rows): continue
+            if not any(pid not in starter_ids for pid,pts,eligible in candidates): continue
             dp={0:0.0}
             for pid,pts,eligible in candidates:
                 next_dp=dict(dp)
