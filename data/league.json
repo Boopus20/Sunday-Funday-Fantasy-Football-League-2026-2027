@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-05T14:12:17.311231+00:00",
+  "updatedAt": "2026-11-05T14:19:00.827174+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -1456,10 +1456,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 143.62,
+        "benchPointsLost": 21.3,
+        "efficiency": 85.2,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 122.32,
+            "optimal": 143.62,
+            "leftOnBench": 21.3
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 2,
@@ -1506,10 +1515,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 155.6,
+        "benchPointsLost": 21.94,
+        "efficiency": 85.9,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 133.66,
+            "optimal": 155.6,
+            "leftOnBench": 21.94
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 3,
@@ -1556,10 +1574,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 128.04,
+        "benchPointsLost": 21.32,
+        "efficiency": 83.3,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 106.72,
+            "optimal": 128.04,
+            "leftOnBench": 21.32
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 4,
@@ -1606,10 +1633,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 115.26,
+        "benchPointsLost": 11.7,
+        "efficiency": 89.8,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 103.56,
+            "optimal": 115.26,
+            "leftOnBench": 11.7
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 5,
@@ -1656,10 +1692,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 142.36,
+        "benchPointsLost": 14.9,
+        "efficiency": 89.5,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 127.46,
+            "optimal": 142.36,
+            "leftOnBench": 14.9
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 6,
@@ -1706,10 +1751,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 142.1,
+        "benchPointsLost": 10.0,
+        "efficiency": 93.0,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 132.1,
+            "optimal": 142.1,
+            "leftOnBench": 10.0
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 7,
@@ -1756,10 +1810,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 148.86,
+        "benchPointsLost": 5.6,
+        "efficiency": 96.2,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 143.26,
+            "optimal": 148.86,
+            "leftOnBench": 5.6
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 8,
@@ -1806,10 +1869,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 168.5,
+        "benchPointsLost": 17.4,
+        "efficiency": 89.7,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 151.1,
+            "optimal": 168.5,
+            "leftOnBench": 17.4
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 9,
@@ -1856,10 +1928,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 197.56,
+        "benchPointsLost": 26.4,
+        "efficiency": 86.6,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 171.16,
+            "optimal": 197.56,
+            "leftOnBench": 26.4
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       },
       {
         "teamId": 10,
@@ -1906,10 +1987,19 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": null,
-        "benchPointsLost": null,
-        "efficiency": null,
-        "note": "Optimal lineup pending verified weekly bench scoring and roster eligibility."
+        "optimalPoints": 170.96,
+        "benchPointsLost": 6.0,
+        "efficiency": 96.5,
+        "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
+        "optimalWeekly": [
+          {
+            "week": 1,
+            "actual": 164.96,
+            "optimal": 170.96,
+            "leftOnBench": 6.0
+          }
+        ],
+        "weeksWithOptimizedLineups": 1
       }
     ],
     "positionPoints": [
@@ -3965,6 +4055,1527 @@
             "playerName": null
           }
         ]
+      }
+    ],
+    "playerProduction": [
+      {
+        "teamId": 1,
+        "playerId": 4362081,
+        "playerName": "Cameron Dicker",
+        "starts": 2,
+        "starterPoints": 3.0
+      },
+      {
+        "teamId": 1,
+        "playerId": 4379399,
+        "playerName": "James Cook III",
+        "starts": 7,
+        "starterPoints": 137.7
+      },
+      {
+        "teamId": 1,
+        "playerId": -16007,
+        "playerName": "Broncos D/ST",
+        "starts": 1,
+        "starterPoints": 2.0
+      },
+      {
+        "teamId": 1,
+        "playerId": 4040715,
+        "playerName": "Jalen Hurts",
+        "starts": 4,
+        "starterPoints": 67.02
+      },
+      {
+        "teamId": 1,
+        "playerId": 4262921,
+        "playerName": "Justin Jefferson",
+        "starts": 4,
+        "starterPoints": 63.7
+      },
+      {
+        "teamId": 1,
+        "playerId": 5083076,
+        "playerName": "Harold Fannin Jr.",
+        "starts": 3,
+        "starterPoints": 7.4
+      },
+      {
+        "teamId": 1,
+        "playerId": 4239993,
+        "playerName": "Tee Higgins",
+        "starts": 2,
+        "starterPoints": 23.4
+      },
+      {
+        "teamId": 1,
+        "playerId": 4360761,
+        "playerName": "Michael Wilson",
+        "starts": 4,
+        "starterPoints": 41.58
+      },
+      {
+        "teamId": 1,
+        "playerId": 4035538,
+        "playerName": "David Montgomery",
+        "starts": 4,
+        "starterPoints": 44.4
+      },
+      {
+        "teamId": 1,
+        "playerId": 3116365,
+        "playerName": "Mark Andrews",
+        "starts": 1,
+        "starterPoints": 10.9
+      },
+      {
+        "teamId": 1,
+        "playerId": 4595348,
+        "playerName": "Malik Nabers",
+        "starts": 4,
+        "starterPoints": 59.3
+      },
+      {
+        "teamId": 1,
+        "playerId": -16024,
+        "playerName": "Chargers D/ST",
+        "starts": 1,
+        "starterPoints": 4.0
+      },
+      {
+        "teamId": 1,
+        "playerId": -16034,
+        "playerName": "Texans D/ST",
+        "starts": 4,
+        "starterPoints": 28.0
+      },
+      {
+        "teamId": 1,
+        "playerId": 4426354,
+        "playerName": "George Pickens",
+        "starts": 6,
+        "starterPoints": 90.5
+      },
+      {
+        "teamId": 1,
+        "playerId": 3117256,
+        "playerName": "Dalton Schultz",
+        "starts": 2,
+        "starterPoints": 8.9
+      },
+      {
+        "teamId": 1,
+        "playerId": 4869461,
+        "playerName": "Trey Smack",
+        "starts": 1,
+        "starterPoints": 1.0
+      },
+      {
+        "teamId": 1,
+        "playerId": 4685247,
+        "playerName": "Braelon Allen",
+        "starts": 5,
+        "starterPoints": 88.4
+      },
+      {
+        "teamId": 1,
+        "playerId": 3953687,
+        "playerName": "Brandon Aubrey",
+        "starts": 5,
+        "starterPoints": 42.0
+      },
+      {
+        "teamId": 1,
+        "playerId": 4431452,
+        "playerName": "Drake Maye",
+        "starts": 2,
+        "starterPoints": 63.92
+      },
+      {
+        "teamId": 1,
+        "playerId": -16017,
+        "playerName": "Patriots D/ST",
+        "starts": 2,
+        "starterPoints": 14.0
+      },
+      {
+        "teamId": 1,
+        "playerId": 4036378,
+        "playerName": "Jordan Love",
+        "starts": 2,
+        "starterPoints": 37.2
+      },
+      {
+        "teamId": 1,
+        "playerId": 4430737,
+        "playerName": "Kyren Williams",
+        "starts": 2,
+        "starterPoints": 31.0
+      },
+      {
+        "teamId": 1,
+        "playerId": 4360248,
+        "playerName": "Kyle Pitts Sr.",
+        "starts": 2,
+        "starterPoints": 15.8
+      },
+      {
+        "teamId": 1,
+        "playerId": 4685261,
+        "playerName": "Germie Bernard",
+        "starts": 2,
+        "starterPoints": 13.7
+      },
+      {
+        "teamId": 2,
+        "playerId": 4038941,
+        "playerName": "Justin Herbert",
+        "starts": 1,
+        "starterPoints": 13.26
+      },
+      {
+        "teamId": 2,
+        "playerId": 3929630,
+        "playerName": "Saquon Barkley",
+        "starts": 6,
+        "starterPoints": 50.5
+      },
+      {
+        "teamId": 2,
+        "playerId": 4428331,
+        "playerName": "Rashee Rice",
+        "starts": 5,
+        "starterPoints": 56.3
+      },
+      {
+        "teamId": 2,
+        "playerId": -16026,
+        "playerName": "Seahawks D/ST",
+        "starts": 6,
+        "starterPoints": 47.0
+      },
+      {
+        "teamId": 2,
+        "playerId": 4361579,
+        "playerName": "Javonte Williams",
+        "starts": 7,
+        "starterPoints": 107.9
+      },
+      {
+        "teamId": 2,
+        "playerId": 4429615,
+        "playerName": "Zay Flowers",
+        "starts": 6,
+        "starterPoints": 112.8
+      },
+      {
+        "teamId": 2,
+        "playerId": 3117251,
+        "playerName": "Christian McCaffrey",
+        "starts": 7,
+        "starterPoints": 144.0
+      },
+      {
+        "teamId": 2,
+        "playerId": 4572680,
+        "playerName": "Tucker Kraft",
+        "starts": 5,
+        "starterPoints": 61.9
+      },
+      {
+        "teamId": 2,
+        "playerId": 4686361,
+        "playerName": "Cam Little",
+        "starts": 7,
+        "starterPoints": 62.0
+      },
+      {
+        "teamId": 2,
+        "playerId": 16800,
+        "playerName": "Davante Adams",
+        "starts": 5,
+        "starterPoints": 100.4
+      },
+      {
+        "teamId": 2,
+        "playerId": 4385690,
+        "playerName": "Dalton Kincaid",
+        "starts": 3,
+        "starterPoints": 28.0
+      },
+      {
+        "teamId": 2,
+        "playerId": 4361741,
+        "playerName": "Brock Purdy",
+        "starts": 6,
+        "starterPoints": 124.92
+      },
+      {
+        "teamId": 2,
+        "playerId": 4431299,
+        "playerName": "Rome Odunze",
+        "starts": 1,
+        "starterPoints": 5.0
+      },
+      {
+        "teamId": 2,
+        "playerId": -16007,
+        "playerName": "Broncos D/ST",
+        "starts": 2,
+        "starterPoints": 17.0
+      },
+      {
+        "teamId": 2,
+        "playerId": 4360238,
+        "playerName": "Dameon Pierce",
+        "starts": 1,
+        "starterPoints": 15.0
+      },
+      {
+        "teamId": 2,
+        "playerId": 4568263,
+        "playerName": "Ryan Fitzgerald",
+        "starts": 1,
+        "starterPoints": 1.0
+      },
+      {
+        "teamId": 2,
+        "playerId": 4427095,
+        "playerName": "DeMario Douglas",
+        "starts": 2,
+        "starterPoints": 21.9
+      },
+      {
+        "teamId": 2,
+        "playerId": 2578570,
+        "playerName": "Jacoby Brissett",
+        "starts": 1,
+        "starterPoints": 3.46
+      },
+      {
+        "teamId": 3,
+        "playerId": -16033,
+        "playerName": "Ravens D/ST",
+        "starts": 3,
+        "starterPoints": 23.0
+      },
+      {
+        "teamId": 3,
+        "playerId": 4569173,
+        "playerName": "Rhamondre Stevenson",
+        "starts": 5,
+        "starterPoints": 51.0
+      },
+      {
+        "teamId": 3,
+        "playerId": 4431459,
+        "playerName": "Tyler Warren",
+        "starts": 6,
+        "starterPoints": 75.7
+      },
+      {
+        "teamId": 3,
+        "playerId": 4241478,
+        "playerName": "DeVonta Smith",
+        "starts": 3,
+        "starterPoints": 50.5
+      },
+      {
+        "teamId": 3,
+        "playerId": 4890973,
+        "playerName": "Ashton Jeanty",
+        "starts": 8,
+        "starterPoints": 134.3
+      },
+      {
+        "teamId": 3,
+        "playerId": 3953687,
+        "playerName": "Brandon Aubrey",
+        "starts": 3,
+        "starterPoints": 29.0
+      },
+      {
+        "teamId": 3,
+        "playerId": 4429023,
+        "playerName": "MarShawn Lloyd",
+        "starts": 1,
+        "starterPoints": 3.7
+      },
+      {
+        "teamId": 3,
+        "playerId": 4241389,
+        "playerName": "CeeDee Lamb",
+        "starts": 8,
+        "starterPoints": 174.3
+      },
+      {
+        "teamId": 3,
+        "playerId": 4431452,
+        "playerName": "Drake Maye",
+        "starts": 3,
+        "starterPoints": 21.6
+      },
+      {
+        "teamId": 3,
+        "playerId": 4432620,
+        "playerName": "Parker Washington",
+        "starts": 6,
+        "starterPoints": 78.2
+      },
+      {
+        "teamId": 3,
+        "playerId": -16016,
+        "playerName": "Vikings D/ST",
+        "starts": 4,
+        "starterPoints": 53.0
+      },
+      {
+        "teamId": 3,
+        "playerId": 4567104,
+        "playerName": "Will Reichard",
+        "starts": 4,
+        "starterPoints": 47.0
+      },
+      {
+        "teamId": 3,
+        "playerId": 4685472,
+        "playerName": "Tetairoa McMillan",
+        "starts": 4,
+        "starterPoints": 81.6
+      },
+      {
+        "teamId": 3,
+        "playerId": 4882093,
+        "playerName": "Bhayshul Tuten",
+        "starts": 2,
+        "starterPoints": 22.7
+      },
+      {
+        "teamId": 3,
+        "playerId": 2577417,
+        "playerName": "Dak Prescott",
+        "starts": 5,
+        "starterPoints": 88.84
+      },
+      {
+        "teamId": 3,
+        "playerId": 4568490,
+        "playerName": "RJ Harvey",
+        "starts": 1,
+        "starterPoints": 0.7
+      },
+      {
+        "teamId": 3,
+        "playerId": 5082424,
+        "playerName": "Dominic Zvada",
+        "starts": 1,
+        "starterPoints": 8.0
+      },
+      {
+        "teamId": 3,
+        "playerId": 2573401,
+        "playerName": "Tyler Higbee",
+        "starts": 2,
+        "starterPoints": 7.6
+      },
+      {
+        "teamId": 3,
+        "playerId": 4047365,
+        "playerName": "Josh Jacobs",
+        "starts": 2,
+        "starterPoints": 43.3
+      },
+      {
+        "teamId": 3,
+        "playerId": -16014,
+        "playerName": "Rams D/ST",
+        "starts": 1,
+        "starterPoints": 11.0
+      },
+      {
+        "teamId": 4,
+        "playerId": -16034,
+        "playerName": "Texans D/ST",
+        "starts": 2,
+        "starterPoints": 3.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 16737,
+        "playerName": "Mike Evans",
+        "starts": 4,
+        "starterPoints": 66.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 3121422,
+        "playerName": "Terry McLaurin",
+        "starts": 3,
+        "starterPoints": 14.1
+      },
+      {
+        "teamId": 4,
+        "playerId": 4426354,
+        "playerName": "George Pickens",
+        "starts": 2,
+        "starterPoints": 15.8
+      },
+      {
+        "teamId": 4,
+        "playerId": 2971573,
+        "playerName": "Ka'imi Fairbairn",
+        "starts": 3,
+        "starterPoints": 20.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 4430027,
+        "playerName": "Sam LaPorta",
+        "starts": 7,
+        "starterPoints": 85.9
+      },
+      {
+        "teamId": 4,
+        "playerId": 3916387,
+        "playerName": "Lamar Jackson",
+        "starts": 5,
+        "starterPoints": 81.08
+      },
+      {
+        "teamId": 4,
+        "playerId": 4429160,
+        "playerName": "De'Von Achane",
+        "starts": 3,
+        "starterPoints": 24.6
+      },
+      {
+        "teamId": 4,
+        "playerId": 4242335,
+        "playerName": "Jonathan Taylor",
+        "starts": 8,
+        "starterPoints": 144.2
+      },
+      {
+        "teamId": 4,
+        "playerId": 4569987,
+        "playerName": "Jaylen Warren",
+        "starts": 6,
+        "starterPoints": 128.8
+      },
+      {
+        "teamId": 4,
+        "playerId": -16010,
+        "playerName": "Titans D/ST",
+        "starts": 1,
+        "starterPoints": 8.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 4239993,
+        "playerName": "Tee Higgins",
+        "starts": 5,
+        "starterPoints": 122.2
+      },
+      {
+        "teamId": 4,
+        "playerId": 4695883,
+        "playerName": "Jalen Coker",
+        "starts": 4,
+        "starterPoints": 31.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 4870795,
+        "playerName": "Makai Lemon",
+        "starts": 1,
+        "starterPoints": 5.7
+      },
+      {
+        "teamId": 4,
+        "playerId": -16003,
+        "playerName": "Bears D/ST",
+        "starts": 1,
+        "starterPoints": 9.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 4569559,
+        "playerName": "Devaughn Vele",
+        "starts": 1,
+        "starterPoints": 17.4
+      },
+      {
+        "teamId": 4,
+        "playerId": 4360234,
+        "playerName": "Evan McPherson",
+        "starts": 2,
+        "starterPoints": 12.0
+      },
+      {
+        "teamId": 4,
+        "playerId": -16006,
+        "playerName": "Cowboys D/ST",
+        "starts": 1,
+        "starterPoints": -2.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 4711533,
+        "playerName": "Ollie Gordon II",
+        "starts": 3,
+        "starterPoints": 41.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 2578570,
+        "playerName": "Jacoby Brissett",
+        "starts": 1,
+        "starterPoints": 25.28
+      },
+      {
+        "teamId": 4,
+        "playerId": 4432577,
+        "playerName": "C.J. Stroud",
+        "starts": 2,
+        "starterPoints": 41.5
+      },
+      {
+        "teamId": 4,
+        "playerId": -16019,
+        "playerName": "Giants D/ST",
+        "starts": 1,
+        "starterPoints": 1.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 4697745,
+        "playerName": "Tyler Loop",
+        "starts": 1,
+        "starterPoints": 3.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 3046439,
+        "playerName": "Hunter Henry",
+        "starts": 1,
+        "starterPoints": 14.8
+      },
+      {
+        "teamId": 4,
+        "playerId": -16020,
+        "playerName": "Jets D/ST",
+        "starts": 1,
+        "starterPoints": 0.0
+      },
+      {
+        "teamId": 4,
+        "playerId": 17372,
+        "playerName": "Chris Boswell",
+        "starts": 2,
+        "starterPoints": 19.0
+      },
+      {
+        "teamId": 4,
+        "playerId": -16004,
+        "playerName": "Bengals D/ST",
+        "starts": 1,
+        "starterPoints": 2.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 4047646,
+        "playerName": "A.J. Brown",
+        "starts": 3,
+        "starterPoints": 19.1
+      },
+      {
+        "teamId": 5,
+        "playerId": 4569587,
+        "playerName": "Wan'Dale Robinson",
+        "starts": 2,
+        "starterPoints": 14.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 4362628,
+        "playerName": "Ja'Marr Chase",
+        "starts": 7,
+        "starterPoints": 130.2
+      },
+      {
+        "teamId": 5,
+        "playerId": 4259545,
+        "playerName": "D'Andre Swift",
+        "starts": 8,
+        "starterPoints": 152.7
+      },
+      {
+        "teamId": 5,
+        "playerId": 4361307,
+        "playerName": "Trey McBride",
+        "starts": 8,
+        "starterPoints": 152.4
+      },
+      {
+        "teamId": 5,
+        "playerId": 17372,
+        "playerName": "Chris Boswell",
+        "starts": 2,
+        "starterPoints": 12.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 3915511,
+        "playerName": "Joe Burrow",
+        "starts": 4,
+        "starterPoints": 108.1
+      },
+      {
+        "teamId": 5,
+        "playerId": 4239996,
+        "playerName": "Travis Etienne Jr.",
+        "starts": 2,
+        "starterPoints": 21.9
+      },
+      {
+        "teamId": 5,
+        "playerId": -16030,
+        "playerName": "Jaguars D/ST",
+        "starts": 3,
+        "starterPoints": 16.0
+      },
+      {
+        "teamId": 5,
+        "playerId": -16017,
+        "playerName": "Patriots D/ST",
+        "starts": 1,
+        "starterPoints": 20.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 12483,
+        "playerName": "Matthew Stafford",
+        "starts": 3,
+        "starterPoints": 75.18
+      },
+      {
+        "teamId": 5,
+        "playerId": 3042519,
+        "playerName": "Aaron Jones Sr.",
+        "starts": 3,
+        "starterPoints": 43.5
+      },
+      {
+        "teamId": 5,
+        "playerId": 4360078,
+        "playerName": "Alec Pierce",
+        "starts": 1,
+        "starterPoints": 2.1
+      },
+      {
+        "teamId": 5,
+        "playerId": 4571557,
+        "playerName": "Spencer Shrader",
+        "starts": 6,
+        "starterPoints": 67.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 4428850,
+        "playerName": "Dontayvion Wicks",
+        "starts": 2,
+        "starterPoints": 10.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 4685702,
+        "playerName": "Quinshon Judkins",
+        "starts": 5,
+        "starterPoints": 69.8
+      },
+      {
+        "teamId": 5,
+        "playerId": -16014,
+        "playerName": "Rams D/ST",
+        "starts": 2,
+        "starterPoints": 12.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 4360689,
+        "playerName": "Tyler Shough",
+        "starts": 1,
+        "starterPoints": 15.94
+      },
+      {
+        "teamId": 5,
+        "playerId": 4569603,
+        "playerName": "Malik Washington",
+        "starts": 1,
+        "starterPoints": 12.1
+      },
+      {
+        "teamId": 5,
+        "playerId": 4887558,
+        "playerName": "Emanuel Wilson",
+        "starts": 2,
+        "starterPoints": 18.4
+      },
+      {
+        "teamId": 5,
+        "playerId": 4697815,
+        "playerName": "Rachaad White",
+        "starts": 2,
+        "starterPoints": 29.7
+      },
+      {
+        "teamId": 5,
+        "playerId": -16005,
+        "playerName": "Browns D/ST",
+        "starts": 1,
+        "starterPoints": 5.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 3116165,
+        "playerName": "Chris Godwin Jr.",
+        "starts": 1,
+        "starterPoints": 6.7
+      },
+      {
+        "teamId": 5,
+        "playerId": -16007,
+        "playerName": "Broncos D/ST",
+        "starts": 1,
+        "starterPoints": 1.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 2976212,
+        "playerName": "Stefon Diggs",
+        "starts": 1,
+        "starterPoints": 12.8
+      },
+      {
+        "teamId": 6,
+        "playerId": 3121023,
+        "playerName": "Dallas Goedert",
+        "starts": 3,
+        "starterPoints": 32.3
+      },
+      {
+        "teamId": 6,
+        "playerId": 4426515,
+        "playerName": "Puka Nacua",
+        "starts": 6,
+        "starterPoints": 142.6
+      },
+      {
+        "teamId": 6,
+        "playerId": 4696981,
+        "playerName": "Cam Skattebo",
+        "starts": 5,
+        "starterPoints": 51.3
+      },
+      {
+        "teamId": 6,
+        "playerId": 4870808,
+        "playerName": "Jeremiyah Love",
+        "starts": 6,
+        "starterPoints": 53.4
+      },
+      {
+        "teamId": 6,
+        "playerId": 4567750,
+        "playerName": "Emeka Egbuka",
+        "starts": 3,
+        "starterPoints": 32.8
+      },
+      {
+        "teamId": 6,
+        "playerId": 4360310,
+        "playerName": "Trevor Lawrence",
+        "starts": 5,
+        "starterPoints": 95.18
+      },
+      {
+        "teamId": 6,
+        "playerId": 3055899,
+        "playerName": "Harrison Butker",
+        "starts": 4,
+        "starterPoints": 34.0
+      },
+      {
+        "teamId": 6,
+        "playerId": 4426502,
+        "playerName": "Drake London",
+        "starts": 8,
+        "starterPoints": 113.8
+      },
+      {
+        "teamId": 6,
+        "playerId": -16023,
+        "playerName": "Steelers D/ST",
+        "starts": 7,
+        "starterPoints": 69.0
+      },
+      {
+        "teamId": 6,
+        "playerId": 4685512,
+        "playerName": "Jadarian Price",
+        "starts": 1,
+        "starterPoints": 5.0
+      },
+      {
+        "teamId": 6,
+        "playerId": -16004,
+        "playerName": "Bengals D/ST",
+        "starts": 1,
+        "starterPoints": 0.0
+      },
+      {
+        "teamId": 6,
+        "playerId": 4701936,
+        "playerName": "Matthew Golden",
+        "starts": 6,
+        "starterPoints": 112.2
+      },
+      {
+        "teamId": 6,
+        "playerId": 3040151,
+        "playerName": "George Kittle",
+        "starts": 5,
+        "starterPoints": 83.3
+      },
+      {
+        "teamId": 6,
+        "playerId": 4685720,
+        "playerName": "Bryce Young",
+        "starts": 3,
+        "starterPoints": 48.72
+      },
+      {
+        "teamId": 6,
+        "playerId": 2971573,
+        "playerName": "Ka'imi Fairbairn",
+        "starts": 3,
+        "starterPoints": 39.0
+      },
+      {
+        "teamId": 6,
+        "playerId": 4373626,
+        "playerName": "Tyler Allgeier",
+        "starts": 2,
+        "starterPoints": 13.7
+      },
+      {
+        "teamId": 6,
+        "playerId": 3916148,
+        "playerName": "Tony Pollard",
+        "starts": 3,
+        "starterPoints": 76.8
+      },
+      {
+        "teamId": 6,
+        "playerId": 4363538,
+        "playerName": "Chad Ryland",
+        "starts": 1,
+        "starterPoints": 10.0
+      },
+      {
+        "teamId": 7,
+        "playerId": 4685382,
+        "playerName": "Omarion Hampton",
+        "starts": 7,
+        "starterPoints": 62.2
+      },
+      {
+        "teamId": 7,
+        "playerId": 4430737,
+        "playerName": "Kyren Williams",
+        "starts": 6,
+        "starterPoints": 119.0
+      },
+      {
+        "teamId": 7,
+        "playerId": -16021,
+        "playerName": "Eagles D/ST",
+        "starts": 3,
+        "starterPoints": 8.0
+      },
+      {
+        "teamId": 7,
+        "playerId": 4596448,
+        "playerName": "Bucky Irving",
+        "starts": 8,
+        "starterPoints": 136.6
+      },
+      {
+        "teamId": 7,
+        "playerId": 4689936,
+        "playerName": "Jake Bates",
+        "starts": 5,
+        "starterPoints": 49.0
+      },
+      {
+        "teamId": 7,
+        "playerId": 4431611,
+        "playerName": "Caleb Williams",
+        "starts": 4,
+        "starterPoints": 83.08
+      },
+      {
+        "teamId": 7,
+        "playerId": 4360248,
+        "playerName": "Kyle Pitts Sr.",
+        "starts": 3,
+        "starterPoints": 4.0
+      },
+      {
+        "teamId": 7,
+        "playerId": 4374302,
+        "playerName": "Amon-Ra St. Brown",
+        "starts": 7,
+        "starterPoints": 145.0
+      },
+      {
+        "teamId": 7,
+        "playerId": 4258173,
+        "playerName": "Nico Collins",
+        "starts": 5,
+        "starterPoints": 78.1
+      },
+      {
+        "teamId": 7,
+        "playerId": 4432708,
+        "playerName": "Marvin Harrison Jr.",
+        "starts": 1,
+        "starterPoints": 0.0
+      },
+      {
+        "teamId": 7,
+        "playerId": 4832800,
+        "playerName": "Denzel Boston",
+        "starts": 2,
+        "starterPoints": 10.6
+      },
+      {
+        "teamId": 7,
+        "playerId": 3139477,
+        "playerName": "Patrick Mahomes",
+        "starts": 3,
+        "starterPoints": 43.42
+      },
+      {
+        "teamId": 7,
+        "playerId": 3116365,
+        "playerName": "Mark Andrews",
+        "starts": 3,
+        "starterPoints": 19.9
+      },
+      {
+        "teamId": 7,
+        "playerId": -16005,
+        "playerName": "Browns D/ST",
+        "starts": 2,
+        "starterPoints": 19.0
+      },
+      {
+        "teamId": 7,
+        "playerId": 14880,
+        "playerName": "Kirk Cousins",
+        "starts": 1,
+        "starterPoints": 13.72
+      },
+      {
+        "teamId": 7,
+        "playerId": 3055899,
+        "playerName": "Harrison Butker",
+        "starts": 3,
+        "starterPoints": 21.0
+      },
+      {
+        "teamId": 7,
+        "playerId": -16029,
+        "playerName": "Panthers D/ST",
+        "starts": 3,
+        "starterPoints": 8.0
+      },
+      {
+        "teamId": 7,
+        "playerId": 4262921,
+        "playerName": "Justin Jefferson",
+        "starts": 2,
+        "starterPoints": 22.7
+      },
+      {
+        "teamId": 7,
+        "playerId": 5083076,
+        "playerName": "Harold Fannin Jr.",
+        "starts": 2,
+        "starterPoints": 38.5
+      },
+      {
+        "teamId": 7,
+        "playerId": 4599739,
+        "playerName": "Kendre Miller",
+        "starts": 1,
+        "starterPoints": 5.8
+      },
+      {
+        "teamId": 7,
+        "playerId": 4360761,
+        "playerName": "Michael Wilson",
+        "starts": 1,
+        "starterPoints": 28.8
+      },
+      {
+        "teamId": 8,
+        "playerId": 4372016,
+        "playerName": "Jaylen Waddle",
+        "starts": 7,
+        "starterPoints": 72.0
+      },
+      {
+        "teamId": 8,
+        "playerId": 4427366,
+        "playerName": "Breece Hall",
+        "starts": 3,
+        "starterPoints": 44.5
+      },
+      {
+        "teamId": 8,
+        "playerId": 4723086,
+        "playerName": "Colston Loveland",
+        "starts": 5,
+        "starterPoints": 36.6
+      },
+      {
+        "teamId": 8,
+        "playerId": -16024,
+        "playerName": "Chargers D/ST",
+        "starts": 1,
+        "starterPoints": 0.0
+      },
+      {
+        "teamId": 8,
+        "playerId": 2473037,
+        "playerName": "Jason Myers",
+        "starts": 8,
+        "starterPoints": 69.0
+      },
+      {
+        "teamId": 8,
+        "playerId": 4361370,
+        "playerName": "Chris Olave",
+        "starts": 7,
+        "starterPoints": 130.6
+      },
+      {
+        "teamId": 8,
+        "playerId": 4689114,
+        "playerName": "Jaxson Dart",
+        "starts": 2,
+        "starterPoints": 27.4
+      },
+      {
+        "teamId": 8,
+        "playerId": 4567048,
+        "playerName": "Kenneth Walker III",
+        "starts": 7,
+        "starterPoints": 168.1
+      },
+      {
+        "teamId": 8,
+        "playerId": 4430878,
+        "playerName": "Jaxon Smith-Njigba",
+        "starts": 8,
+        "starterPoints": 233.96
+      },
+      {
+        "teamId": 8,
+        "playerId": -16012,
+        "playerName": "Chiefs D/ST",
+        "starts": 3,
+        "starterPoints": 9.0
+      },
+      {
+        "teamId": 8,
+        "playerId": 3046779,
+        "playerName": "Jared Goff",
+        "starts": 5,
+        "starterPoints": 100.84
+      },
+      {
+        "teamId": 8,
+        "playerId": 15847,
+        "playerName": "Travis Kelce",
+        "starts": 3,
+        "starterPoints": 26.7
+      },
+      {
+        "teamId": 8,
+        "playerId": 4241985,
+        "playerName": "J.K. Dobbins",
+        "starts": 4,
+        "starterPoints": 44.5
+      },
+      {
+        "teamId": 8,
+        "playerId": 3042519,
+        "playerName": "Aaron Jones Sr.",
+        "starts": 3,
+        "starterPoints": 30.3
+      },
+      {
+        "teamId": 8,
+        "playerId": -16028,
+        "playerName": "Commanders D/ST",
+        "starts": 2,
+        "starterPoints": 17.0
+      },
+      {
+        "teamId": 8,
+        "playerId": -16014,
+        "playerName": "Rams D/ST",
+        "starts": 1,
+        "starterPoints": 2.0
+      },
+      {
+        "teamId": 8,
+        "playerId": 2969939,
+        "playerName": "Jameis Winston",
+        "starts": 1,
+        "starterPoints": 6.48
+      },
+      {
+        "teamId": 8,
+        "playerId": -16006,
+        "playerName": "Cowboys D/ST",
+        "starts": 1,
+        "starterPoints": 4.0
+      },
+      {
+        "teamId": 8,
+        "playerId": 4426388,
+        "playerName": "Jameson Williams",
+        "starts": 1,
+        "starterPoints": 17.0
+      },
+      {
+        "teamId": 9,
+        "playerId": 4429795,
+        "playerName": "Jahmyr Gibbs",
+        "starts": 7,
+        "starterPoints": 203.8
+      },
+      {
+        "teamId": 9,
+        "playerId": 3918298,
+        "playerName": "Josh Allen",
+        "starts": 7,
+        "starterPoints": 191.82
+      },
+      {
+        "teamId": 9,
+        "playerId": 3929645,
+        "playerName": "Juwan Johnson",
+        "starts": 7,
+        "starterPoints": 67.5
+      },
+      {
+        "teamId": 9,
+        "playerId": 4882093,
+        "playerName": "Bhayshul Tuten",
+        "starts": 1,
+        "starterPoints": 9.8
+      },
+      {
+        "teamId": 9,
+        "playerId": 4685472,
+        "playerName": "Tetairoa McMillan",
+        "starts": 3,
+        "starterPoints": 31.3
+      },
+      {
+        "teamId": 9,
+        "playerId": 4569618,
+        "playerName": "Garrett Wilson",
+        "starts": 8,
+        "starterPoints": 117.7
+      },
+      {
+        "teamId": 9,
+        "playerId": 3150744,
+        "playerName": "Chase McLaughlin",
+        "starts": 8,
+        "starterPoints": 89.0
+      },
+      {
+        "teamId": 9,
+        "playerId": 3043078,
+        "playerName": "Derrick Henry",
+        "starts": 8,
+        "starterPoints": 140.7
+      },
+      {
+        "teamId": 9,
+        "playerId": -16014,
+        "playerName": "Rams D/ST",
+        "starts": 1,
+        "starterPoints": 1.0
+      },
+      {
+        "teamId": 9,
+        "playerId": 3915416,
+        "playerName": "DJ Moore",
+        "starts": 3,
+        "starterPoints": 19.2
+      },
+      {
+        "teamId": 9,
+        "playerId": -16025,
+        "playerName": "49ers D/ST",
+        "starts": 4,
+        "starterPoints": 15.0
+      },
+      {
+        "teamId": 9,
+        "playerId": 4241416,
+        "playerName": "Chuba Hubbard",
+        "starts": 5,
+        "starterPoints": 98.9
+      },
+      {
+        "teamId": 9,
+        "playerId": -16033,
+        "playerName": "Ravens D/ST",
+        "starts": 1,
+        "starterPoints": 7.0
+      },
+      {
+        "teamId": 9,
+        "playerId": 4635008,
+        "playerName": "Keon Coleman",
+        "starts": 1,
+        "starterPoints": 7.7
+      },
+      {
+        "teamId": 9,
+        "playerId": -16011,
+        "playerName": "Colts D/ST",
+        "starts": 1,
+        "starterPoints": -1.0
+      },
+      {
+        "teamId": 9,
+        "playerId": 4047650,
+        "playerName": "DK Metcalf",
+        "starts": 2,
+        "starterPoints": 12.9
+      },
+      {
+        "teamId": 9,
+        "playerId": 4429059,
+        "playerName": "Woody Marks",
+        "starts": 1,
+        "starterPoints": 10.1
+      },
+      {
+        "teamId": 9,
+        "playerId": 4241478,
+        "playerName": "DeVonta Smith",
+        "starts": 1,
+        "starterPoints": 20.5
+      },
+      {
+        "teamId": 9,
+        "playerId": 14880,
+        "playerName": "Kirk Cousins",
+        "starts": 1,
+        "starterPoints": 20.4
+      },
+      {
+        "teamId": 9,
+        "playerId": 4036133,
+        "playerName": "T.J. Hockenson",
+        "starts": 1,
+        "starterPoints": 15.8
+      },
+      {
+        "teamId": 9,
+        "playerId": -16012,
+        "playerName": "Chiefs D/ST",
+        "starts": 1,
+        "starterPoints": 2.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 4248528,
+        "playerName": "Christian Watson",
+        "starts": 8,
+        "starterPoints": 152.8
+      },
+      {
+        "teamId": 10,
+        "playerId": 4430807,
+        "playerName": "Bijan Robinson",
+        "starts": 8,
+        "starterPoints": 157.3
+      },
+      {
+        "teamId": 10,
+        "playerId": -16008,
+        "playerName": "Lions D/ST",
+        "starts": 1,
+        "starterPoints": 5.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 4361050,
+        "playerName": "Isaiah Likely",
+        "starts": 4,
+        "starterPoints": 63.2
+      },
+      {
+        "teamId": 10,
+        "playerId": 4574716,
+        "playerName": "Harrison Mevis",
+        "starts": 1,
+        "starterPoints": 1.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 4685278,
+        "playerName": "Luther Burden III",
+        "starts": 6,
+        "starterPoints": 86.4
+      },
+      {
+        "teamId": 10,
+        "playerId": 4612826,
+        "playerName": "Ladd McConkey",
+        "starts": 4,
+        "starterPoints": 48.9
+      },
+      {
+        "teamId": 10,
+        "playerId": 4362238,
+        "playerName": "Chase Brown",
+        "starts": 7,
+        "starterPoints": 90.9
+      },
+      {
+        "teamId": 10,
+        "playerId": 4426348,
+        "playerName": "Jayden Daniels",
+        "starts": 5,
+        "starterPoints": 104.64
+      },
+      {
+        "teamId": 10,
+        "playerId": 17427,
+        "playerName": "Cairo Santos",
+        "starts": 1,
+        "starterPoints": 4.0
+      },
+      {
+        "teamId": 10,
+        "playerId": -16027,
+        "playerName": "Buccaneers D/ST",
+        "starts": 1,
+        "starterPoints": 4.0
+      },
+      {
+        "teamId": 10,
+        "playerId": -16019,
+        "playerName": "Giants D/ST",
+        "starts": 1,
+        "starterPoints": 9.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 3917315,
+        "playerName": "Kyler Murray",
+        "starts": 3,
+        "starterPoints": 35.8
+      },
+      {
+        "teamId": 10,
+        "playerId": 4034949,
+        "playerName": "Eddy Pineiro",
+        "starts": 3,
+        "starterPoints": 19.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 4688813,
+        "playerName": "Josh Downs",
+        "starts": 3,
+        "starterPoints": 25.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 4432665,
+        "playerName": "Brock Bowers",
+        "starts": 6,
+        "starterPoints": 127.7
+      },
+      {
+        "teamId": 10,
+        "playerId": 4429205,
+        "playerName": "Jordan Addison",
+        "starts": 1,
+        "starterPoints": 9.1
+      },
+      {
+        "teamId": 10,
+        "playerId": -16009,
+        "playerName": "Packers D/ST",
+        "starts": 1,
+        "starterPoints": 10.0
+      },
+      {
+        "teamId": 10,
+        "playerId": -16001,
+        "playerName": "Falcons D/ST",
+        "starts": 1,
+        "starterPoints": 10.0
+      },
+      {
+        "teamId": 10,
+        "playerId": -16012,
+        "playerName": "Chiefs D/ST",
+        "starts": 2,
+        "starterPoints": 13.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 4429023,
+        "playerName": "MarShawn Lloyd",
+        "starts": 1,
+        "starterPoints": 1.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 4249087,
+        "playerName": "Matt Gay",
+        "starts": 2,
+        "starterPoints": 20.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 3917232,
+        "playerName": "Tyler Bass",
+        "starts": 1,
+        "starterPoints": 16.0
+      },
+      {
+        "teamId": 10,
+        "playerId": -16030,
+        "playerName": "Jaguars D/ST",
+        "starts": 1,
+        "starterPoints": 21.0
       }
     ]
   }
