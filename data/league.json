@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-05T22:56:56.401249+00:00",
+  "updatedAt": "2026-11-05T23:48:58.620710+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -1289,6 +1289,428 @@
       }
     }
   },
+  "fixtures": [
+    {
+      "week": 1,
+      "homeId": 8,
+      "awayId": 5,
+      "completed": true
+    },
+    {
+      "week": 1,
+      "homeId": 9,
+      "awayId": 2,
+      "completed": true
+    },
+    {
+      "week": 1,
+      "homeId": 6,
+      "awayId": 4,
+      "completed": true
+    },
+    {
+      "week": 1,
+      "homeId": 3,
+      "awayId": 7,
+      "completed": true
+    },
+    {
+      "week": 1,
+      "homeId": 1,
+      "awayId": 10,
+      "completed": true
+    },
+    {
+      "week": 2,
+      "homeId": 5,
+      "awayId": 9,
+      "completed": true
+    },
+    {
+      "week": 2,
+      "homeId": 3,
+      "awayId": 1,
+      "completed": true
+    },
+    {
+      "week": 2,
+      "homeId": 7,
+      "awayId": 2,
+      "completed": true
+    },
+    {
+      "week": 2,
+      "homeId": 4,
+      "awayId": 8,
+      "completed": true
+    },
+    {
+      "week": 2,
+      "homeId": 6,
+      "awayId": 10,
+      "completed": true
+    },
+    {
+      "week": 3,
+      "homeId": 2,
+      "awayId": 3,
+      "completed": true
+    },
+    {
+      "week": 3,
+      "homeId": 6,
+      "awayId": 1,
+      "completed": true
+    },
+    {
+      "week": 3,
+      "homeId": 8,
+      "awayId": 7,
+      "completed": true
+    },
+    {
+      "week": 3,
+      "homeId": 4,
+      "awayId": 5,
+      "completed": true
+    },
+    {
+      "week": 3,
+      "homeId": 10,
+      "awayId": 9,
+      "completed": true
+    },
+    {
+      "week": 4,
+      "homeId": 2,
+      "awayId": 5,
+      "completed": true
+    },
+    {
+      "week": 4,
+      "homeId": 1,
+      "awayId": 10,
+      "completed": true
+    },
+    {
+      "week": 4,
+      "homeId": 9,
+      "awayId": 7,
+      "completed": true
+    },
+    {
+      "week": 4,
+      "homeId": 4,
+      "awayId": 3,
+      "completed": true
+    },
+    {
+      "week": 4,
+      "homeId": 8,
+      "awayId": 6,
+      "completed": true
+    },
+    {
+      "week": 5,
+      "homeId": 2,
+      "awayId": 8,
+      "completed": true
+    },
+    {
+      "week": 5,
+      "homeId": 6,
+      "awayId": 5,
+      "completed": true
+    },
+    {
+      "week": 5,
+      "homeId": 3,
+      "awayId": 9,
+      "completed": true
+    },
+    {
+      "week": 5,
+      "homeId": 1,
+      "awayId": 4,
+      "completed": true
+    },
+    {
+      "week": 5,
+      "homeId": 7,
+      "awayId": 10,
+      "completed": true
+    },
+    {
+      "week": 6,
+      "homeId": 1,
+      "awayId": 2,
+      "completed": true
+    },
+    {
+      "week": 6,
+      "homeId": 8,
+      "awayId": 10,
+      "completed": true
+    },
+    {
+      "week": 6,
+      "homeId": 7,
+      "awayId": 4,
+      "completed": true
+    },
+    {
+      "week": 6,
+      "homeId": 3,
+      "awayId": 6,
+      "completed": true
+    },
+    {
+      "week": 6,
+      "homeId": 9,
+      "awayId": 5,
+      "completed": true
+    },
+    {
+      "week": 7,
+      "homeId": 3,
+      "awayId": 5,
+      "completed": true
+    },
+    {
+      "week": 7,
+      "homeId": 4,
+      "awayId": 1,
+      "completed": true
+    },
+    {
+      "week": 7,
+      "homeId": 6,
+      "awayId": 7,
+      "completed": true
+    },
+    {
+      "week": 7,
+      "homeId": 8,
+      "awayId": 9,
+      "completed": true
+    },
+    {
+      "week": 7,
+      "homeId": 2,
+      "awayId": 10,
+      "completed": true
+    },
+    {
+      "week": 8,
+      "homeId": 10,
+      "awayId": 5,
+      "completed": true
+    },
+    {
+      "week": 8,
+      "homeId": 3,
+      "awayId": 7,
+      "completed": true
+    },
+    {
+      "week": 8,
+      "homeId": 2,
+      "awayId": 4,
+      "completed": true
+    },
+    {
+      "week": 8,
+      "homeId": 6,
+      "awayId": 9,
+      "completed": true
+    },
+    {
+      "week": 8,
+      "homeId": 1,
+      "awayId": 8,
+      "completed": true
+    },
+    {
+      "week": 9,
+      "homeId": 2,
+      "awayId": 6,
+      "completed": false
+    },
+    {
+      "week": 9,
+      "homeId": 10,
+      "awayId": 4,
+      "completed": false
+    },
+    {
+      "week": 9,
+      "homeId": 8,
+      "awayId": 3,
+      "completed": false
+    },
+    {
+      "week": 9,
+      "homeId": 7,
+      "awayId": 9,
+      "completed": false
+    },
+    {
+      "week": 9,
+      "homeId": 1,
+      "awayId": 5,
+      "completed": false
+    },
+    {
+      "week": 10,
+      "homeId": 6,
+      "awayId": 4,
+      "completed": false
+    },
+    {
+      "week": 10,
+      "homeId": 8,
+      "awayId": 1,
+      "completed": false
+    },
+    {
+      "week": 10,
+      "homeId": 3,
+      "awayId": 10,
+      "completed": false
+    },
+    {
+      "week": 10,
+      "homeId": 2,
+      "awayId": 9,
+      "completed": false
+    },
+    {
+      "week": 10,
+      "homeId": 5,
+      "awayId": 7,
+      "completed": false
+    },
+    {
+      "week": 11,
+      "homeId": 2,
+      "awayId": 6,
+      "completed": false
+    },
+    {
+      "week": 11,
+      "homeId": 9,
+      "awayId": 8,
+      "completed": false
+    },
+    {
+      "week": 11,
+      "homeId": 5,
+      "awayId": 10,
+      "completed": false
+    },
+    {
+      "week": 11,
+      "homeId": 4,
+      "awayId": 7,
+      "completed": false
+    },
+    {
+      "week": 11,
+      "homeId": 1,
+      "awayId": 3,
+      "completed": false
+    },
+    {
+      "week": 12,
+      "homeId": 7,
+      "awayId": 2,
+      "completed": false
+    },
+    {
+      "week": 12,
+      "homeId": 3,
+      "awayId": 5,
+      "completed": false
+    },
+    {
+      "week": 12,
+      "homeId": 10,
+      "awayId": 6,
+      "completed": false
+    },
+    {
+      "week": 12,
+      "homeId": 9,
+      "awayId": 1,
+      "completed": false
+    },
+    {
+      "week": 12,
+      "homeId": 8,
+      "awayId": 4,
+      "completed": false
+    },
+    {
+      "week": 13,
+      "homeId": 5,
+      "awayId": 7,
+      "completed": false
+    },
+    {
+      "week": 13,
+      "homeId": 1,
+      "awayId": 6,
+      "completed": false
+    },
+    {
+      "week": 13,
+      "homeId": 2,
+      "awayId": 3,
+      "completed": false
+    },
+    {
+      "week": 13,
+      "homeId": 9,
+      "awayId": 4,
+      "completed": false
+    },
+    {
+      "week": 13,
+      "homeId": 8,
+      "awayId": 10,
+      "completed": false
+    },
+    {
+      "week": 14,
+      "homeId": 4,
+      "awayId": 10,
+      "completed": false
+    },
+    {
+      "week": 14,
+      "homeId": 5,
+      "awayId": 2,
+      "completed": false
+    },
+    {
+      "week": 14,
+      "homeId": 3,
+      "awayId": 9,
+      "completed": false
+    },
+    {
+      "week": 14,
+      "homeId": 7,
+      "awayId": 1,
+      "completed": false
+    },
+    {
+      "week": 14,
+      "homeId": 8,
+      "awayId": 6,
+      "completed": false
+    }
+  ],
   "advanced": {
     "coverage": {
       "weeksRequested": [
