@@ -5,6 +5,8 @@ import json
 import os
 import pathlib
 import urllib.request
+import urllib.parse
+from advanced import extract_advanced
 
 LEAGUE_ID = "204112345"
 SEASON = "2026"
@@ -12,14 +14,15 @@ BASE = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "league.json"
 
-def fetch(view):
+def fetch(view, params=None):
     headers = {"User-Agent": "SundayFundayLeagueDashboard/1.0", "Accept": "application/json"}
     # If a private league requires authentication, configure these as GitHub Actions secrets.
     swid = os.getenv("ESPN_SWID")
     s2 = os.getenv("ESPN_S2")
     if swid and s2:
         headers["Cookie"] = f"SWID={swid}; espn_s2={s2}"
-    req = urllib.request.Request(f"{BASE}?view={view}", headers=headers)
+    query = urllib.parse.urlencode({"view":view, **(params or {})})
+    req = urllib.request.Request(f"{BASE}?{query}", headers=headers)
     with urllib.request.urlopen(req, timeout=35) as resp:
         return json.load(resp)
 
@@ -116,6 +119,11 @@ def main():
                "currentWeek": league.get("scoringPeriodId"), "completedMatchups": completed,
                "completedWeeks": completed_weeks, "teams": list(teams.values()),
                "scheduleSwap": swap}
+    # Advanced features are best-effort and never block basic league standings.
+    try:
+        payload["advanced"] = extract_advanced(fetch, sorted(weekly), set(teams))
+    except Exception as exc:
+        payload["advanced"] = {"coverage":{"errors":[f"Advanced ingestion: {exc}"]}}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     temp = OUT.with_suffix(".tmp")
     temp.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
