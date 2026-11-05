@@ -42,6 +42,7 @@ jobs:
             git add data/league.json
             git commit -m "Update ESPN fantasy statistics"
             git push
+          fi
 
       - name: Prepare Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -51,4 +52,3 @@ jobs:
       - name: Publish dashboard to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-          fi
