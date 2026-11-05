@@ -16,7 +16,7 @@ def player_score(entry,week):
     pool=entry.get('playerPoolEntry') or {}
     player=pool.get('player') or {}
     for obj in (entry,pool):
-        for key in ('appliedStatTotal','appliedTotal','totalPoints'):
+        for key in ('appliedStatTotal','appliedTotal'):
             if obj.get(key) is not None: return number(obj[key])
     for stat in player.get('stats') or []:
         if str(stat.get('scoringPeriodId'))==str(week) and str(stat.get('statSourceId')) in ('0','None'):
@@ -78,7 +78,7 @@ def extract_advanced(fetch, weeks, team_ids):
             entries=rosters.get(tid,[])
             if not entries: continue
             starters=[e for e in entries if e["slot"] in STARTERS]
-            if not starters or any(e["points"] is None for e in starters): continue
+            if len(starters)<8 or any(e["points"] is None for e in starters): continue
             used=defaultdict(int)
             actual=0
             for e in starters:
