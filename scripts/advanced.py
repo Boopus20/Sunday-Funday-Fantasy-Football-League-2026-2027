@@ -13,10 +13,15 @@ def number(x):
     except (ValueError,TypeError): return None
 
 def player_score(entry,week):
-    p=entry.get("playerPoolEntry",{}).get("player",{})
-    for stat in p.get("stats",[]):
-        if stat.get("scoringPeriodId")==week and stat.get("statSourceId")==0:
-            return number(stat.get("appliedTotal"))
+    pool=entry.get('playerPoolEntry') or {}
+    player=pool.get('player') or {}
+    for obj in (entry,pool):
+        for key in ('appliedStatTotal','appliedTotal','totalPoints'):
+            if obj.get(key) is not None: return number(obj[key])
+    for stat in player.get('stats') or []:
+        if str(stat.get('scoringPeriodId'))==str(week) and str(stat.get('statSourceId')) in ('0','None'):
+            for key in ('appliedTotal','appliedStatTotal'):
+                if stat.get(key) is not None: return number(stat[key])
     return None
 
 def find_entries(side):
@@ -29,7 +34,7 @@ def find_entries(side):
 def extract_advanced(fetch, weeks, team_ids):
     result={"coverage":{"weeksRequested":list(weeks),"weeksWithCompleteRosters":[],
             "weeksWithPartialRosters":[],"errors":[],"draftAvailable":False,
-            "transactionsAvailable":False},
+            "transactionsAvailable":False,"sampleScoreFields":{},"playersWithScores":0,"playersMissingScores":0},
             "lineupIQ":[],"positionPoints":[],"draftPicks":[],"transactions":[]}
     weekly=defaultdict(dict)
     for week in weeks:
@@ -50,6 +55,12 @@ def extract_advanced(fetch, weeks, team_ids):
                         if slot is None: continue
                         player=entry.get("playerPoolEntry",{}).get("player",{})
                         pts=player_score(entry,week)
+                        if pts is None:
+                            result['coverage']['playersMissingScores']+=1
+                            if not result['coverage']['sampleScoreFields']:
+                                pool=entry.get('playerPoolEntry') or {}
+                                result['coverage']['sampleScoreFields']={'entryKeys':sorted(entry.keys()),'poolKeys':sorted(pool.keys()),'playerKeys':sorted(player.keys()),'statKeys':sorted((player.get('stats') or [{}])[0].keys()),'statPeriods':[{'period':v.get('scoringPeriodId'),'source':v.get('statSourceId'),'applied':v.get('appliedTotal')} for v in (player.get('stats') or [])[:4]]}
+                        else: result['coverage']['playersWithScores']+=1
                         parsed.append({"playerId":entry.get("playerId",player.get("id")),
                             "name":player.get("fullName") or player.get("name") or "Unknown",
                             "slotId":int(slot),"slot":SLOTS.get(int(slot),str(slot)),
