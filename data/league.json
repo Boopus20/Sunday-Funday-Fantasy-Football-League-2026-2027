@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-05T14:24:45.693740+00:00",
+  "updatedAt": "2026-11-05T14:29:51.012726+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -1325,63 +1325,71 @@
           "missingStarters": 0,
           "scoreMismatch": 0,
           "eligibleMissing": 0,
-          "optimized": 10
+          "optimized": 10,
+          "benchScoresAvailable": 7
         },
         "2": {
           "teams": 10,
           "candidates": 163,
           "missingStarters": 0,
-          "scoreMismatch": 10,
+          "scoreMismatch": 0,
           "eligibleMissing": 0,
-          "optimized": 0
+          "optimized": 10,
+          "benchScoresAvailable": 7
         },
         "3": {
           "teams": 10,
           "candidates": 166,
           "missingStarters": 0,
-          "scoreMismatch": 10,
+          "scoreMismatch": 0,
           "eligibleMissing": 0,
-          "optimized": 0
+          "optimized": 10,
+          "benchScoresAvailable": 7
         },
         "4": {
           "teams": 10,
-          "candidates": 167,
+          "candidates": 166,
           "missingStarters": 0,
-          "scoreMismatch": 10,
+          "scoreMismatch": 0,
           "eligibleMissing": 0,
-          "optimized": 0
+          "optimized": 10,
+          "benchScoresAvailable": 8
         },
         "5": {
           "teams": 10,
-          "candidates": 170,
+          "candidates": 158,
           "missingStarters": 0,
-          "scoreMismatch": 10,
+          "scoreMismatch": 0,
           "eligibleMissing": 0,
-          "optimized": 0
+          "optimized": 10,
+          "benchScoresAvailable": 6
         },
         "6": {
           "teams": 10,
-          "candidates": 168,
+          "candidates": 148,
           "missingStarters": 0,
-          "scoreMismatch": 10,
+          "scoreMismatch": 0,
           "eligibleMissing": 0,
-          "optimized": 0
+          "optimized": 10,
+          "benchScoresAvailable": 4
         },
         "7": {
           "teams": 10,
-          "candidates": 165,
+          "candidates": 150,
           "missingStarters": 0,
-          "scoreMismatch": 10,
+          "scoreMismatch": 0,
           "eligibleMissing": 0,
-          "optimized": 0
+          "optimized": 10,
+          "benchScoresAvailable": 5
         },
         "8": {
           "teams": 10,
-          "candidates": 166,
+          "candidates": 144,
           "missingStarters": 0,
-          "scoreMismatch": 10,
+          "scoreMismatch": 0,
           "eligibleMissing": 0,
-          "optimized": 0
+          "optimized": 10,
+          "benchScoresAvailable": 6
         }
       },
       "weeksWithValidLineups": [
@@ -1522,9 +1530,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 143.62,
-        "benchPointsLost": 21.3,
-        "efficiency": 85.2,
+        "optimalPoints": 1148.44,
+        "benchPointsLost": 249.62,
+        "efficiency": 78.3,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -1532,9 +1540,51 @@
             "actual": 122.32,
             "optimal": 143.62,
             "leftOnBench": 21.3
+          },
+          {
+            "week": 2,
+            "actual": 83.46,
+            "optimal": 112.66,
+            "leftOnBench": 29.2
+          },
+          {
+            "week": 3,
+            "actual": 85.82,
+            "optimal": 138.74,
+            "leftOnBench": 52.92
+          },
+          {
+            "week": 4,
+            "actual": 84.72,
+            "optimal": 156.86,
+            "leftOnBench": 72.14
+          },
+          {
+            "week": 5,
+            "actual": 164.34,
+            "optimal": 188.46,
+            "leftOnBench": 24.12
+          },
+          {
+            "week": 6,
+            "actual": 115.84,
+            "optimal": 137.9,
+            "leftOnBench": 22.06
+          },
+          {
+            "week": 7,
+            "actual": 125.16,
+            "optimal": 149.04,
+            "leftOnBench": 23.88
+          },
+          {
+            "week": 8,
+            "actual": 117.16,
+            "optimal": 121.16,
+            "leftOnBench": 4.0
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 2,
@@ -1581,8 +1631,8 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 155.6,
-        "benchPointsLost": 21.94,
+        "optimalPoints": 1131.38,
+        "benchPointsLost": 159.04,
         "efficiency": 85.9,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
@@ -1591,9 +1641,51 @@
             "actual": 133.66,
             "optimal": 155.6,
             "leftOnBench": 21.94
+          },
+          {
+            "week": 2,
+            "actual": 155.38,
+            "optimal": 159.68,
+            "leftOnBench": 4.3
+          },
+          {
+            "week": 3,
+            "actual": 130.48,
+            "optimal": 139.68,
+            "leftOnBench": 9.2
+          },
+          {
+            "week": 4,
+            "actual": 100.32,
+            "optimal": 159.82,
+            "leftOnBench": 59.5
+          },
+          {
+            "week": 5,
+            "actual": 123.96,
+            "optimal": 133.16,
+            "leftOnBench": 9.2
+          },
+          {
+            "week": 6,
+            "actual": 120.36,
+            "optimal": 133.96,
+            "leftOnBench": 13.6
+          },
+          {
+            "week": 7,
+            "actual": 126.42,
+            "optimal": 148.12,
+            "leftOnBench": 21.7
+          },
+          {
+            "week": 8,
+            "actual": 81.76,
+            "optimal": 101.36,
+            "leftOnBench": 19.6
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 3,
@@ -1640,9 +1732,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 128.04,
-        "benchPointsLost": 21.32,
-        "efficiency": 83.3,
+        "optimalPoints": 1178.24,
+        "benchPointsLost": 173.2,
+        "efficiency": 85.3,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -1650,9 +1742,51 @@
             "actual": 106.72,
             "optimal": 128.04,
             "leftOnBench": 21.32
+          },
+          {
+            "week": 2,
+            "actual": 142.12,
+            "optimal": 157.18,
+            "leftOnBench": 15.06
+          },
+          {
+            "week": 3,
+            "actual": 114.26,
+            "optimal": 133.38,
+            "leftOnBench": 19.12
+          },
+          {
+            "week": 4,
+            "actual": 180.4,
+            "optimal": 205.0,
+            "leftOnBench": 24.6
+          },
+          {
+            "week": 5,
+            "actual": 123.34,
+            "optimal": 142.94,
+            "leftOnBench": 19.6
+          },
+          {
+            "week": 6,
+            "actual": 93.62,
+            "optimal": 118.92,
+            "leftOnBench": 25.3
+          },
+          {
+            "week": 7,
+            "actual": 146.28,
+            "optimal": 162.78,
+            "leftOnBench": 16.5
+          },
+          {
+            "week": 8,
+            "actual": 98.3,
+            "optimal": 130.0,
+            "leftOnBench": 31.7
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 4,
@@ -1699,9 +1833,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 115.26,
-        "benchPointsLost": 11.7,
-        "efficiency": 89.8,
+        "optimalPoints": 1099.86,
+        "benchPointsLost": 165.5,
+        "efficiency": 85.0,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -1709,9 +1843,51 @@
             "actual": 103.56,
             "optimal": 115.26,
             "leftOnBench": 11.7
+          },
+          {
+            "week": 2,
+            "actual": 111.9,
+            "optimal": 123.7,
+            "leftOnBench": 11.8
+          },
+          {
+            "week": 3,
+            "actual": 99.14,
+            "optimal": 143.84,
+            "leftOnBench": 44.7
+          },
+          {
+            "week": 4,
+            "actual": 145.38,
+            "optimal": 173.28,
+            "leftOnBench": 27.9
+          },
+          {
+            "week": 5,
+            "actual": 147.38,
+            "optimal": 155.38,
+            "leftOnBench": 8.0
+          },
+          {
+            "week": 6,
+            "actual": 106.48,
+            "optimal": 113.98,
+            "leftOnBench": 7.5
+          },
+          {
+            "week": 7,
+            "actual": 118.02,
+            "optimal": 147.12,
+            "leftOnBench": 29.1
+          },
+          {
+            "week": 8,
+            "actual": 102.5,
+            "optimal": 127.3,
+            "leftOnBench": 24.8
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 5,
@@ -1758,9 +1934,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 142.36,
-        "benchPointsLost": 14.9,
-        "efficiency": 89.5,
+        "optimalPoints": 1127.0,
+        "benchPointsLost": 99.38,
+        "efficiency": 91.2,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -1768,9 +1944,51 @@
             "actual": 127.46,
             "optimal": 142.36,
             "leftOnBench": 14.9
+          },
+          {
+            "week": 2,
+            "actual": 132.18,
+            "optimal": 145.18,
+            "leftOnBench": 13.0
+          },
+          {
+            "week": 3,
+            "actual": 125.98,
+            "optimal": 127.2,
+            "leftOnBench": 1.22
+          },
+          {
+            "week": 4,
+            "actual": 105.34,
+            "optimal": 142.92,
+            "leftOnBench": 37.58
+          },
+          {
+            "week": 5,
+            "actual": 146.22,
+            "optimal": 149.52,
+            "leftOnBench": 3.3
+          },
+          {
+            "week": 6,
+            "actual": 90.98,
+            "optimal": 112.26,
+            "leftOnBench": 21.28
+          },
+          {
+            "week": 7,
+            "actual": 140.08,
+            "optimal": 140.08,
+            "leftOnBench": 0
+          },
+          {
+            "week": 8,
+            "actual": 159.38,
+            "optimal": 167.48,
+            "leftOnBench": 8.1
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 6,
@@ -1817,9 +2035,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 142.1,
-        "benchPointsLost": 10.0,
-        "efficiency": 93.0,
+        "optimalPoints": 1165.52,
+        "benchPointsLost": 152.42,
+        "efficiency": 86.9,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -1827,9 +2045,51 @@
             "actual": 132.1,
             "optimal": 142.1,
             "leftOnBench": 10.0
+          },
+          {
+            "week": 2,
+            "actual": 72.76,
+            "optimal": 112.08,
+            "leftOnBench": 39.32
+          },
+          {
+            "week": 3,
+            "actual": 150.48,
+            "optimal": 156.88,
+            "leftOnBench": 6.4
+          },
+          {
+            "week": 4,
+            "actual": 121.56,
+            "optimal": 139.86,
+            "leftOnBench": 18.3
+          },
+          {
+            "week": 5,
+            "actual": 141.24,
+            "optimal": 146.64,
+            "leftOnBench": 5.4
+          },
+          {
+            "week": 6,
+            "actual": 123.74,
+            "optimal": 143.84,
+            "leftOnBench": 20.1
+          },
+          {
+            "week": 7,
+            "actual": 137.92,
+            "optimal": 151.12,
+            "leftOnBench": 13.2
+          },
+          {
+            "week": 8,
+            "actual": 133.3,
+            "optimal": 173.0,
+            "leftOnBench": 39.7
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 7,
@@ -1876,9 +2136,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 148.86,
-        "benchPointsLost": 5.6,
-        "efficiency": 96.2,
+        "optimalPoints": 1069.26,
+        "benchPointsLost": 152.84,
+        "efficiency": 85.7,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -1886,9 +2146,51 @@
             "actual": 143.26,
             "optimal": 148.86,
             "leftOnBench": 5.6
+          },
+          {
+            "week": 2,
+            "actual": 104.62,
+            "optimal": 148.98,
+            "leftOnBench": 44.36
+          },
+          {
+            "week": 3,
+            "actual": 78.64,
+            "optimal": 80.04,
+            "leftOnBench": 1.4
+          },
+          {
+            "week": 4,
+            "actual": 161.1,
+            "optimal": 167.9,
+            "leftOnBench": 6.8
+          },
+          {
+            "week": 5,
+            "actual": 121.02,
+            "optimal": 145.72,
+            "leftOnBench": 24.7
+          },
+          {
+            "week": 6,
+            "actual": 67.78,
+            "optimal": 116.3,
+            "leftOnBench": 48.52
+          },
+          {
+            "week": 7,
+            "actual": 106.22,
+            "optimal": 114.22,
+            "leftOnBench": 8.0
+          },
+          {
+            "week": 8,
+            "actual": 133.78,
+            "optimal": 147.24,
+            "leftOnBench": 13.46
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 8,
@@ -1935,9 +2237,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 168.5,
-        "benchPointsLost": 17.4,
-        "efficiency": 89.7,
+        "optimalPoints": 1182.9,
+        "benchPointsLost": 142.92,
+        "efficiency": 87.9,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -1945,9 +2247,51 @@
             "actual": 151.1,
             "optimal": 168.5,
             "leftOnBench": 17.4
+          },
+          {
+            "week": 2,
+            "actual": 141.0,
+            "optimal": 180.12,
+            "leftOnBench": 39.12
+          },
+          {
+            "week": 3,
+            "actual": 144.52,
+            "optimal": 147.02,
+            "leftOnBench": 2.5
+          },
+          {
+            "week": 4,
+            "actual": 122.78,
+            "optimal": 136.58,
+            "leftOnBench": 13.8
+          },
+          {
+            "week": 5,
+            "actual": 133.14,
+            "optimal": 147.94,
+            "leftOnBench": 14.8
+          },
+          {
+            "week": 6,
+            "actual": 116.38,
+            "optimal": 135.38,
+            "leftOnBench": 19.0
+          },
+          {
+            "week": 7,
+            "actual": 118.42,
+            "optimal": 154.52,
+            "leftOnBench": 36.1
+          },
+          {
+            "week": 8,
+            "actual": 112.64,
+            "optimal": 112.84,
+            "leftOnBench": 0.2
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 9,
@@ -1994,9 +2338,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 197.56,
-        "benchPointsLost": 26.4,
-        "efficiency": 86.6,
+        "optimalPoints": 1226.94,
+        "benchPointsLost": 145.82,
+        "efficiency": 88.1,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2004,9 +2348,51 @@
             "actual": 171.16,
             "optimal": 197.56,
             "leftOnBench": 26.4
+          },
+          {
+            "week": 2,
+            "actual": 151.12,
+            "optimal": 165.62,
+            "leftOnBench": 14.5
+          },
+          {
+            "week": 3,
+            "actual": 163.46,
+            "optimal": 174.46,
+            "leftOnBench": 11.0
+          },
+          {
+            "week": 4,
+            "actual": 109.32,
+            "optimal": 125.12,
+            "leftOnBench": 15.8
+          },
+          {
+            "week": 5,
+            "actual": 145.2,
+            "optimal": 152.4,
+            "leftOnBench": 7.2
+          },
+          {
+            "week": 6,
+            "actual": 105.4,
+            "optimal": 139.0,
+            "leftOnBench": 33.6
+          },
+          {
+            "week": 7,
+            "actual": 82.5,
+            "optimal": 116.2,
+            "leftOnBench": 33.7
+          },
+          {
+            "week": 8,
+            "actual": 152.96,
+            "optimal": 156.58,
+            "leftOnBench": 3.62
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       },
       {
         "teamId": 10,
@@ -2053,9 +2439,9 @@
             "scoredStarters": 9
           }
         ],
-        "optimalPoints": 170.96,
-        "benchPointsLost": 6.0,
-        "efficiency": 96.5,
+        "optimalPoints": 1135.26,
+        "benchPointsLost": 100.52,
+        "efficiency": 91.1,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2063,9 +2449,51 @@
             "actual": 164.96,
             "optimal": 170.96,
             "leftOnBench": 6.0
+          },
+          {
+            "week": 2,
+            "actual": 80.14,
+            "optimal": 103.34,
+            "leftOnBench": 23.2
+          },
+          {
+            "week": 3,
+            "actual": 149.12,
+            "optimal": 158.32,
+            "leftOnBench": 9.2
+          },
+          {
+            "week": 4,
+            "actual": 117.28,
+            "optimal": 129.98,
+            "leftOnBench": 12.7
+          },
+          {
+            "week": 5,
+            "actual": 148.96,
+            "optimal": 173.66,
+            "leftOnBench": 24.7
+          },
+          {
+            "week": 6,
+            "actual": 119.1,
+            "optimal": 122.5,
+            "leftOnBench": 3.4
+          },
+          {
+            "week": 7,
+            "actual": 100.8,
+            "optimal": 104.4,
+            "leftOnBench": 3.6
+          },
+          {
+            "week": 8,
+            "actual": 154.38,
+            "optimal": 172.1,
+            "leftOnBench": 17.72
           }
         ],
-        "weeksWithOptimizedLineups": 1
+        "weeksWithOptimizedLineups": 8
       }
     ],
     "positionPoints": [
