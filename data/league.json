@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-05T13:20:10.223912+00:00",
+  "updatedAt": "2026-11-05T13:32:37.046735+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -24,6 +24,64 @@
       "medianWins": 3,
       "medianLosses": 5,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 122.32,
+          "opponentId": 10,
+          "opponentPoints": 164.96
+        },
+        {
+          "week": 2,
+          "points": 83.46,
+          "opponentId": 3,
+          "opponentPoints": 142.12
+        },
+        {
+          "week": 3,
+          "points": 85.82,
+          "opponentId": 6,
+          "opponentPoints": 150.48
+        },
+        {
+          "week": 4,
+          "points": 84.72,
+          "opponentId": 10,
+          "opponentPoints": 117.28
+        },
+        {
+          "week": 5,
+          "points": 164.34,
+          "opponentId": 4,
+          "opponentPoints": 147.38
+        },
+        {
+          "week": 6,
+          "points": 115.84,
+          "opponentId": 2,
+          "opponentPoints": 120.36
+        },
+        {
+          "week": 7,
+          "points": 125.16,
+          "opponentId": 4,
+          "opponentPoints": 118.02
+        },
+        {
+          "week": 8,
+          "points": 117.16,
+          "opponentId": 8,
+          "opponentPoints": 112.64
+        }
+      ],
+      "averagePoints": 112.35,
+      "bestWeek": 164.34,
+      "worstWeek": 83.46,
+      "pointsPerWeekStdDev": 25.75,
+      "opponentAverage": 134.16,
+      "topHalfWeeks": 3,
+      "winsByOneScore": 2,
+      "lossesByOneScore": 1,
       "expectedWins": 3.111,
       "luck": -0.111
     },
@@ -45,6 +103,64 @@
       "medianWins": 5,
       "medianLosses": 3,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 133.66,
+          "opponentId": 9,
+          "opponentPoints": 171.16
+        },
+        {
+          "week": 2,
+          "points": 155.38,
+          "opponentId": 7,
+          "opponentPoints": 104.62
+        },
+        {
+          "week": 3,
+          "points": 130.48,
+          "opponentId": 3,
+          "opponentPoints": 114.26
+        },
+        {
+          "week": 4,
+          "points": 100.32,
+          "opponentId": 5,
+          "opponentPoints": 105.34
+        },
+        {
+          "week": 5,
+          "points": 123.96,
+          "opponentId": 8,
+          "opponentPoints": 133.14
+        },
+        {
+          "week": 6,
+          "points": 120.36,
+          "opponentId": 1,
+          "opponentPoints": 115.84
+        },
+        {
+          "week": 7,
+          "points": 126.42,
+          "opponentId": 10,
+          "opponentPoints": 100.8
+        },
+        {
+          "week": 8,
+          "points": 81.76,
+          "opponentId": 4,
+          "opponentPoints": 102.5
+        }
+      ],
+      "averagePoints": 121.54,
+      "bestWeek": 155.38,
+      "worstWeek": 81.76,
+      "pointsPerWeekStdDev": 20.72,
+      "opponentAverage": 118.46,
+      "topHalfWeeks": 5,
+      "winsByOneScore": 1,
+      "lossesByOneScore": 2,
       "expectedWins": 4.0,
       "luck": 0.0
     },
@@ -66,6 +182,64 @@
       "medianWins": 3,
       "medianLosses": 5,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 106.72,
+          "opponentId": 7,
+          "opponentPoints": 143.26
+        },
+        {
+          "week": 2,
+          "points": 142.12,
+          "opponentId": 1,
+          "opponentPoints": 83.46
+        },
+        {
+          "week": 3,
+          "points": 114.26,
+          "opponentId": 2,
+          "opponentPoints": 130.48
+        },
+        {
+          "week": 4,
+          "points": 180.4,
+          "opponentId": 4,
+          "opponentPoints": 145.38
+        },
+        {
+          "week": 5,
+          "points": 123.34,
+          "opponentId": 9,
+          "opponentPoints": 145.2
+        },
+        {
+          "week": 6,
+          "points": 93.62,
+          "opponentId": 6,
+          "opponentPoints": 123.74
+        },
+        {
+          "week": 7,
+          "points": 146.28,
+          "opponentId": 5,
+          "opponentPoints": 140.08
+        },
+        {
+          "week": 8,
+          "points": 98.3,
+          "opponentId": 7,
+          "opponentPoints": 133.78
+        }
+      ],
+      "averagePoints": 125.63,
+      "bestWeek": 180.4,
+      "worstWeek": 93.62,
+      "pointsPerWeekStdDev": 27.3,
+      "opponentAverage": 130.67,
+      "topHalfWeeks": 3,
+      "winsByOneScore": 1,
+      "lossesByOneScore": 0,
       "expectedWins": 3.667,
       "luck": -0.667
     },
@@ -87,6 +261,64 @@
       "medianWins": 2,
       "medianLosses": 6,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 103.56,
+          "opponentId": 6,
+          "opponentPoints": 132.1
+        },
+        {
+          "week": 2,
+          "points": 111.9,
+          "opponentId": 8,
+          "opponentPoints": 141.0
+        },
+        {
+          "week": 3,
+          "points": 99.14,
+          "opponentId": 5,
+          "opponentPoints": 125.98
+        },
+        {
+          "week": 4,
+          "points": 145.38,
+          "opponentId": 3,
+          "opponentPoints": 180.4
+        },
+        {
+          "week": 5,
+          "points": 147.38,
+          "opponentId": 1,
+          "opponentPoints": 164.34
+        },
+        {
+          "week": 6,
+          "points": 106.48,
+          "opponentId": 7,
+          "opponentPoints": 67.78
+        },
+        {
+          "week": 7,
+          "points": 118.02,
+          "opponentId": 1,
+          "opponentPoints": 125.16
+        },
+        {
+          "week": 8,
+          "points": 102.5,
+          "opponentId": 2,
+          "opponentPoints": 81.76
+        }
+      ],
+      "averagePoints": 116.8,
+      "bestWeek": 147.38,
+      "worstWeek": 99.14,
+      "pointsPerWeekStdDev": 17.94,
+      "opponentAverage": 127.31,
+      "topHalfWeeks": 2,
+      "winsByOneScore": 0,
+      "lossesByOneScore": 1,
       "expectedWins": 3.222,
       "luck": -1.222
     },
@@ -108,6 +340,64 @@
       "medianWins": 4,
       "medianLosses": 4,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 127.46,
+          "opponentId": 8,
+          "opponentPoints": 151.1
+        },
+        {
+          "week": 2,
+          "points": 132.18,
+          "opponentId": 9,
+          "opponentPoints": 151.12
+        },
+        {
+          "week": 3,
+          "points": 125.98,
+          "opponentId": 4,
+          "opponentPoints": 99.14
+        },
+        {
+          "week": 4,
+          "points": 105.34,
+          "opponentId": 2,
+          "opponentPoints": 100.32
+        },
+        {
+          "week": 5,
+          "points": 146.22,
+          "opponentId": 6,
+          "opponentPoints": 141.24
+        },
+        {
+          "week": 6,
+          "points": 90.98,
+          "opponentId": 9,
+          "opponentPoints": 105.4
+        },
+        {
+          "week": 7,
+          "points": 140.08,
+          "opponentId": 3,
+          "opponentPoints": 146.28
+        },
+        {
+          "week": 8,
+          "points": 159.38,
+          "opponentId": 10,
+          "opponentPoints": 154.38
+        }
+      ],
+      "averagePoints": 128.45,
+      "bestWeek": 159.38,
+      "worstWeek": 90.98,
+      "pointsPerWeekStdDev": 20.51,
+      "opponentAverage": 131.12,
+      "topHalfWeeks": 4,
+      "winsByOneScore": 3,
+      "lossesByOneScore": 1,
       "expectedWins": 4.222,
       "luck": -0.222
     },
@@ -129,6 +419,64 @@
       "medianWins": 5,
       "medianLosses": 3,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 132.1,
+          "opponentId": 4,
+          "opponentPoints": 103.56
+        },
+        {
+          "week": 2,
+          "points": 72.76,
+          "opponentId": 10,
+          "opponentPoints": 80.14
+        },
+        {
+          "week": 3,
+          "points": 150.48,
+          "opponentId": 1,
+          "opponentPoints": 85.82
+        },
+        {
+          "week": 4,
+          "points": 121.56,
+          "opponentId": 8,
+          "opponentPoints": 122.78
+        },
+        {
+          "week": 5,
+          "points": 141.24,
+          "opponentId": 5,
+          "opponentPoints": 146.22
+        },
+        {
+          "week": 6,
+          "points": 123.74,
+          "opponentId": 3,
+          "opponentPoints": 93.62
+        },
+        {
+          "week": 7,
+          "points": 137.92,
+          "opponentId": 7,
+          "opponentPoints": 106.22
+        },
+        {
+          "week": 8,
+          "points": 133.3,
+          "opponentId": 9,
+          "opponentPoints": 152.96
+        }
+      ],
+      "averagePoints": 126.64,
+      "bestWeek": 150.48,
+      "worstWeek": 72.76,
+      "pointsPerWeekStdDev": 22.14,
+      "opponentAverage": 111.42,
+      "topHalfWeeks": 5,
+      "winsByOneScore": 0,
+      "lossesByOneScore": 3,
       "expectedWins": 4.667,
       "luck": -0.667
     },
@@ -150,6 +498,64 @@
       "medianWins": 3,
       "medianLosses": 5,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 143.26,
+          "opponentId": 3,
+          "opponentPoints": 106.72
+        },
+        {
+          "week": 2,
+          "points": 104.62,
+          "opponentId": 2,
+          "opponentPoints": 155.38
+        },
+        {
+          "week": 3,
+          "points": 78.64,
+          "opponentId": 8,
+          "opponentPoints": 144.52
+        },
+        {
+          "week": 4,
+          "points": 161.1,
+          "opponentId": 9,
+          "opponentPoints": 109.32
+        },
+        {
+          "week": 5,
+          "points": 121.02,
+          "opponentId": 10,
+          "opponentPoints": 148.96
+        },
+        {
+          "week": 6,
+          "points": 67.78,
+          "opponentId": 4,
+          "opponentPoints": 106.48
+        },
+        {
+          "week": 7,
+          "points": 106.22,
+          "opponentId": 6,
+          "opponentPoints": 137.92
+        },
+        {
+          "week": 8,
+          "points": 133.78,
+          "opponentId": 3,
+          "opponentPoints": 98.3
+        }
+      ],
+      "averagePoints": 114.55,
+      "bestWeek": 161.1,
+      "worstWeek": 67.78,
+      "pointsPerWeekStdDev": 29.68,
+      "opponentAverage": 125.95,
+      "topHalfWeeks": 3,
+      "winsByOneScore": 0,
+      "lossesByOneScore": 0,
       "expectedWins": 2.778,
       "luck": 0.222
     },
@@ -171,6 +577,64 @@
       "medianWins": 5,
       "medianLosses": 3,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 151.1,
+          "opponentId": 5,
+          "opponentPoints": 127.46
+        },
+        {
+          "week": 2,
+          "points": 141.0,
+          "opponentId": 4,
+          "opponentPoints": 111.9
+        },
+        {
+          "week": 3,
+          "points": 144.52,
+          "opponentId": 7,
+          "opponentPoints": 78.64
+        },
+        {
+          "week": 4,
+          "points": 122.78,
+          "opponentId": 6,
+          "opponentPoints": 121.56
+        },
+        {
+          "week": 5,
+          "points": 133.14,
+          "opponentId": 2,
+          "opponentPoints": 123.96
+        },
+        {
+          "week": 6,
+          "points": 116.38,
+          "opponentId": 10,
+          "opponentPoints": 119.1
+        },
+        {
+          "week": 7,
+          "points": 118.42,
+          "opponentId": 9,
+          "opponentPoints": 82.5
+        },
+        {
+          "week": 8,
+          "points": 112.64,
+          "opponentId": 1,
+          "opponentPoints": 117.16
+        }
+      ],
+      "averagePoints": 130.0,
+      "bestWeek": 151.1,
+      "worstWeek": 112.64,
+      "pointsPerWeekStdDev": 13.51,
+      "opponentAverage": 110.28,
+      "topHalfWeeks": 5,
+      "winsByOneScore": 2,
+      "lossesByOneScore": 2,
       "expectedWins": 4.556,
       "luck": 1.444
     },
@@ -192,6 +656,64 @@
       "medianWins": 5,
       "medianLosses": 3,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 171.16,
+          "opponentId": 2,
+          "opponentPoints": 133.66
+        },
+        {
+          "week": 2,
+          "points": 151.12,
+          "opponentId": 5,
+          "opponentPoints": 132.18
+        },
+        {
+          "week": 3,
+          "points": 163.46,
+          "opponentId": 10,
+          "opponentPoints": 149.12
+        },
+        {
+          "week": 4,
+          "points": 109.32,
+          "opponentId": 7,
+          "opponentPoints": 161.1
+        },
+        {
+          "week": 5,
+          "points": 145.2,
+          "opponentId": 3,
+          "opponentPoints": 123.34
+        },
+        {
+          "week": 6,
+          "points": 105.4,
+          "opponentId": 5,
+          "opponentPoints": 90.98
+        },
+        {
+          "week": 7,
+          "points": 82.5,
+          "opponentId": 8,
+          "opponentPoints": 118.42
+        },
+        {
+          "week": 8,
+          "points": 152.96,
+          "opponentId": 6,
+          "opponentPoints": 133.3
+        }
+      ],
+      "averagePoints": 135.14,
+      "bestWeek": 171.16,
+      "worstWeek": 82.5,
+      "pointsPerWeekStdDev": 29.78,
+      "opponentAverage": 130.26,
+      "topHalfWeeks": 5,
+      "winsByOneScore": 0,
+      "lossesByOneScore": 0,
       "expectedWins": 4.889,
       "luck": 1.111
     },
@@ -213,6 +735,64 @@
       "medianWins": 5,
       "medianLosses": 3,
       "medianTies": 0,
+      "weeklyScores": [
+        {
+          "week": 1,
+          "points": 164.96,
+          "opponentId": 1,
+          "opponentPoints": 122.32
+        },
+        {
+          "week": 2,
+          "points": 80.14,
+          "opponentId": 6,
+          "opponentPoints": 72.76
+        },
+        {
+          "week": 3,
+          "points": 149.12,
+          "opponentId": 9,
+          "opponentPoints": 163.46
+        },
+        {
+          "week": 4,
+          "points": 117.28,
+          "opponentId": 1,
+          "opponentPoints": 84.72
+        },
+        {
+          "week": 5,
+          "points": 148.96,
+          "opponentId": 7,
+          "opponentPoints": 121.02
+        },
+        {
+          "week": 6,
+          "points": 119.1,
+          "opponentId": 8,
+          "opponentPoints": 116.38
+        },
+        {
+          "week": 7,
+          "points": 100.8,
+          "opponentId": 2,
+          "opponentPoints": 126.42
+        },
+        {
+          "week": 8,
+          "points": 154.38,
+          "opponentId": 5,
+          "opponentPoints": 159.38
+        }
+      ],
+      "averagePoints": 129.34,
+      "bestWeek": 164.96,
+      "worstWeek": 80.14,
+      "pointsPerWeekStdDev": 27.74,
+      "opponentAverage": 120.81,
+      "topHalfWeeks": 5,
+      "winsByOneScore": 2,
+      "lossesByOneScore": 1,
       "expectedWins": 4.889,
       "luck": 0.111
     }
