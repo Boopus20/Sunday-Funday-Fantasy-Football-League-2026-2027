@@ -66,6 +66,29 @@ def extract_advanced(fetch, weeks, team_ids):
                             "slotId":int(slot),"slot":SLOTS.get(int(slot),str(slot)),
                             "points":pts,"eligibleSlots":player.get("eligibleSlots",[])})
                     if parsed: weekly[week][int(tid)]=parsed
+            # mRoster may contain real lineup slots when mBoxscore only returns
+            # nine score-bearing entries all incorrectly tagged QB.
+            if any(rows and len({e["slotId"] for e in rows})<5 for rows in weekly[week].values()):
+                try:
+                    roster_data=fetch("mRoster",{"scoringPeriodId":str(week)})
+                    for team in roster_data.get("teams",[]):
+                        tid=int(team.get("id",-1))
+                        if tid not in weekly[week]: continue
+                        historical=(team.get("roster") or {}).get("entries") or []
+                        slots={}
+                        for entry in historical:
+                            pid=entry.get("playerId") or (entry.get("playerPoolEntry") or {}).get("player",{}).get("id")
+                            if pid is not None and entry.get("lineupSlotId") is not None:
+                                slots[int(pid)]=int(entry["lineupSlotId"])
+                        # Only use mapping if ESPN supplies diverse real slots and
+                        # every score-bearing starter can be matched by player ID.
+                        mapped=weekly[week][tid]
+                        if len(set(slots.values()))>=5 and all(e["playerId"] is not None and int(e["playerId"]) in slots for e in mapped):
+                            for e in mapped:
+                                e["slotId"]=slots[int(e["playerId"])]
+                                e["slot"]=SLOTS.get(e["slotId"],str(e["slotId"]))
+                except Exception as exc:
+                    result["coverage"]["errors"].append(f"Historical roster lookup week {week}: {str(exc)[:100]}")
             count=len(weekly[week])
             if count==len(team_ids): result["coverage"]["weeksWithCompleteRosters"].append(week)
             elif count: result["coverage"]["weeksWithPartialRosters"].append(week)
