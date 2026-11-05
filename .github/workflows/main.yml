@@ -17,7 +17,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    timeout-minutes: 5
+    timeout-minutes: 8
 
     steps:
       - name: Check out repository
@@ -57,7 +57,18 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/league.json
             git commit -m "Update ESPN fantasy statistics"
-            git push
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                break
+              fi
+              if [[ "$attempt" == 5 ]]; then
+                echo "Unable to push ESPN data after five safe retries"
+                exit 1
+              fi
+              sleep 3
+            done
           fi
 
       - name: Prepare static website
