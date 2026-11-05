@@ -71,14 +71,16 @@ def extract_advanced(fetch, weeks, team_ids):
             elif count: result["coverage"]["weeksWithPartialRosters"].append(week)
         except Exception as exc:
             result["coverage"]["errors"].append(f"Week {week}: {type(exc).__name__}: {str(exc)[:130]}")
-    # A position total is only counted when the historical starting player has an actual score.
+    # A position total is counted only when the historical starting slot mapping is credible.
     for tid in sorted(team_ids):
         totals=defaultdict(float); counts=defaultdict(int); weekly_rows=[]
         for week, rosters in sorted(weekly.items()):
             entries=rosters.get(tid,[])
             if not entries: continue
             starters=[e for e in entries if e["slot"] in STARTERS]
-            if len(starters)<8 or any(e["points"] is None for e in starters): continue
+            # ESPN mBoxscore can mark every player slot 0 (QB) even for a mixed roster.
+            # Reject that invalid slot mapping instead of publishing team totals as QB points.
+            if len(starters)<8 or len({e["slot"] for e in starters})<5 or any(e["points"] is None for e in starters): continue
             used=defaultdict(int)
             actual=0
             for e in starters:
