@@ -1,0 +1,742 @@
+{
+  "leagueId": "204112345",
+  "season": 2026,
+  "updatedAt": "2026-11-05T13:20:10.223912+00:00",
+  "currentWeek": 9,
+  "completedMatchups": 40,
+  "completedWeeks": 8,
+  "teams": [
+    {
+      "id": 1,
+      "name": "Maye I Touch Thy Naber ",
+      "shortName": "Maye I Touch Th",
+      "owners": [
+        "{2D2E292F-C081-4CB2-93C1-10A3AF449D50}"
+      ],
+      "wins": 3,
+      "losses": 5,
+      "ties": 0,
+      "pointsFor": 898.82,
+      "pointsAgainst": 1073.24,
+      "allPlayWins": 28,
+      "allPlayLosses": 44,
+      "allPlayTies": 0,
+      "medianWins": 3,
+      "medianLosses": 5,
+      "medianTies": 0,
+      "expectedWins": 3.111,
+      "luck": -0.111
+    },
+    {
+      "id": 2,
+      "name": "Krafting Javontasty Rice",
+      "shortName": "Krafting Javont",
+      "owners": [
+        "{3949B059-0F42-4AEC-865C-AF7DF8D23BEF}"
+      ],
+      "wins": 4,
+      "losses": 4,
+      "ties": 0,
+      "pointsFor": 972.34,
+      "pointsAgainst": 947.66,
+      "allPlayWins": 36,
+      "allPlayLosses": 36,
+      "allPlayTies": 0,
+      "medianWins": 5,
+      "medianLosses": 3,
+      "medianTies": 0,
+      "expectedWins": 4.0,
+      "luck": 0.0
+    },
+    {
+      "id": 3,
+      "name": "Jeantanyahu can CeeDeez nuts",
+      "shortName": "Jeantanyahu can",
+      "owners": [
+        "{D37AFC1D-8113-4290-BAFC-1D81131290BB}"
+      ],
+      "wins": 3,
+      "losses": 5,
+      "ties": 0,
+      "pointsFor": 1005.04,
+      "pointsAgainst": 1045.38,
+      "allPlayWins": 33,
+      "allPlayLosses": 39,
+      "allPlayTies": 0,
+      "medianWins": 3,
+      "medianLosses": 5,
+      "medianTies": 0,
+      "expectedWins": 3.667,
+      "luck": -0.667
+    },
+    {
+      "id": 4,
+      "name": "Jackson 5 \ud83d\udd7a",
+      "shortName": "Jackson 5 \ud83d\udd7a",
+      "owners": [
+        "{872030D5-A937-440A-BEF4-5C24E509F81A}"
+      ],
+      "wins": 2,
+      "losses": 6,
+      "ties": 0,
+      "pointsFor": 934.36,
+      "pointsAgainst": 1018.52,
+      "allPlayWins": 29,
+      "allPlayLosses": 43,
+      "allPlayTies": 0,
+      "medianWins": 2,
+      "medianLosses": 6,
+      "medianTies": 0,
+      "expectedWins": 3.222,
+      "luck": -1.222
+    },
+    {
+      "id": 5,
+      "name": "Chasing My Brown Brides Milk",
+      "shortName": "Chasing My Brow",
+      "owners": [
+        "{16A0FF88-F78A-4E56-AF63-37B9F5095C43}"
+      ],
+      "wins": 4,
+      "losses": 4,
+      "ties": 0,
+      "pointsFor": 1027.62,
+      "pointsAgainst": 1048.98,
+      "allPlayWins": 38,
+      "allPlayLosses": 34,
+      "allPlayTies": 0,
+      "medianWins": 4,
+      "medianLosses": 4,
+      "medianTies": 0,
+      "expectedWins": 4.222,
+      "luck": -0.222
+    },
+    {
+      "id": 6,
+      "name": "Win or lose we skattebooze",
+      "shortName": "Win or lose we ",
+      "owners": [
+        "{10D92C06-1FEC-4A7C-8615-F6AC5D4BB9ED}"
+      ],
+      "wins": 4,
+      "losses": 4,
+      "ties": 0,
+      "pointsFor": 1013.1,
+      "pointsAgainst": 891.32,
+      "allPlayWins": 42,
+      "allPlayLosses": 30,
+      "allPlayTies": 0,
+      "medianWins": 5,
+      "medianLosses": 3,
+      "medianTies": 0,
+      "expectedWins": 4.667,
+      "luck": -0.667
+    },
+    {
+      "id": 7,
+      "name": "Buck Me ",
+      "shortName": "Buck Me ",
+      "owners": [
+        "{8786AC96-B00C-4AAB-AFFD-4F739E2A48BF}"
+      ],
+      "wins": 3,
+      "losses": 5,
+      "ties": 0,
+      "pointsFor": 916.42,
+      "pointsAgainst": 1007.6,
+      "allPlayWins": 25,
+      "allPlayLosses": 47,
+      "allPlayTies": 0,
+      "medianWins": 3,
+      "medianLosses": 5,
+      "medianTies": 0,
+      "expectedWins": 2.778,
+      "luck": 0.222
+    },
+    {
+      "id": 8,
+      "name": "hamburger",
+      "shortName": "hamburger",
+      "owners": [
+        "{D9B95C79-5D22-4584-8C53-56AE7B545DCC}"
+      ],
+      "wins": 6,
+      "losses": 2,
+      "ties": 0,
+      "pointsFor": 1039.98,
+      "pointsAgainst": 882.28,
+      "allPlayWins": 41,
+      "allPlayLosses": 31,
+      "allPlayTies": 0,
+      "medianWins": 5,
+      "medianLosses": 3,
+      "medianTies": 0,
+      "expectedWins": 4.556,
+      "luck": 1.444
+    },
+    {
+      "id": 9,
+      "name": "Gibbs me King-Sized Willy's",
+      "shortName": "Gibbs me King-S",
+      "owners": [
+        "{494C6A1F-E14F-4B13-B868-C176944D3D8A}"
+      ],
+      "wins": 6,
+      "losses": 2,
+      "ties": 0,
+      "pointsFor": 1081.12,
+      "pointsAgainst": 1042.1,
+      "allPlayWins": 44,
+      "allPlayLosses": 28,
+      "allPlayTies": 0,
+      "medianWins": 5,
+      "medianLosses": 3,
+      "medianTies": 0,
+      "expectedWins": 4.889,
+      "luck": 1.111
+    },
+    {
+      "id": 10,
+      "name": "Brock Solid",
+      "shortName": "Brock Solid",
+      "owners": [
+        "{0CADE751-8BCE-4364-A3A5-9CAF2AE97BF3}"
+      ],
+      "wins": 5,
+      "losses": 3,
+      "ties": 0,
+      "pointsFor": 1034.74,
+      "pointsAgainst": 966.46,
+      "allPlayWins": 44,
+      "allPlayLosses": 28,
+      "allPlayTies": 0,
+      "medianWins": 5,
+      "medianLosses": 3,
+      "medianTies": 0,
+      "expectedWins": 4.889,
+      "luck": 0.111
+    }
+  ],
+  "scheduleSwap": {
+    "1": {
+      "1": {
+        "wins": 3,
+        "losses": 5,
+        "ties": 0
+      },
+      "2": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "3": {
+        "wins": 1,
+        "losses": 6,
+        "ties": 1
+      },
+      "4": {
+        "wins": 2,
+        "losses": 4,
+        "ties": 2
+      },
+      "5": {
+        "wins": 2,
+        "losses": 6,
+        "ties": 0
+      },
+      "6": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "7": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      },
+      "8": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "9": {
+        "wins": 3,
+        "losses": 5,
+        "ties": 0
+      },
+      "10": {
+        "wins": 2,
+        "losses": 4,
+        "ties": 2
+      }
+    },
+    "2": {
+      "1": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "2": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      },
+      "3": {
+        "wins": 1,
+        "losses": 6,
+        "ties": 1
+      },
+      "4": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "5": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "6": {
+        "wins": 5,
+        "losses": 3,
+        "ties": 0
+      },
+      "7": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "8": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "9": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "10": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      }
+    },
+    "3": {
+      "1": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "2": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "3": {
+        "wins": 3,
+        "losses": 5,
+        "ties": 0
+      },
+      "4": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "5": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "6": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "7": {
+        "wins": 2,
+        "losses": 4,
+        "ties": 2
+      },
+      "8": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      },
+      "9": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "10": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      }
+    },
+    "4": {
+      "1": {
+        "wins": 1,
+        "losses": 5,
+        "ties": 2
+      },
+      "2": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "3": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "4": {
+        "wins": 2,
+        "losses": 6,
+        "ties": 0
+      },
+      "5": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "6": {
+        "wins": 6,
+        "losses": 1,
+        "ties": 1
+      },
+      "7": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "8": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "9": {
+        "wins": 2,
+        "losses": 6,
+        "ties": 0
+      },
+      "10": {
+        "wins": 3,
+        "losses": 5,
+        "ties": 0
+      }
+    },
+    "5": {
+      "1": {
+        "wins": 2,
+        "losses": 6,
+        "ties": 0
+      },
+      "2": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "3": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "4": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "5": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      },
+      "6": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "7": {
+        "wins": 3,
+        "losses": 5,
+        "ties": 0
+      },
+      "8": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "9": {
+        "wins": 3,
+        "losses": 3,
+        "ties": 2
+      },
+      "10": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      }
+    },
+    "6": {
+      "1": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "2": {
+        "wins": 6,
+        "losses": 2,
+        "ties": 0
+      },
+      "3": {
+        "wins": 1,
+        "losses": 6,
+        "ties": 1
+      },
+      "4": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "5": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "6": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      },
+      "7": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "8": {
+        "wins": 6,
+        "losses": 1,
+        "ties": 1
+      },
+      "9": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "10": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      }
+    },
+    "7": {
+      "1": {
+        "wins": 2,
+        "losses": 6,
+        "ties": 0
+      },
+      "2": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "3": {
+        "wins": 2,
+        "losses": 4,
+        "ties": 2
+      },
+      "4": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "5": {
+        "wins": 1,
+        "losses": 7,
+        "ties": 0
+      },
+      "6": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "7": {
+        "wins": 3,
+        "losses": 5,
+        "ties": 0
+      },
+      "8": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "9": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "10": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      }
+    },
+    "8": {
+      "1": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 1
+      },
+      "2": {
+        "wins": 6,
+        "losses": 1,
+        "ties": 1
+      },
+      "3": {
+        "wins": 3,
+        "losses": 5,
+        "ties": 0
+      },
+      "4": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "5": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "6": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "7": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "8": {
+        "wins": 6,
+        "losses": 2,
+        "ties": 0
+      },
+      "9": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "10": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      }
+    },
+    "9": {
+      "1": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      },
+      "2": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "3": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "4": {
+        "wins": 5,
+        "losses": 3,
+        "ties": 0
+      },
+      "5": {
+        "wins": 4,
+        "losses": 2,
+        "ties": 2
+      },
+      "6": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "7": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 1
+      },
+      "8": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "9": {
+        "wins": 6,
+        "losses": 2,
+        "ties": 0
+      },
+      "10": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      }
+    },
+    "10": {
+      "1": {
+        "wins": 2,
+        "losses": 4,
+        "ties": 2
+      },
+      "2": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "3": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      },
+      "4": {
+        "wins": 4,
+        "losses": 4,
+        "ties": 0
+      },
+      "5": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "6": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "7": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "8": {
+        "wins": 5,
+        "losses": 2,
+        "ties": 1
+      },
+      "9": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 1
+      },
+      "10": {
+        "wins": 5,
+        "losses": 3,
+        "ties": 0
+      }
+    }
+  }
+}
