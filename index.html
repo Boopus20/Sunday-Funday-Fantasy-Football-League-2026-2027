@@ -35,6 +35,8 @@ function renderMatchupCenter(){
  const stakes=(a.wins===b.wins?4:0)+(a.wins>=4&&b.wins>=4?3:0)+(a.wins<=4&&b.wins<=4?3:0)+Math.max(0,5-diff)+(margin<10?3:0);
  const labels=[];
  if(a.wins===b.wins)labels.push('Tiebreaker energy: identical records');
+ if(a.wins<=3||b.wins<=3)labels.push('Baby Watch: a loss could move someone closer to the Baby Bar Crawl');
+ if(a.wins>=5||b.wins>=5)labels.push('Playoff race: six spots available, division winners earn byes');
  if(a.wins>=4&&b.wins>=4)labels.push('Winning-record showdown: positioning matters');
  if(a.wins<=4&&b.wins<=4)labels.push('Survival watch: both teams need momentum');
  if(margin<10)labels.push('Projected coin flip based on scoring averages');
@@ -133,7 +135,7 @@ if(tab==='lineup'){
 
 if(tab==='matchups'){
  const fixtures=data.fixtures||[], weeks=[...new Set(fixtures.map(x=>x.week))].sort((a,b)=>a-b);
- const current=Number(data.currentWeek)||weeks.find(w=>fixtures.some(x=>x.week===w&&!x.completed))||weeks[0];
+ const current=weeks.includes(Number(data.currentWeek))?Number(data.currentWeek):(weeks.find(w=>fixtures.some(x=>x.week===w&&!x.completed))||weeks[0]);
  html='<p class="muted">The weekly pregame show. Actual ESPN matchups, team form, head-to-head history, and the stakes. Win chances are estimates from completed fantasy scores, not ESPN projections.</p><div class="compare-controls"><label>Matchup week<select id="matchupWeek">'+weeks.map(w=>'<option value="'+w+'" '+(w===current?'selected':'')+'>Week '+w+'</option>').join('')+'</select></label><label>Sort games<select id="matchupSort"><option value="stakes">Biggest stakes</option><option value="close">Closest matchup</option><option value="power">Highest-scoring teams</option></select></label></div><div id="matchupResults"></div>';
  setTimeout(()=>{['matchupWeek','matchupSort'].forEach(id=>document.getElementById(id)?.addEventListener('change',renderMatchupCenter));renderMatchupCenter()},0)
 }
