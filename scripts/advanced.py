@@ -39,6 +39,8 @@ def extract_advanced(fetch, weeks, team_ids):
     weekly=defaultdict(dict)
     player_names={}
     roster_status={}
+    full_rosters=defaultdict(dict)
+    player_starts=defaultdict(lambda:{'starts':0,'points':0.0})
     result["coverage"]["weeksWithValidLineups"]=[]
     for week in weeks:
         try:
@@ -80,6 +82,7 @@ def extract_advanced(fetch, weeks, team_ids):
                         tid=int(team.get("id",-1))
                         if tid not in weekly[week]: continue
                         historical=(team.get("roster") or {}).get("entries") or []
+                        if historical: full_rosters[week][tid]=historical
                         roster_status[str(week)]=roster_status.get(str(week),0)+len(historical)
                         slots={}
                         for entry in historical:
@@ -117,6 +120,10 @@ def extract_advanced(fetch, weeks, team_ids):
                 used[e["slot"]]+=1
                 label=e["slot"]+str(used[e["slot"]]) if e["slot"] in ("RB","WR") else e["slot"]
                 totals[label]+=e["points"]; counts[label]+=1; actual+=e["points"]
+                if e["playerId"] is not None:
+                    key=(tid,int(e["playerId"]))
+                    player_starts[key]["starts"]+=1
+                    player_starts[key]["points"]+=e["points"]
             weekly_rows.append({"week":week,"actualStarterPoints":round(actual,2),
                 "scoredStarters":len(starters)})
         result["positionPoints"].append({"teamId":tid,"slots":{k:round(v,2) for k,v in totals.items()},
@@ -124,6 +131,54 @@ def extract_advanced(fetch, weeks, team_ids):
         result["lineupIQ"].append({"teamId":tid,"weeksWithScoredStarters":len(weekly_rows),
             "weekly":weekly_rows,"optimalPoints":None,"benchPointsLost":None,
             "efficiency":None,"note":"Optimal lineup pending verified weekly bench scoring and roster eligibility."})
+
+    # Optimize each verified historical lineup with position eligibility.
+    # DP masks represent the nine distinct starting slots.
+    slot_ids=(0,2,2,4,4,6,23,16,17)
+    lineup_by_team={row["teamId"]:row for row in result["lineupIQ"]}
+    for week, teams in sorted(full_rosters.items()):
+        for tid, raw in teams.items():
+            actual_rows=weekly[week].get(tid,[])
+            if len(actual_rows)!=9 or len({e["slot"] for e in actual_rows})<5: continue
+            if any(e["points"] is None for e in actual_rows): continue
+            actual=sum(e["points"] for e in actual_rows)
+            candidates=[]
+            for entry in raw:
+                pool=entry.get("playerPoolEntry") or {}
+                player=pool.get("player") or {}
+                pid=entry.get("playerId") or player.get("id")
+                score=player_score(entry,week)
+                eligible=player.get("eligibleSlots") or []
+                if pid is not None and score is not None and eligible:
+                    candidates.append((int(pid),score,set(eligible)))
+            if len(candidates)<9: continue
+            dp={0:0.0}
+            for pid,pts,eligible in candidates:
+                next_dp=dict(dp)
+                for mask,value in dp.items():
+                    for j,slot in enumerate(slot_ids):
+                        if not mask & (1<<j) and slot in eligible:
+                            key=mask|(1<<j)
+                            next_dp[key]=max(next_dp.get(key,float("-inf")),value+pts)
+                dp=next_dp
+            optimal=dp.get((1<<len(slot_ids))-1)
+            if optimal is None or optimal+0.05<actual: continue
+            row=lineup_by_team[tid]
+            row.setdefault("optimalWeekly",[]).append({"week":week,"actual":round(actual,2),
+                "optimal":round(optimal,2),"leftOnBench":round(max(0,optimal-actual),2)})
+    for row in result["lineupIQ"]:
+        verified=row.get("optimalWeekly",[])
+        row["weeksWithOptimizedLineups"]=len(verified)
+        if verified:
+            actual=sum(w["actual"] for w in verified)
+            optimal=sum(w["optimal"] for w in verified)
+            row["optimalPoints"]=round(optimal,2)
+            row["benchPointsLost"]=round(max(0,optimal-actual),2)
+            row["efficiency"]=round(100*actual/optimal,1) if optimal>0 else None
+            row["note"]="Optimal totals cover verified weeks only; efficiency is a percentage."
+    result["playerProduction"]=[{"teamId":tid,"playerId":pid,
+        "playerName":player_names.get(str(pid)),"starts":v["starts"],
+        "starterPoints":round(v["points"],2)} for (tid,pid),v in player_starts.items()]
     result["coverage"]["rosterLookupEntryCounts"]=roster_status
     result["coverage"]["rosterShape"]=[]
     for week, rosters in sorted(weekly.items()):
