@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-05T13:53:32.846991+00:00",
+  "updatedAt": "2026-11-05T14:04:16.381040+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -1347,7 +1347,77 @@
       "transactionsAvailable": true,
       "sampleScoreFields": {},
       "playersWithScores": 720,
-      "playersMissingScores": 0
+      "playersMissingScores": 0,
+      "rosterShape": [
+        {
+          "week": 1,
+          "teamId": 8,
+          "count": 9,
+          "slotIds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "points": [
+            1.2,
+            21.800000000000004,
+            0.0,
+            0.0,
+            7.0,
+            30.2,
+            26.6,
+            36.099999999999994,
+            28.200000000000003
+          ],
+          "playerIds": [
+            4372016,
+            4427366,
+            4723086,
+            -16024,
+            2473037
+          ]
+        },
+        {
+          "week": 2,
+          "teamId": 5,
+          "count": 9,
+          "slotIds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "points": [
+            20.0,
+            28.98,
+            26.5,
+            12.5,
+            12.9,
+            18.1,
+            4.0,
+            2.1,
+            7.1
+          ],
+          "playerIds": [
+            -16017,
+            12483,
+            4362628,
+            3042519,
+            4259545
+          ]
+        }
+      ]
     },
     "lineupIQ": [
       {
