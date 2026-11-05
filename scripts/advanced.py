@@ -13,15 +13,16 @@ def number(x):
     except (ValueError,TypeError): return None
 
 def player_score(entry,week):
-    pool=entry.get('playerPoolEntry') or {}
-    player=pool.get('player') or {}
-    for obj in (entry,pool):
-        for key in ('appliedStatTotal','appliedTotal'):
-            if obj.get(key) is not None: return number(obj[key])
-    for stat in player.get('stats') or []:
-        if str(stat.get('scoringPeriodId'))==str(week) and str(stat.get('statSourceId')) in ('0','None'):
-            for key in ('appliedTotal','appliedStatTotal'):
+    """Prefer weekly actual points over current or season totals."""
+    pool=entry.get("playerPoolEntry") or {}
+    player=pool.get("player") or {}
+    for stat in player.get("stats") or []:
+        if str(stat.get("scoringPeriodId"))==str(week) and str(stat.get("statSourceId"))=="0":
+            for key in ("appliedTotal","appliedStatTotal"):
                 if stat.get(key) is not None: return number(stat[key])
+    for obj in (entry,pool):
+        for key in ("appliedStatTotal","appliedTotal"):
+            if obj.get(key) is not None: return number(obj[key])
     return None
 
 def find_entries(side):
@@ -175,7 +176,7 @@ def extract_advanced(fetch, weeks, team_ids):
                     pool=matching.get("playerPoolEntry") or {}
                     stats=(pool.get("player") or {}).get("stats") or []
                     diag["scoreExample"]={"starterScore":e["points"],"rosterScore":candidate_by_id[int(e["playerId"])],"entryKeys":sorted(matching.keys()),"poolKeys":sorted(pool.keys()),"stats":[{"period":z.get("scoringPeriodId"),"source":z.get("statSourceId"),"applied":z.get("appliedTotal")} for z in stats[:8]]}
-                continue
+                candidates=[(pid,next((e["points"] for e in actual_rows if int(e["playerId"])==pid),pts),eligible) for pid,pts,eligible in candidates]
             if not any(pid not in starter_ids for pid,pts,eligible in candidates): continue
             dp={0:0.0}
             for pid,pts,eligible in candidates:
