@@ -166,8 +166,15 @@ def extract_advanced(fetch, weeks, team_ids):
             if len(starter_ids)!=9 or not starter_ids.issubset(candidate_by_id):
                 diag["missingStarters"]+=1
                 continue
-            if any(abs(candidate_by_id[int(e["playerId"])]-e["points"])>0.1 for e in actual_rows):
+            mismatches=[e for e in actual_rows if abs(candidate_by_id[int(e["playerId"])]-e["points"])>0.1]
+            if mismatches:
                 diag["scoreMismatch"]+=1
+                if "scoreExample" not in diag:
+                    e=mismatches[0]
+                    matching=next((r for r in raw if str(r.get("playerId") or ((r.get("playerPoolEntry") or {}).get("player") or {}).get("id"))==str(e["playerId"])),{})
+                    pool=matching.get("playerPoolEntry") or {}
+                    stats=(pool.get("player") or {}).get("stats") or []
+                    diag["scoreExample"]={"starterScore":e["points"],"rosterScore":candidate_by_id[int(e["playerId"])],"entryKeys":sorted(matching.keys()),"poolKeys":sorted(pool.keys()),"stats":[{"period":z.get("scoringPeriodId"),"source":z.get("statSourceId"),"applied":z.get("appliedTotal")} for z in stats[:8]]}
                 continue
             if not any(pid not in starter_ids for pid,pts,eligible in candidates): continue
             dp={0:0.0}
