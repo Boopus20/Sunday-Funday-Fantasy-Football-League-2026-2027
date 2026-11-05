@@ -28,11 +28,27 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check Python syntax
+        run: python -m compileall -q scripts
+
       - name: Fetch ESPN data and calculate statistics
         env:
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
           ESPN_S2: ${{ secrets.ESPN_S2 }}
         run: python scripts/sync.py
+
+      - name: Validate published league data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("data/league.json").read_text())
+          assert len(d["teams"]) == 10
+          assert d["completedWeeks"] >= 1
+          for row in d.get("advanced",{}).get("positionPoints",[]):
+              assert row["weeks"] == 0 or len(row["slots"]) >= 5, "Invalid starting position mapping"
+          print("Validated 10 teams and position mapping")
+          PY
 
       - name: Save updated league statistics
         run: |
@@ -44,10 +60,16 @@ jobs:
             git push
           fi
 
+      - name: Prepare static website
+        run: |
+          mkdir -p site/data
+          cp index.html site/index.html
+          cp data/league.json site/data/league.json
+
       - name: Prepare Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: site
 
       - name: Publish dashboard to GitHub Pages
         id: deployment
