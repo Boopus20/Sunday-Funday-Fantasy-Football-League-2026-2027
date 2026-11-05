@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-05T16:14:38.985792+00:00",
+  "updatedAt": "2026-11-05T17:25:47.915745+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -4525,6 +4525,28 @@
             "fromTeamId": 5,
             "toTeamId": 0,
             "playerName": "Spencer Shrader"
+          }
+        ]
+      },
+      {
+        "id": "b376a1e5-763e-4d28-a4b1-6a53113191d7",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4362619,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": null
+          },
+          {
+            "playerId": -16014,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": "Rams D/ST"
           }
         ]
       },
