@@ -25,7 +25,7 @@ const MATCHUP_SPECIALS={"2-6":["THE BLEIFER FAMILY INHERITANCE DISPUTE","Blender
 function matchupIdentity(a,b,week){
  const ids=[a.id,b.id].sort((x,y)=>x-y),key=ids.join('-'),special=MATCHUP_SPECIALS[key];
  if(special)return {headline:special[0],angle:special[1]};
- return {headline:special[0],angle:special[1]};
+ return {headline:'THE '+(LEAGUE_LORE[a.id]?.[0]||a.name).toUpperCase()+'–'+(LEAGUE_LORE[b.id]?.[0]||b.name).toUpperCase()+' SHOWDOWN',angle:'An unscheduled grudge match with a full week of receipts on the line.'};
 }
 function matchupEditorial(g,week){
  const a=g.a,b=g.b,na=LEAGUE_LORE[a.id]?.[0]||a.name,nb=LEAGUE_LORE[b.id]?.[0]||b.name;
@@ -59,7 +59,7 @@ function renderMatchupCenter(){
  if(a.wins===b.wins)labels.push('Tiebreaker energy: identical records');
  if(a.wins>=4&&b.wins>=4)labels.push('Winning-record showdown: positioning matters');
  if(a.wins<=4&&b.wins<=4)labels.push('Survival watch: both teams need momentum');
- if(margin<10)labels.push('Projected coin flip based on scoring averages');
+ if(margin<10)labels.push('Close on scoring averages: less than 10 points apart');
  if(aAvg>leagueAvg&&bAvg>leagueAvg)labels.push('Potential shootout: two above-average offenses');
  if(aAvg<leagueAvg&&bAvg<leagueAvg)labels.push('Defensive struggle, fantasy edition');
  if(!labels.length)labels.push('A chance to change the standings narrative');
@@ -68,7 +68,7 @@ function renderMatchupCenter(){
  }).filter(Boolean);
  games.sort((x,y)=>sort==='close'?x.margin-y.margin:sort==='power'?y.power-x.power:y.stakes-x.stakes);
  const maxWins=Math.max(...teams.map(x=>x.wins));
- el.innerHTML='<div class="profile-grid">'+games.map((g,i)=>{
+ el.innerHTML='<p class="muted" style="margin-bottom:12px">MATCHUP CENTER · CUSTOM RIVALRY EDITION · 45 ORIGINAL PAIRINGS · BUILD 2026-11-05-B</p><div class="profile-grid">'+games.map((g,i)=>{
  const {a,b}=g;const completed=g.f.completed;
  const recent=completed?(a.weeklyScores||[]).find(x=>x.week===week&&x.opponentId===b.id):null;
  const leaders=[a,b].filter(x=>x.wins===maxWins).length>0;
