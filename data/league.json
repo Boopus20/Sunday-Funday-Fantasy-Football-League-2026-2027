@@ -1,7 +1,7 @@
 {
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-06T20:55:28.526657+00:00",
+  "updatedAt": "2026-11-06T21:50:49.722376+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -4696,6 +4696,28 @@
             "fromTeamId": 0,
             "toTeamId": 6,
             "playerName": "Giants D/ST"
+          }
+        ]
+      },
+      {
+        "id": "7f983380-ef24-442c-9179-75af0dd85361",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4040761,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": null
+          },
+          {
+            "playerId": 4427095,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "DeMario Douglas"
           }
         ]
       },
