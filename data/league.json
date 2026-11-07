@@ -1,7 +1,68 @@
 {
+  "live": {
+    "week": 9,
+    "games": [
+      {
+        "week": 9,
+        "homeId": 2,
+        "awayId": 6,
+        "homeScore": 0.0,
+        "awayScore": 0.0,
+        "homeProjected": null,
+        "awayProjected": null,
+        "final": false,
+        "status": "in_progress_or_scheduled"
+      },
+      {
+        "week": 9,
+        "homeId": 10,
+        "awayId": 4,
+        "homeScore": 0.0,
+        "awayScore": 0.0,
+        "homeProjected": null,
+        "awayProjected": null,
+        "final": false,
+        "status": "in_progress_or_scheduled"
+      },
+      {
+        "week": 9,
+        "homeId": 8,
+        "awayId": 3,
+        "homeScore": 0.0,
+        "awayScore": 0.0,
+        "homeProjected": null,
+        "awayProjected": null,
+        "final": false,
+        "status": "in_progress_or_scheduled"
+      },
+      {
+        "week": 9,
+        "homeId": 7,
+        "awayId": 9,
+        "homeScore": 0.0,
+        "awayScore": 0.0,
+        "homeProjected": null,
+        "awayProjected": null,
+        "final": false,
+        "status": "in_progress_or_scheduled"
+      },
+      {
+        "week": 9,
+        "homeId": 1,
+        "awayId": 5,
+        "homeScore": 0.0,
+        "awayScore": 0.0,
+        "homeProjected": null,
+        "awayProjected": null,
+        "final": false,
+        "status": "in_progress_or_scheduled"
+      }
+    ],
+    "updatedAt": "2026-11-07T13:17:20.414394+00:00"
+  },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-07T13:01:41.156346+00:00",
+  "updatedAt": "2026-11-07T13:17:20.414415+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
