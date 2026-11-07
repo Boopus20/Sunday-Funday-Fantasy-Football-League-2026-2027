@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-07T15:48:54.436287+00:00"
+    "updatedAt": "2026-11-07T16:49:46.990874+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-07T15:48:54.436307+00:00",
+  "updatedAt": "2026-11-07T16:49:46.990892+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -4564,6 +4564,28 @@
         ]
       },
       {
+        "id": "b65d93da-61bf-416b-8209-9163187b52de",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4242557,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": null
+          },
+          {
+            "playerId": 4570037,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
         "id": "280574cd-c510-435b-bc71-896801b063af",
         "type": "WAIVER",
         "status": "FAILED_PLAYERALREADYDROPPED",
@@ -4759,6 +4781,28 @@
             "fromTeamId": 0,
             "toTeamId": 6,
             "playerName": "Giants D/ST"
+          }
+        ]
+      },
+      {
+        "id": "d80f803f-15e6-4854-969c-9a49a95e19cf",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4360635,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": null
+          },
+          {
+            "playerId": 4242557,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
