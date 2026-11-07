@@ -26,6 +26,30 @@ def fetch(view, params=None):
     with urllib.request.urlopen(req, timeout=35) as resp:
         return json.load(resp)
 
+
+def extract_live(matchups, week, teams):
+    """Current ESPN scoreboard only; never count these scores as finalized standings."""
+    result=[]
+    for game in matchups.get("schedule", []):
+        if int(game.get("matchupPeriodId", -1)) != int(week):
+            continue
+        home, away = game.get("home") or {}, game.get("away") or {}
+        if home.get("teamId") is None or away.get("teamId") is None:
+            continue
+        hid,aid=int(home["teamId"]),int(away["teamId"])
+        if hid not in teams or aid not in teams:
+            continue
+        def num(v):
+            try: return round(float(v),2) if v is not None else None
+            except (ValueError,TypeError): return None
+        final=game.get("winner") in ("HOME","AWAY","TIE")
+        result.append({"week":int(week),"homeId":hid,"awayId":aid,
+            "homeScore":num(home.get("totalPoints")),"awayScore":num(away.get("totalPoints")),
+            "homeProjected":num(home.get("totalProjectedPointsLive")),
+            "awayProjected":num(away.get("totalProjectedPointsLive")),
+            "final":final,"status":"final" if final else "in_progress_or_scheduled"})
+    return result
+
 def main():
     league = fetch("mTeam")
     matchups = fetch("mMatchup")
@@ -123,7 +147,9 @@ def main():
         for key in ("pointsFor", "pointsAgainst"): row[key] = round(row[key], 2)
     if completed_weeks == 0:
         raise RuntimeError("No complete scored weeks; refusing to publish")
-    payload = {"leagueId": LEAGUE_ID, "season": int(SEASON),
+    live_week = int(league.get("scoringPeriodId") or 1)
+    live_games = extract_live(matchups, live_week, teams)
+    payload = {"live": {"week":live_week, "games":live_games, "updatedAt":dt.datetime.now(dt.timezone.utc).isoformat()}, "leagueId": LEAGUE_ID, "season": int(SEASON),
                "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
                "currentWeek": league.get("scoringPeriodId"), "completedMatchups": completed,
                "completedWeeks": completed_weeks, "teams": list(teams.values()),
