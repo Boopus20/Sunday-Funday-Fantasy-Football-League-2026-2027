@@ -148,8 +148,35 @@ def main():
     if completed_weeks == 0:
         raise RuntimeError("No complete scored weeks; refusing to publish")
     live_week = int(league.get("scoringPeriodId") or 1)
-    live_games = extract_live(matchups, live_week, teams)
-    payload = {"live": {"week":live_week, "games":live_games, "updatedAt":dt.datetime.now(dt.timezone.utc).isoformat()}, "leagueId": LEAGUE_ID, "season": int(SEASON),
+    # The schedule view can return placeholder zeroes for unfinished games.
+    # Query the scoring-period scoreboard instead and never display placeholders.
+    live_games = []
+    live_source = "unavailable"
+    live_errors = []
+    for view in ("mMatchupScore", "mBoxscore"):
+        try:
+            candidate = fetch(view, {"scoringPeriodId": str(live_week)})
+            parsed = extract_live(candidate, live_week, teams)
+            if len(parsed) == 5 and any(
+                (g["homeScore"] or 0) > 0 or (g["awayScore"] or 0) > 0
+                for g in parsed
+            ):
+                live_games = parsed
+                live_source = view
+                break
+        except Exception as exc:
+            live_errors.append(f"{view}: {str(exc)[:120]}")
+    if not live_games:
+        live_games = extract_live(matchups, live_week, teams)
+        for game in live_games:
+            if not game["final"]:
+                game["homeScore"] = None
+                game["awayScore"] = None
+                game["homeProjected"] = None
+                game["awayProjected"] = None
+                game["status"] = "awaiting_verified_live_scores"
+
+    payload = {"live": {"week":live_week, "games":live_games, "source":live_source, "errors":live_errors, "updatedAt":dt.datetime.now(dt.timezone.utc).isoformat()}, "leagueId": LEAGUE_ID, "season": int(SEASON),
                "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
                "currentWeek": league.get("scoringPeriodId"), "completedMatchups": completed,
                "completedWeeks": completed_weeks, "teams": list(teams.values()),
