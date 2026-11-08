@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-08T16:38:02.281278+00:00"
+    "updatedAt": "2026-11-08T16:49:07.478631+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-08T16:38:02.281303+00:00",
+  "updatedAt": "2026-11-08T16:49:07.478718+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -5128,6 +5128,28 @@
             "fromTeamId": 0,
             "toTeamId": 1,
             "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "0cc8c9fd-1985-47b6-bf4c-5f6737103a54",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5081432,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 9,
+            "playerName": null
+          },
+          {
+            "playerId": 3929645,
+            "type": "DROP",
+            "fromTeamId": 9,
+            "toTeamId": 0,
+            "playerName": "Juwan Johnson"
           }
         ]
       },
