@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-08T14:50:03.954670+00:00"
+    "updatedAt": "2026-11-08T15:47:08.571233+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-08T14:50:03.954685+00:00",
+  "updatedAt": "2026-11-08T15:47:08.571254+00:00",
   "currentWeek": 9,
   "completedMatchups": 40,
   "completedWeeks": 8,
@@ -299,8 +299,8 @@
     },
     {
       "id": 4,
-      "name": "Jackson 5 \ud83d\udd7a",
-      "shortName": "Jackson 5 \ud83d\udd7a",
+      "name": "Love at First Sight",
+      "shortName": "Love at First S",
       "wins": 2,
       "losses": 6,
       "ties": 0,
@@ -4608,80 +4608,6 @@
         ]
       },
       {
-        "id": "f13ec596-6a2e-4084-b72c-02ea8a463680",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4696044,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 2,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "6e8fc959-aa65-484d-b204-a862c5037d89",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16034,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 3,
-            "playerName": "Texans D/ST"
-          },
-          {
-            "playerId": -16014,
-            "type": "DROP",
-            "fromTeamId": 3,
-            "toTeamId": 0,
-            "playerName": "Rams D/ST"
-          }
-        ]
-      },
-      {
-        "id": "1a1d4c22-6650-4e13-b16f-2676718ae8f9",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 3054850,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 1,
-            "playerName": null
-          },
-          {
-            "playerId": 3126486,
-            "type": "DROP",
-            "fromTeamId": 1,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "99059645-1b76-42c3-b6cf-2195193d97b6",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 2578570,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": "Jacoby Brissett"
-          }
-        ]
-      },
-      {
         "id": "8791c43e-9cb9-482d-b4da-5ae85f1ebea1",
         "type": "WAIVER",
         "status": "EXECUTED",
@@ -4807,28 +4733,6 @@
         ]
       },
       {
-        "id": "7f983380-ef24-442c-9179-75af0dd85361",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4040761,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 2,
-            "playerName": null
-          },
-          {
-            "playerId": 4427095,
-            "type": "DROP",
-            "fromTeamId": 2,
-            "toTeamId": 0,
-            "playerName": "DeMario Douglas"
-          }
-        ]
-      },
-      {
         "id": "f7ed4f05-b585-4886-8acf-ce386a3d5de0",
         "type": "WAIVER",
         "status": "FAILED_INVALIDPLAYERSOURCE",
@@ -4866,28 +4770,6 @@
         ]
       },
       {
-        "id": "a97a7cb3-0b20-42ef-9948-9ce40c62b1f2",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 3054850,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 1,
-            "playerName": null
-          },
-          {
-            "playerId": 5081432,
-            "type": "DROP",
-            "fromTeamId": 1,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
         "id": "f65cc063-3a76-4144-ac1a-85d7247fd652",
         "type": "FREEAGENT",
         "status": "EXECUTED",
@@ -4906,87 +4788,6 @@
             "fromTeamId": 7,
             "toTeamId": 0,
             "playerName": "Panthers D/ST"
-          }
-        ]
-      },
-      {
-        "id": "628263ae-ae7e-4102-8de6-b51d63d9bb14",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16034,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": "Texans D/ST"
-          },
-          {
-            "playerId": -16004,
-            "type": "DROP",
-            "fromTeamId": 4,
-            "toTeamId": 0,
-            "playerName": "Bengals D/ST"
-          }
-        ]
-      },
-      {
-        "id": "2c64f8e0-45e7-45ee-82d9-552d9a9f428a",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 5083754,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 2,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "8ada20ab-0289-4957-b24f-3fbbc2e29aec",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4242512,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": null
-          },
-          {
-            "playerId": 15864,
-            "type": "DROP",
-            "fromTeamId": 4,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "725a7a2b-d2e6-4292-a145-2531bebd97a4",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4570037,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": null
-          },
-          {
-            "playerId": 3116165,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": "Chris Godwin Jr."
           }
         ]
       },
@@ -5098,6 +4899,235 @@
             "fromTeamId": 3,
             "toTeamId": 0,
             "playerName": "Rams D/ST"
+          }
+        ]
+      },
+      {
+        "id": "d337052e-745b-41b8-a275-79afeeafbd97",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4427095,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "DeMario Douglas"
+          }
+        ]
+      },
+      {
+        "id": "f13ec596-6a2e-4084-b72c-02ea8a463680",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4696044,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "6e8fc959-aa65-484d-b204-a862c5037d89",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16034,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Texans D/ST"
+          },
+          {
+            "playerId": -16014,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": "Rams D/ST"
+          }
+        ]
+      },
+      {
+        "id": "1a1d4c22-6650-4e13-b16f-2676718ae8f9",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 3054850,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": null
+          },
+          {
+            "playerId": 3126486,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "99059645-1b76-42c3-b6cf-2195193d97b6",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 2578570,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Jacoby Brissett"
+          }
+        ]
+      },
+      {
+        "id": "7f983380-ef24-442c-9179-75af0dd85361",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4040761,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": null
+          },
+          {
+            "playerId": 4427095,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "DeMario Douglas"
+          }
+        ]
+      },
+      {
+        "id": "a97a7cb3-0b20-42ef-9948-9ce40c62b1f2",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 3054850,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": null
+          },
+          {
+            "playerId": 5081432,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "628263ae-ae7e-4102-8de6-b51d63d9bb14",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16034,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Texans D/ST"
+          },
+          {
+            "playerId": -16004,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Bengals D/ST"
+          }
+        ]
+      },
+      {
+        "id": "2c64f8e0-45e7-45ee-82d9-552d9a9f428a",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5083754,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "8ada20ab-0289-4957-b24f-3fbbc2e29aec",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4242512,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": null
+          },
+          {
+            "playerId": 15864,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "725a7a2b-d2e6-4292-a145-2531bebd97a4",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4570037,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": null
+          },
+          {
+            "playerId": 3116165,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Chris Godwin Jr."
+          }
+        ]
+      },
+      {
+        "id": "d9a766d0-6607-485f-851e-09370960950b",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16002,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": null
           }
         ]
       },
