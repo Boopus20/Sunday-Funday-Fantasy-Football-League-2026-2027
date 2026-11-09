@@ -217,4 +217,4 @@ if(tab==='matrix'){const ids=t.map(x=>x.id);html='<p class="muted">Each row show
 document.getElementById('content').innerHTML=html}
 document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{tab=b.dataset.tab;render()}));
 fetch('./data/league.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Not published');return r.json()}).then(d=>{if(!d.teams?.length)throw Error('No teams');data=d;document.getElementById('status').textContent='Updated '+new Date(d.updatedAt).toLocaleString();document.getElementById('week').textContent=d.currentWeek??'—';document.getElementById('games').textContent=d.completedMatchups??'—';document.getElementById('notice').textContent='Statistics reflect completed matchups from the latest successful ESPN sync.';render()}).catch(()=>{document.getElementById('status').textContent='Data load failed — refresh or check GitHub Actions'});
-</script></body></html>
+</script><script src="./score-audit.js"></script></body></html>
