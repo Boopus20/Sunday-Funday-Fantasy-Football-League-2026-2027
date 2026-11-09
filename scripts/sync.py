@@ -167,14 +167,23 @@ def main():
         except Exception as exc:
             live_errors.append(f"{view}: {str(exc)[:120]}")
     if not live_games:
+        # ESPN's mMatchup schedule is a legitimate source of provisional current
+        # totals. Previously we erased EVERY unfinished matchup's points here,
+        # even when ESPN returned a nonzero live score.
         live_games = extract_live(matchups, live_week, teams)
+        live_source = "mMatchup"
         for game in live_games:
-            if not game["final"]:
+            has_points = any(
+                value is not None and value > 0
+                for value in (game["homeScore"], game["awayScore"])
+            )
+            if not game["final"] and not has_points:
+                # A pair of zeroes before kickoff is not proof of live scoring.
                 game["homeScore"] = None
                 game["awayScore"] = None
-                game["homeProjected"] = None
-                game["awayProjected"] = None
-                game["status"] = "awaiting_verified_live_scores"
+                game["status"] = "awaiting_live_scores"
+            elif not game["final"]:
+                game["status"] = "provisional"
 
     payload = {"live": {"week":live_week, "games":live_games, "source":live_source, "errors":live_errors, "updatedAt":dt.datetime.now(dt.timezone.utc).isoformat()}, "leagueId": LEAGUE_ID, "season": int(SEASON),
                "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
