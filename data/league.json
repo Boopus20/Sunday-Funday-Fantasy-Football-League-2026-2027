@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-10T11:58:13.018188+00:00"
+    "updatedAt": "2026-11-10T13:16:06.922262+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-10T11:58:13.018211+00:00",
+  "updatedAt": "2026-11-10T13:16:06.922278+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -1861,7 +1861,7 @@
       "weeksWithPartialRosters": [],
       "errors": [],
       "draftAvailable": true,
-      "transactionsAvailable": false,
+      "transactionsAvailable": true,
       "sampleScoreFields": {},
       "playersWithScores": 810,
       "playersMissingScores": 0,
