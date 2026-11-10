@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-10T15:58:11.164230+00:00"
+    "updatedAt": "2026-11-10T17:01:54.958295+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-10T15:58:11.164247+00:00",
+  "updatedAt": "2026-11-10T17:01:54.958315+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -4708,7 +4708,30 @@
         "playerName": "Chase McLaughlin"
       }
     ],
-    "transactions": [],
+    "transactions": [
+      {
+        "id": "56da440f-0f3c-4bfb-b28a-cbe76faa4582",
+        "type": "WAIVER",
+        "status": "CANCELED",
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4432773,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 10,
+            "playerName": null
+          },
+          {
+            "playerId": 4429205,
+            "type": "DROP",
+            "fromTeamId": 10,
+            "toTeamId": 0,
+            "playerName": "Jordan Addison"
+          }
+        ]
+      }
+    ],
     "weeklyPositions": [
       {
         "teamId": 1,
