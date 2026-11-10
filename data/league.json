@@ -1,21 +1,10 @@
 {
   "live": {
-    "week": 9,
+    "week": 10,
     "games": [
       {
-        "week": 9,
-        "homeId": 2,
-        "awayId": 6,
-        "homeScore": null,
-        "awayScore": null,
-        "homeProjected": null,
-        "awayProjected": null,
-        "final": false,
-        "status": "awaiting_verified_live_scores"
-      },
-      {
-        "week": 9,
-        "homeId": 10,
+        "week": 10,
+        "homeId": 6,
         "awayId": 4,
         "homeScore": null,
         "awayScore": null,
@@ -25,9 +14,9 @@
         "status": "awaiting_verified_live_scores"
       },
       {
-        "week": 9,
+        "week": 10,
         "homeId": 8,
-        "awayId": 3,
+        "awayId": 1,
         "homeScore": null,
         "awayScore": null,
         "homeProjected": null,
@@ -36,8 +25,19 @@
         "status": "awaiting_verified_live_scores"
       },
       {
-        "week": 9,
-        "homeId": 7,
+        "week": 10,
+        "homeId": 3,
+        "awayId": 10,
+        "homeScore": null,
+        "awayScore": null,
+        "homeProjected": null,
+        "awayProjected": null,
+        "final": false,
+        "status": "awaiting_verified_live_scores"
+      },
+      {
+        "week": 10,
+        "homeId": 2,
         "awayId": 9,
         "homeScore": null,
         "awayScore": null,
@@ -47,9 +47,9 @@
         "status": "awaiting_verified_live_scores"
       },
       {
-        "week": 9,
-        "homeId": 1,
-        "awayId": 5,
+        "week": 10,
+        "homeId": 5,
+        "awayId": 7,
         "homeScore": null,
         "awayScore": null,
         "homeProjected": null,
@@ -60,29 +60,29 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-10T07:23:01.337581+00:00"
+    "updatedAt": "2026-11-10T09:01:52.405659+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-10T07:23:01.337600+00:00",
-  "currentWeek": 9,
-  "completedMatchups": 40,
-  "completedWeeks": 8,
+  "updatedAt": "2026-11-10T09:01:52.405678+00:00",
+  "currentWeek": 10,
+  "completedMatchups": 45,
+  "completedWeeks": 9,
   "teams": [
     {
       "id": 1,
       "name": "Maye I Touch Thy Naber ",
       "shortName": "Maye I Touch Th",
       "wins": 3,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pointsFor": 898.82,
-      "pointsAgainst": 1073.24,
-      "allPlayWins": 28,
-      "allPlayLosses": 44,
+      "pointsFor": 1008.88,
+      "pointsAgainst": 1198.78,
+      "allPlayWins": 29,
+      "allPlayLosses": 52,
       "allPlayTies": 0,
       "medianWins": 3,
-      "medianLosses": 5,
+      "medianLosses": 6,
       "medianTies": 0,
       "weeklyScores": [
         {
@@ -132,32 +132,38 @@
           "points": 117.16,
           "opponentId": 8,
           "opponentPoints": 112.64
+        },
+        {
+          "week": 9,
+          "points": 110.06,
+          "opponentId": 5,
+          "opponentPoints": 125.54
         }
       ],
-      "averagePoints": 112.35,
+      "averagePoints": 112.1,
       "bestWeek": 164.34,
       "worstWeek": 83.46,
-      "pointsPerWeekStdDev": 25.75,
-      "opponentAverage": 134.16,
+      "pointsPerWeekStdDev": 24.29,
+      "opponentAverage": 133.2,
       "topHalfWeeks": 3,
       "winsByOneScore": 2,
       "lossesByOneScore": 1,
-      "expectedWins": 3.111,
-      "luck": -0.111
+      "expectedWins": 3.222,
+      "luck": -0.222
     },
     {
       "id": 2,
       "name": "Krafting Javontasty Rice",
       "shortName": "Krafting Javont",
       "wins": 4,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pointsFor": 972.34,
-      "pointsAgainst": 947.66,
-      "allPlayWins": 36,
-      "allPlayLosses": 36,
+      "pointsFor": 1094.72,
+      "pointsAgainst": 1103.64,
+      "allPlayWins": 42,
+      "allPlayLosses": 39,
       "allPlayTies": 0,
-      "medianWins": 5,
+      "medianWins": 6,
       "medianLosses": 3,
       "medianTies": 0,
       "weeklyScores": [
@@ -208,33 +214,39 @@
           "points": 81.76,
           "opponentId": 4,
           "opponentPoints": 102.5
+        },
+        {
+          "week": 9,
+          "points": 122.38,
+          "opponentId": 6,
+          "opponentPoints": 155.98
         }
       ],
-      "averagePoints": 121.54,
+      "averagePoints": 121.64,
       "bestWeek": 155.38,
       "worstWeek": 81.76,
-      "pointsPerWeekStdDev": 20.72,
-      "opponentAverage": 118.46,
-      "topHalfWeeks": 5,
+      "pointsPerWeekStdDev": 19.54,
+      "opponentAverage": 122.63,
+      "topHalfWeeks": 6,
       "winsByOneScore": 1,
       "lossesByOneScore": 2,
-      "expectedWins": 4.0,
-      "luck": 0.0
+      "expectedWins": 4.667,
+      "luck": -0.667
     },
     {
       "id": 3,
       "name": "Jeantanyahu can CeeDeez nuts",
       "shortName": "Jeantanyahu can",
-      "wins": 3,
+      "wins": 4,
       "losses": 5,
       "ties": 0,
-      "pointsFor": 1005.04,
-      "pointsAgainst": 1045.38,
-      "allPlayWins": 33,
-      "allPlayLosses": 39,
+      "pointsFor": 1123.74,
+      "pointsAgainst": 1162.98,
+      "allPlayWins": 36,
+      "allPlayLosses": 45,
       "allPlayTies": 0,
       "medianWins": 3,
-      "medianLosses": 5,
+      "medianLosses": 6,
       "medianTies": 0,
       "weeklyScores": [
         {
@@ -284,32 +296,38 @@
           "points": 98.3,
           "opponentId": 7,
           "opponentPoints": 133.78
+        },
+        {
+          "week": 9,
+          "points": 118.7,
+          "opponentId": 8,
+          "opponentPoints": 117.6
         }
       ],
-      "averagePoints": 125.63,
+      "averagePoints": 124.86,
       "bestWeek": 180.4,
       "worstWeek": 93.62,
-      "pointsPerWeekStdDev": 27.3,
-      "opponentAverage": 130.67,
+      "pointsPerWeekStdDev": 25.83,
+      "opponentAverage": 129.22,
       "topHalfWeeks": 3,
-      "winsByOneScore": 1,
+      "winsByOneScore": 2,
       "lossesByOneScore": 0,
-      "expectedWins": 3.667,
-      "luck": -0.667
+      "expectedWins": 4.0,
+      "luck": 0.0
     },
     {
       "id": 4,
       "name": "Love at First Sight",
       "shortName": "Love at First S",
       "wins": 2,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "pointsFor": 934.36,
-      "pointsAgainst": 1018.52,
-      "allPlayWins": 29,
-      "allPlayLosses": 43,
+      "pointsFor": 1054.14,
+      "pointsAgainst": 1193.18,
+      "allPlayWins": 34,
+      "allPlayLosses": 47,
       "allPlayTies": 0,
-      "medianWins": 2,
+      "medianWins": 3,
       "medianLosses": 6,
       "medianTies": 0,
       "weeklyScores": [
@@ -360,32 +378,38 @@
           "points": 102.5,
           "opponentId": 2,
           "opponentPoints": 81.76
+        },
+        {
+          "week": 9,
+          "points": 119.78,
+          "opponentId": 10,
+          "opponentPoints": 174.66
         }
       ],
-      "averagePoints": 116.8,
+      "averagePoints": 117.13,
       "bestWeek": 147.38,
       "worstWeek": 99.14,
-      "pointsPerWeekStdDev": 17.94,
-      "opponentAverage": 127.31,
-      "topHalfWeeks": 2,
+      "pointsPerWeekStdDev": 16.94,
+      "opponentAverage": 132.58,
+      "topHalfWeeks": 3,
       "winsByOneScore": 0,
       "lossesByOneScore": 1,
-      "expectedWins": 3.222,
-      "luck": -1.222
+      "expectedWins": 3.778,
+      "luck": -1.778
     },
     {
       "id": 5,
       "name": "Chasing My Brown Brides Milk",
       "shortName": "Chasing My Brow",
-      "wins": 4,
+      "wins": 5,
       "losses": 4,
       "ties": 0,
-      "pointsFor": 1027.62,
-      "pointsAgainst": 1048.98,
-      "allPlayWins": 38,
-      "allPlayLosses": 34,
+      "pointsFor": 1153.16,
+      "pointsAgainst": 1159.04,
+      "allPlayWins": 45,
+      "allPlayLosses": 36,
       "allPlayTies": 0,
-      "medianWins": 4,
+      "medianWins": 5,
       "medianLosses": 4,
       "medianTies": 0,
       "weeklyScores": [
@@ -436,32 +460,38 @@
           "points": 159.38,
           "opponentId": 10,
           "opponentPoints": 154.38
+        },
+        {
+          "week": 9,
+          "points": 125.54,
+          "opponentId": 1,
+          "opponentPoints": 110.06
         }
       ],
-      "averagePoints": 128.45,
+      "averagePoints": 128.13,
       "bestWeek": 159.38,
       "worstWeek": 90.98,
-      "pointsPerWeekStdDev": 20.51,
-      "opponentAverage": 131.12,
-      "topHalfWeeks": 4,
+      "pointsPerWeekStdDev": 19.36,
+      "opponentAverage": 128.78,
+      "topHalfWeeks": 5,
       "winsByOneScore": 3,
       "lossesByOneScore": 1,
-      "expectedWins": 4.222,
-      "luck": -0.222
+      "expectedWins": 5.0,
+      "luck": 0.0
     },
     {
       "id": 6,
       "name": "Win or lose we skattebooze",
       "shortName": "Win or lose we ",
-      "wins": 4,
+      "wins": 5,
       "losses": 4,
       "ties": 0,
-      "pointsFor": 1013.1,
-      "pointsAgainst": 891.32,
-      "allPlayWins": 42,
-      "allPlayLosses": 30,
+      "pointsFor": 1169.08,
+      "pointsAgainst": 1013.7,
+      "allPlayWins": 50,
+      "allPlayLosses": 31,
       "allPlayTies": 0,
-      "medianWins": 5,
+      "medianWins": 6,
       "medianLosses": 3,
       "medianTies": 0,
       "weeklyScores": [
@@ -512,33 +542,39 @@
           "points": 133.3,
           "opponentId": 9,
           "opponentPoints": 152.96
+        },
+        {
+          "week": 9,
+          "points": 155.98,
+          "opponentId": 2,
+          "opponentPoints": 122.38
         }
       ],
-      "averagePoints": 126.64,
-      "bestWeek": 150.48,
+      "averagePoints": 129.9,
+      "bestWeek": 155.98,
       "worstWeek": 72.76,
-      "pointsPerWeekStdDev": 22.14,
-      "opponentAverage": 111.42,
-      "topHalfWeeks": 5,
+      "pointsPerWeekStdDev": 22.82,
+      "opponentAverage": 112.63,
+      "topHalfWeeks": 6,
       "winsByOneScore": 0,
       "lossesByOneScore": 3,
-      "expectedWins": 4.667,
-      "luck": -0.667
+      "expectedWins": 5.556,
+      "luck": -0.556
     },
     {
       "id": 7,
       "name": "Buck Me ",
       "shortName": "Buck Me ",
-      "wins": 3,
+      "wins": 4,
       "losses": 5,
       "ties": 0,
-      "pointsFor": 916.42,
-      "pointsAgainst": 1007.6,
-      "allPlayWins": 25,
-      "allPlayLosses": 47,
+      "pointsFor": 1035.78,
+      "pointsAgainst": 1098.44,
+      "allPlayWins": 29,
+      "allPlayLosses": 52,
       "allPlayTies": 0,
       "medianWins": 3,
-      "medianLosses": 5,
+      "medianLosses": 6,
       "medianTies": 0,
       "weeklyScores": [
         {
@@ -588,33 +624,39 @@
           "points": 133.78,
           "opponentId": 3,
           "opponentPoints": 98.3
+        },
+        {
+          "week": 9,
+          "points": 119.36,
+          "opponentId": 9,
+          "opponentPoints": 90.84
         }
       ],
-      "averagePoints": 114.55,
+      "averagePoints": 115.09,
       "bestWeek": 161.1,
       "worstWeek": 67.78,
-      "pointsPerWeekStdDev": 29.68,
-      "opponentAverage": 125.95,
+      "pointsPerWeekStdDev": 28.02,
+      "opponentAverage": 122.05,
       "topHalfWeeks": 3,
       "winsByOneScore": 0,
       "lossesByOneScore": 0,
-      "expectedWins": 2.778,
-      "luck": 0.222
+      "expectedWins": 3.222,
+      "luck": 0.778
     },
     {
       "id": 8,
       "name": "hamburger",
       "shortName": "hamburger",
       "wins": 6,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "pointsFor": 1039.98,
-      "pointsAgainst": 882.28,
-      "allPlayWins": 41,
-      "allPlayLosses": 31,
+      "pointsFor": 1157.58,
+      "pointsAgainst": 1000.98,
+      "allPlayWins": 43,
+      "allPlayLosses": 38,
       "allPlayTies": 0,
       "medianWins": 5,
-      "medianLosses": 3,
+      "medianLosses": 4,
       "medianTies": 0,
       "weeklyScores": [
         {
@@ -664,33 +706,39 @@
           "points": 112.64,
           "opponentId": 1,
           "opponentPoints": 117.16
+        },
+        {
+          "week": 9,
+          "points": 117.6,
+          "opponentId": 3,
+          "opponentPoints": 118.7
         }
       ],
-      "averagePoints": 130.0,
+      "averagePoints": 128.62,
       "bestWeek": 151.1,
       "worstWeek": 112.64,
-      "pointsPerWeekStdDev": 13.51,
-      "opponentAverage": 110.28,
+      "pointsPerWeekStdDev": 13.32,
+      "opponentAverage": 111.22,
       "topHalfWeeks": 5,
       "winsByOneScore": 2,
-      "lossesByOneScore": 2,
-      "expectedWins": 4.556,
-      "luck": 1.444
+      "lossesByOneScore": 3,
+      "expectedWins": 4.778,
+      "luck": 1.222
     },
     {
       "id": 9,
       "name": "Gibbs me King-Sized Willy's",
       "shortName": "Gibbs me King-S",
       "wins": 6,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "pointsFor": 1081.12,
-      "pointsAgainst": 1042.1,
+      "pointsFor": 1171.96,
+      "pointsAgainst": 1161.46,
       "allPlayWins": 44,
-      "allPlayLosses": 28,
+      "allPlayLosses": 37,
       "allPlayTies": 0,
       "medianWins": 5,
-      "medianLosses": 3,
+      "medianLosses": 4,
       "medianTies": 0,
       "weeklyScores": [
         {
@@ -740,13 +788,19 @@
           "points": 152.96,
           "opponentId": 6,
           "opponentPoints": 133.3
+        },
+        {
+          "week": 9,
+          "points": 90.84,
+          "opponentId": 7,
+          "opponentPoints": 119.36
         }
       ],
-      "averagePoints": 135.14,
+      "averagePoints": 130.22,
       "bestWeek": 171.16,
       "worstWeek": 82.5,
-      "pointsPerWeekStdDev": 29.78,
-      "opponentAverage": 130.26,
+      "pointsPerWeekStdDev": 31.34,
+      "opponentAverage": 129.05,
       "topHalfWeeks": 5,
       "winsByOneScore": 0,
       "lossesByOneScore": 0,
@@ -757,15 +811,15 @@
       "id": 10,
       "name": "Brock Solid",
       "shortName": "Brock Solid",
-      "wins": 5,
+      "wins": 6,
       "losses": 3,
       "ties": 0,
-      "pointsFor": 1034.74,
-      "pointsAgainst": 966.46,
-      "allPlayWins": 44,
+      "pointsFor": 1209.4,
+      "pointsAgainst": 1086.24,
+      "allPlayWins": 53,
       "allPlayLosses": 28,
       "allPlayTies": 0,
-      "medianWins": 5,
+      "medianWins": 6,
       "medianLosses": 3,
       "medianTies": 0,
       "weeklyScores": [
@@ -816,17 +870,23 @@
           "points": 154.38,
           "opponentId": 5,
           "opponentPoints": 159.38
+        },
+        {
+          "week": 9,
+          "points": 174.66,
+          "opponentId": 4,
+          "opponentPoints": 119.78
         }
       ],
-      "averagePoints": 129.34,
-      "bestWeek": 164.96,
+      "averagePoints": 134.38,
+      "bestWeek": 174.66,
       "worstWeek": 80.14,
-      "pointsPerWeekStdDev": 27.74,
-      "opponentAverage": 120.81,
-      "topHalfWeeks": 5,
+      "pointsPerWeekStdDev": 29.78,
+      "opponentAverage": 120.69,
+      "topHalfWeeks": 6,
       "winsByOneScore": 2,
       "lossesByOneScore": 1,
-      "expectedWins": 4.889,
+      "expectedWins": 5.889,
       "luck": 0.111
     }
   ],
@@ -834,103 +894,103 @@
     "1": {
       "1": {
         "wins": 3,
-        "losses": 5,
+        "losses": 6,
         "ties": 0
       },
       "2": {
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 1
       },
       "3": {
         "wins": 1,
-        "losses": 6,
+        "losses": 7,
         "ties": 1
       },
       "4": {
         "wins": 2,
-        "losses": 4,
+        "losses": 5,
         "ties": 2
       },
       "5": {
         "wins": 2,
         "losses": 6,
-        "ties": 0
+        "ties": 1
       },
       "6": {
         "wins": 5,
-        "losses": 2,
+        "losses": 3,
         "ties": 1
       },
       "7": {
-        "wins": 4,
+        "wins": 5,
         "losses": 4,
         "ties": 0
       },
       "8": {
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 1
       },
       "9": {
         "wins": 3,
-        "losses": 5,
+        "losses": 6,
         "ties": 0
       },
       "10": {
         "wins": 2,
-        "losses": 4,
+        "losses": 5,
         "ties": 2
       }
     },
     "2": {
       "1": {
         "wins": 2,
-        "losses": 5,
+        "losses": 6,
         "ties": 1
       },
       "2": {
         "wins": 4,
-        "losses": 4,
+        "losses": 5,
         "ties": 0
       },
       "3": {
-        "wins": 1,
+        "wins": 2,
         "losses": 6,
         "ties": 1
       },
       "4": {
         "wins": 5,
-        "losses": 2,
+        "losses": 3,
         "ties": 1
       },
       "5": {
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 1
       },
       "6": {
         "wins": 5,
         "losses": 3,
-        "ties": 0
+        "ties": 1
       },
       "7": {
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
         "ties": 1
       },
       "8": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "9": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 1
       },
       "10": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       }
@@ -938,207 +998,207 @@
     "3": {
       "1": {
         "wins": 2,
-        "losses": 5,
+        "losses": 6,
         "ties": 1
       },
       "2": {
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 1
       },
       "3": {
-        "wins": 3,
+        "wins": 4,
         "losses": 5,
         "ties": 0
       },
       "4": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       },
       "5": {
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
         "ties": 1
       },
       "6": {
         "wins": 5,
-        "losses": 2,
+        "losses": 3,
         "ties": 1
       },
       "7": {
-        "wins": 2,
+        "wins": 3,
         "losses": 4,
         "ties": 2
       },
       "8": {
         "wins": 4,
         "losses": 4,
-        "ties": 0
+        "ties": 1
       },
       "9": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       },
       "10": {
         "wins": 4,
-        "losses": 4,
+        "losses": 5,
         "ties": 0
       }
     },
     "4": {
       "1": {
         "wins": 1,
-        "losses": 5,
+        "losses": 6,
         "ties": 2
       },
       "2": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       },
       "3": {
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
         "ties": 1
       },
       "4": {
         "wins": 2,
-        "losses": 6,
+        "losses": 7,
         "ties": 0
       },
       "5": {
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 1
       },
       "6": {
         "wins": 6,
-        "losses": 1,
+        "losses": 2,
         "ties": 1
       },
       "7": {
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
         "ties": 1
       },
       "8": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 1
       },
       "9": {
-        "wins": 2,
+        "wins": 3,
         "losses": 6,
         "ties": 0
       },
       "10": {
         "wins": 3,
         "losses": 5,
-        "ties": 0
+        "ties": 1
       }
     },
     "5": {
       "1": {
         "wins": 2,
         "losses": 6,
-        "ties": 0
+        "ties": 1
       },
       "2": {
         "wins": 5,
-        "losses": 2,
+        "losses": 3,
         "ties": 1
       },
       "3": {
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 1
       },
       "4": {
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 1
       },
       "5": {
-        "wins": 4,
+        "wins": 5,
         "losses": 4,
         "ties": 0
       },
       "6": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "7": {
-        "wins": 3,
+        "wins": 4,
         "losses": 5,
         "ties": 0
       },
       "8": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "9": {
-        "wins": 3,
+        "wins": 4,
         "losses": 3,
         "ties": 2
       },
       "10": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       }
     },
     "6": {
       "1": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 1
       },
       "2": {
         "wins": 6,
         "losses": 2,
-        "ties": 0
+        "ties": 1
       },
       "3": {
-        "wins": 1,
+        "wins": 2,
         "losses": 6,
         "ties": 1
       },
       "4": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       },
       "5": {
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 1
       },
       "6": {
-        "wins": 4,
+        "wins": 5,
         "losses": 4,
         "ties": 0
       },
       "7": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "8": {
-        "wins": 6,
+        "wins": 7,
         "losses": 1,
         "ties": 1
       },
       "9": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 1
       },
       "10": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       }
@@ -1146,207 +1206,207 @@
     "7": {
       "1": {
         "wins": 2,
-        "losses": 6,
+        "losses": 7,
         "ties": 0
       },
       "2": {
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 1
       },
       "3": {
-        "wins": 2,
+        "wins": 3,
         "losses": 4,
         "ties": 2
       },
       "4": {
         "wins": 2,
-        "losses": 5,
+        "losses": 6,
         "ties": 1
       },
       "5": {
-        "wins": 1,
+        "wins": 2,
         "losses": 7,
         "ties": 0
       },
       "6": {
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 1
       },
       "7": {
-        "wins": 3,
+        "wins": 4,
         "losses": 5,
         "ties": 0
       },
       "8": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 1
       },
       "9": {
         "wins": 2,
         "losses": 5,
-        "ties": 1
+        "ties": 2
       },
       "10": {
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 1
       }
     },
     "8": {
       "1": {
         "wins": 2,
-        "losses": 5,
+        "losses": 6,
         "ties": 1
       },
       "2": {
         "wins": 6,
-        "losses": 1,
+        "losses": 2,
         "ties": 1
       },
       "3": {
         "wins": 3,
         "losses": 5,
-        "ties": 0
+        "ties": 1
       },
       "4": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       },
       "5": {
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 1
       },
       "6": {
         "wins": 5,
-        "losses": 2,
+        "losses": 3,
         "ties": 1
       },
       "7": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 1
       },
       "8": {
         "wins": 6,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "9": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       },
       "10": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       }
     },
     "9": {
       "1": {
         "wins": 4,
-        "losses": 4,
+        "losses": 5,
         "ties": 0
       },
       "2": {
         "wins": 5,
-        "losses": 2,
+        "losses": 3,
         "ties": 1
       },
       "3": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       },
       "4": {
         "wins": 5,
-        "losses": 3,
+        "losses": 4,
         "ties": 0
       },
       "5": {
         "wins": 4,
-        "losses": 2,
+        "losses": 3,
         "ties": 2
       },
       "6": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       },
       "7": {
         "wins": 3,
         "losses": 4,
-        "ties": 1
+        "ties": 2
       },
       "8": {
         "wins": 5,
-        "losses": 2,
+        "losses": 3,
         "ties": 1
       },
       "9": {
         "wins": 6,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "10": {
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 1
       }
     },
     "10": {
       "1": {
-        "wins": 2,
+        "wins": 3,
         "losses": 4,
         "ties": 2
       },
       "2": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "3": {
-        "wins": 4,
+        "wins": 5,
         "losses": 4,
         "ties": 0
       },
       "4": {
         "wins": 4,
         "losses": 4,
-        "ties": 0
+        "ties": 1
       },
       "5": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "6": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "7": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "8": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 1
       },
       "9": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 1
       },
       "10": {
-        "wins": 5,
+        "wins": 6,
         "losses": 3,
         "ties": 0
       }
@@ -1597,31 +1657,31 @@
       "week": 9,
       "homeId": 2,
       "awayId": 6,
-      "completed": false
+      "completed": true
     },
     {
       "week": 9,
       "homeId": 10,
       "awayId": 4,
-      "completed": false
+      "completed": true
     },
     {
       "week": 9,
       "homeId": 8,
       "awayId": 3,
-      "completed": false
+      "completed": true
     },
     {
       "week": 9,
       "homeId": 7,
       "awayId": 9,
-      "completed": false
+      "completed": true
     },
     {
       "week": 9,
       "homeId": 1,
       "awayId": 5,
-      "completed": false
+      "completed": true
     },
     {
       "week": 10,
@@ -1784,7 +1844,8 @@
         5,
         6,
         7,
-        8
+        8,
+        9
       ],
       "weeksWithCompleteRosters": [
         1,
@@ -1794,14 +1855,15 @@
         5,
         6,
         7,
-        8
+        8,
+        9
       ],
       "weeksWithPartialRosters": [],
       "errors": [],
       "draftAvailable": true,
-      "transactionsAvailable": true,
+      "transactionsAvailable": false,
       "sampleScoreFields": {},
-      "playersWithScores": 720,
+      "playersWithScores": 810,
       "playersMissingScores": 0,
       "optimizationDiagnostics": {
         "1": {
@@ -1875,6 +1937,15 @@
           "eligibleMissing": 0,
           "optimized": 10,
           "benchScoresAvailable": 6
+        },
+        "9": {
+          "teams": 10,
+          "candidates": 156,
+          "missingStarters": 0,
+          "scoreMismatch": 0,
+          "eligibleMissing": 0,
+          "optimized": 10,
+          "benchScoresAvailable": 7
         }
       },
       "weeksWithValidLineups": [
@@ -1885,7 +1956,8 @@
         5,
         6,
         7,
-        8
+        8,
+        9
       ],
       "rosterLookupEntryCounts": {
         "1": 163,
@@ -1895,7 +1967,8 @@
         "5": 170,
         "6": 168,
         "7": 165,
-        "8": 166
+        "8": 166,
+        "9": 166
       },
       "rosterShape": [
         {
@@ -1967,12 +2040,12 @@
           ]
         }
       ],
-      "playerNamesResolved": 181
+      "playerNamesResolved": 188
     },
     "lineupIQ": [
       {
         "teamId": 1,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2013,11 +2086,16 @@
             "week": 8,
             "actualStarterPoints": 117.16,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 110.06,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1148.44,
-        "benchPointsLost": 249.62,
-        "efficiency": 78.3,
+        "optimalPoints": 1262.4,
+        "benchPointsLost": 253.52,
+        "efficiency": 79.9,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2067,13 +2145,19 @@
             "actual": 117.16,
             "optimal": 121.16,
             "leftOnBench": 4.0
+          },
+          {
+            "week": 9,
+            "actual": 110.06,
+            "optimal": 113.96,
+            "leftOnBench": 3.9
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 2,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2114,11 +2198,16 @@
             "week": 8,
             "actualStarterPoints": 81.76,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 122.38,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1131.38,
-        "benchPointsLost": 159.04,
-        "efficiency": 85.9,
+        "optimalPoints": 1275.46,
+        "benchPointsLost": 180.74,
+        "efficiency": 85.8,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2168,13 +2257,19 @@
             "actual": 81.76,
             "optimal": 101.36,
             "leftOnBench": 19.6
+          },
+          {
+            "week": 9,
+            "actual": 122.38,
+            "optimal": 144.08,
+            "leftOnBench": 21.7
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 3,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2215,11 +2310,16 @@
             "week": 8,
             "actualStarterPoints": 98.3,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 118.7,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1178.24,
-        "benchPointsLost": 173.2,
-        "efficiency": 85.3,
+        "optimalPoints": 1330.2,
+        "benchPointsLost": 206.46,
+        "efficiency": 84.5,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2269,13 +2369,19 @@
             "actual": 98.3,
             "optimal": 130.0,
             "leftOnBench": 31.7
+          },
+          {
+            "week": 9,
+            "actual": 118.7,
+            "optimal": 151.96,
+            "leftOnBench": 33.26
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 4,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2316,11 +2422,16 @@
             "week": 8,
             "actualStarterPoints": 102.5,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 119.78,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1099.86,
+        "optimalPoints": 1219.64,
         "benchPointsLost": 165.5,
-        "efficiency": 85.0,
+        "efficiency": 86.4,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2370,13 +2481,19 @@
             "actual": 102.5,
             "optimal": 127.3,
             "leftOnBench": 24.8
+          },
+          {
+            "week": 9,
+            "actual": 119.78,
+            "optimal": 119.78,
+            "leftOnBench": 0
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 5,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2417,11 +2534,16 @@
             "week": 8,
             "actualStarterPoints": 159.38,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 125.54,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1127.0,
-        "benchPointsLost": 99.38,
-        "efficiency": 91.2,
+        "optimalPoints": 1261.14,
+        "benchPointsLost": 107.98,
+        "efficiency": 91.4,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2471,13 +2593,19 @@
             "actual": 159.38,
             "optimal": 167.48,
             "leftOnBench": 8.1
+          },
+          {
+            "week": 9,
+            "actual": 125.54,
+            "optimal": 134.14,
+            "leftOnBench": 8.6
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 6,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2518,11 +2646,16 @@
             "week": 8,
             "actualStarterPoints": 133.3,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 155.98,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1165.52,
-        "benchPointsLost": 152.42,
-        "efficiency": 86.9,
+        "optimalPoints": 1328.46,
+        "benchPointsLost": 159.38,
+        "efficiency": 88.0,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2572,13 +2705,19 @@
             "actual": 133.3,
             "optimal": 173.0,
             "leftOnBench": 39.7
+          },
+          {
+            "week": 9,
+            "actual": 155.98,
+            "optimal": 162.94,
+            "leftOnBench": 6.96
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 7,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2619,11 +2758,16 @@
             "week": 8,
             "actualStarterPoints": 133.78,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 119.36,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1069.26,
-        "benchPointsLost": 152.84,
-        "efficiency": 85.7,
+        "optimalPoints": 1199.84,
+        "benchPointsLost": 164.06,
+        "efficiency": 86.3,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2673,13 +2817,19 @@
             "actual": 133.78,
             "optimal": 147.24,
             "leftOnBench": 13.46
+          },
+          {
+            "week": 9,
+            "actual": 119.36,
+            "optimal": 130.58,
+            "leftOnBench": 11.22
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 8,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2720,11 +2870,16 @@
             "week": 8,
             "actualStarterPoints": 112.64,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 117.6,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1182.9,
-        "benchPointsLost": 142.92,
-        "efficiency": 87.9,
+        "optimalPoints": 1324.84,
+        "benchPointsLost": 167.26,
+        "efficiency": 87.4,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2774,13 +2929,19 @@
             "actual": 112.64,
             "optimal": 112.84,
             "leftOnBench": 0.2
+          },
+          {
+            "week": 9,
+            "actual": 117.6,
+            "optimal": 141.94,
+            "leftOnBench": 24.34
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 9,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2821,11 +2982,16 @@
             "week": 8,
             "actualStarterPoints": 152.96,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 90.84,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1226.94,
-        "benchPointsLost": 145.82,
-        "efficiency": 88.1,
+        "optimalPoints": 1322.8,
+        "benchPointsLost": 150.84,
+        "efficiency": 88.6,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2875,13 +3041,19 @@
             "actual": 152.96,
             "optimal": 156.58,
             "leftOnBench": 3.62
+          },
+          {
+            "week": 9,
+            "actual": 90.84,
+            "optimal": 95.86,
+            "leftOnBench": 5.02
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       },
       {
         "teamId": 10,
-        "weeksWithScoredStarters": 8,
+        "weeksWithScoredStarters": 9,
         "weekly": [
           {
             "week": 1,
@@ -2922,11 +3094,16 @@
             "week": 8,
             "actualStarterPoints": 154.38,
             "scoredStarters": 9
+          },
+          {
+            "week": 9,
+            "actualStarterPoints": 174.66,
+            "scoredStarters": 9
           }
         ],
-        "optimalPoints": 1135.26,
-        "benchPointsLost": 100.52,
-        "efficiency": 91.1,
+        "optimalPoints": 1315.72,
+        "benchPointsLost": 106.32,
+        "efficiency": 91.9,
         "note": "Optimal totals cover verified weeks only; efficiency is a percentage.",
         "optimalWeekly": [
           {
@@ -2976,271 +3153,277 @@
             "actual": 154.38,
             "optimal": 172.1,
             "leftOnBench": 17.72
+          },
+          {
+            "week": 9,
+            "actual": 174.66,
+            "optimal": 180.46,
+            "leftOnBench": 5.8
           }
         ],
-        "weeksWithOptimizedLineups": 8
+        "weeksWithOptimizedLineups": 9
       }
     ],
     "positionPoints": [
       {
         "teamId": 1,
         "slots": {
-          "K": 46.0,
-          "RB1": 155.8,
-          "D/ST": 48.0,
-          "QB": 168.14,
-          "WR1": 127.0,
-          "TE": 43.0,
-          "WR2": 108.1,
-          "FLEX": 78.68,
-          "RB2": 124.1
+          "K": 55.0,
+          "RB1": 174.5,
+          "D/ST": 63.0,
+          "QB": 186.4,
+          "WR1": 136.3,
+          "TE": 48.3,
+          "WR2": 125.3,
+          "FLEX": 86.58,
+          "RB2": 133.5
         },
         "gamesBySlot": {
-          "K": 8,
-          "RB1": 8,
-          "D/ST": 8,
-          "QB": 8,
-          "WR1": 8,
-          "TE": 8,
-          "WR2": 8,
-          "FLEX": 8,
-          "RB2": 8
+          "K": 9,
+          "RB1": 9,
+          "D/ST": 9,
+          "QB": 9,
+          "WR1": 9,
+          "TE": 9,
+          "WR2": 9,
+          "FLEX": 9,
+          "RB2": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 2,
         "slots": {
-          "QB": 141.64,
-          "RB1": 87.0,
-          "WR1": 133.9,
-          "D/ST": 64.0,
-          "FLEX": 130.1,
-          "WR2": 140.9,
-          "RB2": 121.9,
-          "TE": 89.9,
-          "K": 63.0
+          "QB": 166.92,
+          "RB1": 92.9,
+          "WR1": 143.8,
+          "D/ST": 74.0,
+          "FLEX": 152.8,
+          "WR2": 146.2,
+          "RB2": 146.3,
+          "TE": 91.8,
+          "K": 80.0
         },
         "gamesBySlot": {
-          "QB": 8,
-          "RB1": 8,
-          "WR1": 8,
-          "D/ST": 8,
-          "FLEX": 8,
-          "WR2": 8,
-          "RB2": 8,
-          "TE": 8,
-          "K": 8
+          "QB": 9,
+          "RB1": 9,
+          "WR1": 9,
+          "D/ST": 9,
+          "FLEX": 9,
+          "WR2": 9,
+          "RB2": 9,
+          "TE": 9,
+          "K": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 3,
         "slots": {
-          "D/ST": 87.0,
-          "RB1": 83.1,
-          "TE": 83.3,
-          "WR1": 144.7,
-          "RB2": 145.7,
-          "K": 84.0,
-          "FLEX": 119.1,
-          "WR2": 147.7,
-          "QB": 110.44
+          "D/ST": 93.0,
+          "RB1": 92.0,
+          "TE": 91.7,
+          "WR1": 180.2,
+          "RB2": 146.2,
+          "K": 93.0,
+          "FLEX": 133.9,
+          "WR2": 161.8,
+          "QB": 131.94
         },
         "gamesBySlot": {
-          "D/ST": 8,
-          "RB1": 8,
-          "TE": 8,
-          "WR1": 8,
-          "RB2": 8,
-          "K": 8,
-          "FLEX": 8,
-          "WR2": 8,
-          "QB": 8
+          "D/ST": 9,
+          "RB1": 9,
+          "TE": 9,
+          "WR1": 9,
+          "RB2": 9,
+          "K": 9,
+          "FLEX": 9,
+          "WR2": 9,
+          "QB": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 4,
         "slots": {
-          "D/ST": 21.0,
-          "FLEX": 96.9,
-          "WR1": 159.2,
-          "WR2": 79.7,
-          "K": 54.0,
-          "TE": 100.7,
-          "QB": 147.86,
-          "RB1": 130.8,
-          "RB2": 144.2
+          "D/ST": 33.0,
+          "FLEX": 109.0,
+          "WR1": 179.4,
+          "WR2": 86.3,
+          "K": 61.0,
+          "TE": 107.9,
+          "QB": 186.04,
+          "RB1": 139.9,
+          "RB2": 151.6
         },
         "gamesBySlot": {
-          "D/ST": 8,
-          "FLEX": 8,
-          "WR1": 8,
-          "WR2": 8,
-          "K": 8,
-          "TE": 8,
-          "QB": 8,
-          "RB1": 8,
-          "RB2": 8
+          "D/ST": 9,
+          "FLEX": 9,
+          "WR1": 9,
+          "WR2": 9,
+          "K": 9,
+          "TE": 9,
+          "QB": 9,
+          "RB1": 9,
+          "RB2": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 5,
         "slots": {
-          "WR1": 100.8,
-          "FLEX": 97.6,
-          "WR2": 90.7,
-          "RB1": 144.4,
-          "TE": 152.4,
-          "K": 79.0,
-          "QB": 199.22,
-          "RB2": 109.5,
-          "D/ST": 54.0
+          "WR1": 134.3,
+          "FLEX": 107.2,
+          "WR2": 106.2,
+          "RB1": 151.3,
+          "TE": 164.8,
+          "K": 88.0,
+          "QB": 228.76,
+          "RB2": 112.6,
+          "D/ST": 60.0
         },
         "gamesBySlot": {
-          "WR1": 8,
-          "FLEX": 8,
-          "WR2": 8,
-          "RB1": 8,
-          "TE": 8,
-          "K": 8,
-          "QB": 8,
-          "RB2": 8,
-          "D/ST": 8
+          "WR1": 9,
+          "FLEX": 9,
+          "WR2": 9,
+          "RB1": 9,
+          "TE": 9,
+          "K": 9,
+          "QB": 9,
+          "RB2": 9,
+          "D/ST": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 6,
         "slots": {
-          "TE": 115.6,
-          "WR1": 137.2,
-          "RB1": 67.3,
-          "RB2": 127.9,
-          "FLEX": 142.6,
-          "QB": 143.9,
-          "K": 83.0,
-          "WR2": 126.6,
-          "D/ST": 69.0
+          "TE": 125.4,
+          "WR1": 149.0,
+          "RB1": 73.9,
+          "RB2": 139.7,
+          "FLEX": 179.6,
+          "QB": 157.48,
+          "K": 100.0,
+          "WR2": 161.0,
+          "D/ST": 83.0
         },
         "gamesBySlot": {
-          "TE": 8,
-          "WR1": 8,
-          "RB1": 8,
-          "RB2": 8,
-          "FLEX": 8,
-          "QB": 8,
-          "K": 8,
-          "WR2": 8,
-          "D/ST": 8
+          "TE": 9,
+          "WR1": 9,
+          "RB1": 9,
+          "RB2": 9,
+          "FLEX": 9,
+          "QB": 9,
+          "K": 9,
+          "WR2": 9,
+          "D/ST": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 7,
         "slots": {
-          "RB1": 128.1,
-          "RB2": 128.3,
-          "D/ST": 35.0,
-          "FLEX": 104.4,
-          "K": 70.0,
-          "QB": 140.22,
-          "TE": 62.4,
-          "WR1": 108.2,
-          "WR2": 139.8
+          "RB1": 133.6,
+          "RB2": 156.8,
+          "D/ST": 43.0,
+          "FLEX": 116.4,
+          "K": 85.0,
+          "QB": 152.98,
+          "TE": 74.6,
+          "WR1": 117.0,
+          "WR2": 156.4
         },
         "gamesBySlot": {
-          "RB1": 8,
-          "RB2": 8,
-          "D/ST": 8,
-          "FLEX": 8,
-          "K": 8,
-          "QB": 8,
-          "TE": 8,
-          "WR1": 8,
-          "WR2": 8
+          "RB1": 9,
+          "RB2": 9,
+          "D/ST": 9,
+          "FLEX": 9,
+          "K": 9,
+          "QB": 9,
+          "TE": 9,
+          "WR1": 9,
+          "WR2": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 8,
         "slots": {
-          "FLEX": 80.3,
-          "RB1": 90.3,
-          "TE": 63.3,
-          "D/ST": 32.0,
-          "K": 69.0,
-          "WR1": 147.6,
-          "QB": 134.72,
-          "RB2": 188.8,
-          "WR2": 233.96
+          "FLEX": 85.3,
+          "RB1": 102.0,
+          "TE": 72.7,
+          "D/ST": 45.0,
+          "K": 75.0,
+          "WR1": 164.4,
+          "QB": 140.02,
+          "RB2": 227.1,
+          "WR2": 246.06
         },
         "gamesBySlot": {
-          "FLEX": 8,
-          "RB1": 8,
-          "TE": 8,
-          "D/ST": 8,
-          "K": 8,
-          "WR1": 8,
-          "QB": 8,
-          "RB2": 8,
-          "WR2": 8
+          "FLEX": 9,
+          "RB1": 9,
+          "TE": 9,
+          "D/ST": 9,
+          "K": 9,
+          "WR1": 9,
+          "QB": 9,
+          "RB2": 9,
+          "WR2": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 9,
         "slots": {
-          "RB1": 224.9,
-          "QB": 212.22,
-          "TE": 83.3,
-          "FLEX": 111.6,
-          "WR1": 83.9,
-          "WR2": 100.6,
-          "K": 89.0,
-          "RB2": 151.6,
-          "D/ST": 24.0
+          "RB1": 238.3,
+          "QB": 225.08,
+          "TE": 90.6,
+          "FLEX": 117.18,
+          "WR1": 90.5,
+          "WR2": 110.1,
+          "K": 99.0,
+          "RB2": 165.2,
+          "D/ST": 36.0
         },
         "gamesBySlot": {
-          "RB1": 8,
-          "QB": 8,
-          "TE": 8,
-          "FLEX": 8,
-          "WR1": 8,
-          "WR2": 8,
-          "K": 8,
-          "RB2": 8,
-          "D/ST": 8
+          "RB1": 9,
+          "QB": 9,
+          "TE": 9,
+          "FLEX": 9,
+          "WR1": 9,
+          "WR2": 9,
+          "K": 9,
+          "RB2": 9,
+          "D/ST": 9
         },
-        "weeks": 8
+        "weeks": 9
       },
       {
         "teamId": 10,
         "slots": {
-          "FLEX": 111.6,
-          "RB1": 157.3,
-          "D/ST": 72.0,
-          "TE": 163.8,
-          "K": 60.0,
-          "WR1": 127.6,
-          "WR2": 110.1,
-          "RB2": 91.9,
-          "QB": 140.44
+          "FLEX": 130.4,
+          "RB1": 186.0,
+          "D/ST": 84.0,
+          "TE": 188.1,
+          "K": 73.0,
+          "WR1": 159.7,
+          "WR2": 130.8,
+          "RB2": 102.4,
+          "QB": 155.0
         },
         "gamesBySlot": {
-          "FLEX": 8,
-          "RB1": 8,
-          "D/ST": 8,
-          "TE": 8,
-          "K": 8,
-          "WR1": 8,
-          "WR2": 8,
-          "RB2": 8,
-          "QB": 8
+          "FLEX": 9,
+          "RB1": 9,
+          "D/ST": 9,
+          "TE": 9,
+          "K": 9,
+          "WR1": 9,
+          "WR2": 9,
+          "RB2": 9,
+          "QB": 9
         },
-        "weeks": 8
+        "weeks": 9
       }
     ],
     "draftPicks": [
@@ -4186,7 +4369,7 @@
         "round": 12,
         "pick": 8,
         "overallPick": 118,
-        "playerName": null
+        "playerName": "Zach Charbonnet"
       },
       {
         "teamId": 10,
@@ -4330,7 +4513,7 @@
         "round": 14,
         "pick": 6,
         "overallPick": 136,
-        "playerName": null
+        "playerName": "Jonah Coleman"
       },
       {
         "teamId": 6,
@@ -4525,657 +4708,7 @@
         "playerName": "Chase McLaughlin"
       }
     ],
-    "transactions": [
-      {
-        "id": "425f9539-9e33-4d96-8b87-108a8a33a946",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4249087,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": "Matt Gay"
-          },
-          {
-            "playerId": 17372,
-            "type": "DROP",
-            "fromTeamId": 4,
-            "toTeamId": 0,
-            "playerName": "Chris Boswell"
-          }
-        ]
-      },
-      {
-        "id": "54f79e7c-f736-4005-9e66-63b5050ee5f9",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 3126486,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "b65d93da-61bf-416b-8209-9163187b52de",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4242557,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": null
-          },
-          {
-            "playerId": 4570037,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "280574cd-c510-435b-bc71-896801b063af",
-        "type": "WAIVER",
-        "status": "FAILED_PLAYERALREADYDROPPED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4686658,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 1,
-            "playerName": null
-          },
-          {
-            "playerId": 3126486,
-            "type": "DROP",
-            "fromTeamId": 1,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "8791c43e-9cb9-482d-b4da-5ae85f1ebea1",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 3126486,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": null
-          },
-          {
-            "playerId": 4360635,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "fbcea857-347f-467e-8a26-a15f8d4c25f5",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16003,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 8,
-            "playerName": "Bears D/ST"
-          },
-          {
-            "playerId": -16028,
-            "type": "DROP",
-            "fromTeamId": 8,
-            "toTeamId": 0,
-            "playerName": "Commanders D/ST"
-          }
-        ]
-      },
-      {
-        "id": "d130cb52-2f7d-4a2c-8a14-42df75128e4d",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4249087,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": "Matt Gay"
-          },
-          {
-            "playerId": 4571557,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": "Spencer Shrader"
-          }
-        ]
-      },
-      {
-        "id": "e52b9267-dfa5-49cc-94a7-e60317744f5c",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4360635,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": null
-          },
-          {
-            "playerId": 3116365,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": "Mark Andrews"
-          }
-        ]
-      },
-      {
-        "id": "d99509aa-5343-40b3-b06c-cdff88599085",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16019,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 6,
-            "playerName": "Giants D/ST"
-          }
-        ]
-      },
-      {
-        "id": "d80f803f-15e6-4854-969c-9a49a95e19cf",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4360635,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": null
-          },
-          {
-            "playerId": 4242557,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "f7ed4f05-b585-4886-8acf-ce386a3d5de0",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 3054850,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 3,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "6b88f95f-a08d-4886-b7d5-3a210f862b5c",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4689936,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 7,
-            "playerName": "Jake Bates"
-          },
-          {
-            "playerId": 3055899,
-            "type": "DROP",
-            "fromTeamId": 7,
-            "toTeamId": 0,
-            "playerName": "Harrison Butker"
-          }
-        ]
-      },
-      {
-        "id": "f65cc063-3a76-4144-ac1a-85d7247fd652",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16005,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 7,
-            "playerName": "Browns D/ST"
-          },
-          {
-            "playerId": -16029,
-            "type": "DROP",
-            "fromTeamId": 7,
-            "toTeamId": 0,
-            "playerName": "Panthers D/ST"
-          }
-        ]
-      },
-      {
-        "id": "2ac78ff7-1841-4570-a4ae-59e1d256c6c5",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4432577,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 3,
-            "playerName": "C.J. Stroud"
-          }
-        ]
-      },
-      {
-        "id": "d8c87fb4-06f2-4ec2-b270-12aa93dede54",
-        "type": "WAIVER",
-        "status": "FAILED_ROSTERLIMIT",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16018,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 6,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "423bda34-a8bc-4cdc-bd6d-1be6d2100b2c",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4597500,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 1,
-            "playerName": null
-          },
-          {
-            "playerId": 3126486,
-            "type": "DROP",
-            "fromTeamId": 1,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "1d251437-6afa-43fe-b8cf-ebdaf199ea97",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16034,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 6,
-            "playerName": "Texans D/ST"
-          }
-        ]
-      },
-      {
-        "id": "931e1a31-8754-4133-aeea-ef03de739431",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 2985659,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": null
-          },
-          {
-            "playerId": 4571557,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": "Spencer Shrader"
-          }
-        ]
-      },
-      {
-        "id": "b376a1e5-763e-4d28-a4b1-6a53113191d7",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4362619,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 3,
-            "playerName": null
-          },
-          {
-            "playerId": -16014,
-            "type": "DROP",
-            "fromTeamId": 3,
-            "toTeamId": 0,
-            "playerName": "Rams D/ST"
-          }
-        ]
-      },
-      {
-        "id": "d337052e-745b-41b8-a275-79afeeafbd97",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4427095,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 1,
-            "playerName": "DeMario Douglas"
-          }
-        ]
-      },
-      {
-        "id": "f13ec596-6a2e-4084-b72c-02ea8a463680",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4696044,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 2,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "6e8fc959-aa65-484d-b204-a862c5037d89",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16034,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 3,
-            "playerName": "Texans D/ST"
-          },
-          {
-            "playerId": -16014,
-            "type": "DROP",
-            "fromTeamId": 3,
-            "toTeamId": 0,
-            "playerName": "Rams D/ST"
-          }
-        ]
-      },
-      {
-        "id": "1a1d4c22-6650-4e13-b16f-2676718ae8f9",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 3054850,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 1,
-            "playerName": null
-          },
-          {
-            "playerId": 3126486,
-            "type": "DROP",
-            "fromTeamId": 1,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "99059645-1b76-42c3-b6cf-2195193d97b6",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 2578570,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": "Jacoby Brissett"
-          }
-        ]
-      },
-      {
-        "id": "7f983380-ef24-442c-9179-75af0dd85361",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4040761,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 2,
-            "playerName": null
-          },
-          {
-            "playerId": 4427095,
-            "type": "DROP",
-            "fromTeamId": 2,
-            "toTeamId": 0,
-            "playerName": "DeMario Douglas"
-          }
-        ]
-      },
-      {
-        "id": "a97a7cb3-0b20-42ef-9948-9ce40c62b1f2",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 3054850,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 1,
-            "playerName": null
-          },
-          {
-            "playerId": 5081432,
-            "type": "DROP",
-            "fromTeamId": 1,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "628263ae-ae7e-4102-8de6-b51d63d9bb14",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16034,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": "Texans D/ST"
-          },
-          {
-            "playerId": -16004,
-            "type": "DROP",
-            "fromTeamId": 4,
-            "toTeamId": 0,
-            "playerName": "Bengals D/ST"
-          }
-        ]
-      },
-      {
-        "id": "2c64f8e0-45e7-45ee-82d9-552d9a9f428a",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 5083754,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 2,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "8ada20ab-0289-4957-b24f-3fbbc2e29aec",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4242512,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": null
-          },
-          {
-            "playerId": 15864,
-            "type": "DROP",
-            "fromTeamId": 4,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "725a7a2b-d2e6-4292-a145-2531bebd97a4",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4570037,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": null
-          },
-          {
-            "playerId": 3116165,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": "Chris Godwin Jr."
-          }
-        ]
-      },
-      {
-        "id": "d9a766d0-6607-485f-851e-09370960950b",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16002,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 1,
-            "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "0cc8c9fd-1985-47b6-bf4c-5f6737103a54",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 5081432,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 9,
-            "playerName": null
-          },
-          {
-            "playerId": 3929645,
-            "type": "DROP",
-            "fromTeamId": 9,
-            "toTeamId": 0,
-            "playerName": "Juwan Johnson"
-          }
-        ]
-      },
-      {
-        "id": "5d229508-6d3d-4fb3-83b8-c862db39e635",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4832955,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 10,
-            "playerName": null
-          },
-          {
-            "playerId": 4360569,
-            "type": "DROP",
-            "fromTeamId": 10,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      }
-    ],
+    "transactions": [],
     "weeklyPositions": [
       {
         "teamId": 1,
@@ -5726,6 +5259,75 @@
             "name": "Drake Maye",
             "slot": "QB",
             "points": 22.46
+          }
+        ]
+      },
+      {
+        "teamId": 1,
+        "week": 9,
+        "slots": {
+          "QB": 18.26,
+          "TE": 5.3,
+          "FLEX": 7.9,
+          "D/ST": 15.0,
+          "K": 9.0
+        },
+        "RB": 28.1,
+        "WR": 26.5,
+        "players": [
+          {
+            "playerId": -16002,
+            "name": "Bills D/ST",
+            "slot": "D/ST",
+            "points": 15.0
+          },
+          {
+            "playerId": 4595348,
+            "name": "Malik Nabers",
+            "slot": "WR",
+            "points": 9.3
+          },
+          {
+            "playerId": 4427095,
+            "name": "DeMario Douglas",
+            "slot": "WR",
+            "points": 17.2
+          },
+          {
+            "playerId": 4379399,
+            "name": "James Cook III",
+            "slot": "RB",
+            "points": 18.7
+          },
+          {
+            "playerId": 4360248,
+            "name": "Kyle Pitts Sr.",
+            "slot": "TE",
+            "points": 5.3
+          },
+          {
+            "playerId": 3953687,
+            "name": "Brandon Aubrey",
+            "slot": "K",
+            "points": 9.0
+          },
+          {
+            "playerId": 3054850,
+            "name": "Alvin Kamara",
+            "slot": "FLEX",
+            "points": 7.9
+          },
+          {
+            "playerId": 4242335,
+            "name": "Jonathan Taylor",
+            "slot": "RB",
+            "points": 9.4
+          },
+          {
+            "playerId": 4431452,
+            "name": "Drake Maye",
+            "slot": "QB",
+            "points": 18.26
           }
         ]
       },
@@ -6282,6 +5884,75 @@
         ]
       },
       {
+        "teamId": 2,
+        "week": 9,
+        "slots": {
+          "QB": 25.28,
+          "TE": 1.9,
+          "FLEX": 22.7,
+          "D/ST": 10.0,
+          "K": 17.0
+        },
+        "RB": 30.3,
+        "WR": 15.2,
+        "players": [
+          {
+            "playerId": 4040761,
+            "name": "Devin Singletary",
+            "slot": "RB",
+            "points": 5.9
+          },
+          {
+            "playerId": 4428331,
+            "name": "Rashee Rice",
+            "slot": "WR",
+            "points": 9.9
+          },
+          {
+            "playerId": -16026,
+            "name": "Seahawks D/ST",
+            "slot": "D/ST",
+            "points": 10.0
+          },
+          {
+            "playerId": 4361579,
+            "name": "Javonte Williams",
+            "slot": "RB",
+            "points": 24.4
+          },
+          {
+            "playerId": 4429615,
+            "name": "Zay Flowers",
+            "slot": "WR",
+            "points": 5.3
+          },
+          {
+            "playerId": 3117251,
+            "name": "Christian McCaffrey",
+            "slot": "FLEX",
+            "points": 22.7
+          },
+          {
+            "playerId": 4572680,
+            "name": "Tucker Kraft",
+            "slot": "TE",
+            "points": 1.9
+          },
+          {
+            "playerId": 4686361,
+            "name": "Cam Little",
+            "slot": "K",
+            "points": 17.0
+          },
+          {
+            "playerId": 4361741,
+            "name": "Brock Purdy",
+            "slot": "QB",
+            "points": 25.28
+          }
+        ]
+      },
+      {
         "teamId": 3,
         "week": 1,
         "slots": {
@@ -6830,6 +6501,75 @@
             "name": "Parker Washington",
             "slot": "FLEX",
             "points": 3.6
+          }
+        ]
+      },
+      {
+        "teamId": 3,
+        "week": 9,
+        "slots": {
+          "QB": 21.5,
+          "TE": 8.4,
+          "FLEX": 14.8,
+          "D/ST": 6.0,
+          "K": 9.0
+        },
+        "RB": 9.4,
+        "WR": 49.6,
+        "players": [
+          {
+            "playerId": 4569173,
+            "name": "Rhamondre Stevenson",
+            "slot": "FLEX",
+            "points": 14.8
+          },
+          {
+            "playerId": 4431459,
+            "name": "Tyler Warren",
+            "slot": "TE",
+            "points": 8.4
+          },
+          {
+            "playerId": 4567104,
+            "name": "Will Reichard",
+            "slot": "K",
+            "points": 9.0
+          },
+          {
+            "playerId": 4882093,
+            "name": "Bhayshul Tuten",
+            "slot": "RB",
+            "points": 8.9
+          },
+          {
+            "playerId": 4047365,
+            "name": "Josh Jacobs",
+            "slot": "RB",
+            "points": 0.5
+          },
+          {
+            "playerId": 4241389,
+            "name": "CeeDee Lamb",
+            "slot": "WR",
+            "points": 35.5
+          },
+          {
+            "playerId": 2577417,
+            "name": "Dak Prescott",
+            "slot": "QB",
+            "points": 21.5
+          },
+          {
+            "playerId": -16016,
+            "name": "Vikings D/ST",
+            "slot": "D/ST",
+            "points": 6.0
+          },
+          {
+            "playerId": 4432620,
+            "name": "Parker Washington",
+            "slot": "WR",
+            "points": 14.1
           }
         ]
       },
@@ -7386,6 +7126,75 @@
         ]
       },
       {
+        "teamId": 4,
+        "week": 9,
+        "slots": {
+          "QB": 38.18,
+          "TE": 7.2,
+          "FLEX": 12.1,
+          "D/ST": 12.0,
+          "K": 7.0
+        },
+        "RB": 16.5,
+        "WR": 26.8,
+        "players": [
+          {
+            "playerId": -16034,
+            "name": "Texans D/ST",
+            "slot": "D/ST",
+            "points": 12.0
+          },
+          {
+            "playerId": 4870795,
+            "name": "Makai Lemon",
+            "slot": "FLEX",
+            "points": 12.1
+          },
+          {
+            "playerId": 4430737,
+            "name": "Kyren Williams",
+            "slot": "RB",
+            "points": 9.1
+          },
+          {
+            "playerId": 4036378,
+            "name": "Jordan Love",
+            "slot": "QB",
+            "points": 38.18
+          },
+          {
+            "playerId": 4430027,
+            "name": "Sam LaPorta",
+            "slot": "TE",
+            "points": 7.2
+          },
+          {
+            "playerId": 4239993,
+            "name": "Tee Higgins",
+            "slot": "WR",
+            "points": 20.2
+          },
+          {
+            "playerId": 4711533,
+            "name": "Ollie Gordon II",
+            "slot": "RB",
+            "points": 7.4
+          },
+          {
+            "playerId": 4695883,
+            "name": "Jalen Coker",
+            "slot": "WR",
+            "points": 6.6
+          },
+          {
+            "playerId": 4249087,
+            "name": "Matt Gay",
+            "slot": "K",
+            "points": 7.0
+          }
+        ]
+      },
+      {
         "teamId": 5,
         "week": 1,
         "slots": {
@@ -7934,6 +7743,75 @@
             "name": "Joe Burrow",
             "slot": "QB",
             "points": 42.48
+          }
+        ]
+      },
+      {
+        "teamId": 5,
+        "week": 9,
+        "slots": {
+          "QB": 29.54,
+          "TE": 12.4,
+          "FLEX": 9.6,
+          "D/ST": 6.0,
+          "K": 9.0
+        },
+        "RB": 10.0,
+        "WR": 49.0,
+        "players": [
+          {
+            "playerId": 4697815,
+            "name": "Rachaad White",
+            "slot": "RB",
+            "points": 6.9
+          },
+          {
+            "playerId": 4426385,
+            "name": "Zach Charbonnet",
+            "slot": "FLEX",
+            "points": 9.6
+          },
+          {
+            "playerId": 2985659,
+            "name": "Wil Lutz",
+            "slot": "K",
+            "points": 9.0
+          },
+          {
+            "playerId": -16007,
+            "name": "Broncos D/ST",
+            "slot": "D/ST",
+            "points": 6.0
+          },
+          {
+            "playerId": 4362628,
+            "name": "Ja'Marr Chase",
+            "slot": "WR",
+            "points": 33.5
+          },
+          {
+            "playerId": 4259545,
+            "name": "D'Andre Swift",
+            "slot": "RB",
+            "points": 3.1
+          },
+          {
+            "playerId": 4361307,
+            "name": "Trey McBride",
+            "slot": "TE",
+            "points": 12.4
+          },
+          {
+            "playerId": 3915511,
+            "name": "Joe Burrow",
+            "slot": "QB",
+            "points": 29.54
+          },
+          {
+            "playerId": 4258173,
+            "name": "Nico Collins",
+            "slot": "WR",
+            "points": 15.5
           }
         ]
       },
@@ -8490,6 +8368,75 @@
         ]
       },
       {
+        "teamId": 6,
+        "week": 9,
+        "slots": {
+          "QB": 13.58,
+          "TE": 9.8,
+          "FLEX": 37.0,
+          "D/ST": 14.0,
+          "K": 17.0
+        },
+        "RB": 18.4,
+        "WR": 46.2,
+        "players": [
+          {
+            "playerId": 4426515,
+            "name": "Puka Nacua",
+            "slot": "FLEX",
+            "points": 37.0
+          },
+          {
+            "playerId": -16019,
+            "name": "Giants D/ST",
+            "slot": "D/ST",
+            "points": 14.0
+          },
+          {
+            "playerId": 4360310,
+            "name": "Trevor Lawrence",
+            "slot": "QB",
+            "points": 13.58
+          },
+          {
+            "playerId": 4426502,
+            "name": "Drake London",
+            "slot": "WR",
+            "points": 11.8
+          },
+          {
+            "playerId": 4701936,
+            "name": "Matthew Golden",
+            "slot": "WR",
+            "points": 34.4
+          },
+          {
+            "playerId": 4373626,
+            "name": "Tyler Allgeier",
+            "slot": "RB",
+            "points": 6.6
+          },
+          {
+            "playerId": 2971573,
+            "name": "Ka'imi Fairbairn",
+            "slot": "K",
+            "points": 17.0
+          },
+          {
+            "playerId": 3040151,
+            "name": "George Kittle",
+            "slot": "TE",
+            "points": 9.8
+          },
+          {
+            "playerId": 4685512,
+            "name": "Jadarian Price",
+            "slot": "RB",
+            "points": 11.8
+          }
+        ]
+      },
+      {
         "teamId": 7,
         "week": 1,
         "slots": {
@@ -9038,6 +8985,75 @@
             "name": "Amon-Ra St. Brown",
             "slot": "WR",
             "points": 12.6
+          }
+        ]
+      },
+      {
+        "teamId": 7,
+        "week": 9,
+        "slots": {
+          "QB": 12.76,
+          "TE": 12.2,
+          "FLEX": 12.0,
+          "D/ST": 8.0,
+          "K": 15.0
+        },
+        "RB": 34.0,
+        "WR": 25.4,
+        "players": [
+          {
+            "playerId": 4685702,
+            "name": "Quinshon Judkins",
+            "slot": "RB",
+            "points": 5.5
+          },
+          {
+            "playerId": -16005,
+            "name": "Browns D/ST",
+            "slot": "D/ST",
+            "points": 8.0
+          },
+          {
+            "playerId": 4596448,
+            "name": "Bucky Irving",
+            "slot": "RB",
+            "points": 28.5
+          },
+          {
+            "playerId": 4689936,
+            "name": "Jake Bates",
+            "slot": "K",
+            "points": 15.0
+          },
+          {
+            "playerId": 4262921,
+            "name": "Justin Jefferson",
+            "slot": "WR",
+            "points": 8.8
+          },
+          {
+            "playerId": 4431611,
+            "name": "Caleb Williams",
+            "slot": "QB",
+            "points": 12.76
+          },
+          {
+            "playerId": 5083076,
+            "name": "Harold Fannin Jr.",
+            "slot": "TE",
+            "points": 12.2
+          },
+          {
+            "playerId": 4360761,
+            "name": "Michael Wilson",
+            "slot": "FLEX",
+            "points": 12.0
+          },
+          {
+            "playerId": 4374302,
+            "name": "Amon-Ra St. Brown",
+            "slot": "WR",
+            "points": 16.6
           }
         ]
       },
@@ -9594,6 +9610,75 @@
         ]
       },
       {
+        "teamId": 8,
+        "week": 9,
+        "slots": {
+          "QB": 5.3,
+          "TE": 9.4,
+          "FLEX": 5.0,
+          "D/ST": 13.0,
+          "K": 6.0
+        },
+        "RB": 50.0,
+        "WR": 28.9,
+        "players": [
+          {
+            "playerId": -16003,
+            "name": "Bears D/ST",
+            "slot": "D/ST",
+            "points": 13.0
+          },
+          {
+            "playerId": 3046779,
+            "name": "Jared Goff",
+            "slot": "QB",
+            "points": 5.3
+          },
+          {
+            "playerId": 4427366,
+            "name": "Breece Hall",
+            "slot": "RB",
+            "points": 11.7
+          },
+          {
+            "playerId": 4723086,
+            "name": "Colston Loveland",
+            "slot": "TE",
+            "points": 9.4
+          },
+          {
+            "playerId": 4426388,
+            "name": "Jameson Williams",
+            "slot": "FLEX",
+            "points": 5.0
+          },
+          {
+            "playerId": 2473037,
+            "name": "Jason Myers",
+            "slot": "K",
+            "points": 6.0
+          },
+          {
+            "playerId": 4361370,
+            "name": "Chris Olave",
+            "slot": "WR",
+            "points": 16.8
+          },
+          {
+            "playerId": 4567048,
+            "name": "Kenneth Walker III",
+            "slot": "RB",
+            "points": 38.3
+          },
+          {
+            "playerId": 4430878,
+            "name": "Jaxon Smith-Njigba",
+            "slot": "WR",
+            "points": 12.1
+          }
+        ]
+      },
+      {
         "teamId": 9,
         "week": 1,
         "slots": {
@@ -10142,6 +10227,75 @@
             "name": "Chiefs D/ST",
             "slot": "D/ST",
             "points": 2.0
+          }
+        ]
+      },
+      {
+        "teamId": 9,
+        "week": 9,
+        "slots": {
+          "QB": 12.86,
+          "TE": 7.3,
+          "FLEX": 5.58,
+          "D/ST": 12.0,
+          "K": 10.0
+        },
+        "RB": 27.0,
+        "WR": 16.1,
+        "players": [
+          {
+            "playerId": 4429795,
+            "name": "Jahmyr Gibbs",
+            "slot": "RB",
+            "points": 13.4
+          },
+          {
+            "playerId": 3918298,
+            "name": "Josh Allen",
+            "slot": "QB",
+            "points": 12.86
+          },
+          {
+            "playerId": 3915416,
+            "name": "DJ Moore",
+            "slot": "WR",
+            "points": 6.6
+          },
+          {
+            "playerId": 4036133,
+            "name": "T.J. Hockenson",
+            "slot": "TE",
+            "points": 7.3
+          },
+          {
+            "playerId": 3150744,
+            "name": "Chase McLaughlin",
+            "slot": "K",
+            "points": 10.0
+          },
+          {
+            "playerId": 4241416,
+            "name": "Chuba Hubbard",
+            "slot": "RB",
+            "points": 13.6
+          },
+          {
+            "playerId": 3043078,
+            "name": "Derrick Henry",
+            "slot": "FLEX",
+            "points": 5.58
+          },
+          {
+            "playerId": -16012,
+            "name": "Chiefs D/ST",
+            "slot": "D/ST",
+            "points": 12.0
+          },
+          {
+            "playerId": 4428718,
+            "name": "Tre Tucker",
+            "slot": "WR",
+            "points": 9.5
           }
         ]
       },
@@ -10696,6 +10850,75 @@
             "points": 14.98
           }
         ]
+      },
+      {
+        "teamId": 10,
+        "week": 9,
+        "slots": {
+          "QB": 14.56,
+          "TE": 24.3,
+          "FLEX": 18.8,
+          "D/ST": 12.0,
+          "K": 13.0
+        },
+        "RB": 39.2,
+        "WR": 52.8,
+        "players": [
+          {
+            "playerId": 4248528,
+            "name": "Christian Watson",
+            "slot": "WR",
+            "points": 32.1
+          },
+          {
+            "playerId": 4430807,
+            "name": "Bijan Robinson",
+            "slot": "RB",
+            "points": 28.7
+          },
+          {
+            "playerId": 4685278,
+            "name": "Luther Burden III",
+            "slot": "WR",
+            "points": 20.7
+          },
+          {
+            "playerId": 4432665,
+            "name": "Brock Bowers",
+            "slot": "TE",
+            "points": 24.3
+          },
+          {
+            "playerId": 3917232,
+            "name": "Tyler Bass",
+            "slot": "K",
+            "points": 13.0
+          },
+          {
+            "playerId": 4702555,
+            "name": "Jonah Coleman",
+            "slot": "FLEX",
+            "points": 18.8
+          },
+          {
+            "playerId": 4362238,
+            "name": "Chase Brown",
+            "slot": "RB",
+            "points": 10.5
+          },
+          {
+            "playerId": -16030,
+            "name": "Jaguars D/ST",
+            "slot": "D/ST",
+            "points": 12.0
+          },
+          {
+            "playerId": 4426348,
+            "name": "Jayden Daniels",
+            "slot": "QB",
+            "points": 14.56
+          }
+        ]
       }
     ],
     "playerProduction": [
@@ -10710,8 +10933,8 @@
         "teamId": 1,
         "playerId": 4379399,
         "playerName": "James Cook III",
-        "starts": 7,
-        "starterPoints": 137.7
+        "starts": 8,
+        "starterPoints": 156.4
       },
       {
         "teamId": 1,
@@ -10773,8 +10996,8 @@
         "teamId": 1,
         "playerId": 4595348,
         "playerName": "Malik Nabers",
-        "starts": 4,
-        "starterPoints": 59.3
+        "starts": 5,
+        "starterPoints": 68.6
       },
       {
         "teamId": 1,
@@ -10822,15 +11045,15 @@
         "teamId": 1,
         "playerId": 3953687,
         "playerName": "Brandon Aubrey",
-        "starts": 5,
-        "starterPoints": 42.0
+        "starts": 6,
+        "starterPoints": 51.0
       },
       {
         "teamId": 1,
         "playerId": 4431452,
         "playerName": "Drake Maye",
-        "starts": 2,
-        "starterPoints": 63.92
+        "starts": 3,
+        "starterPoints": 82.18
       },
       {
         "teamId": 1,
@@ -10857,8 +11080,8 @@
         "teamId": 1,
         "playerId": 4360248,
         "playerName": "Kyle Pitts Sr.",
-        "starts": 2,
-        "starterPoints": 15.8
+        "starts": 3,
+        "starterPoints": 21.1
       },
       {
         "teamId": 1,
@@ -10866,6 +11089,34 @@
         "playerName": "Germie Bernard",
         "starts": 2,
         "starterPoints": 13.7
+      },
+      {
+        "teamId": 1,
+        "playerId": -16002,
+        "playerName": "Bills D/ST",
+        "starts": 1,
+        "starterPoints": 15.0
+      },
+      {
+        "teamId": 1,
+        "playerId": 4427095,
+        "playerName": "DeMario Douglas",
+        "starts": 1,
+        "starterPoints": 17.2
+      },
+      {
+        "teamId": 1,
+        "playerId": 3054850,
+        "playerName": "Alvin Kamara",
+        "starts": 1,
+        "starterPoints": 7.9
+      },
+      {
+        "teamId": 1,
+        "playerId": 4242335,
+        "playerName": "Jonathan Taylor",
+        "starts": 1,
+        "starterPoints": 9.4
       },
       {
         "teamId": 2,
@@ -10885,50 +11136,50 @@
         "teamId": 2,
         "playerId": 4428331,
         "playerName": "Rashee Rice",
-        "starts": 5,
-        "starterPoints": 56.3
+        "starts": 6,
+        "starterPoints": 66.2
       },
       {
         "teamId": 2,
         "playerId": -16026,
         "playerName": "Seahawks D/ST",
-        "starts": 6,
-        "starterPoints": 47.0
+        "starts": 7,
+        "starterPoints": 57.0
       },
       {
         "teamId": 2,
         "playerId": 4361579,
         "playerName": "Javonte Williams",
-        "starts": 7,
-        "starterPoints": 107.9
+        "starts": 8,
+        "starterPoints": 132.3
       },
       {
         "teamId": 2,
         "playerId": 4429615,
         "playerName": "Zay Flowers",
-        "starts": 6,
-        "starterPoints": 112.8
+        "starts": 7,
+        "starterPoints": 118.1
       },
       {
         "teamId": 2,
         "playerId": 3117251,
         "playerName": "Christian McCaffrey",
-        "starts": 7,
-        "starterPoints": 144.0
+        "starts": 8,
+        "starterPoints": 166.7
       },
       {
         "teamId": 2,
         "playerId": 4572680,
         "playerName": "Tucker Kraft",
-        "starts": 5,
-        "starterPoints": 61.9
+        "starts": 6,
+        "starterPoints": 63.8
       },
       {
         "teamId": 2,
         "playerId": 4686361,
         "playerName": "Cam Little",
-        "starts": 7,
-        "starterPoints": 62.0
+        "starts": 8,
+        "starterPoints": 79.0
       },
       {
         "teamId": 2,
@@ -10948,8 +11199,8 @@
         "teamId": 2,
         "playerId": 4361741,
         "playerName": "Brock Purdy",
-        "starts": 6,
-        "starterPoints": 124.92
+        "starts": 7,
+        "starterPoints": 150.2
       },
       {
         "teamId": 2,
@@ -10994,6 +11245,13 @@
         "starterPoints": 3.46
       },
       {
+        "teamId": 2,
+        "playerId": 4040761,
+        "playerName": "Devin Singletary",
+        "starts": 1,
+        "starterPoints": 5.9
+      },
+      {
         "teamId": 3,
         "playerId": -16033,
         "playerName": "Ravens D/ST",
@@ -11004,15 +11262,15 @@
         "teamId": 3,
         "playerId": 4569173,
         "playerName": "Rhamondre Stevenson",
-        "starts": 5,
-        "starterPoints": 51.0
+        "starts": 6,
+        "starterPoints": 65.8
       },
       {
         "teamId": 3,
         "playerId": 4431459,
         "playerName": "Tyler Warren",
-        "starts": 6,
-        "starterPoints": 75.7
+        "starts": 7,
+        "starterPoints": 84.1
       },
       {
         "teamId": 3,
@@ -11046,8 +11304,8 @@
         "teamId": 3,
         "playerId": 4241389,
         "playerName": "CeeDee Lamb",
-        "starts": 8,
-        "starterPoints": 174.3
+        "starts": 9,
+        "starterPoints": 209.8
       },
       {
         "teamId": 3,
@@ -11060,22 +11318,22 @@
         "teamId": 3,
         "playerId": 4432620,
         "playerName": "Parker Washington",
-        "starts": 6,
-        "starterPoints": 78.2
+        "starts": 7,
+        "starterPoints": 92.3
       },
       {
         "teamId": 3,
         "playerId": -16016,
         "playerName": "Vikings D/ST",
-        "starts": 4,
-        "starterPoints": 53.0
+        "starts": 5,
+        "starterPoints": 59.0
       },
       {
         "teamId": 3,
         "playerId": 4567104,
         "playerName": "Will Reichard",
-        "starts": 4,
-        "starterPoints": 47.0
+        "starts": 5,
+        "starterPoints": 56.0
       },
       {
         "teamId": 3,
@@ -11088,15 +11346,15 @@
         "teamId": 3,
         "playerId": 4882093,
         "playerName": "Bhayshul Tuten",
-        "starts": 2,
-        "starterPoints": 22.7
+        "starts": 3,
+        "starterPoints": 31.6
       },
       {
         "teamId": 3,
         "playerId": 2577417,
         "playerName": "Dak Prescott",
-        "starts": 5,
-        "starterPoints": 88.84
+        "starts": 6,
+        "starterPoints": 110.34
       },
       {
         "teamId": 3,
@@ -11123,8 +11381,8 @@
         "teamId": 3,
         "playerId": 4047365,
         "playerName": "Josh Jacobs",
-        "starts": 2,
-        "starterPoints": 43.3
+        "starts": 3,
+        "starterPoints": 43.8
       },
       {
         "teamId": 3,
@@ -11137,8 +11395,8 @@
         "teamId": 4,
         "playerId": -16034,
         "playerName": "Texans D/ST",
-        "starts": 2,
-        "starterPoints": 3.0
+        "starts": 3,
+        "starterPoints": 15.0
       },
       {
         "teamId": 4,
@@ -11172,8 +11430,8 @@
         "teamId": 4,
         "playerId": 4430027,
         "playerName": "Sam LaPorta",
-        "starts": 7,
-        "starterPoints": 85.9
+        "starts": 8,
+        "starterPoints": 93.1
       },
       {
         "teamId": 4,
@@ -11214,22 +11472,22 @@
         "teamId": 4,
         "playerId": 4239993,
         "playerName": "Tee Higgins",
-        "starts": 5,
-        "starterPoints": 122.2
+        "starts": 6,
+        "starterPoints": 142.4
       },
       {
         "teamId": 4,
         "playerId": 4695883,
         "playerName": "Jalen Coker",
-        "starts": 4,
-        "starterPoints": 31.0
+        "starts": 5,
+        "starterPoints": 37.6
       },
       {
         "teamId": 4,
         "playerId": 4870795,
         "playerName": "Makai Lemon",
-        "starts": 1,
-        "starterPoints": 5.7
+        "starts": 2,
+        "starterPoints": 17.8
       },
       {
         "teamId": 4,
@@ -11263,8 +11521,8 @@
         "teamId": 4,
         "playerId": 4711533,
         "playerName": "Ollie Gordon II",
-        "starts": 3,
-        "starterPoints": 41.0
+        "starts": 4,
+        "starterPoints": 48.4
       },
       {
         "teamId": 4,
@@ -11323,6 +11581,27 @@
         "starterPoints": 2.0
       },
       {
+        "teamId": 4,
+        "playerId": 4430737,
+        "playerName": "Kyren Williams",
+        "starts": 1,
+        "starterPoints": 9.1
+      },
+      {
+        "teamId": 4,
+        "playerId": 4036378,
+        "playerName": "Jordan Love",
+        "starts": 1,
+        "starterPoints": 38.18
+      },
+      {
+        "teamId": 4,
+        "playerId": 4249087,
+        "playerName": "Matt Gay",
+        "starts": 1,
+        "starterPoints": 7.0
+      },
+      {
         "teamId": 5,
         "playerId": 4047646,
         "playerName": "A.J. Brown",
@@ -11340,22 +11619,22 @@
         "teamId": 5,
         "playerId": 4362628,
         "playerName": "Ja'Marr Chase",
-        "starts": 7,
-        "starterPoints": 130.2
+        "starts": 8,
+        "starterPoints": 163.7
       },
       {
         "teamId": 5,
         "playerId": 4259545,
         "playerName": "D'Andre Swift",
-        "starts": 8,
-        "starterPoints": 152.7
+        "starts": 9,
+        "starterPoints": 155.8
       },
       {
         "teamId": 5,
         "playerId": 4361307,
         "playerName": "Trey McBride",
-        "starts": 8,
-        "starterPoints": 152.4
+        "starts": 9,
+        "starterPoints": 164.8
       },
       {
         "teamId": 5,
@@ -11368,8 +11647,8 @@
         "teamId": 5,
         "playerId": 3915511,
         "playerName": "Joe Burrow",
-        "starts": 4,
-        "starterPoints": 108.1
+        "starts": 5,
+        "starterPoints": 137.64
       },
       {
         "teamId": 5,
@@ -11466,8 +11745,8 @@
         "teamId": 5,
         "playerId": 4697815,
         "playerName": "Rachaad White",
-        "starts": 2,
-        "starterPoints": 29.7
+        "starts": 3,
+        "starterPoints": 36.6
       },
       {
         "teamId": 5,
@@ -11487,8 +11766,8 @@
         "teamId": 5,
         "playerId": -16007,
         "playerName": "Broncos D/ST",
-        "starts": 1,
-        "starterPoints": 1.0
+        "starts": 2,
+        "starterPoints": 7.0
       },
       {
         "teamId": 5,
@@ -11496,6 +11775,27 @@
         "playerName": "Stefon Diggs",
         "starts": 1,
         "starterPoints": 12.8
+      },
+      {
+        "teamId": 5,
+        "playerId": 4426385,
+        "playerName": "Zach Charbonnet",
+        "starts": 1,
+        "starterPoints": 9.6
+      },
+      {
+        "teamId": 5,
+        "playerId": 2985659,
+        "playerName": "Wil Lutz",
+        "starts": 1,
+        "starterPoints": 9.0
+      },
+      {
+        "teamId": 5,
+        "playerId": 4258173,
+        "playerName": "Nico Collins",
+        "starts": 1,
+        "starterPoints": 15.5
       },
       {
         "teamId": 6,
@@ -11508,8 +11808,8 @@
         "teamId": 6,
         "playerId": 4426515,
         "playerName": "Puka Nacua",
-        "starts": 6,
-        "starterPoints": 142.6
+        "starts": 7,
+        "starterPoints": 179.6
       },
       {
         "teamId": 6,
@@ -11536,8 +11836,8 @@
         "teamId": 6,
         "playerId": 4360310,
         "playerName": "Trevor Lawrence",
-        "starts": 5,
-        "starterPoints": 95.18
+        "starts": 6,
+        "starterPoints": 108.76
       },
       {
         "teamId": 6,
@@ -11550,8 +11850,8 @@
         "teamId": 6,
         "playerId": 4426502,
         "playerName": "Drake London",
-        "starts": 8,
-        "starterPoints": 113.8
+        "starts": 9,
+        "starterPoints": 125.6
       },
       {
         "teamId": 6,
@@ -11564,8 +11864,8 @@
         "teamId": 6,
         "playerId": 4685512,
         "playerName": "Jadarian Price",
-        "starts": 1,
-        "starterPoints": 5.0
+        "starts": 2,
+        "starterPoints": 16.8
       },
       {
         "teamId": 6,
@@ -11578,15 +11878,15 @@
         "teamId": 6,
         "playerId": 4701936,
         "playerName": "Matthew Golden",
-        "starts": 6,
-        "starterPoints": 112.2
+        "starts": 7,
+        "starterPoints": 146.6
       },
       {
         "teamId": 6,
         "playerId": 3040151,
         "playerName": "George Kittle",
-        "starts": 5,
-        "starterPoints": 83.3
+        "starts": 6,
+        "starterPoints": 93.1
       },
       {
         "teamId": 6,
@@ -11599,15 +11899,15 @@
         "teamId": 6,
         "playerId": 2971573,
         "playerName": "Ka'imi Fairbairn",
-        "starts": 3,
-        "starterPoints": 39.0
+        "starts": 4,
+        "starterPoints": 56.0
       },
       {
         "teamId": 6,
         "playerId": 4373626,
         "playerName": "Tyler Allgeier",
-        "starts": 2,
-        "starterPoints": 13.7
+        "starts": 3,
+        "starterPoints": 20.3
       },
       {
         "teamId": 6,
@@ -11622,6 +11922,13 @@
         "playerName": "Chad Ryland",
         "starts": 1,
         "starterPoints": 10.0
+      },
+      {
+        "teamId": 6,
+        "playerId": -16019,
+        "playerName": "Giants D/ST",
+        "starts": 1,
+        "starterPoints": 14.0
       },
       {
         "teamId": 7,
@@ -11648,22 +11955,22 @@
         "teamId": 7,
         "playerId": 4596448,
         "playerName": "Bucky Irving",
-        "starts": 8,
-        "starterPoints": 136.6
+        "starts": 9,
+        "starterPoints": 165.1
       },
       {
         "teamId": 7,
         "playerId": 4689936,
         "playerName": "Jake Bates",
-        "starts": 5,
-        "starterPoints": 49.0
+        "starts": 6,
+        "starterPoints": 64.0
       },
       {
         "teamId": 7,
         "playerId": 4431611,
         "playerName": "Caleb Williams",
-        "starts": 4,
-        "starterPoints": 83.08
+        "starts": 5,
+        "starterPoints": 95.84
       },
       {
         "teamId": 7,
@@ -11676,8 +11983,8 @@
         "teamId": 7,
         "playerId": 4374302,
         "playerName": "Amon-Ra St. Brown",
-        "starts": 7,
-        "starterPoints": 145.0
+        "starts": 8,
+        "starterPoints": 161.6
       },
       {
         "teamId": 7,
@@ -11718,8 +12025,8 @@
         "teamId": 7,
         "playerId": -16005,
         "playerName": "Browns D/ST",
-        "starts": 2,
-        "starterPoints": 19.0
+        "starts": 3,
+        "starterPoints": 27.0
       },
       {
         "teamId": 7,
@@ -11746,15 +12053,15 @@
         "teamId": 7,
         "playerId": 4262921,
         "playerName": "Justin Jefferson",
-        "starts": 2,
-        "starterPoints": 22.7
+        "starts": 3,
+        "starterPoints": 31.5
       },
       {
         "teamId": 7,
         "playerId": 5083076,
         "playerName": "Harold Fannin Jr.",
-        "starts": 2,
-        "starterPoints": 38.5
+        "starts": 3,
+        "starterPoints": 50.7
       },
       {
         "teamId": 7,
@@ -11767,8 +12074,15 @@
         "teamId": 7,
         "playerId": 4360761,
         "playerName": "Michael Wilson",
+        "starts": 2,
+        "starterPoints": 40.8
+      },
+      {
+        "teamId": 7,
+        "playerId": 4685702,
+        "playerName": "Quinshon Judkins",
         "starts": 1,
-        "starterPoints": 28.8
+        "starterPoints": 5.5
       },
       {
         "teamId": 8,
@@ -11781,15 +12095,15 @@
         "teamId": 8,
         "playerId": 4427366,
         "playerName": "Breece Hall",
-        "starts": 3,
-        "starterPoints": 44.5
+        "starts": 4,
+        "starterPoints": 56.2
       },
       {
         "teamId": 8,
         "playerId": 4723086,
         "playerName": "Colston Loveland",
-        "starts": 5,
-        "starterPoints": 36.6
+        "starts": 6,
+        "starterPoints": 46.0
       },
       {
         "teamId": 8,
@@ -11802,15 +12116,15 @@
         "teamId": 8,
         "playerId": 2473037,
         "playerName": "Jason Myers",
-        "starts": 8,
-        "starterPoints": 69.0
+        "starts": 9,
+        "starterPoints": 75.0
       },
       {
         "teamId": 8,
         "playerId": 4361370,
         "playerName": "Chris Olave",
-        "starts": 7,
-        "starterPoints": 130.6
+        "starts": 8,
+        "starterPoints": 147.4
       },
       {
         "teamId": 8,
@@ -11823,15 +12137,15 @@
         "teamId": 8,
         "playerId": 4567048,
         "playerName": "Kenneth Walker III",
-        "starts": 7,
-        "starterPoints": 168.1
+        "starts": 8,
+        "starterPoints": 206.4
       },
       {
         "teamId": 8,
         "playerId": 4430878,
         "playerName": "Jaxon Smith-Njigba",
-        "starts": 8,
-        "starterPoints": 233.96
+        "starts": 9,
+        "starterPoints": 246.06
       },
       {
         "teamId": 8,
@@ -11844,8 +12158,8 @@
         "teamId": 8,
         "playerId": 3046779,
         "playerName": "Jared Goff",
-        "starts": 5,
-        "starterPoints": 100.84
+        "starts": 6,
+        "starterPoints": 106.14
       },
       {
         "teamId": 8,
@@ -11900,22 +12214,29 @@
         "teamId": 8,
         "playerId": 4426388,
         "playerName": "Jameson Williams",
+        "starts": 2,
+        "starterPoints": 22.0
+      },
+      {
+        "teamId": 8,
+        "playerId": -16003,
+        "playerName": "Bears D/ST",
         "starts": 1,
-        "starterPoints": 17.0
+        "starterPoints": 13.0
       },
       {
         "teamId": 9,
         "playerId": 4429795,
         "playerName": "Jahmyr Gibbs",
-        "starts": 7,
-        "starterPoints": 203.8
+        "starts": 8,
+        "starterPoints": 217.2
       },
       {
         "teamId": 9,
         "playerId": 3918298,
         "playerName": "Josh Allen",
-        "starts": 7,
-        "starterPoints": 191.82
+        "starts": 8,
+        "starterPoints": 204.68
       },
       {
         "teamId": 9,
@@ -11949,15 +12270,15 @@
         "teamId": 9,
         "playerId": 3150744,
         "playerName": "Chase McLaughlin",
-        "starts": 8,
-        "starterPoints": 89.0
+        "starts": 9,
+        "starterPoints": 99.0
       },
       {
         "teamId": 9,
         "playerId": 3043078,
         "playerName": "Derrick Henry",
-        "starts": 8,
-        "starterPoints": 140.7
+        "starts": 9,
+        "starterPoints": 146.28
       },
       {
         "teamId": 9,
@@ -11970,8 +12291,8 @@
         "teamId": 9,
         "playerId": 3915416,
         "playerName": "DJ Moore",
-        "starts": 3,
-        "starterPoints": 19.2
+        "starts": 4,
+        "starterPoints": 25.8
       },
       {
         "teamId": 9,
@@ -11984,8 +12305,8 @@
         "teamId": 9,
         "playerId": 4241416,
         "playerName": "Chuba Hubbard",
-        "starts": 5,
-        "starterPoints": 98.9
+        "starts": 6,
+        "starterPoints": 112.5
       },
       {
         "teamId": 9,
@@ -12040,29 +12361,36 @@
         "teamId": 9,
         "playerId": 4036133,
         "playerName": "T.J. Hockenson",
-        "starts": 1,
-        "starterPoints": 15.8
+        "starts": 2,
+        "starterPoints": 23.1
       },
       {
         "teamId": 9,
         "playerId": -16012,
         "playerName": "Chiefs D/ST",
+        "starts": 2,
+        "starterPoints": 14.0
+      },
+      {
+        "teamId": 9,
+        "playerId": 4428718,
+        "playerName": "Tre Tucker",
         "starts": 1,
-        "starterPoints": 2.0
+        "starterPoints": 9.5
       },
       {
         "teamId": 10,
         "playerId": 4248528,
         "playerName": "Christian Watson",
-        "starts": 8,
-        "starterPoints": 152.8
+        "starts": 9,
+        "starterPoints": 184.9
       },
       {
         "teamId": 10,
         "playerId": 4430807,
         "playerName": "Bijan Robinson",
-        "starts": 8,
-        "starterPoints": 157.3
+        "starts": 9,
+        "starterPoints": 186.0
       },
       {
         "teamId": 10,
@@ -12089,8 +12417,8 @@
         "teamId": 10,
         "playerId": 4685278,
         "playerName": "Luther Burden III",
-        "starts": 6,
-        "starterPoints": 86.4
+        "starts": 7,
+        "starterPoints": 107.1
       },
       {
         "teamId": 10,
@@ -12103,15 +12431,15 @@
         "teamId": 10,
         "playerId": 4362238,
         "playerName": "Chase Brown",
-        "starts": 7,
-        "starterPoints": 90.9
+        "starts": 8,
+        "starterPoints": 101.4
       },
       {
         "teamId": 10,
         "playerId": 4426348,
         "playerName": "Jayden Daniels",
-        "starts": 5,
-        "starterPoints": 104.64
+        "starts": 6,
+        "starterPoints": 119.2
       },
       {
         "teamId": 10,
@@ -12159,8 +12487,8 @@
         "teamId": 10,
         "playerId": 4432665,
         "playerName": "Brock Bowers",
-        "starts": 6,
-        "starterPoints": 127.7
+        "starts": 7,
+        "starterPoints": 152.0
       },
       {
         "teamId": 10,
@@ -12208,15 +12536,22 @@
         "teamId": 10,
         "playerId": 3917232,
         "playerName": "Tyler Bass",
-        "starts": 1,
-        "starterPoints": 16.0
+        "starts": 2,
+        "starterPoints": 29.0
       },
       {
         "teamId": 10,
         "playerId": -16030,
         "playerName": "Jaguars D/ST",
+        "starts": 2,
+        "starterPoints": 33.0
+      },
+      {
+        "teamId": 10,
+        "playerId": 4702555,
+        "playerName": "Jonah Coleman",
         "starts": 1,
-        "starterPoints": 21.0
+        "starterPoints": 18.8
       }
     ]
   }
