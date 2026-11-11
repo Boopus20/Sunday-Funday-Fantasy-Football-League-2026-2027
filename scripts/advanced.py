@@ -229,18 +229,48 @@ def extract_advanced(fetch, weeks, team_ids):
                 "overallPick":p.get("overallPickNumber"),"playerName":player_names.get(str(p.get("playerId")))} for p in picks]
             result["coverage"]["draftAvailable"]=bool(picks)
     except Exception as exc: result["coverage"]["errors"].append("Draft: "+str(exc)[:130])
+    # ESPN's unfiltered mTransactions2 response can contain only one recent item.
+    # Request filtered pages and preserve only completed transactions for reporting.
     try:
-        tx=fetch("mTransactions2",{})
-        records=tx.get("transactions",[])
-        if isinstance(records,list):
-            for t in records:
-                if t.get("type") not in ("TRADE","WAIVER","FREEAGENT"): continue
-                result["transactions"].append({"id":t.get("id"),"type":t.get("type"),
-                    "status":t.get("status"),"proposingTeamId":t.get("proposingTeamId"),
-                    "items":[{"playerId":i.get("playerId"),"type":i.get("type"),
-                        "fromTeamId":i.get("fromTeamId"),"toTeamId":i.get("toTeamId"),"playerName":player_names.get(str(i.get("playerId")))}
-                        for i in t.get("items",[])]})
-            result["coverage"]["transactionsAvailable"]=bool(records)
-    except Exception as exc: result["coverage"]["errors"].append("Transactions: "+str(exc)[:130])
+        seen={}
+        attempts=[]
+        for offset in range(0, 500, 100):
+            try:
+                raw=fetch("mTransactions2", {}, {"transactions":{
+                    "filterType":{"value":["TRADE","WAIVER","FREEAGENT"]},
+                    "limit":100,"offset":offset,"sort":"date","sortAsc":False}})
+                records=raw.get("transactions") or []
+                attempts.append({"offset":offset,"count":len(records)})
+                for tx in records:
+                    if tx.get("id") is not None:
+                        seen[str(tx["id"])]=tx
+                if len(records)<100: break
+            except Exception as exc:
+                result["coverage"]["errors"].append("Filtered transactions: "+str(exc)[:130])
+                break
+        # Unfiltered response is a fallback, not evidence of complete coverage.
+        try:
+            raw=fetch("mTransactions2",{})
+            for tx in raw.get("transactions") or []:
+                if tx.get("id") is not None:
+                    seen.setdefault(str(tx["id"]),tx)
+        except Exception as exc:
+            result["coverage"]["errors"].append("Transaction fallback: "+str(exc)[:130])
+        result["coverage"]["transactionPages"]=attempts
+        result["coverage"]["transactionRecordCount"]=len(seen)
+        result["coverage"]["transactionsAvailable"]=bool(seen)
+        result["coverage"]["transactionHistoryComplete"]=bool(attempts and attempts[-1]["count"]<100 and not any("Filtered transactions" in x for x in result["coverage"]["errors"]))
+        for tx in seen.values():
+            if tx.get("type") not in ("TRADE","WAIVER","FREEAGENT"): continue
+            result["transactions"].append({"id":tx.get("id"),"type":tx.get("type"),
+                "status":tx.get("status"),"executionDate":tx.get("executionDate"),
+                "processDate":tx.get("processDate"),"proposingTeamId":tx.get("proposingTeamId"),
+                "items":[{"playerId":i.get("playerId"),"type":i.get("type"),
+                    "fromTeamId":i.get("fromTeamId"),"toTeamId":i.get("toTeamId"),
+                    "playerName":player_names.get(str(i.get("playerId")))}
+                    for i in tx.get("items",[])]})
+        result["transactions"].sort(key=lambda x: x.get("executionDate") or x.get("processDate") or 0,reverse=True)
+    except Exception as exc:
+        result["coverage"]["errors"].append("Transactions: "+str(exc)[:130])
     result["coverage"]["playerNamesResolved"]=len(player_names)
     return result
