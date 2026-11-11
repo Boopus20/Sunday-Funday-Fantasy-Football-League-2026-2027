@@ -86,7 +86,7 @@ jobs:
           cp index.html site/index.html
           cp data/league.json site/data/league.json
           # Include newsroom and legacy dashboard assets in the deployed artifact.
-          for asset in sfsn.css sfsn.js command-center.css command-center.js live-refresh.js score-audit.js; do
+          for asset in sfsn.css sfsn.js command-center.css command-center.js newspaper.css newspaper.js live-refresh.js score-audit.js; do
             if [[ -f "$asset" ]]; then cp "$asset" "site/$asset"; fi
           done
 
