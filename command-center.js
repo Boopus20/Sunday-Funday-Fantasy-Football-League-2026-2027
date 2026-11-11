@@ -26,7 +26,7 @@ function make(d){
  const main=document.querySelector('main'),oldNav=main.querySelector('nav.tabs'),oldPanel=main.querySelector('section.panel'),oldCards=main.querySelector('#cards'),oldTop=main.querySelector('.top'),oldNotice=main.querySelector('#notice'),how=main.querySelectorAll('section.panel')[1];
  [oldNav,oldCards,oldTop,oldNotice,how].forEach(n=>n?.classList.add('command-legacy-hidden'));
  oldPanel?.classList.add('command-legacy-panel');
- main.insertBefore(el,document.getElementById('sfsn-newsroom')?.nextSibling||main.firstChild);
+ main.insertBefore(el,document.getElementById('sfsn-newsroom')||main.firstChild);
  const vault=el.querySelector('#command-vault-slot');if(oldPanel)vault.appendChild(oldPanel);
  const links=el.querySelector('#command-vault-links');
  oldNav?.querySelectorAll('[data-tab]').forEach(b=>{const c=document.createElement('button');c.textContent=b.textContent;c.addEventListener('click',()=>{oldNav.querySelector('[data-tab="'+b.dataset.tab+'"]')?.click();el.querySelector('.command-vault').open=true;});links.appendChild(c);});
@@ -42,7 +42,7 @@ function make(d){
  el.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>set(b.dataset.view)));
  set('standings');
  // Keep editorial concise: one cover + six strongest stories, remaining stories available on demand.
- const newsroom=document.getElementById('sfsn-newsroom');if(newsroom){const articles=[...newsroom.querySelectorAll('.sfsn-article')];if(articles.length>6){articles.slice(6).forEach(a=>a.hidden=true);const button=document.createElement('button');button.className='command-more';button.textContent='READ ALL INVESTIGATIONS ('+articles.length+')';let open=false;button.addEventListener('click',()=>{open=!open;articles.slice(6).forEach(a=>a.hidden=!open);button.textContent=open?'SHOW FEWER STORIES':'READ ALL INVESTIGATIONS ('+articles.length+')';});newsroom.querySelector('.sfsn-grid')?.after(button);}}
+ const newsroom=document.getElementById('sfsn-newsroom');if(newsroom){const articles=[...newsroom.querySelectorAll('.sfsn-article')];if(articles.length>4){articles.slice(4).forEach(a=>a.hidden=true);const button=document.createElement('button');button.className='command-more';button.textContent='READ ALL INVESTIGATIONS ('+articles.length+')';let open=false;button.addEventListener('click',()=>{open=!open;articles.slice(4).forEach(a=>a.hidden=!open);button.textContent=open?'SHOW FEWER STORIES':'READ ALL INVESTIGATIONS ('+articles.length+')';});newsroom.querySelector('.sfsn-grid')?.after(button);}}
 }
 async function init(){try{const r=await fetch('./data/league.json?command='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('sync');const d=await r.json();if(!d.teams?.length)return;make(d);}catch(err){/* Original dashboard remains usable if new view cannot load. */}}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
