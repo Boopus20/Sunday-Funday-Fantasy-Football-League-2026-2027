@@ -186,6 +186,34 @@ def main():
         payload["advanced"] = extract_advanced(fetch, sorted(weekly), set(teams))
     except Exception as exc:
         payload["advanced"] = {"coverage":{"errors":[f"Advanced ingestion: {exc}"]}}
+    # Current roster ownership is a different concept from historical starter production.
+    # Always query the latest scoring period so trades are reflected on the next sync.
+    try:
+        current_roster_data = fetch("mRoster", {"scoringPeriodId": str(live_week)})
+        current_rosters = []
+        for team in current_roster_data.get("teams", []):
+            tid = int(team.get("id", -1))
+            if tid not in teams:
+                continue
+            for entry in (team.get("roster") or {}).get("entries") or []:
+                pool = entry.get("playerPoolEntry") or {}
+                player = pool.get("player") or {}
+                pid = entry.get("playerId") or player.get("id")
+                if pid is None:
+                    continue
+                current_rosters.append({"teamId": tid, "playerId": int(pid),
+                    "playerName": player.get("fullName") or player.get("name"),
+                    "lineupSlotId": entry.get("lineupSlotId"),
+                    "acquisitionType": entry.get("acquisitionType"),
+                    "acquisitionDate": entry.get("acquisitionDate")})
+        if current_rosters:
+            payload["currentRosters"] = current_rosters
+            payload["currentRosterAsOfWeek"] = live_week
+        else:
+            payload["currentRosterError"] = "ESPN returned no current roster entries"
+    except Exception as exc:
+        payload["currentRosterError"] = f"{type(exc).__name__}: {str(exc)[:160]}"
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     temp = OUT.with_suffix(".tmp")
     temp.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")

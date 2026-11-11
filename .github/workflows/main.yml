@@ -39,6 +39,9 @@ jobs:
           Path("/tmp/dashboard.js").write_text(js)
           PY
           node --check /tmp/dashboard.js
+          node --check newspaper.js
+          node --check command-center.js
+          node --check sfsn.js
 
       - name: Fetch ESPN data and calculate statistics
         env:
