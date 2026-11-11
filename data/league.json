@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-11T01:51:08.861605+00:00"
+    "updatedAt": "2026-11-11T01:59:19.664741+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-11T01:51:08.861624+00:00",
+  "updatedAt": "2026-11-11T01:59:19.664758+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -1860,7 +1860,7 @@
       ],
       "weeksWithPartialRosters": [],
       "errors": [
-        "Filtered transactions: HTTP Error 400: "
+        "ESPN rejected all three paginated transaction filter variants"
       ],
       "draftAvailable": true,
       "transactionsAvailable": true,
@@ -2042,7 +2042,23 @@
           ]
         }
       ],
-      "transactionPages": [],
+      "transactionPages": [
+        {
+          "filterVariant": 0,
+          "offset": 0,
+          "error": "HTTP Error 400: "
+        },
+        {
+          "filterVariant": 1,
+          "offset": 0,
+          "error": "HTTP Error 400: "
+        },
+        {
+          "filterVariant": 2,
+          "offset": 0,
+          "error": "HTTP Error 400: "
+        }
+      ],
       "transactionRecordCount": 18,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
