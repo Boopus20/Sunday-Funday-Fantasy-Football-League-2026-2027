@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-11T07:27:31.948820+00:00"
+    "updatedAt": "2026-11-11T09:06:17.688354+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-11T07:27:31.948840+00:00",
+  "updatedAt": "2026-11-11T09:06:17.688373+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 19,
+      "transactionRecordCount": 34,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -4730,6 +4730,366 @@
       }
     ],
     "transactions": [
+      {
+        "id": "13d17b01-548a-47d9-ab68-5412e9f67d20",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794386366371,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4431431,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Corey Kiner"
+          },
+          {
+            "playerId": 2578570,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Jacoby Brissett"
+          }
+        ]
+      },
+      {
+        "id": "af1410ee-2ce1-4852-9d75-270d682a8d6a",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794386366371,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4569682,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 8,
+            "playerName": "Audric Estime"
+          },
+          {
+            "playerId": 2969939,
+            "type": "DROP",
+            "fromTeamId": 8,
+            "toTeamId": 0,
+            "playerName": "Jameis Winston"
+          }
+        ]
+      },
+      {
+        "id": "b94f9177-2fcd-4f47-a23b-e3a5eff0a29e",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794386366370,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4431431,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Corey Kiner"
+          },
+          {
+            "playerId": 4362619,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "4eb69988-47e4-4262-83e2-db7fd43334be",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794386366370,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4366031,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Tank Dell"
+          },
+          {
+            "playerId": 4362619,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "fc893f76-679e-405f-b790-5a5d67cbec5b",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794386366370,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5082424,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Dominic Zvada"
+          },
+          {
+            "playerId": 4249087,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Matt Gay"
+          }
+        ]
+      },
+      {
+        "id": "c43d9691-3857-4589-a2ae-0a335923fe3e",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794386366370,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4366031,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 9,
+            "playerName": "Tank Dell"
+          },
+          {
+            "playerId": 5081432,
+            "type": "DROP",
+            "fromTeamId": 9,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "4f1b4469-3020-4ec2-9f7f-ad60c7735e1b",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794386366370,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16009,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Packers D/ST"
+          },
+          {
+            "playerId": 4568490,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": "RJ Harvey"
+          }
+        ]
+      },
+      {
+        "id": "e8fc67cf-a21c-4ddf-bce9-3085b61c97e3",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794386366370,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16009,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Packers D/ST"
+          },
+          {
+            "playerId": 12483,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Matthew Stafford"
+          }
+        ]
+      },
+      {
+        "id": "249c983c-d3b6-481a-9118-3eaf727ddbdd",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794386366369,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4569682,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Audric Estime"
+          },
+          {
+            "playerId": 4362619,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "c13a3ea7-a8c7-40d5-a3b2-59c0ba5ae994",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794386366369,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4571557,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Spencer Shrader"
+          },
+          {
+            "playerId": 2985659,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Wil Lutz"
+          }
+        ]
+      },
+      {
+        "id": "15779857-5557-447d-b36e-ea691a16ac0f",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794386366369,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4431431,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 8,
+            "playerName": "Corey Kiner"
+          },
+          {
+            "playerId": 2969939,
+            "type": "DROP",
+            "fromTeamId": 8,
+            "toTeamId": 0,
+            "playerName": "Jameis Winston"
+          }
+        ]
+      },
+      {
+        "id": "653d8ade-1552-4741-b49a-74a5b497f428",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794386366369,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16014,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 7,
+            "playerName": "Rams D/ST"
+          },
+          {
+            "playerId": 4360761,
+            "type": "DROP",
+            "fromTeamId": 7,
+            "toTeamId": 0,
+            "playerName": "Michael Wilson"
+          }
+        ]
+      },
+      {
+        "id": "3f2c4983-e145-434d-8d75-524d8a53c895",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794386366368,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16033,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Ravens D/ST"
+          },
+          {
+            "playerId": -16002,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": "Bills D/ST"
+          }
+        ]
+      },
+      {
+        "id": "18d96bda-0708-4b32-aee6-0e8d96ca9b4a",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794386366368,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16014,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Rams D/ST"
+          },
+          {
+            "playerId": -16002,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": "Bills D/ST"
+          }
+        ]
+      },
+      {
+        "id": "f6690906-9225-4d24-bed1-b85bdb21ce9f",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794386366368,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16014,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Rams D/ST"
+          },
+          {
+            "playerId": -16034,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Texans D/ST"
+          }
+        ]
+      },
       {
         "id": "56da440f-0f3c-4bfb-b28a-cbe76faa4582",
         "type": "WAIVER",
@@ -12724,19 +13084,19 @@
     },
     {
       "teamId": 1,
-      "playerId": -16002,
-      "playerName": "Bills D/ST",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794149852735
-    },
-    {
-      "teamId": 1,
       "playerId": 4427095,
       "playerName": "DeMario Douglas",
       "lineupSlotId": 23,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794150782756
+    },
+    {
+      "teamId": 1,
+      "playerId": -16033,
+      "playerName": "Ravens D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794386366369
     },
     {
       "teamId": 2,
@@ -12924,14 +13284,6 @@
     },
     {
       "teamId": 3,
-      "playerId": 4568490,
-      "playerName": "RJ Harvey",
-      "lineupSlotId": 20,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183611589
-    },
-    {
-      "teamId": 3,
       "playerId": 3916433,
       "playerName": "Jakobi Meyers",
       "lineupSlotId": 20,
@@ -13004,11 +13356,19 @@
     },
     {
       "teamId": 3,
-      "playerId": 4362619,
-      "playerName": "Chris Rodriguez Jr.",
+      "playerId": 4569682,
+      "playerName": "Audric Estime",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1793898757192
+      "acquisitionDate": 1794386366369
+    },
+    {
+      "teamId": 3,
+      "playerId": -16009,
+      "playerName": "Packers D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794386366370
     },
     {
       "teamId": 4,
@@ -13092,22 +13452,6 @@
     },
     {
       "teamId": 4,
-      "playerId": -16034,
-      "playerName": "Texans D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793780070978
-    },
-    {
-      "teamId": 4,
-      "playerId": 4249087,
-      "playerName": "Matt Gay",
-      "lineupSlotId": 17,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793780071075
-    },
-    {
-      "teamId": 4,
       "playerId": 2578570,
       "playerName": "Jacoby Brissett",
       "lineupSlotId": 20,
@@ -13137,6 +13481,22 @@
       "lineupSlotId": 2,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1794148971959
+    },
+    {
+      "teamId": 4,
+      "playerId": -16014,
+      "playerName": "Rams D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794386366368
+    },
+    {
+      "teamId": 4,
+      "playerId": 5082424,
+      "playerName": "Dominic Zvada",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794386366370
     },
     {
       "teamId": 5,
@@ -13236,14 +13596,6 @@
     },
     {
       "teamId": 5,
-      "playerId": 2985659,
-      "playerName": "Wil Lutz",
-      "lineupSlotId": 17,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793791214424
-    },
-    {
-      "teamId": 5,
       "playerId": 4432710,
       "playerName": "TreVeyon Henderson",
       "lineupSlotId": 20,
@@ -13273,6 +13625,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794069593924
+    },
+    {
+      "teamId": 5,
+      "playerId": 4571557,
+      "playerName": "Spencer Shrader",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794386366369
     },
     {
       "teamId": 6,
@@ -13660,19 +14020,19 @@
     },
     {
       "teamId": 8,
-      "playerId": 2969939,
-      "playerName": "Jameis Winston",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1791985813262
-    },
-    {
-      "teamId": 8,
       "playerId": -16003,
       "playerName": "Bears D/ST",
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
+    },
+    {
+      "teamId": 8,
+      "playerId": 4431431,
+      "playerName": "Corey Kiner",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794386366369
     },
     {
       "teamId": 9,
@@ -13796,11 +14156,11 @@
     },
     {
       "teamId": 9,
-      "playerId": 5081432,
-      "playerName": "Antonio Williams",
+      "playerId": 4366031,
+      "playerName": "Tank Dell",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1794155958620
+      "acquisitionDate": 1794386366370
     },
     {
       "teamId": 10,
