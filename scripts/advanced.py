@@ -234,20 +234,41 @@ def extract_advanced(fetch, weeks, team_ids):
     try:
         seen={}
         attempts=[]
-        for offset in range(0, 500, 100):
+        # ESPN filter dialects vary. Try simple paging first, then progressively
+        # narrower alternatives; unsupported options must not abort ingestion.
+        filters=[
+            lambda off: {"transactions":{"limit":100,"offset":off}},
+            lambda off: {"transactions":{"filterType":{"value":["TRADE","WAIVER","FREEAGENT"]},"limit":100,"offset":off}},
+            lambda off: {"transactions":{"limit":50,"offset":off}},
+        ]
+        working_filter=None
+        for fi, build in enumerate(filters):
             try:
-                raw=fetch("mTransactions2", {}, {"transactions":{
-                    "filterType":{"value":["TRADE","WAIVER","FREEAGENT"]},
-                    "limit":100,"offset":offset,"sort":"date","sortAsc":False}})
-                records=raw.get("transactions") or []
-                attempts.append({"offset":offset,"count":len(records)})
+                probe=fetch("mTransactions2",{},build(0))
+                working_filter=(fi,build,100 if fi<2 else 50)
+                records=probe.get("transactions") or []
+                attempts.append({"filterVariant":fi,"offset":0,"count":len(records)})
                 for tx in records:
-                    if tx.get("id") is not None:
-                        seen[str(tx["id"])]=tx
-                if len(records)<100: break
-            except Exception as exc:
-                result["coverage"]["errors"].append("Filtered transactions: "+str(exc)[:130])
+                    if tx.get("id") is not None: seen[str(tx["id"])]=tx
                 break
+            except Exception as exc:
+                attempts.append({"filterVariant":fi,"offset":0,"error":str(exc)[:90]})
+        if working_filter:
+            fi,build,page_size=working_filter
+            first_count=attempts[-1]["count"]
+            if first_count==page_size:
+                for offset in range(page_size,500,page_size):
+                    try:
+                        records=(fetch("mTransactions2",{},build(offset)).get("transactions") or [])
+                        attempts.append({"filterVariant":fi,"offset":offset,"count":len(records)})
+                        for tx in records:
+                            if tx.get("id") is not None: seen[str(tx["id"])]=tx
+                        if len(records)<page_size: break
+                    except Exception as exc:
+                        attempts.append({"filterVariant":fi,"offset":offset,"error":str(exc)[:90]})
+                        break
+        else:
+            result["coverage"]["errors"].append("ESPN rejected all three paginated transaction filter variants")
         # Unfiltered response is a fallback, not evidence of complete coverage.
         try:
             raw=fetch("mTransactions2",{})
@@ -259,7 +280,7 @@ def extract_advanced(fetch, weeks, team_ids):
         result["coverage"]["transactionPages"]=attempts
         result["coverage"]["transactionRecordCount"]=len(seen)
         result["coverage"]["transactionsAvailable"]=bool(seen)
-        result["coverage"]["transactionHistoryComplete"]=bool(attempts and attempts[-1]["count"]<100 and not any("Filtered transactions" in x for x in result["coverage"]["errors"]))
+        result["coverage"]["transactionHistoryComplete"]=bool(working_filter and attempts and "count" in attempts[-1] and attempts[-1]["count"]<working_filter[2])
         for tx in seen.values():
             if tx.get("type") not in ("TRADE","WAIVER","FREEAGENT"): continue
             result["transactions"].append({"id":tx.get("id"),"type":tx.get("type"),
