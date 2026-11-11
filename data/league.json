@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-11T15:05:00.083703+00:00"
+    "updatedAt": "2026-11-11T15:59:57.307338+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-11T15:05:00.083728+00:00",
+  "updatedAt": "2026-11-11T15:59:57.307356+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 44,
+      "transactionRecordCount": 45,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -5128,6 +5128,30 @@
             "fromTeamId": 0,
             "toTeamId": 4,
             "playerName": "Khalil Shakir"
+          }
+        ]
+      },
+      {
+        "id": "2a7fd29c-9f6c-45e2-b3ce-689a10e08fc2",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 2991662,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Mack Hollins"
+          },
+          {
+            "playerId": 4569603,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Malik Washington"
           }
         ]
       },
@@ -13645,14 +13669,6 @@
     },
     {
       "teamId": 5,
-      "playerId": 4569603,
-      "playerName": "Malik Washington",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1792220903677
-    },
-    {
-      "teamId": 5,
       "playerId": 4697815,
       "playerName": "Rachaad White",
       "lineupSlotId": 2,
@@ -13706,6 +13722,14 @@
       "lineupSlotId": 17,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794386366369
+    },
+    {
+      "teamId": 5,
+      "playerId": 2991662,
+      "playerName": "Mack Hollins",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794412029923
     },
     {
       "teamId": 6,
