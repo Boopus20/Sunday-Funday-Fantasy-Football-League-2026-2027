@@ -14,13 +14,15 @@ BASE = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "league.json"
 
-def fetch(view, params=None):
+def fetch(view, params=None, fantasy_filter=None):
     headers = {"User-Agent": "SundayFundayLeagueDashboard/1.0", "Accept": "application/json"}
     # If a private league requires authentication, configure these as GitHub Actions secrets.
     swid = os.getenv("ESPN_SWID")
     s2 = os.getenv("ESPN_S2")
     if swid and s2:
         headers["Cookie"] = f"SWID={swid}; espn_s2={s2}"
+    if fantasy_filter is not None:
+        headers["x-fantasy-filter"] = json.dumps(fantasy_filter, separators=(",", ":"))
     query = urllib.parse.urlencode({"view":view, **(params or {})})
     req = urllib.request.Request(f"{BASE}?{query}", headers=headers)
     with urllib.request.urlopen(req, timeout=35) as resp:
@@ -206,6 +208,16 @@ def main():
                     "lineupSlotId": entry.get("lineupSlotId"),
                     "acquisitionType": entry.get("acquisitionType"),
                     "acquisitionDate": entry.get("acquisitionDate")})
+        # Resolve transaction player names from the current roster and historical
+        # production without confusing historical points with current ownership.
+        names = {str(p["playerId"]):p["playerName"] for p in current_rosters if p.get("playerName")}
+        for p in payload.get("advanced",{}).get("playerProduction",[]):
+            if p.get("playerId") is not None and p.get("playerName"):
+                names.setdefault(str(p["playerId"]),p["playerName"])
+        for tx in payload.get("advanced",{}).get("transactions",[]):
+            for item in tx.get("items",[]):
+                if not item.get("playerName"):
+                    item["playerName"] = names.get(str(item.get("playerId")))
         if current_rosters:
             payload["currentRosters"] = current_rosters
             payload["currentRosterAsOfWeek"] = live_week
