@@ -37,26 +37,41 @@ function articles(d){
  'The self-declared fantasy genius who bets on his own players has assembled a lineup that is genuinely frightening. Ohhhh, that tight end production. So rich. So velvety. You could pour it over pancakes. This is the kind of offense that makes a grown commissioner stare at his own roster and reconsider every decision since draft night.',
  'Does this mean Durk is guaranteed a championship? Absolutely not. It means the rest of the league must find a way to beat a man who will become completely unbearable if he gets another trophy. The stakes could not be higher.'
  ],N(durk.averagePoints)+' LEAGUE-BEST PPG');
- if(ginny&&jt)push('THE BASEMENT REPORT','The Ginster Has Jonathan Taylor and a Two-Win Nightmare','Somewhere between the talent and the results, the season fell into a hole so deep that even a landman cannot locate the mineral rights.','GINNY / MCDIVOTS','roast',[
- 'Ryan McGinnis spends his professional life researching land ownership. We recommend he begin with a more urgent question: who currently owns the rights to the bottom of the Sunday Funday standings?',
- 'Ginny is '+ginny.wins+'–'+ginny.losses+' despite Jonathan Taylor delivering '+N(jt.starterPoints)+' starter points across '+jt.starts+' starts. This is a roster with legitimate talent and a record that looks like a distress signal scratched into the wall of a mine shaft.',
- 'His luck index is '+N(ginny.luck)+'. That matters: the schedule has been cruel, and some of this suffering is not self-inflicted. Unfortunately, the Baby Bar Crawl committee does not accept “the schedule was mean to me” as an exemption from wearing a diaper and ordering milk.',
- 'McDivots, the relentless complainer, has finally been handed the rare opportunity to complain with statistical evidence. The league acknowledges the injustice. The league also finds it extremely funny. A strong finish could change the story. Until then, the milk is chilling.'
+ const roster=d.currentRosters||[];
+ const owner=term=>{const matches=roster.filter(p=>p.playerName?.toLowerCase().includes(term.toLowerCase()));return matches.length===1?matches[0].teamId:null;};
+ const taylorOwner=owner('Jonathan Taylor');
+ if(taylorOwner===1&&t[1])push('BREAKING / TRADE DESK','The Commissioner Just Acquired Jonathan Taylor. The League Is on Notice.','Mike has added Jonathan Taylor to his current ESPN roster. Is this a rescue mission or a very expensive rearrangement of the deck chairs?','MIKE / THE COMMISSIONER','glaze',[
+ 'The Sunday Funday Times can confirm from the latest ESPN roster snapshot that Jonathan Taylor now belongs to Mike. That is current ownership, not a guess based on which team started Taylor in earlier weeks. The commissioner has made his move, and the rest of the league is required to act impressed for at least fifteen seconds.',
+ 'Mike enters the latest completed standings at '+t[1].wins+'–'+t[1].losses+', averaging '+N(t[1].averagePoints)+' points per week. Taylor is a major name to add to a team looking for momentum. Ohhh, the upside. The promise. The possibility of the commissioner finally administering a competent fantasy roster instead of just administering everybody else’s suffering.',
+ 'The trade is confirmed by current ownership, but the ESPN snapshot does not yet verify the full exchange or price paid. We will not invent the outgoing players or declare a winner without that evidence. Nor will we credit Mike with Taylor’s points from games played for a previous fantasy manager.',
+ 'The commissioner is now on the clock. A shiny new running back is wonderful; a shiny new running back attached to another loss is just an expensive accessory. The league will judge this acquisition by what happens next.'
+ ],'CURRENT ROSTER: MIKE + JONATHAN TAYLOR');
+ if(ginny&&taylorOwner===1)push('AFTERMATH / BABY WATCH','Ginny Lost Jonathan Taylor. The Record Was Already a Crime Scene.','The Ginster has watched a star leave the building while the schedule continues its campaign of personal harassment.','GINNY / MCDIVOTS','roast',[
+ 'Ryan McGinnis spends his professional life researching who owns land. Unfortunately, he can no longer claim ownership of Jonathan Taylor. The latest ESPN roster lists Taylor with Mike. A landman losing the title deed to his best-known running back is a level of occupational irony that deserves its own county record.',
+ 'Ginny is '+ginny.wins+'–'+ginny.losses+' and averaging '+N(ginny.averagePoints)+' points per game. The season has been difficult enough without an editorial department holding a magnifying glass over the transactions.',
+ 'His luck index is '+N(ginny.luck)+', meaning schedule luck has played a part in the misery. That is a real mitigating factor, not an excuse that will convince the Baby Bar Crawl committee to cancel the diaper order.',
+ 'We cannot grade the trade without knowing the full return. But the headline is real: Taylor is no longer on Ginny’s current roster. McDivots, a man with a professional interest in ownership records, has lost the deed.'
+ ],ginny.wins+'–'+ginny.losses+' RECORD');
+ if(ginny&&taylorOwner===4)push('THE BASEMENT REPORT','Ginny Has Jonathan Taylor and a Two-Win Nightmare','A talented player, a brutal record and a schedule that refuses to cooperate.','GINNY / MCDIVOTS','roast',[
+ 'Ryan McGinnis spends his professional life researching land ownership. We recommend he begin with the ownership rights to the bottom of the fantasy standings.',
+ 'The latest ESPN roster confirms Jonathan Taylor is still on Ginny’s team. The Ginster is '+ginny.wins+'–'+ginny.losses+' despite averaging '+N(ginny.averagePoints)+' points per game.',
+ 'His luck index is '+N(ginny.luck)+'. The schedule has not been kind, but the Baby Bar Crawl committee does not accept that as a legal defense.',
+ 'The league acknowledges the injustice and also finds it incredibly funny. The milk is chilling.'
  ],ginny.wins+'–'+ginny.losses+' RECORD');
  if(bottom&&!out.some(a=>a.subject.startsWith(manager[bottom.id].toUpperCase())))push('BABY BAR CRAWL','The Diaper Watch Has a New Headline','The last-place race is not an abstract statistic. It is a public wardrobe crisis.','THE LEAGUE / PUNISHMENT WATCH','roast',[
  manager[bottom.id]+' is currently '+bottom.wins+'–'+bottom.losses+' and at the bottom of the league table. The standings are not final, but the pressure is real.',
  'The last-place manager faces the Baby Bar Crawl: dressing as a baby and ordering milk while the rest of the league watches. This is the kind of institutional tradition that makes fantasy football a deeply unserious activity practiced with terrifying seriousness.',
  'There is still time to escape. But every week without a win brings the diaper aisle closer. This newsroom will report the outcome when the season actually ends, not before.'
  ],bottom.wins+'–'+bottom.losses+' CURRENTLY');
- return out.slice(0,5);
+ return out.sort((a,b)=>(a.tag.startsWith('BREAKING')?-2:0)-(b.tag.startsWith('BREAKING')?-2:0)).slice(0,5);
 }
 function init(d){
- const stories=articles(d);if(!stories.length)return;
+ const updated=Date.parse(d.updatedAt||'');const stale=!Number.isFinite(updated)||Date.now()-updated>36*60*60*1000;const stories=stale?[]:articles(d);
  const old=document.getElementById('sfsn-newsroom');if(old)old.style.display='none';
  const main=document.querySelector('main');if(!main)return;
- const root=document.createElement('section');root.id='sfsn-paper';
+ const root=document.createElement('section');root.id='sfsn-paper';if(!stories.length){root.innerHTML='<div class="paper-heading"><div><span>THE SUNDAY FUNDAY TIMES</span><h2>NEWSROOM AWAITING FRESH DATA.</h2></div></div><p class="paper-footer">The latest ESPN sync is over 36 hours old or unavailable. We will not publish outdated articles as breaking news.</p>';main.insertBefore(root,main.firstChild);return;}
  const card=(s,i)=>'<button class="paper-story '+(i===0?'paper-lead':'')+'" data-paper-open="'+i+'"><span class="paper-tag">'+E(s.tag)+'</span><span class="paper-title">'+E(s.title)+'</span><span class="paper-dek">'+E(s.dek)+'</span><span class="paper-byline">'+E(s.subject)+' · '+E(s.stat)+' · READ FULL STORY →</span></button>';
- root.innerHTML='<div class="paper-heading"><div><span>THE SUNDAY FUNDAY TIMES</span><h2>THE FRONT PAGE.</h2></div><p>Five stories worth fighting about.<br>Full-length reporting. Merciless editorial opinion.<br>ESPN-backed numbers.</p></div><div class="paper-grid">'+stories.map(card).join('')+'</div><div class="paper-footer">ALL STORIES ARE SATIRE. STATS REFLECT COMPLETED ESPN WEEKS. NO FAKE TRANSACTIONS OR INJURY REPORTS.</div><div class="paper-reader" id="paper-reader" hidden><div class="paper-reader-backdrop" data-paper-close></div><article class="paper-sheet" role="dialog" aria-modal="true" aria-label="Full newspaper story"><button class="paper-close" data-paper-close aria-label="Close article">✕ CLOSE</button><div id="paper-article"></div></article></div>';
+ root.innerHTML='<div class="paper-heading"><div><span>THE SUNDAY FUNDAY TIMES</span><h2>THE FRONT PAGE.</h2></div><p>The biggest verified stories.<br>Full-length reporting. Merciless editorial opinion.<br>ESPN-backed numbers.<br>Roster as of week '+E(d.currentRosterAsOfWeek||'unverified')+' · Synced '+E(new Date(d.updatedAt).toLocaleString())+'</p></div><div class="paper-grid">'+stories.map(card).join('')+'</div><div class="paper-footer">ALL STORIES ARE SATIRE. STATS REFLECT COMPLETED ESPN WEEKS. NO FAKE TRANSACTIONS OR INJURY REPORTS.</div><div class="paper-reader" id="paper-reader" hidden><div class="paper-reader-backdrop" data-paper-close></div><article class="paper-sheet" role="dialog" aria-modal="true" aria-label="Full newspaper story"><button class="paper-close" data-paper-close aria-label="Close article">✕ CLOSE</button><div id="paper-article"></div></article></div>';
  main.insertBefore(root,main.firstChild);
  const reader=root.querySelector('#paper-reader'),content=root.querySelector('#paper-article');let lastFocus=null;
  function close(){reader.hidden=true;document.body.classList.remove('paper-reading');lastFocus?.focus();}
