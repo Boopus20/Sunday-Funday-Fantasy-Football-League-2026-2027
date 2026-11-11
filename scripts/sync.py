@@ -208,6 +208,16 @@ def main():
                     "lineupSlotId": entry.get("lineupSlotId"),
                     "acquisitionType": entry.get("acquisitionType"),
                     "acquisitionDate": entry.get("acquisitionDate")})
+        # Resolve transaction player names from the current roster and historical
+        # production without confusing historical points with current ownership.
+        names = {str(p["playerId"]):p["playerName"] for p in current_rosters if p.get("playerName")}
+        for p in payload.get("advanced",{}).get("playerProduction",[]):
+            if p.get("playerId") is not None and p.get("playerName"):
+                names.setdefault(str(p["playerId"]),p["playerName"])
+        for tx in payload.get("advanced",{}).get("transactions",[]):
+            for item in tx.get("items",[]):
+                if not item.get("playerName"):
+                    item["playerName"] = names.get(str(item.get("playerId")))
         if current_rosters:
             payload["currentRosters"] = current_rosters
             payload["currentRosterAsOfWeek"] = live_week
