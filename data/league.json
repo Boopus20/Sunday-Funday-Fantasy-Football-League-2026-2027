@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-11T12:04:38.237540+00:00"
+    "updatedAt": "2026-11-11T13:23:01.452961+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-11T12:04:38.237561+00:00",
+  "updatedAt": "2026-11-11T13:23:01.452980+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 34,
+      "transactionRecordCount": 41,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -5111,6 +5111,71 @@
             "fromTeamId": 10,
             "toTeamId": 0,
             "playerName": "Jordan Addison"
+          }
+        ]
+      },
+      {
+        "id": "b50b51e8-8c8e-42f4-83c6-b6b76cb67e9a",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4373678,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Khalil Shakir"
+          }
+        ]
+      },
+      {
+        "id": "1ceb428d-205e-436e-aea4-d32fda430e05",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 17372,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 9,
+            "playerName": "Chris Boswell"
+          },
+          {
+            "playerId": 14880,
+            "type": "DROP",
+            "fromTeamId": 9,
+            "toTeamId": 0,
+            "playerName": "Kirk Cousins"
+          }
+        ]
+      },
+      {
+        "id": "3f9cd67d-8add-41e5-babf-fabf3ef8799a",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4570037,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 6,
+            "playerName": "Terrance Ferguson"
+          },
+          {
+            "playerId": -16019,
+            "type": "DROP",
+            "fromTeamId": 6,
+            "toTeamId": 0,
+            "playerName": "Giants D/ST"
           }
         ]
       }
@@ -13374,7 +13439,7 @@
       "teamId": 4,
       "playerId": 3916387,
       "playerName": "Lamar Jackson",
-      "lineupSlotId": 20,
+      "lineupSlotId": 21,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183615037
     },
@@ -13414,7 +13479,7 @@
       "teamId": 4,
       "playerId": 4695883,
       "playerName": "Jalen Coker",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1789542364751
     },
@@ -13497,6 +13562,14 @@
       "lineupSlotId": 17,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794386366370
+    },
+    {
+      "teamId": 4,
+      "playerId": 4373678,
+      "playerName": "Khalil Shakir",
+      "lineupSlotId": 4,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794400857453
     },
     {
       "teamId": 5,
@@ -13734,7 +13807,7 @@
       "teamId": 6,
       "playerId": -16023,
       "playerName": "Steelers D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183613422
     },
@@ -13764,11 +13837,11 @@
     },
     {
       "teamId": 6,
-      "playerId": -16019,
-      "playerName": "Giants D/ST",
-      "lineupSlotId": 16,
+      "playerId": 4570037,
+      "playerName": "Terrance Ferguson",
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1793780071074
+      "acquisitionDate": 1794402983127
     },
     {
       "teamId": 7,
@@ -14102,7 +14175,7 @@
       "teamId": 9,
       "playerId": 3150744,
       "playerName": "Chase McLaughlin",
-      "lineupSlotId": 17,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183617524
     },
@@ -14132,14 +14205,6 @@
     },
     {
       "teamId": 9,
-      "playerId": 14880,
-      "playerName": "Kirk Cousins",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1792566190011
-    },
-    {
-      "teamId": 9,
       "playerId": 4036133,
       "playerName": "T.J. Hockenson",
       "lineupSlotId": 6,
@@ -14161,6 +14226,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794386366370
+    },
+    {
+      "teamId": 9,
+      "playerId": 17372,
+      "playerName": "Chris Boswell",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794400737401
     },
     {
       "teamId": 10,
