@@ -14,13 +14,15 @@ BASE = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "league.json"
 
-def fetch(view, params=None):
+def fetch(view, params=None, fantasy_filter=None):
     headers = {"User-Agent": "SundayFundayLeagueDashboard/1.0", "Accept": "application/json"}
     # If a private league requires authentication, configure these as GitHub Actions secrets.
     swid = os.getenv("ESPN_SWID")
     s2 = os.getenv("ESPN_S2")
     if swid and s2:
         headers["Cookie"] = f"SWID={swid}; espn_s2={s2}"
+    if fantasy_filter is not None:
+        headers["x-fantasy-filter"] = json.dumps(fantasy_filter, separators=(",", ":"))
     query = urllib.parse.urlencode({"view":view, **(params or {})})
     req = urllib.request.Request(f"{BASE}?{query}", headers=headers)
     with urllib.request.urlopen(req, timeout=35) as resp:
