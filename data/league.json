@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-11T13:23:01.452961+00:00"
+    "updatedAt": "2026-11-11T15:05:00.083703+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-11T13:23:01.452980+00:00",
+  "updatedAt": "2026-11-11T15:05:00.083728+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 41,
+      "transactionRecordCount": 44,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -13055,7 +13055,7 @@
       "teamId": 1,
       "playerId": 4426354,
       "playerName": "George Pickens",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790358422476
     },
@@ -13087,7 +13087,7 @@
       "teamId": 1,
       "playerId": -16017,
       "playerName": "Patriots D/ST",
-      "lineupSlotId": 16,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1791961650311
     },
@@ -13135,7 +13135,7 @@
       "teamId": 1,
       "playerId": 4597500,
       "playerName": "Adonai Mitchell",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     },
@@ -13159,7 +13159,7 @@
       "teamId": 1,
       "playerId": -16033,
       "playerName": "Ravens D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794386366369
     },
@@ -13367,7 +13367,7 @@
       "teamId": 3,
       "playerId": 2577417,
       "playerName": "Dak Prescott",
-      "lineupSlotId": 0,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790698956994
     },
@@ -13415,7 +13415,7 @@
       "teamId": 3,
       "playerId": 4432577,
       "playerName": "C.J. Stroud",
-      "lineupSlotId": 20,
+      "lineupSlotId": 0,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071074
     },
