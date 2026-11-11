@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-11T01:59:19.664741+00:00"
+    "updatedAt": "2026-11-11T02:59:00.874659+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-11T01:59:19.664758+00:00",
+  "updatedAt": "2026-11-11T02:59:00.874677+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 18,
+      "transactionRecordCount": 19,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -12838,7 +12838,7 @@
       "teamId": 2,
       "playerId": 4869645,
       "playerName": "Caleb Douglas",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "ADD",
       "acquisitionDate": 1789542364752
     },
@@ -12870,7 +12870,7 @@
       "teamId": 2,
       "playerId": 4040761,
       "playerName": "Devin Singletary",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793999250066
     },
