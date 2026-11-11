@@ -16,9 +16,6 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     timeout-minutes: 8
 
     steps:
@@ -88,12 +85,33 @@ jobs:
           mkdir -p site/data
           cp index.html site/index.html
           cp data/league.json site/data/league.json
+          # Include newsroom and legacy dashboard assets in the deployed artifact.
+          for asset in sfsn.css sfsn.js live-refresh.js score-audit.js; do
+            if [[ -f "$asset" ]]; then cp "$asset" "site/$asset"; fi
+          done
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Prepare Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
+      - name: Verify Pages artifact is available
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --jq '.artifacts[].name' | tee /tmp/pages-artifacts.txt
+          grep -Fxq github-pages /tmp/pages-artifacts.txt
+
+  deploy:
+    needs: sync
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Publish dashboard to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
