@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-11T01:42:19.990209+00:00"
+    "updatedAt": "2026-11-11T01:51:08.861605+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-11T01:42:19.990238+00:00",
+  "updatedAt": "2026-11-11T01:51:08.861624+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -1859,7 +1859,9 @@
         9
       ],
       "weeksWithPartialRosters": [],
-      "errors": [],
+      "errors": [
+        "Filtered transactions: HTTP Error 400: "
+      ],
       "draftAvailable": true,
       "transactionsAvailable": true,
       "sampleScoreFields": {},
@@ -2040,6 +2042,9 @@
           ]
         }
       ],
+      "transactionPages": [],
+      "transactionRecordCount": 18,
+      "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
     "lineupIQ": [
@@ -4713,6 +4718,8 @@
         "id": "56da440f-0f3c-4bfb-b28a-cbe76faa4582",
         "type": "WAIVER",
         "status": "CANCELED",
+        "executionDate": null,
+        "processDate": null,
         "proposingTeamId": null,
         "items": [
           {
