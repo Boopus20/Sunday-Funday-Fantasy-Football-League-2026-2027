@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-11T01:33:09.686245+00:00"
+    "updatedAt": "2026-11-11T01:38:47.015704+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-11T01:33:09.686264+00:00",
+  "updatedAt": "2026-11-11T01:38:47.015732+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -12577,5 +12577,1336 @@
         "starterPoints": 18.8
       }
     ]
-  }
+  },
+  "currentRosters": [
+    {
+      "teamId": 1,
+      "playerId": 4379399,
+      "playerName": "James Cook III",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183609888
+    },
+    {
+      "teamId": 1,
+      "playerId": 4595348,
+      "playerName": "Malik Nabers",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183609888
+    },
+    {
+      "teamId": 1,
+      "playerId": 4608686,
+      "playerName": "Kyle Monangai",
+      "lineupSlotId": 21,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183609888
+    },
+    {
+      "teamId": 1,
+      "playerId": 4426354,
+      "playerName": "George Pickens",
+      "lineupSlotId": 4,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790358422476
+    },
+    {
+      "teamId": 1,
+      "playerId": 4431452,
+      "playerName": "Drake Maye",
+      "lineupSlotId": 0,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790698956994
+    },
+    {
+      "teamId": 1,
+      "playerId": 3953687,
+      "playerName": "Brandon Aubrey",
+      "lineupSlotId": 17,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790698956994
+    },
+    {
+      "teamId": 1,
+      "playerId": 4685247,
+      "playerName": "Braelon Allen",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790755002661
+    },
+    {
+      "teamId": 1,
+      "playerId": -16017,
+      "playerName": "Patriots D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1791961650311
+    },
+    {
+      "teamId": 1,
+      "playerId": 4685261,
+      "playerName": "Germie Bernard",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1792087929985
+    },
+    {
+      "teamId": 1,
+      "playerId": 4429096,
+      "playerName": "Blake Corum",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1792642500622
+    },
+    {
+      "teamId": 1,
+      "playerId": 4360248,
+      "playerName": "Kyle Pitts Sr.",
+      "lineupSlotId": 6,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1792642500622
+    },
+    {
+      "teamId": 1,
+      "playerId": 4038815,
+      "playerName": "Rico Dowdle",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1792663703900
+    },
+    {
+      "teamId": 1,
+      "playerId": 3054850,
+      "playerName": "Alvin Kamara",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793780071073
+    },
+    {
+      "teamId": 1,
+      "playerId": 4597500,
+      "playerName": "Adonai Mitchell",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793780071075
+    },
+    {
+      "teamId": 1,
+      "playerId": 4242335,
+      "playerName": "Jonathan Taylor",
+      "lineupSlotId": 2,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1794148971959
+    },
+    {
+      "teamId": 1,
+      "playerId": -16002,
+      "playerName": "Bills D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794149852735
+    },
+    {
+      "teamId": 1,
+      "playerId": 4427095,
+      "playerName": "DeMario Douglas",
+      "lineupSlotId": 23,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794150782756
+    },
+    {
+      "teamId": 2,
+      "playerId": 3117251,
+      "playerName": "Christian McCaffrey",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 3929630,
+      "playerName": "Saquon Barkley",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4428331,
+      "playerName": "Rashee Rice",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4361579,
+      "playerName": "Javonte Williams",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4429615,
+      "playerName": "Zay Flowers",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 16800,
+      "playerName": "Davante Adams",
+      "lineupSlotId": 21,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4431299,
+      "playerName": "Rome Odunze",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4572680,
+      "playerName": "Tucker Kraft",
+      "lineupSlotId": 6,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4361741,
+      "playerName": "Brock Purdy",
+      "lineupSlotId": 0,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4385690,
+      "playerName": "Dalton Kincaid",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4686361,
+      "playerName": "Cam Little",
+      "lineupSlotId": 17,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": -16026,
+      "playerName": "Seahawks D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183610749
+    },
+    {
+      "teamId": 2,
+      "playerId": 4869645,
+      "playerName": "Caleb Douglas",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1789542364752
+    },
+    {
+      "teamId": 2,
+      "playerId": 4241555,
+      "playerName": "Elijah Mitchell",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793231589535
+    },
+    {
+      "teamId": 2,
+      "playerId": 4696044,
+      "playerName": "Kaelon Black",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793796399803
+    },
+    {
+      "teamId": 2,
+      "playerId": 5083754,
+      "playerName": "Ryan Flournoy",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793796433919
+    },
+    {
+      "teamId": 2,
+      "playerId": 4040761,
+      "playerName": "Devin Singletary",
+      "lineupSlotId": 23,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793999250066
+    },
+    {
+      "teamId": 3,
+      "playerId": 4241389,
+      "playerName": "CeeDee Lamb",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183611589
+    },
+    {
+      "teamId": 3,
+      "playerId": 4890973,
+      "playerName": "Ashton Jeanty",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183611589
+    },
+    {
+      "teamId": 3,
+      "playerId": 4047365,
+      "playerName": "Josh Jacobs",
+      "lineupSlotId": 21,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183611589
+    },
+    {
+      "teamId": 3,
+      "playerId": 4431459,
+      "playerName": "Tyler Warren",
+      "lineupSlotId": 6,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183611589
+    },
+    {
+      "teamId": 3,
+      "playerId": 4569173,
+      "playerName": "Rhamondre Stevenson",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183611589
+    },
+    {
+      "teamId": 3,
+      "playerId": 4432620,
+      "playerName": "Parker Washington",
+      "lineupSlotId": 23,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183611589
+    },
+    {
+      "teamId": 3,
+      "playerId": 4568490,
+      "playerName": "RJ Harvey",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183611589
+    },
+    {
+      "teamId": 3,
+      "playerId": 3916433,
+      "playerName": "Jakobi Meyers",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183611589
+    },
+    {
+      "teamId": 3,
+      "playerId": -16016,
+      "playerName": "Vikings D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790273548070
+    },
+    {
+      "teamId": 3,
+      "playerId": 2577417,
+      "playerName": "Dak Prescott",
+      "lineupSlotId": 0,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790698956994
+    },
+    {
+      "teamId": 3,
+      "playerId": 4567104,
+      "playerName": "Will Reichard",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790755002663
+    },
+    {
+      "teamId": 3,
+      "playerId": 4882093,
+      "playerName": "Bhayshul Tuten",
+      "lineupSlotId": 2,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790821502653
+    },
+    {
+      "teamId": 3,
+      "playerId": 4685472,
+      "playerName": "Tetairoa McMillan",
+      "lineupSlotId": 4,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790821502653
+    },
+    {
+      "teamId": 3,
+      "playerId": 4723820,
+      "playerName": "Omar Cooper Jr.",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1792566190010
+    },
+    {
+      "teamId": 3,
+      "playerId": 4430539,
+      "playerName": "Brenton Strange",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793173944113
+    },
+    {
+      "teamId": 3,
+      "playerId": 4432577,
+      "playerName": "C.J. Stroud",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793780071074
+    },
+    {
+      "teamId": 3,
+      "playerId": 4362619,
+      "playerName": "Chris Rodriguez Jr.",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793898757192
+    },
+    {
+      "teamId": 4,
+      "playerId": 3916387,
+      "playerName": "Lamar Jackson",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183615037
+    },
+    {
+      "teamId": 4,
+      "playerId": 16737,
+      "playerName": "Mike Evans",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183615037
+    },
+    {
+      "teamId": 4,
+      "playerId": 4880281,
+      "playerName": "Jordyn Tyson",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183615037
+    },
+    {
+      "teamId": 4,
+      "playerId": 4569987,
+      "playerName": "Jaylen Warren",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183615037
+    },
+    {
+      "teamId": 4,
+      "playerId": 4430027,
+      "playerName": "Sam LaPorta",
+      "lineupSlotId": 6,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183615037
+    },
+    {
+      "teamId": 4,
+      "playerId": 4695883,
+      "playerName": "Jalen Coker",
+      "lineupSlotId": 4,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1789542364751
+    },
+    {
+      "teamId": 4,
+      "playerId": 4569559,
+      "playerName": "Devaughn Vele",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790358422476
+    },
+    {
+      "teamId": 4,
+      "playerId": 4239993,
+      "playerName": "Tee Higgins",
+      "lineupSlotId": 4,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790358422476
+    },
+    {
+      "teamId": 4,
+      "playerId": 4711533,
+      "playerName": "Ollie Gordon II",
+      "lineupSlotId": 23,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790755002662
+    },
+    {
+      "teamId": 4,
+      "playerId": 4870795,
+      "playerName": "Makai Lemon",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1791124661254
+    },
+    {
+      "teamId": 4,
+      "playerId": -16034,
+      "playerName": "Texans D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793780070978
+    },
+    {
+      "teamId": 4,
+      "playerId": 4249087,
+      "playerName": "Matt Gay",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793780071075
+    },
+    {
+      "teamId": 4,
+      "playerId": 2578570,
+      "playerName": "Jacoby Brissett",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793868165338
+    },
+    {
+      "teamId": 4,
+      "playerId": 4035538,
+      "playerName": "David Montgomery",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1794148971959
+    },
+    {
+      "teamId": 4,
+      "playerId": 4036378,
+      "playerName": "Jordan Love",
+      "lineupSlotId": 0,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1794148971959
+    },
+    {
+      "teamId": 4,
+      "playerId": 4430737,
+      "playerName": "Kyren Williams",
+      "lineupSlotId": 2,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1794148971959
+    },
+    {
+      "teamId": 5,
+      "playerId": 4362628,
+      "playerName": "Ja'Marr Chase",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183614122
+    },
+    {
+      "teamId": 5,
+      "playerId": 4047646,
+      "playerName": "A.J. Brown",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183614122
+    },
+    {
+      "teamId": 5,
+      "playerId": 4361307,
+      "playerName": "Trey McBride",
+      "lineupSlotId": 6,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183614122
+    },
+    {
+      "teamId": 5,
+      "playerId": 4239996,
+      "playerName": "Travis Etienne Jr.",
+      "lineupSlotId": 21,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183614122
+    },
+    {
+      "teamId": 5,
+      "playerId": 4259545,
+      "playerName": "D'Andre Swift",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183614122
+    },
+    {
+      "teamId": 5,
+      "playerId": 3915511,
+      "playerName": "Joe Burrow",
+      "lineupSlotId": 0,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183614122
+    },
+    {
+      "teamId": 5,
+      "playerId": 12483,
+      "playerName": "Matthew Stafford",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183614122
+    },
+    {
+      "teamId": 5,
+      "playerId": 4360689,
+      "playerName": "Tyler Shough",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790149531422
+    },
+    {
+      "teamId": 5,
+      "playerId": 4426385,
+      "playerName": "Zach Charbonnet",
+      "lineupSlotId": 2,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1791120862814
+    },
+    {
+      "teamId": 5,
+      "playerId": 4569603,
+      "playerName": "Malik Washington",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1792220903677
+    },
+    {
+      "teamId": 5,
+      "playerId": 4697815,
+      "playerName": "Rachaad White",
+      "lineupSlotId": 2,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1792337664378
+    },
+    {
+      "teamId": 5,
+      "playerId": -16007,
+      "playerName": "Broncos D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793324719084
+    },
+    {
+      "teamId": 5,
+      "playerId": 2985659,
+      "playerName": "Wil Lutz",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793791214424
+    },
+    {
+      "teamId": 5,
+      "playerId": 4432710,
+      "playerName": "TreVeyon Henderson",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1793803146499
+    },
+    {
+      "teamId": 5,
+      "playerId": 4258173,
+      "playerName": "Nico Collins",
+      "lineupSlotId": 4,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1793803146499
+    },
+    {
+      "teamId": 5,
+      "playerId": 3126486,
+      "playerName": "Deebo Samuel Sr.",
+      "lineupSlotId": 23,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793868165337
+    },
+    {
+      "teamId": 5,
+      "playerId": 4360635,
+      "playerName": "Chig Okonkwo",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794069593924
+    },
+    {
+      "teamId": 6,
+      "playerId": 4426515,
+      "playerName": "Puka Nacua",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4426502,
+      "playerName": "Drake London",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4870808,
+      "playerName": "Jeremiyah Love",
+      "lineupSlotId": 21,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4567750,
+      "playerName": "Emeka Egbuka",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4696981,
+      "playerName": "Cam Skattebo",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4685512,
+      "playerName": "Jadarian Price",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4871023,
+      "playerName": "Carnell Tate",
+      "lineupSlotId": 23,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 3916148,
+      "playerName": "Tony Pollard",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 3121023,
+      "playerName": "Dallas Goedert",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4360310,
+      "playerName": "Trevor Lawrence",
+      "lineupSlotId": 0,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 3040151,
+      "playerName": "George Kittle",
+      "lineupSlotId": 6,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4701936,
+      "playerName": "Matthew Golden",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": -16023,
+      "playerName": "Steelers D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183613422
+    },
+    {
+      "teamId": 6,
+      "playerId": 4685720,
+      "playerName": "Bryce Young",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1789563587584
+    },
+    {
+      "teamId": 6,
+      "playerId": 2971573,
+      "playerName": "Ka'imi Fairbairn",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1791394485833
+    },
+    {
+      "teamId": 6,
+      "playerId": 4373626,
+      "playerName": "Tyler Allgeier",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1791394569002
+    },
+    {
+      "teamId": 6,
+      "playerId": -16019,
+      "playerName": "Giants D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793780071074
+    },
+    {
+      "teamId": 7,
+      "playerId": 4374302,
+      "playerName": "Amon-Ra St. Brown",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616249
+    },
+    {
+      "teamId": 7,
+      "playerId": 4685382,
+      "playerName": "Omarion Hampton",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616250
+    },
+    {
+      "teamId": 7,
+      "playerId": 4596448,
+      "playerName": "Bucky Irving",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616250
+    },
+    {
+      "teamId": 7,
+      "playerId": 4432708,
+      "playerName": "Marvin Harrison Jr.",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616250
+    },
+    {
+      "teamId": 7,
+      "playerId": 4431611,
+      "playerName": "Caleb Williams",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616250
+    },
+    {
+      "teamId": 7,
+      "playerId": 3139477,
+      "playerName": "Patrick Mahomes",
+      "lineupSlotId": 0,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616250
+    },
+    {
+      "teamId": 7,
+      "playerId": 4832800,
+      "playerName": "Denzel Boston",
+      "lineupSlotId": 23,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616250
+    },
+    {
+      "teamId": 7,
+      "playerId": 4683062,
+      "playerName": "Xavier Worthy",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1788969846355
+    },
+    {
+      "teamId": 7,
+      "playerId": 4360761,
+      "playerName": "Michael Wilson",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1792642500622
+    },
+    {
+      "teamId": 7,
+      "playerId": 4262921,
+      "playerName": "Justin Jefferson",
+      "lineupSlotId": 4,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1792642500622
+    },
+    {
+      "teamId": 7,
+      "playerId": 4599739,
+      "playerName": "Kendre Miller",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1792642500622
+    },
+    {
+      "teamId": 7,
+      "playerId": 5083076,
+      "playerName": "Harold Fannin Jr.",
+      "lineupSlotId": 6,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1792642500622
+    },
+    {
+      "teamId": 7,
+      "playerId": 4685702,
+      "playerName": "Quinshon Judkins",
+      "lineupSlotId": 2,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1793803146499
+    },
+    {
+      "teamId": 7,
+      "playerId": 2976212,
+      "playerName": "Stefon Diggs",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1793803146499
+    },
+    {
+      "teamId": 7,
+      "playerId": -16005,
+      "playerName": "Browns D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793803226317
+    },
+    {
+      "teamId": 7,
+      "playerId": 4689936,
+      "playerName": "Jake Bates",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793803278625
+    },
+    {
+      "teamId": 8,
+      "playerId": 4430878,
+      "playerName": "Jaxon Smith-Njigba",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 4567048,
+      "playerName": "Kenneth Walker III",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 4361370,
+      "playerName": "Chris Olave",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 4427366,
+      "playerName": "Breece Hall",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 4723086,
+      "playerName": "Colston Loveland",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 4372016,
+      "playerName": "Jaylen Waddle",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 4426388,
+      "playerName": "Jameson Williams",
+      "lineupSlotId": 23,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 4241985,
+      "playerName": "J.K. Dobbins",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 15847,
+      "playerName": "Travis Kelce",
+      "lineupSlotId": 6,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 4870653,
+      "playerName": "KC Concepcion",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 2473037,
+      "playerName": "Jason Myers",
+      "lineupSlotId": 17,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183616904
+    },
+    {
+      "teamId": 8,
+      "playerId": 3046779,
+      "playerName": "Jared Goff",
+      "lineupSlotId": 0,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790177885278
+    },
+    {
+      "teamId": 8,
+      "playerId": 15818,
+      "playerName": "Keenan Allen",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790781532815
+    },
+    {
+      "teamId": 8,
+      "playerId": 3116406,
+      "playerName": "Tyreek Hill",
+      "lineupSlotId": 21,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790825976817
+    },
+    {
+      "teamId": 8,
+      "playerId": 3042519,
+      "playerName": "Aaron Jones Sr.",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1791298864925
+    },
+    {
+      "teamId": 8,
+      "playerId": 2969939,
+      "playerName": "Jameis Winston",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1791985813262
+    },
+    {
+      "teamId": 8,
+      "playerId": -16003,
+      "playerName": "Bears D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793780071075
+    },
+    {
+      "teamId": 9,
+      "playerId": 4429795,
+      "playerName": "Jahmyr Gibbs",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 3043078,
+      "playerName": "Derrick Henry",
+      "lineupSlotId": 23,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 3918298,
+      "playerName": "Josh Allen",
+      "lineupSlotId": 0,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 4569618,
+      "playerName": "Garrett Wilson",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 3915416,
+      "playerName": "DJ Moore",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 4047650,
+      "playerName": "DK Metcalf",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 4241416,
+      "playerName": "Chuba Hubbard",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 4429059,
+      "playerName": "Woody Marks",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 3150744,
+      "playerName": "Chase McLaughlin",
+      "lineupSlotId": 17,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183617524
+    },
+    {
+      "teamId": 9,
+      "playerId": 4241478,
+      "playerName": "DeVonta Smith",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1790821502653
+    },
+    {
+      "teamId": 9,
+      "playerId": 4371733,
+      "playerName": "Kenny Gainwell",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1791013214033
+    },
+    {
+      "teamId": 9,
+      "playerId": 4428718,
+      "playerName": "Tre Tucker",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1791357395168
+    },
+    {
+      "teamId": 9,
+      "playerId": 14880,
+      "playerName": "Kirk Cousins",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1792566190011
+    },
+    {
+      "teamId": 9,
+      "playerId": 4036133,
+      "playerName": "T.J. Hockenson",
+      "lineupSlotId": 6,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1792595302341
+    },
+    {
+      "teamId": 9,
+      "playerId": -16012,
+      "playerName": "Chiefs D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793257583361
+    },
+    {
+      "teamId": 9,
+      "playerId": 5081432,
+      "playerName": "Antonio Williams",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794155958620
+    },
+    {
+      "teamId": 10,
+      "playerId": 4430807,
+      "playerName": "Bijan Robinson",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619129
+    },
+    {
+      "teamId": 10,
+      "playerId": 4432665,
+      "playerName": "Brock Bowers",
+      "lineupSlotId": 6,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619129
+    },
+    {
+      "teamId": 10,
+      "playerId": 4362238,
+      "playerName": "Chase Brown",
+      "lineupSlotId": 2,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619129
+    },
+    {
+      "teamId": 10,
+      "playerId": 4612826,
+      "playerName": "Ladd McConkey",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619130
+    },
+    {
+      "teamId": 10,
+      "playerId": 4685278,
+      "playerName": "Luther Burden III",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619130
+    },
+    {
+      "teamId": 10,
+      "playerId": 4248528,
+      "playerName": "Christian Watson",
+      "lineupSlotId": 4,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619130
+    },
+    {
+      "teamId": 10,
+      "playerId": 4426348,
+      "playerName": "Jayden Daniels",
+      "lineupSlotId": 0,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619130
+    },
+    {
+      "teamId": 10,
+      "playerId": 4688813,
+      "playerName": "Josh Downs",
+      "lineupSlotId": 20,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619130
+    },
+    {
+      "teamId": 10,
+      "playerId": 4361050,
+      "playerName": "Isaiah Likely",
+      "lineupSlotId": 23,
+      "acquisitionType": "DRAFT",
+      "acquisitionDate": 1785183619130
+    },
+    {
+      "teamId": 10,
+      "playerId": 3917315,
+      "playerName": "Kyler Murray",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790160944394
+    },
+    {
+      "teamId": 10,
+      "playerId": 4429205,
+      "playerName": "Jordan Addison",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1790755002662
+    },
+    {
+      "teamId": 10,
+      "playerId": 4702555,
+      "playerName": "Jonah Coleman",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793173944113
+    },
+    {
+      "teamId": 10,
+      "playerId": -16030,
+      "playerName": "Jaguars D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793173944115
+    },
+    {
+      "teamId": 10,
+      "playerId": 3917232,
+      "playerName": "Tyler Bass",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793196173045
+    },
+    {
+      "teamId": 10,
+      "playerId": 4686468,
+      "playerName": "Seth McGowan",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793549314344
+    },
+    {
+      "teamId": 10,
+      "playerId": 4832955,
+      "playerName": "Emmett Johnson",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1793780071075
+    }
+  ],
+  "currentRosterAsOfWeek": 10
 }
