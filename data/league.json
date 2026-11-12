@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-12T15:06:13.548623+00:00"
+    "updatedAt": "2026-11-12T16:14:02.583181+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-12T15:06:13.548644+00:00",
+  "updatedAt": "2026-11-12T16:14:02.583199+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 56,
+      "transactionRecordCount": 58,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -5135,6 +5135,30 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Texans D/ST"
+          }
+        ]
+      },
+      {
+        "id": "915cd62c-ee59-418f-86aa-2282a32190b2",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16028,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 8,
+            "playerName": "Commanders D/ST"
+          },
+          {
+            "playerId": -16003,
+            "type": "DROP",
+            "fromTeamId": 8,
+            "toTeamId": 0,
+            "playerName": "Bears D/ST"
           }
         ]
       },
@@ -14198,14 +14222,6 @@
     },
     {
       "teamId": 8,
-      "playerId": 3116406,
-      "playerName": "Tyreek Hill",
-      "lineupSlotId": 21,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1790825976817
-    },
-    {
-      "teamId": 8,
       "playerId": 3042519,
       "playerName": "Aaron Jones Sr.",
       "lineupSlotId": 20,
@@ -14214,19 +14230,19 @@
     },
     {
       "teamId": 8,
-      "playerId": -16003,
-      "playerName": "Bears D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793780071075
-    },
-    {
-      "teamId": 8,
       "playerId": 4431431,
       "playerName": "Corey Kiner",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794386366369
+    },
+    {
+      "teamId": 8,
+      "playerId": -16028,
+      "playerName": "Commanders D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794496716009
     },
     {
       "teamId": 9,
