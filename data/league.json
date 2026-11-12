@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-12T20:03:22.821319+00:00"
+    "updatedAt": "2026-11-12T20:48:28.647627+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-12T20:03:22.821338+00:00",
+  "updatedAt": "2026-11-12T20:48:28.647644+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 60,
+      "transactionRecordCount": 61,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -5200,6 +5200,30 @@
             "fromTeamId": 5,
             "toTeamId": 0,
             "playerName": "Malik Washington"
+          }
+        ]
+      },
+      {
+        "id": "3860a8a4-b562-4bbd-9f13-26894d33348a",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4569587,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Wan'Dale Robinson"
+          },
+          {
+            "playerId": 4241555,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -13430,14 +13454,6 @@
     },
     {
       "teamId": 2,
-      "playerId": 4241555,
-      "playerName": "Elijah Mitchell",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793231589535
-    },
-    {
-      "teamId": 2,
       "playerId": 4696044,
       "playerName": "Kaelon Black",
       "lineupSlotId": 20,
@@ -13459,6 +13475,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794504285885
+    },
+    {
+      "teamId": 2,
+      "playerId": 4569587,
+      "playerName": "Wan'Dale Robinson",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794514830122
     },
     {
       "teamId": 3,
