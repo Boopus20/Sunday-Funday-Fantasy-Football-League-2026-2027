@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-12T01:25:48.255775+00:00"
+    "updatedAt": "2026-11-12T02:59:58.768580+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-12T01:25:48.255791+00:00",
+  "updatedAt": "2026-11-12T02:59:58.768594+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 45,
+      "transactionRecordCount": 46,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -13079,7 +13079,7 @@
       "teamId": 1,
       "playerId": 4426354,
       "playerName": "George Pickens",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790358422476
     },
@@ -13159,7 +13159,7 @@
       "teamId": 1,
       "playerId": 4597500,
       "playerName": "Adonai Mitchell",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     },
