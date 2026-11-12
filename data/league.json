@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-12T23:17:02.880085+00:00"
+    "updatedAt": "2026-11-12T23:53:25.020215+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-12T23:17:02.880109+00:00",
+  "updatedAt": "2026-11-12T23:53:25.020233+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 61,
+      "transactionRecordCount": 62,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -13928,7 +13928,7 @@
       "teamId": 6,
       "playerId": 4696981,
       "playerName": "Cam Skattebo",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183613422
     },
@@ -13936,7 +13936,7 @@
       "teamId": 6,
       "playerId": 4685512,
       "playerName": "Jadarian Price",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183613422
     },
