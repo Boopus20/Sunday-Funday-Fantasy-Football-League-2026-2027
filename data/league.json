@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-12T17:15:51.373992+00:00"
+    "updatedAt": "2026-11-12T17:53:32.200098+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-12T17:15:51.374013+00:00",
+  "updatedAt": "2026-11-12T17:53:32.200115+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 59,
+      "transactionRecordCount": 60,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -4846,7 +4846,7 @@
             "type": "DROP",
             "fromTeamId": 3,
             "toTeamId": 0,
-            "playerName": null
+            "playerName": "Chris Rodriguez Jr."
           }
         ]
       },
@@ -4870,7 +4870,7 @@
             "type": "DROP",
             "fromTeamId": 3,
             "toTeamId": 0,
-            "playerName": null
+            "playerName": "Chris Rodriguez Jr."
           }
         ]
       },
@@ -4990,7 +4990,7 @@
             "type": "DROP",
             "fromTeamId": 3,
             "toTeamId": 0,
-            "playerName": null
+            "playerName": "Chris Rodriguez Jr."
           }
         ]
       },
@@ -5272,6 +5272,30 @@
             "fromTeamId": 10,
             "toTeamId": 0,
             "playerName": "Jordan Addison"
+          }
+        ]
+      },
+      {
+        "id": "87da7f70-9e2a-48fd-8df3-c56d2bf9aede",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4362619,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Chris Rodriguez Jr."
+          },
+          {
+            "playerId": 4040761,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "Devin Singletary"
           }
         ]
       },
@@ -13430,11 +13454,11 @@
     },
     {
       "teamId": 2,
-      "playerId": 4040761,
-      "playerName": "Devin Singletary",
+      "playerId": 4362619,
+      "playerName": "Chris Rodriguez Jr.",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1793999250066
+      "acquisitionDate": 1794504285885
     },
     {
       "teamId": 3,
