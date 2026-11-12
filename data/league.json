@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-12T16:59:16.118176+00:00"
+    "updatedAt": "2026-11-12T17:15:51.373992+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-12T16:59:16.118198+00:00",
+  "updatedAt": "2026-11-12T17:15:51.374013+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 58,
+      "transactionRecordCount": 59,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -13496,7 +13496,7 @@
       "teamId": 3,
       "playerId": -16016,
       "playerName": "Vikings D/ST",
-      "lineupSlotId": 16,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1790273548070
     },
@@ -13568,7 +13568,7 @@
       "teamId": 3,
       "playerId": -16009,
       "playerName": "Packers D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794386366370
     },
