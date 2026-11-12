@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-12T13:25:22.767633+00:00"
+    "updatedAt": "2026-11-12T15:06:13.548623+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-12T13:25:22.767647+00:00",
+  "updatedAt": "2026-11-12T15:06:13.548644+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 48,
+      "transactionRecordCount": 56,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -4827,30 +4827,6 @@
         ]
       },
       {
-        "id": "b94f9177-2fcd-4f47-a23b-e3a5eff0a29e",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "executionDate": null,
-        "processDate": 1794386366370,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4431431,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 3,
-            "playerName": "Corey Kiner"
-          },
-          {
-            "playerId": 4362619,
-            "type": "DROP",
-            "fromTeamId": 3,
-            "toTeamId": 0,
-            "playerName": null
-          }
-        ]
-      },
-      {
         "id": "4eb69988-47e4-4262-83e2-db7fd43334be",
         "type": "WAIVER",
         "status": "FAILED_INVALIDPLAYERSOURCE",
@@ -4864,6 +4840,30 @@
             "fromTeamId": 0,
             "toTeamId": 3,
             "playerName": "Tank Dell"
+          },
+          {
+            "playerId": 4362619,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "b94f9177-2fcd-4f47-a23b-e3a5eff0a29e",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794386366370,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4431431,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Corey Kiner"
           },
           {
             "playerId": 4362619,
@@ -5139,6 +5139,95 @@
         ]
       },
       {
+        "id": "3aefc7f6-adf0-426b-84ea-72a95a50c67c",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16025,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 7,
+            "playerName": "49ers D/ST"
+          }
+        ]
+      },
+      {
+        "id": "2a7fd29c-9f6c-45e2-b3ce-689a10e08fc2",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 2991662,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Mack Hollins"
+          },
+          {
+            "playerId": 4569603,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Malik Washington"
+          }
+        ]
+      },
+      {
+        "id": "7e245ae5-a950-4e5c-8a31-4c9440a9f163",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4360569,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 7,
+            "playerName": "Jordan Mason"
+          },
+          {
+            "playerId": 4599739,
+            "type": "DROP",
+            "fromTeamId": 7,
+            "toTeamId": 0,
+            "playerName": "Kendre Miller"
+          }
+        ]
+      },
+      {
+        "id": "3f9cd67d-8add-41e5-babf-fabf3ef8799a",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4570037,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 6,
+            "playerName": "Terrance Ferguson"
+          },
+          {
+            "playerId": -16019,
+            "type": "DROP",
+            "fromTeamId": 6,
+            "toTeamId": 0,
+            "playerName": "Giants D/ST"
+          }
+        ]
+      },
+      {
         "id": "56da440f-0f3c-4bfb-b28a-cbe76faa4582",
         "type": "WAIVER",
         "status": "CANCELED",
@@ -5180,30 +5269,6 @@
         ]
       },
       {
-        "id": "2a7fd29c-9f6c-45e2-b3ce-689a10e08fc2",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "executionDate": null,
-        "processDate": null,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 2991662,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": "Mack Hollins"
-          },
-          {
-            "playerId": 4569603,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": "Malik Washington"
-          }
-        ]
-      },
-      {
         "id": "1ceb428d-205e-436e-aea4-d32fda430e05",
         "type": "FREEAGENT",
         "status": "EXECUTED",
@@ -5224,30 +5289,6 @@
             "fromTeamId": 9,
             "toTeamId": 0,
             "playerName": "Kirk Cousins"
-          }
-        ]
-      },
-      {
-        "id": "3f9cd67d-8add-41e5-babf-fabf3ef8799a",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "executionDate": null,
-        "processDate": null,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4570037,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 6,
-            "playerName": "Terrance Ferguson"
-          },
-          {
-            "playerId": -16019,
-            "type": "DROP",
-            "fromTeamId": 6,
-            "toTeamId": 0,
-            "playerName": "Giants D/ST"
           }
         ]
       }
@@ -13127,7 +13168,7 @@
       "teamId": 1,
       "playerId": 4426354,
       "playerName": "George Pickens",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790358422476
     },
@@ -13175,7 +13216,7 @@
       "teamId": 1,
       "playerId": 4429096,
       "playerName": "Blake Corum",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -13223,7 +13264,7 @@
       "teamId": 1,
       "playerId": 4427095,
       "playerName": "DeMario Douglas",
-      "lineupSlotId": 23,
+      "lineupSlotId": 4,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794150782756
     },
@@ -13719,7 +13760,7 @@
       "teamId": 5,
       "playerId": -16007,
       "playerName": "Broncos D/ST",
-      "lineupSlotId": 16,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793324719084
     },
@@ -13775,7 +13816,7 @@
       "teamId": 5,
       "playerId": -16034,
       "playerName": "Texans D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794474702444
     },
@@ -13983,7 +14024,7 @@
       "teamId": 7,
       "playerId": 4360761,
       "playerName": "Michael Wilson",
-      "lineupSlotId": 20,
+      "lineupSlotId": 21,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -13992,14 +14033,6 @@
       "playerId": 4262921,
       "playerName": "Justin Jefferson",
       "lineupSlotId": 4,
-      "acquisitionType": "TRADE",
-      "acquisitionDate": 1792642500622
-    },
-    {
-      "teamId": 7,
-      "playerId": 4599739,
-      "playerName": "Kendre Miller",
-      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -14042,6 +14075,22 @@
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794474702444
+    },
+    {
+      "teamId": 7,
+      "playerId": 4360569,
+      "playerName": "Jordan Mason",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794491283593
+    },
+    {
+      "teamId": 7,
+      "playerId": -16025,
+      "playerName": "49ers D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794491354354
     },
     {
       "teamId": 8,
