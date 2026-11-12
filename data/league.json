@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-12T07:35:31.332606+00:00"
+    "updatedAt": "2026-11-12T09:12:56.000833+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-12T07:35:31.332631+00:00",
+  "updatedAt": "2026-11-12T09:12:56.000856+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 46,
+      "transactionRecordCount": 48,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -4730,6 +4730,54 @@
       }
     ],
     "transactions": [
+      {
+        "id": "aefd1833-f8c8-4ce5-b9a3-ffbf6d37a458",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794474702444,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16034,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Texans D/ST"
+          },
+          {
+            "playerId": 12483,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Matthew Stafford"
+          }
+        ]
+      },
+      {
+        "id": "59fc37f0-3996-4415-b947-3d110bd27bc2",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794474702443,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16002,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 7,
+            "playerName": "Bills D/ST"
+          },
+          {
+            "playerId": -16005,
+            "type": "DROP",
+            "fromTeamId": 7,
+            "toTeamId": 0,
+            "playerName": "Browns D/ST"
+          }
+        ]
+      },
       {
         "id": "13d17b01-548a-47d9-ab68-5412e9f67d20",
         "type": "WAIVER",
@@ -13645,14 +13693,6 @@
     },
     {
       "teamId": 5,
-      "playerId": 12483,
-      "playerName": "Matthew Stafford",
-      "lineupSlotId": 20,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183614122
-    },
-    {
-      "teamId": 5,
       "playerId": 4360689,
       "playerName": "Tyler Shough",
       "lineupSlotId": 20,
@@ -13730,6 +13770,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794412029923
+    },
+    {
+      "teamId": 5,
+      "playerId": -16034,
+      "playerName": "Texans D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794474702444
     },
     {
       "teamId": 6,
@@ -13981,19 +14029,19 @@
     },
     {
       "teamId": 7,
-      "playerId": -16005,
-      "playerName": "Browns D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793803226317
-    },
-    {
-      "teamId": 7,
       "playerId": 4689936,
       "playerName": "Jake Bates",
       "lineupSlotId": 17,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793803278625
+    },
+    {
+      "teamId": 7,
+      "playerId": -16002,
+      "playerName": "Bills D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794474702444
     },
     {
       "teamId": 8,
