@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-13T15:58:25.255427+00:00"
+    "updatedAt": "2026-11-13T17:04:26.765007+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-13T15:58:25.255447+00:00",
+  "updatedAt": "2026-11-13T17:04:26.765025+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 63,
+      "transactionRecordCount": 66,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -13936,7 +13936,7 @@
       "teamId": 6,
       "playerId": 4685512,
       "playerName": "Jadarian Price",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183613422
     },
@@ -13944,7 +13944,7 @@
       "teamId": 6,
       "playerId": 4871023,
       "playerName": "Carnell Tate",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183613422
     },
@@ -14494,14 +14494,6 @@
     },
     {
       "teamId": 10,
-      "playerId": 3917315,
-      "playerName": "Kyler Murray",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1790160944394
-    },
-    {
-      "teamId": 10,
       "playerId": 4429205,
       "playerName": "Jordan Addison",
       "lineupSlotId": 4,
@@ -14531,14 +14523,6 @@
       "lineupSlotId": 17,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793196173045
-    },
-    {
-      "teamId": 10,
-      "playerId": 4686468,
-      "playerName": "Seth McGowan",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793549314344
     },
     {
       "teamId": 10,
