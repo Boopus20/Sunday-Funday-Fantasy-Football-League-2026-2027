@@ -60,19 +60,19 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-13T04:03:46.694852+00:00"
+    "updatedAt": "2026-11-13T04:14:50.396729+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-13T04:03:46.694872+00:00",
+  "updatedAt": "2026-11-13T04:14:50.396754+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
   "teams": [
     {
       "id": 1,
-      "name": "Maye I Touch Thy Naber ",
-      "shortName": "Maye I Touch Th",
+      "name": "The disappointments",
+      "shortName": "The disappointm",
       "wins": 3,
       "losses": 6,
       "ties": 0,
