@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-13T21:55:49.415013+00:00"
+    "updatedAt": "2026-11-13T22:53:42.153422+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-13T21:55:49.415033+00:00",
+  "updatedAt": "2026-11-13T22:53:42.153441+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 66,
+      "transactionRecordCount": 67,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -13240,7 +13240,7 @@
       "teamId": 1,
       "playerId": 4426354,
       "playerName": "George Pickens",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790358422476
     },
@@ -13336,7 +13336,7 @@
       "teamId": 1,
       "playerId": 4427095,
       "playerName": "DeMario Douglas",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794150782756
     },
