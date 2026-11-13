@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-13T03:04:17.262288+00:00"
+    "updatedAt": "2026-11-13T04:03:46.694852+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-13T03:04:17.262309+00:00",
+  "updatedAt": "2026-11-13T04:03:46.694872+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 62,
+      "transactionRecordCount": 63,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -14448,7 +14448,7 @@
       "teamId": 10,
       "playerId": 4612826,
       "playerName": "Ladd McConkey",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619130
     },
@@ -14504,7 +14504,7 @@
       "teamId": 10,
       "playerId": 4429205,
       "playerName": "Jordan Addison",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "ADD",
       "acquisitionDate": 1790755002662
     },
