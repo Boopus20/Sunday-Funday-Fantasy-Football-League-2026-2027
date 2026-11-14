@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-14T20:49:42.497800+00:00"
+    "updatedAt": "2026-11-14T21:47:56.639024+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-14T20:49:42.497825+00:00",
+  "updatedAt": "2026-11-14T21:47:56.639043+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 71,
+      "transactionRecordCount": 72,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -5248,6 +5248,30 @@
             "fromTeamId": 7,
             "toTeamId": 0,
             "playerName": "Kendre Miller"
+          }
+        ]
+      },
+      {
+        "id": "5059e152-35d3-4ab7-8737-db70915a7aca",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5081397,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Dylan Sampson"
+          },
+          {
+            "playerId": 4432710,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -13855,14 +13879,6 @@
     },
     {
       "teamId": 5,
-      "playerId": 4432710,
-      "playerName": "TreVeyon Henderson",
-      "lineupSlotId": 20,
-      "acquisitionType": "TRADE",
-      "acquisitionDate": 1793803146499
-    },
-    {
-      "teamId": 5,
       "playerId": 4258173,
       "playerName": "Nico Collins",
       "lineupSlotId": 4,
@@ -13908,6 +13924,14 @@
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794474702444
+    },
+    {
+      "teamId": 5,
+      "playerId": 5081397,
+      "playerName": "Dylan Sampson",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794690334320
     },
     {
       "teamId": 6,
