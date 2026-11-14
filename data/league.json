@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-14T16:51:43.269814+00:00"
+    "updatedAt": "2026-11-14T17:46:50.792398+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-14T16:51:43.269832+00:00",
+  "updatedAt": "2026-11-14T17:46:50.792426+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 69,
+      "transactionRecordCount": 70,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -14193,7 +14193,7 @@
       "teamId": 8,
       "playerId": 4567048,
       "playerName": "Kenneth Walker III",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -14297,7 +14297,7 @@
       "teamId": 8,
       "playerId": 4431431,
       "playerName": "Corey Kiner",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794386366369
     },
