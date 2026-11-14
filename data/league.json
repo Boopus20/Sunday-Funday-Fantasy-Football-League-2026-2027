@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-14T17:46:50.792398+00:00"
+    "updatedAt": "2026-11-14T18:55:18.858934+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-14T17:46:50.792426+00:00",
+  "updatedAt": "2026-11-14T18:55:18.858949+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 70,
+      "transactionRecordCount": 71,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -14465,7 +14465,7 @@
       "teamId": 10,
       "playerId": 4362238,
       "playerName": "Chase Brown",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619129
     },
@@ -14553,7 +14553,7 @@
       "teamId": 10,
       "playerId": 4832955,
       "playerName": "Emmett Johnson",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     }
