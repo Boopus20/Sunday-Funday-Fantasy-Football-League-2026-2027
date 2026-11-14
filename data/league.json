@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-14T13:58:51.739429+00:00"
+    "updatedAt": "2026-11-14T14:52:49.906860+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-14T13:58:51.739449+00:00",
+  "updatedAt": "2026-11-14T14:52:49.906877+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 67,
+      "transactionRecordCount": 69,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -5296,6 +5296,23 @@
             "fromTeamId": 10,
             "toTeamId": 0,
             "playerName": "Jordan Addison"
+          }
+        ]
+      },
+      {
+        "id": "a0dbc743-cf72-4805-bd51-619b26b58545",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 3046439,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 9,
+            "playerName": "Hunter Henry"
           }
         ]
       },
@@ -14392,7 +14409,7 @@
       "teamId": 9,
       "playerId": 4036133,
       "playerName": "T.J. Hockenson",
-      "lineupSlotId": 6,
+      "lineupSlotId": 21,
       "acquisitionType": "ADD",
       "acquisitionDate": 1792595302341
     },
@@ -14419,6 +14436,14 @@
       "lineupSlotId": 17,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794400737401
+    },
+    {
+      "teamId": 9,
+      "playerId": 3046439,
+      "playerName": "Hunter Henry",
+      "lineupSlotId": 6,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794664859653
     },
     {
       "teamId": 10,
