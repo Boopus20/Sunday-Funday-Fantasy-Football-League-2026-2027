@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-15T11:52:14.368912+00:00"
+    "updatedAt": "2026-11-15T13:05:25.590795+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-15T11:52:14.368935+00:00",
+  "updatedAt": "2026-11-15T13:05:25.590822+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 73,
+      "transactionRecordCount": 74,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -5192,7 +5192,7 @@
             "type": "ADD",
             "fromTeamId": 0,
             "toTeamId": 5,
-            "playerName": "Mack Hollins"
+            "playerName": null
           },
           {
             "playerId": 4569603,
@@ -5361,6 +5361,30 @@
             "fromTeamId": 2,
             "toTeamId": 0,
             "playerName": "Devin Singletary"
+          }
+        ]
+      },
+      {
+        "id": "35f2bd2f-72c3-46e3-a365-c5162eeac125",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4710855,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Konata Mumpfield"
+          },
+          {
+            "playerId": 2991662,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -13911,14 +13935,6 @@
     },
     {
       "teamId": 5,
-      "playerId": 2991662,
-      "playerName": "Mack Hollins",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794412029923
-    },
-    {
-      "teamId": 5,
       "playerId": -16034,
       "playerName": "Texans D/ST",
       "lineupSlotId": 16,
@@ -13932,6 +13948,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794690334320
+    },
+    {
+      "teamId": 5,
+      "playerId": 4710855,
+      "playerName": "Konata Mumpfield",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794746364554
     },
     {
       "teamId": 6,
