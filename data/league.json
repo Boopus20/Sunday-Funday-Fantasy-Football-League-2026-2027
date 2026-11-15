@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-15T17:22:29.807917+00:00"
+    "updatedAt": "2026-11-15T17:47:11.161587+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-15T17:22:29.807937+00:00",
+  "updatedAt": "2026-11-15T17:47:11.161613+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 75,
+      "transactionRecordCount": 76,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -13473,7 +13473,7 @@
       "teamId": 2,
       "playerId": 4572680,
       "playerName": "Tucker Kraft",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183610749
     },
@@ -13489,7 +13489,7 @@
       "teamId": 2,
       "playerId": 4385690,
       "playerName": "Dalton Kincaid",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183610749
     },
