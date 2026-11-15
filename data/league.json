@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-14T23:45:11.163330+00:00"
+    "updatedAt": "2026-11-15T01:19:08.920474+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-14T23:45:11.163347+00:00",
+  "updatedAt": "2026-11-15T01:19:08.920487+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 72,
+      "transactionRecordCount": 73,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -13809,7 +13809,7 @@
       "teamId": 5,
       "playerId": 4047646,
       "playerName": "A.J. Brown",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183614122
     },
@@ -13889,7 +13889,7 @@
       "teamId": 5,
       "playerId": 3126486,
       "playerName": "Deebo Samuel Sr.",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793868165337
     },
