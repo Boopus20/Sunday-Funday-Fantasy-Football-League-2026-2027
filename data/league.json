@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-15T16:39:51.234688+00:00"
+    "updatedAt": "2026-11-15T16:52:32.202450+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-15T16:39:51.234707+00:00",
+  "updatedAt": "2026-11-15T16:52:32.202468+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 74,
+      "transactionRecordCount": 75,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
@@ -14553,7 +14553,7 @@
       "teamId": 10,
       "playerId": 4688813,
       "playerName": "Josh Downs",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619130
     },
@@ -14569,7 +14569,7 @@
       "teamId": 10,
       "playerId": 4429205,
       "playerName": "Jordan Addison",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1790755002662
     },
