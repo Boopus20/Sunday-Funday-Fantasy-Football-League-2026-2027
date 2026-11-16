@@ -13,7 +13,7 @@ function articles(d){
  const cole=t[9],gibbs=get(9,'Jahmyr Gibbs'),allen=get(9,'Josh Allen'),m=t[8],jsn=get(8,'Jaxon Smith-Njigba'),l=t[6],puka=get(6,'Puka Nacua'),durk=t[10],ginny=t[4],jt=get(4,'Jonathan Taylor');
  const out=[];
  const push=(tag,title,dek,subject,tone,paragraphs,stat)=>out.push({tag,title,dek,subject,tone,paragraphs,stat});
- if(cole&&gibbs&&allen)push('SPECIAL INVESTIGATION','The Gibbs Merchant Has an Accomplice','Cole built a six-win operation on two superstars and a receiving corps that appears to have been assembled during a lunch break.','COLE / THE MEDIA MOGGER','roast',[
+ if(cole&&gibbs&&allen)push('SPECIAL INVESTIGATION','The Gibbs Merchant Has an Accomplice','Cole built a contender on two superstars and a receiving corps that appears to have been assembled during a lunch break.','COLE / THE MEDIA MOGGER','roast',[
  'The Sunday Funday Wire has reviewed the evidence, and the verdict is not particularly flattering for Cole Likovetz, the Jacksonville sandwich architect who somehow operates an NFL fantasy roster with the same reckless confidence he brings to a golf swing that has never met a fairway it could not avoid.',
  'Jahmyr Gibbs has supplied '+N(gibbs.starterPoints)+' points in '+gibbs.starts+' starts. Josh Allen has contributed another '+N(allen.starterPoints)+'. That is '+N(100*(gibbs.starterPoints+allen.starterPoints)/cole.pointsFor)+' percent of Cole’s total team scoring from just two starters. This is not a balanced attack. This is a two-man rescue operation with nine other employees taking credit at the press conference.',
  'His WR1 and WR2 slots have produced '+N(slot(9,'WR1')+slot(9,'WR2'))+' points combined. Meanwhile, Cole is '+cole.wins+'–'+cole.losses+'. The record is excellent. The roster construction looks like somebody used the entire salary cap on a luxury yacht and then asked the receiving corps to swim behind it.',
@@ -70,7 +70,27 @@ function articles(d){
  'The last-place manager faces the Baby Bar Crawl: dressing as a baby and ordering milk while the rest of the league watches. This is the kind of institutional tradition that makes fantasy football a deeply unserious activity practiced with terrifying seriousness.',
  'There is still time to escape. But every week without a win brings the diaper aisle closer. This newsroom will report the outcome when the season actually ends, not before.'
  ],bottom.wins+'–'+bottom.losses+' CURRENTLY');
- return out.sort((a,b)=>(a.tag.startsWith('BREAKING')?-2:0)-(b.tag.startsWith('BREAKING')?-2:0)).slice(0,5);
+ const liveGames=(d.live?.games||[]).filter(g=>g.week===d.currentWeek);
+ const hasGame=(a,b)=>liveGames.some(g=>(g.homeId===a&&g.awayId===b)||(g.homeId===b&&g.awayId===a));
+ if(d.currentWeek===10&&hasGame(3,10)&&t[3]&&t[10])push('MONDAY / PLAYOFF EMERGENCY','Rammy Can Drag Thanos Into the Mud. The Top Seed Race Is on Fire.','Durk leads the league in points. Rammy is fighting to get back to .500. The matchup threatens both ends of the playoff picture.','RAMMY VS DURK / WEEK 10','roast',[
+ 'The scoreboard is not officially settled, and ESPN has not provided this newsroom with verified live fantasy scores. But the implications are already enormous: Durk entered Week 10 at '+t[10].wins+'–'+t[10].losses+' and Rammy at '+t[3].wins+'–'+t[3].losses+'. One result keeps a frontrunner rolling; the other drags him back toward the pack.',
+ 'Durk averages '+N(t[10].averagePoints)+' points per completed game, the highest mark in the league. The man calls himself Thanos and, disgustingly, the numbers have given his ego a valid permit. Watching that offense work has the SFSN desk ready to nut into the box score. It is deeply unprofessional and unfortunately justified.',
+ 'Rammy has a chance to deliver a real upset. A win would take him to 5–5 and Durk to 6–4. A loss would put Rammy at 4–6 and Durk at 7–3. These are conditional outcomes, not a claim that either has happened.',
+ 'The playoff field has six seats and the regular season runs through Week 14. Every win matters now. Rammy, this is your chance to stop being a background character in someone else’s championship montage.'
+ ],'DURK '+t[10].wins+'–'+t[10].losses+' / RAMMY '+t[3].wins+'–'+t[3].losses);
+ if(d.currentWeek===10&&hasGame(2,9)&&t[2]&&t[9])push('MONDAY / FRAUD ALERT','Bleif Can Knock Cole Off His Perch. The Gibbs Merchant Is Sweating.','A 4–5 contender has the chance to turn a 6–3 front-runner into a very nervous 6–4 manager.','BLEIF VS COLE / WEEK 10','roast',[
+ 'Cole entered Week 10 at '+t[9].wins+'–'+t[9].losses+', Bleif at '+t[2].wins+'–'+t[2].losses+'. That is a two-game gap, and this matchup can cut it in half. The result is not verified in the current ESPN feed.',
+ 'If Bleif wins, both managers move to 5–5 and 6–4 respectively. If Cole wins, the records become 7–3 and 4–6. One branch is a playoff race; the other is Cole spending another week pretending he personally invented Jahmyr Gibbs.',
+ 'Cole has averaged '+N(t[9].averagePoints)+' points a week. Bleif averages '+N(t[2].averagePoints)+'. Those are completed-game numbers, not fabricated Monday-night totals.',
+ 'The Blender needs a statement. Cole needs his stars to keep filing his tax returns, cooking his dinner, and carrying his fantasy roster like exhausted interns.'
+ ],'COLE '+t[9].wins+'–'+t[9].losses+' / BLEIF '+t[2].wins+'–'+t[2].losses);
+ if(d.currentWeek===10&&hasGame(5,7)&&t[5]&&t[7])push('THE BUBBLE / MUST READ','Coop vs. Travvy Is a Playoff Knife Fight. Someone Leaves With a Problem.','The 5–4 pro golfer and the 4–5 finance merchant meet with the middle of the standings on the line.','COOP VS TRAVVY / WEEK 10','roast',[
+ 'Coop entered Week 10 at '+t[5].wins+'–'+t[5].losses+'; Travvy entered at '+t[7].wins+'–'+t[7].losses+'. This is the sort of matchup that makes the playoff bubble feel like a poorly supervised emergency room.',
+ 'A Coop win makes it 6–4 against 4–6. A Travvy win sends both to 5–5. Neither result is confirmed yet, and the SFSN desk refuses to write the obituary before the patient is actually dead.',
+ 'Coop averages '+N(t[5].averagePoints)+' points per week; Travvy averages '+N(t[7].averagePoints)+'. The standings are tight enough that the next completed result could change the whole mood of the group chat.',
+ 'One man is trying to make the PGA TOUR. The other is trying to make the fantasy playoffs. At least one of these career paths has a clearly defined cut line.'
+ ],'COOP '+t[5].wins+'–'+t[5].losses+' / TRAVVY '+t[7].wins+'–'+t[7].losses);
+ return out.sort((a,b)=>{const priority=x=>x.tag.startsWith('MONDAY')?0:x.tag.startsWith('BREAKING')?1:x.tag.startsWith('THE BUBBLE')?2:x.tag.startsWith('AFTERMATH')?3:4;return priority(a)-priority(b);}).slice(0,5);
 }
 function init(d){
  const updated=Date.parse(d.updatedAt||'');const stale=!Number.isFinite(updated)||Date.now()-updated>36*60*60*1000;const stories=stale?[]:articles(d);
