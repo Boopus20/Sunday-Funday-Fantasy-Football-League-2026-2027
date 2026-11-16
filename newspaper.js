@@ -8,7 +8,9 @@ function articles(d){
  // provided on November 16. They are a point-in-time snapshot, NOT a live API feed.
  if(Number(d.currentWeek)!==10 && Number(d.currentWeek)!==11)return [];
  const teams=Object.fromEntries((d.teams||[]).map(t=>[t.id,t]));
- const records=(a,b)=>a&&b?a.wins+'–'+a.losses+' / '+b.wins+'–'+b.losses:'Week 9 standings';
+ // Preserve the division-war lead as Week 11 begins; the Monday-night screenshots expire.
+
+
  return [
  {tag:'NEXT WEEK / THE DIVISION WAR DECLARATION',
  title:'FIVE GAMES. TWO DIVISIONS. ZERO FUCKING FRIENDS. THE WHALES ARE COMING FOR THE SQUIDS.',
@@ -23,7 +25,7 @@ function articles(d){
  'THIS IS ABOUT OWNERSHIP OF THE LEAGUE’S SOUL. One side has been physically present, talking ball and making the draft a spectacle. The other side has spent years building a compelling case for why the Squid Division should be audited for lack of human participation. Next week, none of the attendance records matter if the Squids win on the scoreboard. That is the terrifying beauty of it: the Wagons have a chance to silence the loudest room in fantasy football. And the Whales have a chance to make five absent-minded sea creatures regret ever downloading the ESPN app.',
  'The SFSN War Desk will recognize the division with the most head-to-head victories as the winner of Week 11. No imaginary points. No moral victories. No “my team was projected higher.” Win the actual games. Protect your division. Drag your rivals across the finish line if you have to. For one glorious week, the only thing worse than losing your matchup is being the reason your entire division has to shut the fuck up. WHALES. WAGONS. FIVE GAMES. ONE LEAGUE. LET THE SQUID HUNT BEGIN.'
  ]},
- {tag:'MONDAY NIGHT / THE 10.24-POINT HOSTAGE CRISIS',
+ ...(Number(d.currentWeek)===10 ? [{tag:'MONDAY NIGHT / THE 10.24-POINT HOSTAGE CRISIS',
  title:'COOP BUILT A 139.66-POINT MASTERPIECE. NOW ONE MAN NAMED OMARION HAMPTON CAN BURN IT DOWN.',
  dek:'Chase and Burrow went nuclear. Travvy answered with Mahomes and Sun God. One unplayed running back stands between a PGA hopeful and a full-scale KeyBank takeover.',
  subject:'COOP VS TRAVVY / ESPN SCREENSHOT: 139.66–129.42',tone:'roast',stat:'HAMPTON NEEDS 10.25 TO WIN',paragraphs:[
@@ -44,7 +46,7 @@ function articles(d){
  'Bleif, meanwhile, has somehow survived a direct hit from the Gibbs industrial complex. Brock Purdy erupted for 33.66. McCaffrey produced 48.30. Rashee Rice supplied 13.20. The Seahawks D/ST put up 12.00, and Cam Little kicked his way to 19.00, which is an outrageous number for a man whose job is to enter the field for several seconds at a time. Those five gave Bleif 126.16 points. Caleb Douglas added 10.10 and Dalton Kincaid 7.80. Javonte’s 7.70 was survivable. But Zay Flowers is sitting there with a blank line, and the entire Blender operation now depends on the one guy who has not yet had his turn.',
  'Here is the exact equation. Cole starts the final act ahead by 6.18. Bleif wins outright if Flowers outscores Derrick Henry by at least 6.19 fantasy points at the displayed precision. If Henry scores 10, Flowers needs 16.19. If Henry scores 20, Flowers needs 26.19. If Flowers gets 12, Henry can hold the lead with 5.82 or more; a 5.82-point Henry performance would leave them tied at the shown precision. This is not about which player scores more in isolation. It is about the margin. One touchdown, one long reception, one goal-line carry could turn the entire game inside out.',
  'Cole entered Week 10 at 6–3, Bleif at 4–5. If Cole survives, the Gibbs Merchant climbs to 7–3 and Bleif sinks to 4–6. If Flowers completes the robbery, Cole falls to 6–4 and Bleif returns to 5–5. This is a top-seed race crashing directly into a playoff survival hearing. Cole, the Jacksonville sandwich technician who treats triple sour cream like a personality trait, has assembled a 157-point monster and is STILL sweating. Bleif is one Zay Flowers eruption away from committing grand larceny on national television. Henry versus Flowers. The throne versus the blender. One of these managers is about to become unbearable. The other may need to be physically separated from his phone.'
- ]}
+ ]}] : [])
  ];
 }
 function init(d){
