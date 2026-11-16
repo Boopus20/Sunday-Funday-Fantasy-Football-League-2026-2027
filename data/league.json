@@ -60,11 +60,11 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-16T01:35:46.753317+00:00"
+    "updatedAt": "2026-11-16T02:38:16.564930+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-16T01:35:46.753340+00:00",
+  "updatedAt": "2026-11-16T02:38:16.564955+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
@@ -2059,7 +2059,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 83,
+      "transactionRecordCount": 84,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 188
     },
