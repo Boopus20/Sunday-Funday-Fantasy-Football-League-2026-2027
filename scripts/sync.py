@@ -155,19 +155,25 @@ def main():
     live_games = []
     live_source = "unavailable"
     live_errors = []
-    for view in ("mMatchupScore", "mBoxscore"):
+    # ESPN's scoreboard scores are league-calculated and honor custom scoring.
+    # Different ESPN API views/versions expose live totals differently, so probe
+    # each view and record only safe field diagnostics (never credentials).
+    live_diagnostics = []
+    for view in ("mMatchupScore", "mBoxscore", "mLiveScoring", "mMatchup"):
         try:
             candidate = fetch(view, {"scoringPeriodId": str(live_week)})
             parsed = extract_live(candidate, live_week, teams)
-            if len(parsed) == 5 and any(
-                (g["homeScore"] or 0) > 0 or (g["awayScore"] or 0) > 0
-                for g in parsed
-            ):
+            observed = [g for g in parsed if g["homeScore"] is not None and g["awayScore"] is not None]
+            positive = any((g["homeScore"] or 0) > 0 or (g["awayScore"] or 0) > 0 for g in observed)
+            live_diagnostics.append({"view":view, "scheduleCount":len(candidate.get("schedule") or []),
+                "matchedGames":len(parsed), "scoredGames":len(observed),
+                "nonzeroScores":positive, "topLevelKeys":sorted(candidate.keys())[:18]})
+            if len(parsed) == 5 and positive:
                 live_games = parsed
                 live_source = view
                 break
         except Exception as exc:
-            live_errors.append(f"{view}: {str(exc)[:120]}")
+            live_errors.append(f"{view}: {type(exc).__name__}: {str(exc)[:110]}")
     if not live_games:
         live_games = extract_live(matchups, live_week, teams)
         for game in live_games:
@@ -178,7 +184,7 @@ def main():
                 game["awayProjected"] = None
                 game["status"] = "awaiting_verified_live_scores"
 
-    payload = {"live": {"week":live_week, "games":live_games, "source":live_source, "errors":live_errors, "updatedAt":dt.datetime.now(dt.timezone.utc).isoformat()}, "leagueId": LEAGUE_ID, "season": int(SEASON),
+    payload = {"live": {"week":live_week, "games":live_games, "source":live_source, "errors":live_errors, "diagnostics":live_diagnostics, "updatedAt":dt.datetime.now(dt.timezone.utc).isoformat()}, "leagueId": LEAGUE_ID, "season": int(SEASON),
                "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
                "currentWeek": league.get("scoringPeriodId"), "completedMatchups": completed,
                "completedWeeks": completed_weeks, "teams": list(teams.values()),
