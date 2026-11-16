@@ -60,11 +60,84 @@
     ],
     "source": "unavailable",
     "errors": [],
-    "updatedAt": "2026-11-16T23:10:56.853549+00:00"
+    "diagnostics": [
+      {
+        "view": "mMatchupScore",
+        "scheduleCount": 70,
+        "matchedGames": 5,
+        "scoredGames": 5,
+        "nonzeroScores": false,
+        "topLevelKeys": [
+          "draftDetail",
+          "gameId",
+          "id",
+          "schedule",
+          "scoringPeriodId",
+          "seasonId",
+          "segmentId",
+          "status"
+        ]
+      },
+      {
+        "view": "mBoxscore",
+        "scheduleCount": 70,
+        "matchedGames": 5,
+        "scoredGames": 5,
+        "nonzeroScores": false,
+        "topLevelKeys": [
+          "draftDetail",
+          "gameId",
+          "id",
+          "schedule",
+          "scoringPeriodId",
+          "seasonId",
+          "segmentId",
+          "settings",
+          "status",
+          "teams"
+        ]
+      },
+      {
+        "view": "mLiveScoring",
+        "scheduleCount": 70,
+        "matchedGames": 0,
+        "scoredGames": 0,
+        "nonzeroScores": false,
+        "topLevelKeys": [
+          "draftDetail",
+          "gameId",
+          "id",
+          "schedule",
+          "scoringPeriodId",
+          "seasonId",
+          "segmentId",
+          "status"
+        ]
+      },
+      {
+        "view": "mMatchup",
+        "scheduleCount": 70,
+        "matchedGames": 5,
+        "scoredGames": 5,
+        "nonzeroScores": false,
+        "topLevelKeys": [
+          "draftDetail",
+          "gameId",
+          "id",
+          "schedule",
+          "scoringPeriodId",
+          "seasonId",
+          "segmentId",
+          "status",
+          "teams"
+        ]
+      }
+    ],
+    "updatedAt": "2026-11-16T23:16:11.988819+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-16T23:10:56.853567+00:00",
+  "updatedAt": "2026-11-16T23:16:11.988842+00:00",
   "currentWeek": 10,
   "completedMatchups": 45,
   "completedWeeks": 9,
