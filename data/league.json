@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-17T13:22:52.170021+00:00"
+    "updatedAt": "2026-11-17T14:38:33.238578+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-17T13:22:52.170042+00:00",
+  "updatedAt": "2026-11-17T14:38:33.238596+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 12,
+      "transactionRecordCount": 15,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -14433,7 +14433,7 @@
       "teamId": 7,
       "playerId": 4596448,
       "playerName": "Bucky Irving",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616250
     },
@@ -14465,7 +14465,7 @@
       "teamId": 7,
       "playerId": 4832800,
       "playerName": "Denzel Boston",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616250
     },
@@ -14505,7 +14505,7 @@
       "teamId": 7,
       "playerId": 4685702,
       "playerName": "Quinshon Judkins",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1793803146499
     },
@@ -14513,7 +14513,7 @@
       "teamId": 7,
       "playerId": 2976212,
       "playerName": "Stefon Diggs",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1793803146499
     },
