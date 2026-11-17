@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-17T16:07:11.685951+00:00"
+    "updatedAt": "2026-11-17T17:15:47.015823+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-17T16:07:11.685974+00:00",
+  "updatedAt": "2026-11-17T17:15:47.015842+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 15,
+      "transactionRecordCount": 21,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -13921,7 +13921,7 @@
       "teamId": 3,
       "playerId": 4432620,
       "playerName": "Parker Washington",
-      "lineupSlotId": 23,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183611589
     },
@@ -13969,7 +13969,7 @@
       "teamId": 3,
       "playerId": 4685472,
       "playerName": "Tetairoa McMillan",
-      "lineupSlotId": 4,
+      "lineupSlotId": 23,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790821502653
     },
@@ -14553,7 +14553,7 @@
       "teamId": 8,
       "playerId": 4430878,
       "playerName": "Jaxon Smith-Njigba",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -14561,7 +14561,7 @@
       "teamId": 8,
       "playerId": 4567048,
       "playerName": "Kenneth Walker III",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -14585,7 +14585,7 @@
       "teamId": 8,
       "playerId": 4723086,
       "playerName": "Colston Loveland",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -14593,7 +14593,7 @@
       "teamId": 8,
       "playerId": 4372016,
       "playerName": "Jaylen Waddle",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -14617,7 +14617,7 @@
       "teamId": 8,
       "playerId": 15847,
       "playerName": "Travis Kelce",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -14665,7 +14665,7 @@
       "teamId": 8,
       "playerId": 4431431,
       "playerName": "Corey Kiner",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794386366369
     },
