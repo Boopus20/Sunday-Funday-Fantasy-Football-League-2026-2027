@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-17T17:15:47.015823+00:00"
+    "updatedAt": "2026-11-17T18:12:43.368950+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-17T17:15:47.015842+00:00",
+  "updatedAt": "2026-11-17T18:12:43.368970+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 21,
+      "transactionRecordCount": 26,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -13657,7 +13657,7 @@
       "teamId": 1,
       "playerId": 4431452,
       "playerName": "Drake Maye",
-      "lineupSlotId": 20,
+      "lineupSlotId": 0,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790698956994
     },
@@ -13681,17 +13681,9 @@
       "teamId": 1,
       "playerId": -16017,
       "playerName": "Patriots D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1791961650311
-    },
-    {
-      "teamId": 1,
-      "playerId": 4685261,
-      "playerName": "Germie Bernard",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1792087929985
     },
     {
       "teamId": 1,
@@ -13705,7 +13697,7 @@
       "teamId": 1,
       "playerId": 4360248,
       "playerName": "Kyle Pitts Sr.",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -13729,7 +13721,7 @@
       "teamId": 1,
       "playerId": 4597500,
       "playerName": "Adonai Mitchell",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     },
