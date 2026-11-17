@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-17T11:59:16.824118+00:00"
+    "updatedAt": "2026-11-17T13:22:52.170021+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-17T11:59:16.824137+00:00",
+  "updatedAt": "2026-11-17T13:22:52.170042+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 3,
+      "transactionRecordCount": 12,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -13713,7 +13713,7 @@
       "teamId": 1,
       "playerId": 4038815,
       "playerName": "Rico Dowdle",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1792663703900
     },
@@ -13737,25 +13737,9 @@
       "teamId": 1,
       "playerId": 4242335,
       "playerName": "Jonathan Taylor",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1794148971959
-    },
-    {
-      "teamId": 1,
-      "playerId": 4427095,
-      "playerName": "DeMario Douglas",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794150782756
-    },
-    {
-      "teamId": 1,
-      "playerId": -16033,
-      "playerName": "Ravens D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794386366369
     },
     {
       "teamId": 2,
@@ -13921,7 +13905,7 @@
       "teamId": 3,
       "playerId": 4431459,
       "playerName": "Tyler Warren",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183611589
     },
@@ -13961,7 +13945,7 @@
       "teamId": 3,
       "playerId": 2577417,
       "playerName": "Dak Prescott",
-      "lineupSlotId": 20,
+      "lineupSlotId": 0,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790698956994
     },
@@ -14001,7 +13985,7 @@
       "teamId": 3,
       "playerId": 4430539,
       "playerName": "Brenton Strange",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793173944113
     },
@@ -14009,7 +13993,7 @@
       "teamId": 3,
       "playerId": 4432577,
       "playerName": "C.J. Stroud",
-      "lineupSlotId": 0,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071074
     },
@@ -14193,7 +14177,7 @@
       "teamId": 5,
       "playerId": 4239996,
       "playerName": "Travis Etienne Jr.",
-      "lineupSlotId": 23,
+      "lineupSlotId": 2,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183614122
     },
@@ -14233,7 +14217,7 @@
       "teamId": 5,
       "playerId": 4697815,
       "playerName": "Rachaad White",
-      "lineupSlotId": 2,
+      "lineupSlotId": 23,
       "acquisitionType": "ADD",
       "acquisitionDate": 1792337664378
     },
@@ -14793,7 +14777,7 @@
       "teamId": 9,
       "playerId": 4036133,
       "playerName": "T.J. Hockenson",
-      "lineupSlotId": 21,
+      "lineupSlotId": 6,
       "acquisitionType": "ADD",
       "acquisitionDate": 1792595302341
     },
@@ -14815,17 +14799,9 @@
     },
     {
       "teamId": 9,
-      "playerId": 17372,
-      "playerName": "Chris Boswell",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794400737401
-    },
-    {
-      "teamId": 9,
       "playerId": 3046439,
       "playerName": "Hunter Henry",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794664859653
     },
@@ -14857,7 +14833,7 @@
       "teamId": 10,
       "playerId": 4612826,
       "playerName": "Ladd McConkey",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619130
     },
@@ -14905,7 +14881,7 @@
       "teamId": 10,
       "playerId": 4429205,
       "playerName": "Jordan Addison",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1790755002662
     },
