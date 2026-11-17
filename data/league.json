@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-17T09:14:39.850482+00:00"
+    "updatedAt": "2026-11-17T10:22:25.594896+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-17T09:14:39.850503+00:00",
+  "updatedAt": "2026-11-17T10:22:25.594921+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -1994,9 +1994,11 @@
         10
       ],
       "weeksWithPartialRosters": [],
-      "errors": [],
+      "errors": [
+        "ESPN rejected all three paginated transaction filter variants"
+      ],
       "draftAvailable": true,
-      "transactionsAvailable": false,
+      "transactionsAvailable": true,
       "sampleScoreFields": {},
       "playersWithScores": 900,
       "playersMissingScores": 0,
@@ -2190,11 +2192,21 @@
         {
           "filterVariant": 0,
           "offset": 0,
-          "count": 0
+          "error": "HTTP Error 400: "
+        },
+        {
+          "filterVariant": 1,
+          "offset": 0,
+          "error": "HTTP Error 400: "
+        },
+        {
+          "filterVariant": 2,
+          "offset": 0,
+          "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 0,
-      "transactionHistoryComplete": true,
+      "transactionRecordCount": 3,
+      "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
     "lineupIQ": [
@@ -14165,7 +14177,7 @@
       "teamId": 5,
       "playerId": 4047646,
       "playerName": "A.J. Brown",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183614122
     },
@@ -14181,7 +14193,7 @@
       "teamId": 5,
       "playerId": 4239996,
       "playerName": "Travis Etienne Jr.",
-      "lineupSlotId": 21,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183614122
     },
@@ -14272,14 +14284,6 @@
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794474702444
-    },
-    {
-      "teamId": 5,
-      "playerId": 5081397,
-      "playerName": "Dylan Sampson",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794690334320
     },
     {
       "teamId": 5,
