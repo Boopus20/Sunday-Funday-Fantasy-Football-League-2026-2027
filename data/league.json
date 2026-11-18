@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-18T06:18:49.125989+00:00"
+    "updatedAt": "2026-11-18T08:26:34.151808+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-18T06:18:49.126020+00:00",
+  "updatedAt": "2026-11-18T08:26:34.151830+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 26,
+      "transactionRecordCount": 38,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -4985,7 +4985,268 @@
         "playerName": "Chase McLaughlin"
       }
     ],
-    "transactions": [],
+    "transactions": [
+      {
+        "id": "da606335-865c-4949-af31-c392161682b5",
+        "type": "WAIVER",
+        "status": "FAILED_PLAYERALREADYDROPPED",
+        "executionDate": null,
+        "processDate": 1794990187840,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16029,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Panthers D/ST"
+          },
+          {
+            "playerId": 4569587,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "Wan'Dale Robinson"
+          }
+        ]
+      },
+      {
+        "id": "39320c70-3d3e-42f4-8013-e5b1223f8167",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794990187840,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 2576925,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Darren Waller"
+          }
+        ]
+      },
+      {
+        "id": "d5866749-d084-479c-91c9-f88aeb453b22",
+        "type": "WAIVER",
+        "status": "FAILED_PLAYERALREADYDROPPED",
+        "executionDate": null,
+        "processDate": 1794990187840,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4575131,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": null
+          },
+          {
+            "playerId": -16009,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": "Packers D/ST"
+          }
+        ]
+      },
+      {
+        "id": "97756aa2-c12c-46ba-aa34-0b839fa828ce",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794990187839,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 14880,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Kirk Cousins"
+          }
+        ]
+      },
+      {
+        "id": "aab47d08-3159-41af-bb56-2dd3188f965b",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794990187839,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16003,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Bears D/ST"
+          }
+        ]
+      },
+      {
+        "id": "e45fe277-d10c-4032-a448-9408026b3972",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794990187838,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4362081,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Cameron Dicker"
+          },
+          {
+            "playerId": 5082424,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Dominic Zvada"
+          }
+        ]
+      },
+      {
+        "id": "d6838390-9bae-4ad9-a06a-be7777dbd378",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1794990187804,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16003,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 8,
+            "playerName": "Bears D/ST"
+          },
+          {
+            "playerId": -16028,
+            "type": "DROP",
+            "fromTeamId": 8,
+            "toTeamId": 0,
+            "playerName": "Commanders D/ST"
+          }
+        ]
+      },
+      {
+        "id": "e48bafe1-e072-43dd-a489-1a11c9068fc9",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794990187804,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4361411,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 7,
+            "playerName": "Pat Freiermuth"
+          },
+          {
+            "playerId": -16025,
+            "type": "DROP",
+            "fromTeamId": 7,
+            "toTeamId": 0,
+            "playerName": "49ers D/ST"
+          }
+        ]
+      },
+      {
+        "id": "33e690ed-09f1-484b-b8ef-2e8455d778b7",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794990187803,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4686422,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Xavier Hutchinson"
+          },
+          {
+            "playerId": -16009,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": "Packers D/ST"
+          }
+        ]
+      },
+      {
+        "id": "308372aa-d475-4277-b669-8a872803191c",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794990187803,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4426338,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Bo Nix"
+          }
+        ]
+      },
+      {
+        "id": "bee7afd0-df0c-4cea-a1f7-7a953c846b1a",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794990187803,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16003,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Bears D/ST"
+          },
+          {
+            "playerId": 4569587,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "Wan'Dale Robinson"
+          }
+        ]
+      },
+      {
+        "id": "80464353-c190-4be3-861a-45bcea647c92",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1794990187802,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16020,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Jets D/ST"
+          },
+          {
+            "playerId": -16014,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Rams D/ST"
+          }
+        ]
+      }
+    ],
     "weeklyPositions": [
       {
         "teamId": 1,
@@ -13734,6 +13995,30 @@
       "acquisitionDate": 1794148971959
     },
     {
+      "teamId": 1,
+      "playerId": 4426338,
+      "playerName": "Bo Nix",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794990187803
+    },
+    {
+      "teamId": 1,
+      "playerId": 14880,
+      "playerName": "Kirk Cousins",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794990187840
+    },
+    {
+      "teamId": 1,
+      "playerId": 2576925,
+      "playerName": "Darren Waller",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794990187840
+    },
+    {
       "teamId": 2,
       "playerId": 3117251,
       "playerName": "Christian McCaffrey",
@@ -13863,11 +14148,11 @@
     },
     {
       "teamId": 2,
-      "playerId": 4569587,
-      "playerName": "Wan'Dale Robinson",
+      "playerId": -16003,
+      "playerName": "Bears D/ST",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1794514830122
+      "acquisitionDate": 1794990187804
     },
     {
       "teamId": 3,
@@ -13999,11 +14284,11 @@
     },
     {
       "teamId": 3,
-      "playerId": -16009,
-      "playerName": "Packers D/ST",
+      "playerId": 4686422,
+      "playerName": "Xavier Hutchinson",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1794386366370
+      "acquisitionDate": 1794990187803
     },
     {
       "teamId": 4,
@@ -14119,27 +14404,27 @@
     },
     {
       "teamId": 4,
-      "playerId": -16014,
-      "playerName": "Rams D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794386366368
-    },
-    {
-      "teamId": 4,
-      "playerId": 5082424,
-      "playerName": "Dominic Zvada",
-      "lineupSlotId": 17,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794386366370
-    },
-    {
-      "teamId": 4,
       "playerId": 4373678,
       "playerName": "Khalil Shakir",
       "lineupSlotId": 4,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794400857453
+    },
+    {
+      "teamId": 4,
+      "playerId": -16020,
+      "playerName": "Jets D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794990187803
+    },
+    {
+      "teamId": 4,
+      "playerId": 4362081,
+      "playerName": "Cameron Dicker",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1794990187839
     },
     {
       "teamId": 5,
@@ -14535,11 +14820,11 @@
     },
     {
       "teamId": 7,
-      "playerId": -16025,
-      "playerName": "49ers D/ST",
+      "playerId": 4361411,
+      "playerName": "Pat Freiermuth",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1794491354354
+      "acquisitionDate": 1794990187804
     },
     {
       "teamId": 8,
