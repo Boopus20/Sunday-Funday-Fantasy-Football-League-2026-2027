@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-18T15:08:56.540033+00:00"
+    "updatedAt": "2026-11-18T16:12:48.432650+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-18T15:08:56.540056+00:00",
+  "updatedAt": "2026-11-18T16:12:48.432677+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 44,
+      "transactionRecordCount": 50,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5243,6 +5243,30 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Rams D/ST"
+          }
+        ]
+      },
+      {
+        "id": "a38f17ff-bbae-4bcb-920b-83a9c9a0b85b",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4688380,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Cam Ward"
+          },
+          {
+            "playerId": 2578570,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Jacoby Brissett"
           }
         ]
       },
@@ -14334,7 +14358,7 @@
       "teamId": 4,
       "playerId": 4880281,
       "playerName": "Jordyn Tyson",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183615037
     },
@@ -14382,7 +14406,7 @@
       "teamId": 4,
       "playerId": 4711533,
       "playerName": "Ollie Gordon II",
-      "lineupSlotId": 23,
+      "lineupSlotId": 2,
       "acquisitionType": "ADD",
       "acquisitionDate": 1790755002662
     },
@@ -14396,17 +14420,9 @@
     },
     {
       "teamId": 4,
-      "playerId": 2578570,
-      "playerName": "Jacoby Brissett",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793868165338
-    },
-    {
-      "teamId": 4,
       "playerId": 4035538,
       "playerName": "David Montgomery",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1794148971959
     },
@@ -14414,7 +14430,7 @@
       "teamId": 4,
       "playerId": 4036378,
       "playerName": "Jordan Love",
-      "lineupSlotId": 0,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1794148971959
     },
@@ -14422,7 +14438,7 @@
       "teamId": 4,
       "playerId": 4430737,
       "playerName": "Kyren Williams",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1794148971959
     },
@@ -14430,7 +14446,7 @@
       "teamId": 4,
       "playerId": 4373678,
       "playerName": "Khalil Shakir",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794400857453
     },
@@ -14449,6 +14465,14 @@
       "lineupSlotId": 17,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187839
+    },
+    {
+      "teamId": 4,
+      "playerId": 4688380,
+      "playerName": "Cam Ward",
+      "lineupSlotId": 0,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795017281423
     },
     {
       "teamId": 5,
