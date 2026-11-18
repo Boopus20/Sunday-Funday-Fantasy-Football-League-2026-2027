@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-18T11:19:28.922740+00:00"
+    "updatedAt": "2026-11-18T13:26:43.670815+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-18T11:19:28.922758+00:00",
+  "updatedAt": "2026-11-18T13:26:43.670838+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 38,
+      "transactionRecordCount": 43,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5243,6 +5243,30 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Rams D/ST"
+          }
+        ]
+      },
+      {
+        "id": "c09e1f1f-e5bc-4d70-a66d-1340a1579a95",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 3128429,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 6,
+            "playerName": "Courtland Sutton"
+          },
+          {
+            "playerId": 4570037,
+            "type": "DROP",
+            "fromTeamId": 6,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       }
@@ -13918,7 +13942,7 @@
       "teamId": 1,
       "playerId": 4431452,
       "playerName": "Drake Maye",
-      "lineupSlotId": 0,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790698956994
     },
@@ -13958,7 +13982,7 @@
       "teamId": 1,
       "playerId": 4360248,
       "playerName": "Kyle Pitts Sr.",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -13998,7 +14022,7 @@
       "teamId": 1,
       "playerId": 4426338,
       "playerName": "Bo Nix",
-      "lineupSlotId": 20,
+      "lineupSlotId": 0,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187803
     },
@@ -14014,7 +14038,7 @@
       "teamId": 1,
       "playerId": 2576925,
       "playerName": "Darren Waller",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187840
     },
@@ -14110,7 +14134,7 @@
       "teamId": 2,
       "playerId": -16026,
       "playerName": "Seahawks D/ST",
-      "lineupSlotId": 16,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183610749
     },
@@ -14150,7 +14174,7 @@
       "teamId": 2,
       "playerId": -16003,
       "playerName": "Bears D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187804
     },
@@ -14598,7 +14622,7 @@
       "teamId": 6,
       "playerId": 4685512,
       "playerName": "Jadarian Price",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183613422
     },
@@ -14684,11 +14708,11 @@
     },
     {
       "teamId": 6,
-      "playerId": 4570037,
-      "playerName": "Terrance Ferguson",
-      "lineupSlotId": 20,
+      "playerId": 3128429,
+      "playerName": "Courtland Sutton",
+      "lineupSlotId": 23,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1794402983127
+      "acquisitionDate": 1795007860210
     },
     {
       "teamId": 7,
