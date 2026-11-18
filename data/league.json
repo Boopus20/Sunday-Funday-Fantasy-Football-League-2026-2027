@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-18T20:09:33.575750+00:00"
+    "updatedAt": "2026-11-18T21:04:23.560448+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-18T20:09:33.575773+00:00",
+  "updatedAt": "2026-11-18T21:04:23.560469+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 51,
+      "transactionRecordCount": 53,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5243,6 +5243,30 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Rams D/ST"
+          }
+        ]
+      },
+      {
+        "id": "d3d75178-cc6a-406a-82e4-0ac0e158405e",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4429086,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Michael Mayer"
+          },
+          {
+            "playerId": 4569682,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -14230,7 +14254,7 @@
       "teamId": 3,
       "playerId": 4431459,
       "playerName": "Tyler Warren",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183611589
     },
@@ -14310,7 +14334,7 @@
       "teamId": 3,
       "playerId": 4430539,
       "playerName": "Brenton Strange",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793173944113
     },
@@ -14324,19 +14348,19 @@
     },
     {
       "teamId": 3,
-      "playerId": 4569682,
-      "playerName": "Audric Estime",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794386366369
-    },
-    {
-      "teamId": 3,
       "playerId": 4686422,
       "playerName": "Xavier Hutchinson",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187803
+    },
+    {
+      "teamId": 3,
+      "playerId": 4429086,
+      "playerName": "Michael Mayer",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795034076745
     },
     {
       "teamId": 4,
