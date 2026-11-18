@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-18T23:01:46.308286+00:00"
+    "updatedAt": "2026-11-18T23:58:32.600778+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-18T23:01:46.308310+00:00",
+  "updatedAt": "2026-11-18T23:58:32.600799+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 55,
+      "transactionRecordCount": 59,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5023,7 +5023,7 @@
             "type": "ADD",
             "fromTeamId": 0,
             "toTeamId": 1,
-            "playerName": "Darren Waller"
+            "playerName": null
           }
         ]
       },
@@ -13974,7 +13974,7 @@
       "teamId": 1,
       "playerId": 4608686,
       "playerName": "Kyle Monangai",
-      "lineupSlotId": 21,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183609888
     },
@@ -14030,7 +14030,7 @@
       "teamId": 1,
       "playerId": 4360248,
       "playerName": "Kyle Pitts Sr.",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -14079,14 +14079,6 @@
       "playerId": 14880,
       "playerName": "Kirk Cousins",
       "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794990187840
-    },
-    {
-      "teamId": 1,
-      "playerId": 2576925,
-      "playerName": "Darren Waller",
-      "lineupSlotId": 6,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187840
     },
@@ -14566,7 +14558,7 @@
       "teamId": 5,
       "playerId": 4697815,
       "playerName": "Rachaad White",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1792337664378
     },
@@ -14590,7 +14582,7 @@
       "teamId": 5,
       "playerId": 3126486,
       "playerName": "Deebo Samuel Sr.",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793868165337
     },
