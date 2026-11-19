@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-18T23:58:32.600778+00:00"
+    "updatedAt": "2026-11-19T01:26:32.290408+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-18T23:58:32.600799+00:00",
+  "updatedAt": "2026-11-19T01:26:32.290437+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 59,
+      "transactionRecordCount": 64,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5271,6 +5271,30 @@
         ]
       },
       {
+        "id": "b05b10fc-5bd2-4c7b-a9d6-eb718c3ebd09",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 17427,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 8,
+            "playerName": "Cairo Santos"
+          },
+          {
+            "playerId": 2473037,
+            "type": "DROP",
+            "fromTeamId": 8,
+            "toTeamId": 0,
+            "playerName": "Jason Myers"
+          }
+        ]
+      },
+      {
         "id": "a38f17ff-bbae-4bcb-920b-83a9c9a0b85b",
         "type": "FREEAGENT",
         "status": "EXECUTED",
@@ -5315,6 +5339,30 @@
             "fromTeamId": 6,
             "toTeamId": 0,
             "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "91902470-0157-4e77-b8ab-97dd80add25f",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16008,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 8,
+            "playerName": "Lions D/ST"
+          },
+          {
+            "playerId": -16028,
+            "type": "DROP",
+            "fromTeamId": 8,
+            "toTeamId": 0,
+            "playerName": "Commanders D/ST"
           }
         ]
       }
@@ -13974,7 +14022,7 @@
       "teamId": 1,
       "playerId": 4608686,
       "playerName": "Kyle Monangai",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183609888
     },
@@ -14054,7 +14102,7 @@
       "teamId": 1,
       "playerId": 4597500,
       "playerName": "Adonai Mitchell",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     },
@@ -14972,14 +15020,6 @@
     },
     {
       "teamId": 8,
-      "playerId": 2473037,
-      "playerName": "Jason Myers",
-      "lineupSlotId": 17,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183616904
-    },
-    {
-      "teamId": 8,
       "playerId": 3046779,
       "playerName": "Jared Goff",
       "lineupSlotId": 0,
@@ -15012,11 +15052,19 @@
     },
     {
       "teamId": 8,
-      "playerId": -16028,
-      "playerName": "Commanders D/ST",
+      "playerId": -16008,
+      "playerName": "Lions D/ST",
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1794496716009
+      "acquisitionDate": 1795047117712
+    },
+    {
+      "teamId": 8,
+      "playerId": 17427,
+      "playerName": "Cairo Santos",
+      "lineupSlotId": 17,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795047161866
     },
     {
       "teamId": 9,
