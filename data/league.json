@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-19T18:08:35.863201+00:00"
+    "updatedAt": "2026-11-19T19:11:50.817209+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-19T18:08:35.863219+00:00",
+  "updatedAt": "2026-11-19T19:11:50.817229+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 74,
+      "transactionRecordCount": 75,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -15312,7 +15312,7 @@
       "teamId": 10,
       "playerId": 4432665,
       "playerName": "Brock Bowers",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619129
     },
@@ -15368,7 +15368,7 @@
       "teamId": 10,
       "playerId": 4361050,
       "playerName": "Isaiah Likely",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619130
     },
