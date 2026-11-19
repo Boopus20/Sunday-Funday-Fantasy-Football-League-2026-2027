@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-19T16:14:15.523579+00:00"
+    "updatedAt": "2026-11-19T17:03:56.653609+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-19T16:14:15.523599+00:00",
+  "updatedAt": "2026-11-19T17:03:56.653635+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 70,
+      "transactionRecordCount": 74,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5336,6 +5336,30 @@
         ]
       },
       {
+        "id": "2afd3da3-829e-419e-a836-6a219bc59fa0",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16004,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Bengals D/ST"
+          },
+          {
+            "playerId": -16020,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Jets D/ST"
+          }
+        ]
+      },
+      {
         "id": "a38f17ff-bbae-4bcb-920b-83a9c9a0b85b",
         "type": "FREEAGENT",
         "status": "EXECUTED",
@@ -5404,6 +5428,30 @@
             "fromTeamId": 8,
             "toTeamId": 0,
             "playerName": "Commanders D/ST"
+          }
+        ]
+      },
+      {
+        "id": "63837d2d-7e67-4ba4-b93c-4a878c330fb0",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 3116365,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Mark Andrews"
+          },
+          {
+            "playerId": 3054850,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": "Alvin Kamara"
           }
         ]
       },
@@ -14142,14 +14190,6 @@
     },
     {
       "teamId": 1,
-      "playerId": 3054850,
-      "playerName": "Alvin Kamara",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793780071073
-    },
-    {
-      "teamId": 1,
       "playerId": 4597500,
       "playerName": "Adonai Mitchell",
       "lineupSlotId": 20,
@@ -14187,6 +14227,14 @@
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795077574039
+    },
+    {
+      "teamId": 1,
+      "playerId": 3116365,
+      "playerName": "Mark Andrews",
+      "lineupSlotId": 6,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795105684650
     },
     {
       "teamId": 2,
@@ -14574,14 +14622,6 @@
     },
     {
       "teamId": 4,
-      "playerId": -16020,
-      "playerName": "Jets D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794990187803
-    },
-    {
-      "teamId": 4,
       "playerId": 4362081,
       "playerName": "Cameron Dicker",
       "lineupSlotId": 17,
@@ -14595,6 +14635,14 @@
       "lineupSlotId": 0,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795017281423
+    },
+    {
+      "teamId": 4,
+      "playerId": -16004,
+      "playerName": "Bengals D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795105800652
     },
     {
       "teamId": 5,
@@ -15264,7 +15312,7 @@
       "teamId": 10,
       "playerId": 4432665,
       "playerName": "Brock Bowers",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619129
     },
@@ -15272,7 +15320,7 @@
       "teamId": 10,
       "playerId": 4362238,
       "playerName": "Chase Brown",
-      "lineupSlotId": 2,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619129
     },
@@ -15320,7 +15368,7 @@
       "teamId": 10,
       "playerId": 4361050,
       "playerName": "Isaiah Likely",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619130
     },
@@ -15360,7 +15408,7 @@
       "teamId": 10,
       "playerId": 4832955,
       "playerName": "Emmett Johnson",
-      "lineupSlotId": 23,
+      "lineupSlotId": 2,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     },
