@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-19T01:26:32.290408+00:00"
+    "updatedAt": "2026-11-19T03:01:42.368659+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-19T01:26:32.290437+00:00",
+  "updatedAt": "2026-11-19T03:01:42.368686+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 64,
+      "transactionRecordCount": 66,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5267,6 +5267,23 @@
             "fromTeamId": 3,
             "toTeamId": 0,
             "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "5ef1e07b-da7f-4acb-afe1-0b3ccb0fa7fe",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4837248,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 10,
+            "playerName": "Fernando Mendoza"
           }
         ]
       },
@@ -15305,6 +15322,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
+    },
+    {
+      "teamId": 10,
+      "playerId": 4837248,
+      "playerName": "Fernando Mendoza",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795055648203
     }
   ],
   "currentRosterAsOfWeek": 11
