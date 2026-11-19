@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-19T07:30:15.167942+00:00"
+    "updatedAt": "2026-11-19T09:18:25.179253+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-19T07:30:15.167987+00:00",
+  "updatedAt": "2026-11-19T09:18:25.179274+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 66,
+      "transactionRecordCount": 67,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -4986,6 +4986,30 @@
       }
     ],
     "transactions": [
+      {
+        "id": "3e460e5e-e3e6-47c2-a688-984ebdba32e2",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795077574039,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16025,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "49ers D/ST"
+          },
+          {
+            "playerId": -16017,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": "Patriots D/ST"
+          }
+        ]
+      },
       {
         "id": "da606335-865c-4949-af31-c392161682b5",
         "type": "WAIVER",
@@ -14077,14 +14101,6 @@
     },
     {
       "teamId": 1,
-      "playerId": -16017,
-      "playerName": "Patriots D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1791961650311
-    },
-    {
-      "teamId": 1,
       "playerId": 4429096,
       "playerName": "Blake Corum",
       "lineupSlotId": 20,
@@ -14146,6 +14162,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187840
+    },
+    {
+      "teamId": 1,
+      "playerId": -16025,
+      "playerName": "49ers D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795077574039
     },
     {
       "teamId": 2,
