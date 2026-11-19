@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-19T20:27:48.850953+00:00"
+    "updatedAt": "2026-11-19T21:05:57.567183+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-19T20:27:48.851003+00:00",
+  "updatedAt": "2026-11-19T21:05:57.567202+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 76,
+      "transactionRecordCount": 82,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5064,7 +5064,7 @@
             "type": "ADD",
             "fromTeamId": 0,
             "toTeamId": 3,
-            "playerName": null
+            "playerName": "Jacory Croskey-Merritt"
           },
           {
             "playerId": -16009,
@@ -5356,6 +5356,23 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Jets D/ST"
+          }
+        ]
+      },
+      {
+        "id": "042c6e2c-cada-4f1d-be93-bd44a644dfe3",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4575131,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 7,
+            "playerName": "Jacory Croskey-Merritt"
           }
         ]
       },
@@ -14936,7 +14953,7 @@
       "teamId": 7,
       "playerId": 4432708,
       "playerName": "Marvin Harrison Jr.",
-      "lineupSlotId": 20,
+      "lineupSlotId": 21,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616250
     },
@@ -14971,14 +14988,6 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1788969846355
-    },
-    {
-      "teamId": 7,
-      "playerId": 4360761,
-      "playerName": "Michael Wilson",
-      "lineupSlotId": 21,
-      "acquisitionType": "TRADE",
-      "acquisitionDate": 1792642500622
     },
     {
       "teamId": 7,
@@ -15043,6 +15052,14 @@
       "lineupSlotId": 6,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187804
+    },
+    {
+      "teamId": 7,
+      "playerId": 4575131,
+      "playerName": "Jacory Croskey-Merritt",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795121239654
     },
     {
       "teamId": 8,
