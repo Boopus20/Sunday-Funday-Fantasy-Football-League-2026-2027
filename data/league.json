@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-19T13:29:52.566030+00:00"
+    "updatedAt": "2026-11-19T15:09:13.664003+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-19T13:29:52.566061+00:00",
+  "updatedAt": "2026-11-19T15:09:13.664024+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 68,
+      "transactionRecordCount": 70,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -14128,7 +14128,7 @@
       "teamId": 1,
       "playerId": 4360248,
       "playerName": "Kyle Pitts Sr.",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -15280,7 +15280,7 @@
       "teamId": 10,
       "playerId": 4612826,
       "playerName": "Ladd McConkey",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619130
     },
@@ -15360,7 +15360,7 @@
       "teamId": 10,
       "playerId": 4832955,
       "playerName": "Emmett Johnson",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     },
