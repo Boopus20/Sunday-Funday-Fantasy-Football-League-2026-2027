@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-19T12:09:53.214702+00:00"
+    "updatedAt": "2026-11-19T13:29:52.566030+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-19T12:09:53.214723+00:00",
+  "updatedAt": "2026-11-19T13:29:52.566061+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 67,
+      "transactionRecordCount": 68,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5404,6 +5404,23 @@
             "fromTeamId": 8,
             "toTeamId": 0,
             "playerName": "Commanders D/ST"
+          }
+        ]
+      },
+      {
+        "id": "ac118571-447d-4e31-b4a3-e4773a6c0254",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5081432,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 10,
+            "playerName": "Antonio Williams"
           }
         ]
       }
@@ -15354,6 +15371,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795055648203
+    },
+    {
+      "teamId": 10,
+      "playerId": 5081432,
+      "playerName": "Antonio Williams",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795091488456
     }
   ],
   "currentRosterAsOfWeek": 11
