@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-20T16:08:04.109217+00:00"
+    "updatedAt": "2026-11-20T17:09:38.087128+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-20T16:08:04.109237+00:00",
+  "updatedAt": "2026-11-20T17:09:38.087152+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 96,
+      "transactionRecordCount": 97,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5011,6 +5011,30 @@
         ]
       },
       {
+        "id": "d5866749-d084-479c-91c9-f88aeb453b22",
+        "type": "WAIVER",
+        "status": "FAILED_PLAYERALREADYDROPPED",
+        "executionDate": null,
+        "processDate": 1794990187840,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4575131,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Jacory Croskey-Merritt"
+          },
+          {
+            "playerId": -16009,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": "Packers D/ST"
+          }
+        ]
+      },
+      {
         "id": "da606335-865c-4949-af31-c392161682b5",
         "type": "WAIVER",
         "status": "FAILED_PLAYERALREADYDROPPED",
@@ -5048,30 +5072,6 @@
             "fromTeamId": 0,
             "toTeamId": 1,
             "playerName": null
-          }
-        ]
-      },
-      {
-        "id": "d5866749-d084-479c-91c9-f88aeb453b22",
-        "type": "WAIVER",
-        "status": "FAILED_PLAYERALREADYDROPPED",
-        "executionDate": null,
-        "processDate": 1794990187840,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4575131,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 3,
-            "playerName": "Jacory Croskey-Merritt"
-          },
-          {
-            "playerId": -16009,
-            "type": "DROP",
-            "fromTeamId": 3,
-            "toTeamId": 0,
-            "playerName": "Packers D/ST"
           }
         ]
       },
@@ -5295,23 +5295,6 @@
         ]
       },
       {
-        "id": "5ef1e07b-da7f-4acb-afe1-0b3ccb0fa7fe",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "executionDate": null,
-        "processDate": null,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4837248,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 10,
-            "playerName": "Fernando Mendoza"
-          }
-        ]
-      },
-      {
         "id": "b05b10fc-5bd2-4c7b-a9d6-eb718c3ebd09",
         "type": "FREEAGENT",
         "status": "EXECUTED",
@@ -5332,30 +5315,6 @@
             "fromTeamId": 8,
             "toTeamId": 0,
             "playerName": "Jason Myers"
-          }
-        ]
-      },
-      {
-        "id": "2afd3da3-829e-419e-a836-6a219bc59fa0",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "executionDate": null,
-        "processDate": null,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": -16004,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": "Bengals D/ST"
-          },
-          {
-            "playerId": -16020,
-            "type": "DROP",
-            "fromTeamId": 4,
-            "toTeamId": 0,
-            "playerName": "Jets D/ST"
           }
         ]
       },
@@ -5397,30 +5356,6 @@
             "fromTeamId": 0,
             "toTeamId": 7,
             "playerName": "Jacory Croskey-Merritt"
-          }
-        ]
-      },
-      {
-        "id": "a38f17ff-bbae-4bcb-920b-83a9c9a0b85b",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "executionDate": null,
-        "processDate": null,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4688380,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 4,
-            "playerName": "Cam Ward"
-          },
-          {
-            "playerId": 2578570,
-            "type": "DROP",
-            "fromTeamId": 4,
-            "toTeamId": 0,
-            "playerName": "Jacoby Brissett"
           }
         ]
       },
@@ -5473,6 +5408,112 @@
         ]
       },
       {
+        "id": "ac118571-447d-4e31-b4a3-e4773a6c0254",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5081432,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 10,
+            "playerName": "Antonio Williams"
+          }
+        ]
+      },
+      {
+        "id": "5ef1e07b-da7f-4acb-afe1-0b3ccb0fa7fe",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4837248,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 10,
+            "playerName": "Fernando Mendoza"
+          }
+        ]
+      },
+      {
+        "id": "2afd3da3-829e-419e-a836-6a219bc59fa0",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16004,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Bengals D/ST"
+          },
+          {
+            "playerId": -16020,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Jets D/ST"
+          }
+        ]
+      },
+      {
+        "id": "a38f17ff-bbae-4bcb-920b-83a9c9a0b85b",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4688380,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Cam Ward"
+          },
+          {
+            "playerId": 2578570,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Jacoby Brissett"
+          }
+        ]
+      },
+      {
+        "id": "62c16fb0-eb2e-458b-89b7-280781d375e5",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16027,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Buccaneers D/ST"
+          },
+          {
+            "playerId": 4362619,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
         "id": "63837d2d-7e67-4ba4-b93c-4a878c330fb0",
         "type": "FREEAGENT",
         "status": "EXECUTED",
@@ -5493,23 +5534,6 @@
             "fromTeamId": 1,
             "toTeamId": 0,
             "playerName": "Alvin Kamara"
-          }
-        ]
-      },
-      {
-        "id": "ac118571-447d-4e31-b4a3-e4773a6c0254",
-        "type": "FREEAGENT",
-        "status": "EXECUTED",
-        "executionDate": null,
-        "processDate": null,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 5081432,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 10,
-            "playerName": "Antonio Williams"
           }
         ]
       }
@@ -14399,19 +14423,19 @@
     },
     {
       "teamId": 2,
-      "playerId": 4362619,
-      "playerName": "Chris Rodriguez Jr.",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794504285885
-    },
-    {
-      "teamId": 2,
       "playerId": -16003,
       "playerName": "Bears D/ST",
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187804
+    },
+    {
+      "teamId": 2,
+      "playerId": -16027,
+      "playerName": "Buccaneers D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795194372784
     },
     {
       "teamId": 3,
