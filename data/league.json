@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-20T00:17:42.158387+00:00"
+    "updatedAt": "2026-11-20T00:59:34.591408+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-20T00:17:42.158406+00:00",
+  "updatedAt": "2026-11-20T00:59:34.591436+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 83,
+      "transactionRecordCount": 84,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5283,7 +5283,7 @@
             "type": "ADD",
             "fromTeamId": 0,
             "toTeamId": 3,
-            "playerName": "Michael Mayer"
+            "playerName": null
           },
           {
             "playerId": 4569682,
@@ -5356,6 +5356,30 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Jets D/ST"
+          }
+        ]
+      },
+      {
+        "id": "84dd60a3-49bd-4ad9-b89e-0f8b35b19202",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4600981,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Pat Bryant"
+          },
+          {
+            "playerId": 4429086,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -14519,11 +14543,11 @@
     },
     {
       "teamId": 3,
-      "playerId": 4429086,
-      "playerName": "Michael Mayer",
+      "playerId": 4600981,
+      "playerName": "Pat Bryant",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1795034076745
+      "acquisitionDate": 1795135348229
     },
     {
       "teamId": 4,
