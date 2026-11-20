@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-20T19:13:56.833121+00:00"
+    "updatedAt": "2026-11-20T20:12:29.981440+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-20T19:13:56.833140+00:00",
+  "updatedAt": "2026-11-20T20:12:29.981466+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 97,
+      "transactionRecordCount": 99,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5421,6 +5421,23 @@
             "fromTeamId": 0,
             "toTeamId": 10,
             "playerName": "Antonio Williams"
+          }
+        ]
+      },
+      {
+        "id": "e0583bf8-7409-4354-ae32-72b27f0d916b",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4883647,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Elic Ayomanor"
           }
         ]
       },
@@ -14209,7 +14226,7 @@
       "teamId": 1,
       "playerId": 4431452,
       "playerName": "Drake Maye",
-      "lineupSlotId": 20,
+      "lineupSlotId": 21,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790698956994
     },
@@ -14300,6 +14317,14 @@
       "lineupSlotId": 6,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795105684650
+    },
+    {
+      "teamId": 1,
+      "playerId": 4883647,
+      "playerName": "Elic Ayomanor",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795203548694
     },
     {
       "teamId": 2,
