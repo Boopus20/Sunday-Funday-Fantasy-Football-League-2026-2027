@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-21T13:09:48.130267+00:00"
+    "updatedAt": "2026-11-21T14:10:18.348309+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-21T13:09:48.130294+00:00",
+  "updatedAt": "2026-11-21T14:10:18.348330+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 100,
+      "transactionRecordCount": 101,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -15298,7 +15298,7 @@
       "teamId": 9,
       "playerId": 3915416,
       "playerName": "DJ Moore",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183617524
     },
@@ -15338,7 +15338,7 @@
       "teamId": 9,
       "playerId": 4241478,
       "playerName": "DeVonta Smith",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790821502653
     },
