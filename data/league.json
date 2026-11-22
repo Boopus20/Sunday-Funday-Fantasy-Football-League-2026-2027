@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-22T22:29:22.155678+00:00"
+    "updatedAt": "2026-11-22T22:54:32.095086+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-22T22:29:22.155700+00:00",
+  "updatedAt": "2026-11-22T22:54:32.095108+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -672,8 +672,8 @@
     },
     {
       "id": 7,
-      "name": "Buck Me ",
-      "shortName": "Buck Me ",
+      "name": "Buck Me With Huge Brown Diggs",
+      "shortName": "Buck Me With Hu",
       "wins": 5,
       "losses": 5,
       "ties": 0,
