@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-22T11:53:48.511638+00:00"
+    "updatedAt": "2026-11-22T13:07:53.012304+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-22T11:53:48.511656+00:00",
+  "updatedAt": "2026-11-22T13:07:53.012329+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 102,
+      "transactionRecordCount": 105,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
@@ -5289,6 +5289,30 @@
             "playerId": 4569682,
             "type": "DROP",
             "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "cf37abfe-325e-4183-ad18-a3db26500666",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4686728,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Gunnar Helm"
+          },
+          {
+            "playerId": 5083754,
+            "type": "DROP",
+            "fromTeamId": 2,
             "toTeamId": 0,
             "playerName": null
           }
@@ -14402,7 +14426,7 @@
       "teamId": 2,
       "playerId": 4385690,
       "playerName": "Dalton Kincaid",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183610749
     },
@@ -14440,14 +14464,6 @@
     },
     {
       "teamId": 2,
-      "playerId": 5083754,
-      "playerName": "Ryan Flournoy",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793796433919
-    },
-    {
-      "teamId": 2,
       "playerId": -16003,
       "playerName": "Bears D/ST",
       "lineupSlotId": 16,
@@ -14461,6 +14477,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795194372784
+    },
+    {
+      "teamId": 2,
+      "playerId": 4686728,
+      "playerName": "Gunnar Helm",
+      "lineupSlotId": 6,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795351629591
     },
     {
       "teamId": 3,
