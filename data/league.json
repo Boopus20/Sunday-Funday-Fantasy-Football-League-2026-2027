@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-23T04:48:41.693860+00:00"
+    "updatedAt": "2026-11-23T06:05:20.851758+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-23T04:48:41.693882+00:00",
+  "updatedAt": "2026-11-23T06:05:20.851780+00:00",
   "currentWeek": 11,
   "completedMatchups": 50,
   "completedWeeks": 10,
@@ -2205,7 +2205,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 111,
+      "transactionRecordCount": 112,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 193
     },
