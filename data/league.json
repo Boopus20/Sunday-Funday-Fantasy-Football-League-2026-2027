@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-24T22:09:33.753733+00:00"
+    "updatedAt": "2026-11-24T23:08:08.850203+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-24T22:09:33.753761+00:00",
+  "updatedAt": "2026-11-24T23:08:08.850222+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 10,
+      "transactionRecordCount": 18,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -14616,14 +14616,6 @@
     },
     {
       "teamId": 1,
-      "playerId": 4595348,
-      "playerName": "Malik Nabers",
-      "lineupSlotId": 4,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183609888
-    },
-    {
-      "teamId": 1,
       "playerId": 4608686,
       "playerName": "Kyle Monangai",
       "lineupSlotId": 20,
@@ -14666,7 +14658,7 @@
       "teamId": 1,
       "playerId": 4429096,
       "playerName": "Blake Corum",
-      "lineupSlotId": 2,
+      "lineupSlotId": 23,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -14674,7 +14666,7 @@
       "teamId": 1,
       "playerId": 4360248,
       "playerName": "Kyle Pitts Sr.",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -14688,17 +14680,9 @@
     },
     {
       "teamId": 1,
-      "playerId": 4597500,
-      "playerName": "Adonai Mitchell",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793780071075
-    },
-    {
-      "teamId": 1,
       "playerId": 4242335,
       "playerName": "Jonathan Taylor",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1794148971959
     },
@@ -14736,11 +14720,27 @@
     },
     {
       "teamId": 1,
-      "playerId": 4883647,
-      "playerName": "Elic Ayomanor",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1795203548694
+      "playerId": 5081432,
+      "playerName": "Antonio Williams",
+      "lineupSlotId": 4,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795559167615
+    },
+    {
+      "teamId": 1,
+      "playerId": 4361050,
+      "playerName": "Isaiah Likely",
+      "lineupSlotId": 6,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795559167615
+    },
+    {
+      "teamId": 1,
+      "playerId": 4362238,
+      "playerName": "Chase Brown",
+      "lineupSlotId": 2,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795559167615
     },
     {
       "teamId": 2,
@@ -15554,7 +15554,7 @@
       "teamId": 8,
       "playerId": 4430878,
       "playerName": "Jaxon Smith-Njigba",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -15562,7 +15562,7 @@
       "teamId": 8,
       "playerId": 4567048,
       "playerName": "Kenneth Walker III",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -15594,7 +15594,7 @@
       "teamId": 8,
       "playerId": 4372016,
       "playerName": "Jaylen Waddle",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -15650,7 +15650,7 @@
       "teamId": 8,
       "playerId": 3042519,
       "playerName": "Aaron Jones Sr.",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1791298864925
     },
@@ -15824,14 +15824,6 @@
     },
     {
       "teamId": 10,
-      "playerId": 4362238,
-      "playerName": "Chase Brown",
-      "lineupSlotId": 23,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183619129
-    },
-    {
-      "teamId": 10,
       "playerId": 4612826,
       "playerName": "Ladd McConkey",
       "lineupSlotId": 20,
@@ -15866,14 +15858,6 @@
       "teamId": 10,
       "playerId": 4688813,
       "playerName": "Josh Downs",
-      "lineupSlotId": 20,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183619130
-    },
-    {
-      "teamId": 10,
-      "playerId": 4361050,
-      "playerName": "Isaiah Likely",
       "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619130
@@ -15928,11 +15912,19 @@
     },
     {
       "teamId": 10,
-      "playerId": 5081432,
-      "playerName": "Antonio Williams",
+      "playerId": 4597500,
+      "playerName": "Adonai Mitchell",
       "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1795091488456
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795559167614
+    },
+    {
+      "teamId": 10,
+      "playerId": 4595348,
+      "playerName": "Malik Nabers",
+      "lineupSlotId": 23,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795559167615
     }
   ],
   "currentRosterAsOfWeek": 12
