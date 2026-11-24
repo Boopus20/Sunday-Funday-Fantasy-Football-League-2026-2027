@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-24T16:27:41.681613+00:00"
+    "updatedAt": "2026-11-24T18:01:58.887005+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-24T16:27:41.681636+00:00",
+  "updatedAt": "2026-11-24T18:01:58.887026+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 8,
+      "transactionRecordCount": 9,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -15490,7 +15490,7 @@
       "teamId": 7,
       "playerId": 5083076,
       "playerName": "Harold Fannin Jr.",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1792642500622
     },
@@ -15538,7 +15538,7 @@
       "teamId": 7,
       "playerId": 4361411,
       "playerName": "Pat Freiermuth",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794990187804
     },
