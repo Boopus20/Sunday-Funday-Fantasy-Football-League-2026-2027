@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-24T12:09:01.791519+00:00"
+    "updatedAt": "2026-11-24T13:28:49.478346+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-24T12:09:01.791538+00:00",
+  "updatedAt": "2026-11-24T13:28:49.478365+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 1,
+      "transactionRecordCount": 2,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -15226,7 +15226,7 @@
       "teamId": 5,
       "playerId": -16007,
       "playerName": "Broncos D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793324719084
     },
@@ -15266,7 +15266,7 @@
       "teamId": 5,
       "playerId": -16034,
       "playerName": "Texans D/ST",
-      "lineupSlotId": 16,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794474702444
     },
