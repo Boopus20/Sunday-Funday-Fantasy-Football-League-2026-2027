@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-25T07:37:17.264295+00:00"
+    "updatedAt": "2026-11-25T09:24:54.214670+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-25T07:37:17.264321+00:00",
+  "updatedAt": "2026-11-25T09:24:54.214696+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 29,
+      "transactionRecordCount": 43,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5168,7 +5168,323 @@
         "playerName": "Chase McLaughlin"
       }
     ],
-    "transactions": [],
+    "transactions": [
+      {
+        "id": "86fa856f-121c-4fe6-8b72-a19d60f5651d",
+        "type": "WAIVER",
+        "status": "FAILED_ROSTERLIMIT",
+        "executionDate": null,
+        "processDate": 1795596392964,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4603186,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "a473a098-bb4b-4149-9806-44f6be37f0b3",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1795596392963,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16019,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Giants D/ST"
+          },
+          {
+            "playerId": -16034,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Texans D/ST"
+          }
+        ]
+      },
+      {
+        "id": "8a4ead36-322e-4ada-ac2e-5f7c15c97881",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1795596392963,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16028,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Commanders D/ST"
+          },
+          {
+            "playerId": -16003,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "Bears D/ST"
+          }
+        ]
+      },
+      {
+        "id": "b6c72fae-6bba-47d3-8cb8-4bf46b80aaa0",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1795596392963,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5081397,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Dylan Sampson"
+          },
+          {
+            "playerId": 4686728,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "Gunnar Helm"
+          }
+        ]
+      },
+      {
+        "id": "8d451897-13b7-4ed3-9637-04c17894eb5d",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1795596392963,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16028,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 8,
+            "playerName": "Commanders D/ST"
+          },
+          {
+            "playerId": -16008,
+            "type": "DROP",
+            "fromTeamId": 8,
+            "toTeamId": 0,
+            "playerName": "Lions D/ST"
+          }
+        ]
+      },
+      {
+        "id": "dad6c86a-953c-4afd-ae0c-de1669dabe6b",
+        "type": "WAIVER",
+        "status": "FAILED_PLAYERALREADYDROPPED",
+        "executionDate": null,
+        "processDate": 1795596392963,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16005,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 7,
+            "playerName": "Browns D/ST"
+          },
+          {
+            "playerId": 4683062,
+            "type": "DROP",
+            "fromTeamId": 7,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "19e4f692-8c68-4654-a74c-e1fb729dc60a",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795596392962,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5081397,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Dylan Sampson"
+          }
+        ]
+      },
+      {
+        "id": "034de998-c365-44ef-a24a-863438111055",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1795596392962,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4362619,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 10,
+            "playerName": "Chris Rodriguez Jr."
+          }
+        ]
+      },
+      {
+        "id": "a5b61d33-4ece-4ffb-837d-d9dad3a47b3f",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795596392918,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16014,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 8,
+            "playerName": "Rams D/ST"
+          },
+          {
+            "playerId": -16008,
+            "type": "DROP",
+            "fromTeamId": 8,
+            "toTeamId": 0,
+            "playerName": "Lions D/ST"
+          }
+        ]
+      },
+      {
+        "id": "484c4a2b-dc3d-4a26-96f3-6a30533efd95",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795596392917,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16028,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 7,
+            "playerName": "Commanders D/ST"
+          },
+          {
+            "playerId": 4683062,
+            "type": "DROP",
+            "fromTeamId": 7,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "ad7b278f-9866-48d4-b4c4-3913d07b0597",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795596392917,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4038441,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Justice Hill"
+          },
+          {
+            "playerId": 4697815,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Rachaad White"
+          }
+        ]
+      },
+      {
+        "id": "76aa93ce-24bc-4534-aa1c-46b1dcd11c3c",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795596392917,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4362619,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Chris Rodriguez Jr."
+          },
+          {
+            "playerId": 4600981,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "65bf06d6-b205-40ca-be17-1912a18fa6a3",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795596392916,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 3122840,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Deshaun Watson"
+          },
+          {
+            "playerId": 4426338,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": "Bo Nix"
+          }
+        ]
+      },
+      {
+        "id": "c24ccbdc-6e85-48b7-b027-9439ceef0c93",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795596392916,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16019,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Giants D/ST"
+          },
+          {
+            "playerId": -16003,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "Bears D/ST"
+          }
+        ]
+      }
+    ],
     "weeklyPositions": [
       {
         "teamId": 1,
@@ -14688,14 +15004,6 @@
     },
     {
       "teamId": 1,
-      "playerId": 4426338,
-      "playerName": "Bo Nix",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794990187803
-    },
-    {
-      "teamId": 1,
       "playerId": 14880,
       "playerName": "Kirk Cousins",
       "lineupSlotId": 0,
@@ -14733,6 +15041,22 @@
       "lineupSlotId": 23,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1795559167615
+    },
+    {
+      "teamId": 1,
+      "playerId": 3122840,
+      "playerName": "Deshaun Watson",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795596392916
+    },
+    {
+      "teamId": 1,
+      "playerId": 5081397,
+      "playerName": "Dylan Sampson",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795596392963
     },
     {
       "teamId": 2,
@@ -14848,14 +15172,6 @@
     },
     {
       "teamId": 2,
-      "playerId": -16003,
-      "playerName": "Bears D/ST",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1794990187804
-    },
-    {
-      "teamId": 2,
       "playerId": -16027,
       "playerName": "Buccaneers D/ST",
       "lineupSlotId": 16,
@@ -14869,6 +15185,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795351629591
+    },
+    {
+      "teamId": 2,
+      "playerId": -16019,
+      "playerName": "Giants D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795596392917
     },
     {
       "teamId": 3,
@@ -15000,11 +15324,11 @@
     },
     {
       "teamId": 3,
-      "playerId": 4600981,
-      "playerName": "Pat Bryant",
+      "playerId": 4362619,
+      "playerName": "Chris Rodriguez Jr.",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1795135348229
+      "acquisitionDate": 1795596392917
     },
     {
       "teamId": 4,
@@ -15208,14 +15532,6 @@
     },
     {
       "teamId": 5,
-      "playerId": 4697815,
-      "playerName": "Rachaad White",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1792337664378
-    },
-    {
-      "teamId": 5,
       "playerId": -16007,
       "playerName": "Broncos D/ST",
       "lineupSlotId": 16,
@@ -15269,6 +15585,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794746364554
+    },
+    {
+      "teamId": 5,
+      "playerId": 4038441,
+      "playerName": "Justice Hill",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795596392917
     },
     {
       "teamId": 6,
@@ -15464,14 +15788,6 @@
     },
     {
       "teamId": 7,
-      "playerId": 4683062,
-      "playerName": "Xavier Worthy",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1788969846355
-    },
-    {
-      "teamId": 7,
       "playerId": 4262921,
       "playerName": "Justin Jefferson",
       "lineupSlotId": 4,
@@ -15541,6 +15857,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795121239654
+    },
+    {
+      "teamId": 7,
+      "playerId": -16028,
+      "playerName": "Commanders D/ST",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795596392918
     },
     {
       "teamId": 8,
@@ -15656,19 +15980,19 @@
     },
     {
       "teamId": 8,
-      "playerId": -16008,
-      "playerName": "Lions D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1795047117712
-    },
-    {
-      "teamId": 8,
       "playerId": 17427,
       "playerName": "Cairo Santos",
       "lineupSlotId": 17,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795047161866
+    },
+    {
+      "teamId": 8,
+      "playerId": -16014,
+      "playerName": "Rams D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795596392962
     },
     {
       "teamId": 9,
