@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-25T23:05:39.778489+00:00"
+    "updatedAt": "2026-11-25T23:58:23.373177+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-25T23:05:39.778512+00:00",
+  "updatedAt": "2026-11-25T23:58:23.373197+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 49,
+      "transactionRecordCount": 50,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -16126,7 +16126,7 @@
       "teamId": 10,
       "playerId": 4430807,
       "playerName": "Bijan Robinson",
-      "lineupSlotId": 2,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619129
     },
@@ -16214,7 +16214,7 @@
       "teamId": 10,
       "playerId": 4832955,
       "playerName": "Emmett Johnson",
-      "lineupSlotId": 23,
+      "lineupSlotId": 2,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     },
