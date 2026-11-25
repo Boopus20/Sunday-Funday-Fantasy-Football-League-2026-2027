@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-25T22:07:53.882527+00:00"
+    "updatedAt": "2026-11-25T23:05:39.778489+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-25T22:07:53.882548+00:00",
+  "updatedAt": "2026-11-25T23:05:39.778512+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 46,
+      "transactionRecordCount": 49,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5235,30 +5235,6 @@
         ]
       },
       {
-        "id": "b6c72fae-6bba-47d3-8cb8-4bf46b80aaa0",
-        "type": "WAIVER",
-        "status": "FAILED_INVALIDPLAYERSOURCE",
-        "executionDate": null,
-        "processDate": 1795596392963,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 5081397,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 2,
-            "playerName": "Dylan Sampson"
-          },
-          {
-            "playerId": 4686728,
-            "type": "DROP",
-            "fromTeamId": 2,
-            "toTeamId": 0,
-            "playerName": "Gunnar Helm"
-          }
-        ]
-      },
-      {
         "id": "8d451897-13b7-4ed3-9637-04c17894eb5d",
         "type": "WAIVER",
         "status": "FAILED_INVALIDPLAYERSOURCE",
@@ -5279,6 +5255,30 @@
             "fromTeamId": 8,
             "toTeamId": 0,
             "playerName": "Lions D/ST"
+          }
+        ]
+      },
+      {
+        "id": "b6c72fae-6bba-47d3-8cb8-4bf46b80aaa0",
+        "type": "WAIVER",
+        "status": "FAILED_INVALIDPLAYERSOURCE",
+        "executionDate": null,
+        "processDate": 1795596392963,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 5081397,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Dylan Sampson"
+          },
+          {
+            "playerId": 4686728,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "Gunnar Helm"
           }
         ]
       },
@@ -5389,30 +5389,6 @@
         ]
       },
       {
-        "id": "ad7b278f-9866-48d4-b4c4-3913d07b0597",
-        "type": "WAIVER",
-        "status": "EXECUTED",
-        "executionDate": null,
-        "processDate": 1795596392917,
-        "proposingTeamId": null,
-        "items": [
-          {
-            "playerId": 4038441,
-            "type": "ADD",
-            "fromTeamId": 0,
-            "toTeamId": 5,
-            "playerName": "Justice Hill"
-          },
-          {
-            "playerId": 4697815,
-            "type": "DROP",
-            "fromTeamId": 5,
-            "toTeamId": 0,
-            "playerName": "Rachaad White"
-          }
-        ]
-      },
-      {
         "id": "76aa93ce-24bc-4534-aa1c-46b1dcd11c3c",
         "type": "WAIVER",
         "status": "EXECUTED",
@@ -5433,6 +5409,30 @@
             "fromTeamId": 3,
             "toTeamId": 0,
             "playerName": null
+          }
+        ]
+      },
+      {
+        "id": "ad7b278f-9866-48d4-b4c4-3913d07b0597",
+        "type": "WAIVER",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": 1795596392917,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4038441,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 5,
+            "playerName": "Justice Hill"
+          },
+          {
+            "playerId": 4697815,
+            "type": "DROP",
+            "fromTeamId": 5,
+            "toTeamId": 0,
+            "playerName": "Rachaad White"
           }
         ]
       },
@@ -15062,7 +15062,7 @@
       "teamId": 2,
       "playerId": 3117251,
       "playerName": "Christian McCaffrey",
-      "lineupSlotId": 2,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183610749
     },
@@ -15070,7 +15070,7 @@
       "teamId": 2,
       "playerId": 3929630,
       "playerName": "Saquon Barkley",
-      "lineupSlotId": 23,
+      "lineupSlotId": 2,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183610749
     },
@@ -16158,7 +16158,7 @@
       "teamId": 10,
       "playerId": 4248528,
       "playerName": "Christian Watson",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183619130
     },
@@ -16214,7 +16214,7 @@
       "teamId": 10,
       "playerId": 4832955,
       "playerName": "Emmett Johnson",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "ADD",
       "acquisitionDate": 1793780071075
     },
@@ -16238,7 +16238,7 @@
       "teamId": 10,
       "playerId": 4595348,
       "playerName": "Malik Nabers",
-      "lineupSlotId": 23,
+      "lineupSlotId": 4,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1795559167615
     }
