@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-25T13:40:49.660018+00:00"
+    "updatedAt": "2026-11-25T15:20:15.002870+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-25T13:40:49.660037+00:00",
+  "updatedAt": "2026-11-25T15:20:15.002890+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 43,
+      "transactionRecordCount": 45,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -15174,7 +15174,7 @@
       "teamId": 2,
       "playerId": -16027,
       "playerName": "Buccaneers D/ST",
-      "lineupSlotId": 16,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795194372784
     },
@@ -15190,7 +15190,7 @@
       "teamId": 2,
       "playerId": -16019,
       "playerName": "Giants D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795596392917
     },
@@ -15830,7 +15830,7 @@
       "teamId": 7,
       "playerId": -16002,
       "playerName": "Bills D/ST",
-      "lineupSlotId": 16,
+      "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794474702444
     },
@@ -15862,7 +15862,7 @@
       "teamId": 7,
       "playerId": -16028,
       "playerName": "Commanders D/ST",
-      "lineupSlotId": 20,
+      "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795596392918
     },
