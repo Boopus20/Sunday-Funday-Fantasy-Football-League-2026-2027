@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-26T18:01:39.456249+00:00"
+    "updatedAt": "2026-11-26T18:07:14.614801+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-26T18:01:39.456271+00:00",
+  "updatedAt": "2026-11-26T18:07:14.614825+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 59,
+      "transactionRecordCount": 62,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5529,6 +5529,30 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Cam Ward"
+          }
+        ]
+      },
+      {
+        "id": "b07b09f4-e035-4521-ba61-1c0a4b2c0b87",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16024,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "Chargers D/ST"
+          },
+          {
+            "playerId": -16004,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Bengals D/ST"
           }
         ]
       }
@@ -15390,7 +15414,7 @@
       "teamId": 4,
       "playerId": 16737,
       "playerName": "Mike Evans",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183615037
     },
@@ -15398,7 +15422,7 @@
       "teamId": 4,
       "playerId": 4880281,
       "playerName": "Jordyn Tyson",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183615037
     },
@@ -15446,7 +15470,7 @@
       "teamId": 4,
       "playerId": 4711533,
       "playerName": "Ollie Gordon II",
-      "lineupSlotId": 2,
+      "lineupSlotId": 23,
       "acquisitionType": "ADD",
       "acquisitionDate": 1790755002662
     },
@@ -15462,7 +15486,7 @@
       "teamId": 4,
       "playerId": 4035538,
       "playerName": "David Montgomery",
-      "lineupSlotId": 23,
+      "lineupSlotId": 2,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1794148971959
     },
@@ -15500,19 +15524,19 @@
     },
     {
       "teamId": 4,
-      "playerId": -16004,
-      "playerName": "Bengals D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1795105800652
-    },
-    {
-      "teamId": 4,
       "playerId": 4433970,
       "playerName": "J.J. McCarthy",
       "lineupSlotId": 0,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795657842637
+    },
+    {
+      "teamId": 4,
+      "playerId": -16024,
+      "playerName": "Chargers D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795716306442
     },
     {
       "teamId": 5,
