@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-26T21:25:30.495379+00:00"
+    "updatedAt": "2026-11-26T22:06:38.158808+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-26T21:25:30.495401+00:00",
+  "updatedAt": "2026-11-26T22:06:38.158828+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 62,
+      "transactionRecordCount": 63,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -16070,7 +16070,7 @@
       "teamId": 9,
       "playerId": 3043078,
       "playerName": "Derrick Henry",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183617524
     },
@@ -16094,7 +16094,7 @@
       "teamId": 9,
       "playerId": 3915416,
       "playerName": "DJ Moore",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183617524
     },
