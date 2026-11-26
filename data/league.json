@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-26T17:07:23.688428+00:00"
+    "updatedAt": "2026-11-26T18:01:39.456249+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-26T17:07:23.688447+00:00",
+  "updatedAt": "2026-11-26T18:01:39.456271+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 58,
+      "transactionRecordCount": 59,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -15126,7 +15126,7 @@
       "teamId": 2,
       "playerId": 4428331,
       "playerName": "Rashee Rice",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183610749
     },
@@ -15158,7 +15158,7 @@
       "teamId": 2,
       "playerId": 4431299,
       "playerName": "Rome Odunze",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183610749
     },
