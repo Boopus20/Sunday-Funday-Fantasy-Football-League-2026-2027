@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-26T01:29:41.817352+00:00"
+    "updatedAt": "2026-11-26T03:07:40.492620+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-26T01:29:41.817372+00:00",
+  "updatedAt": "2026-11-26T03:07:40.492640+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 51,
+      "transactionRecordCount": 52,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5481,6 +5481,30 @@
             "fromTeamId": 2,
             "toTeamId": 0,
             "playerName": "Bears D/ST"
+          }
+        ]
+      },
+      {
+        "id": "6c58d91f-8880-46a2-83a7-8a32f3d88094",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4433970,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 4,
+            "playerName": "J.J. McCarthy"
+          },
+          {
+            "playerId": 4688380,
+            "type": "DROP",
+            "fromTeamId": 4,
+            "toTeamId": 0,
+            "playerName": "Cam Ward"
           }
         ]
       }
@@ -15452,19 +15476,19 @@
     },
     {
       "teamId": 4,
-      "playerId": 4688380,
-      "playerName": "Cam Ward",
-      "lineupSlotId": 0,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1795017281423
-    },
-    {
-      "teamId": 4,
       "playerId": -16004,
       "playerName": "Bengals D/ST",
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795105800652
+    },
+    {
+      "teamId": 4,
+      "playerId": 4433970,
+      "playerName": "J.J. McCarthy",
+      "lineupSlotId": 0,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795657842637
     },
     {
       "teamId": 5,
