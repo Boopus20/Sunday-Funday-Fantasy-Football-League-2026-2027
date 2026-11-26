@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-25T23:58:23.373177+00:00"
+    "updatedAt": "2026-11-26T01:29:41.817352+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-25T23:58:23.373197+00:00",
+  "updatedAt": "2026-11-26T01:29:41.817372+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 50,
+      "transactionRecordCount": 51,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -15878,7 +15878,7 @@
       "teamId": 8,
       "playerId": 4567048,
       "playerName": "Kenneth Walker III",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -15966,7 +15966,7 @@
       "teamId": 8,
       "playerId": 3042519,
       "playerName": "Aaron Jones Sr.",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1791298864925
     },
