@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-26T15:15:49.799669+00:00"
+    "updatedAt": "2026-11-26T16:23:41.351697+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-26T15:15:49.799690+00:00",
+  "updatedAt": "2026-11-26T16:23:41.351716+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 57,
+      "transactionRecordCount": 58,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -15950,7 +15950,7 @@
       "teamId": 8,
       "playerId": 4723086,
       "playerName": "Colston Loveland",
-      "lineupSlotId": 20,
+      "lineupSlotId": 6,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
@@ -15982,7 +15982,7 @@
       "teamId": 8,
       "playerId": 15847,
       "playerName": "Travis Kelce",
-      "lineupSlotId": 6,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183616904
     },
