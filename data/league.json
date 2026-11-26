@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-26T05:27:49.371694+00:00"
+    "updatedAt": "2026-11-26T07:35:56.466642+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-26T05:27:49.371717+00:00",
+  "updatedAt": "2026-11-26T07:35:56.466663+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 52,
+      "transactionRecordCount": 56,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -15516,14 +15516,6 @@
     },
     {
       "teamId": 5,
-      "playerId": 4239996,
-      "playerName": "Travis Etienne Jr.",
-      "lineupSlotId": 2,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183614122
-    },
-    {
-      "teamId": 5,
       "playerId": 4259545,
       "playerName": "D'Andre Swift",
       "lineupSlotId": 2,
@@ -15617,6 +15609,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795596392917
+    },
+    {
+      "teamId": 5,
+      "playerId": 4239996,
+      "playerName": "Travis Etienne Jr.",
+      "lineupSlotId": 2,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795675597301
     },
     {
       "teamId": 6,
@@ -16020,14 +16020,6 @@
     },
     {
       "teamId": 9,
-      "playerId": 4429795,
-      "playerName": "Jahmyr Gibbs",
-      "lineupSlotId": 2,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183617524
-    },
-    {
-      "teamId": 9,
       "playerId": 3043078,
       "playerName": "Derrick Henry",
       "lineupSlotId": 23,
@@ -16145,6 +16137,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1794664859653
+    },
+    {
+      "teamId": 9,
+      "playerId": 4429795,
+      "playerName": "Jahmyr Gibbs",
+      "lineupSlotId": 2,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795675597301
     },
     {
       "teamId": 10,
