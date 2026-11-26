@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-26T13:35:37.564006+00:00"
+    "updatedAt": "2026-11-26T15:15:49.799669+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-26T13:35:37.564027+00:00",
+  "updatedAt": "2026-11-26T15:15:49.799690+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 56,
+      "transactionRecordCount": 57,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5481,6 +5481,30 @@
             "fromTeamId": 2,
             "toTeamId": 0,
             "playerName": "Bears D/ST"
+          }
+        ]
+      },
+      {
+        "id": "71c4e152-4674-474e-8212-eeacd0e4db51",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 15864,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 2,
+            "playerName": "Geno Smith"
+          },
+          {
+            "playerId": 4686728,
+            "type": "DROP",
+            "fromTeamId": 2,
+            "toTeamId": 0,
+            "playerName": "Gunnar Helm"
           }
         ]
       },
@@ -15204,19 +15228,19 @@
     },
     {
       "teamId": 2,
-      "playerId": 4686728,
-      "playerName": "Gunnar Helm",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1795351629591
-    },
-    {
-      "teamId": 2,
       "playerId": -16019,
       "playerName": "Giants D/ST",
       "lineupSlotId": 16,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795596392917
+    },
+    {
+      "teamId": 2,
+      "playerId": 15864,
+      "playerName": "Geno Smith",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795700315718
     },
     {
       "teamId": 3,
