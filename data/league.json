@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-26T23:29:27.116856+00:00"
+    "updatedAt": "2026-11-27T00:06:37.295559+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-26T23:29:27.116875+00:00",
+  "updatedAt": "2026-11-27T00:06:37.295586+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 63,
+      "transactionRecordCount": 64,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5505,6 +5505,30 @@
             "fromTeamId": 2,
             "toTeamId": 0,
             "playerName": "Gunnar Helm"
+          }
+        ]
+      },
+      {
+        "id": "c62af3dc-b7ff-4db0-ae9d-4e58734f7f18",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": -16017,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 9,
+            "playerName": "Patriots D/ST"
+          },
+          {
+            "playerId": -16012,
+            "type": "DROP",
+            "fromTeamId": 9,
+            "toTeamId": 0,
+            "playerName": "Chiefs D/ST"
           }
         ]
       },
@@ -16164,14 +16188,6 @@
     },
     {
       "teamId": 9,
-      "playerId": -16012,
-      "playerName": "Chiefs D/ST",
-      "lineupSlotId": 16,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1793257583361
-    },
-    {
-      "teamId": 9,
       "playerId": 4366031,
       "playerName": "Tank Dell",
       "lineupSlotId": 20,
@@ -16193,6 +16209,14 @@
       "lineupSlotId": 2,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1795675597301
+    },
+    {
+      "teamId": 9,
+      "playerId": -16017,
+      "playerName": "Patriots D/ST",
+      "lineupSlotId": 16,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795736550821
     },
     {
       "teamId": 10,
