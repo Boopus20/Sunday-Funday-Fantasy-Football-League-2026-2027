@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-27T18:00:00.859291+00:00"
+    "updatedAt": "2026-11-27T19:11:21.297551+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-27T18:00:00.859313+00:00",
+  "updatedAt": "2026-11-27T19:11:21.297580+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 71,
+      "transactionRecordCount": 78,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5577,6 +5577,30 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Cam Ward"
+          }
+        ]
+      },
+      {
+        "id": "bbde8750-08c8-46be-a7ba-796e34a346b2",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4879194,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 3,
+            "playerName": "Josh Cameron"
+          },
+          {
+            "playerId": 4723820,
+            "type": "DROP",
+            "fromTeamId": 3,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -15398,7 +15422,7 @@
       "teamId": 3,
       "playerId": 4882093,
       "playerName": "Bhayshul Tuten",
-      "lineupSlotId": 2,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790821502653
     },
@@ -15409,14 +15433,6 @@
       "lineupSlotId": 23,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1790821502653
-    },
-    {
-      "teamId": 3,
-      "playerId": 4723820,
-      "playerName": "Omar Cooper Jr.",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1792566190010
     },
     {
       "teamId": 3,
@@ -15446,9 +15462,17 @@
       "teamId": 3,
       "playerId": 4362619,
       "playerName": "Chris Rodriguez Jr.",
-      "lineupSlotId": 20,
+      "lineupSlotId": 2,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795596392917
+    },
+    {
+      "teamId": 3,
+      "playerId": 4879194,
+      "playerName": "Josh Cameron",
+      "lineupSlotId": 20,
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795804070716
     },
     {
       "teamId": 4,
