@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-27T15:09:51.424255+00:00"
+    "updatedAt": "2026-11-27T16:17:19.497010+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-27T15:09:51.424275+00:00",
+  "updatedAt": "2026-11-27T16:17:19.497034+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 69,
+      "transactionRecordCount": 71,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5271,7 +5271,7 @@
             "type": "ADD",
             "fromTeamId": 0,
             "toTeamId": 2,
-            "playerName": "Dylan Sampson"
+            "playerName": null
           },
           {
             "playerId": 4686728,
@@ -5319,7 +5319,7 @@
             "type": "ADD",
             "fromTeamId": 0,
             "toTeamId": 1,
-            "playerName": "Dylan Sampson"
+            "playerName": null
           }
         ]
       },
@@ -5529,6 +5529,30 @@
             "fromTeamId": 9,
             "toTeamId": 0,
             "playerName": "Chiefs D/ST"
+          }
+        ]
+      },
+      {
+        "id": "c2947422-d86a-416a-a5ef-303193702d99",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4429086,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Michael Mayer"
+          },
+          {
+            "playerId": 5081397,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       },
@@ -15148,11 +15172,11 @@
     },
     {
       "teamId": 1,
-      "playerId": 5081397,
-      "playerName": "Dylan Sampson",
+      "playerId": 4429086,
+      "playerName": "Michael Mayer",
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
-      "acquisitionDate": 1795596392963
+      "acquisitionDate": 1795792347109
     },
     {
       "teamId": 2,
@@ -15334,7 +15358,7 @@
       "teamId": 3,
       "playerId": 4432620,
       "playerName": "Parker Washington",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183611589
     },
@@ -15342,7 +15366,7 @@
       "teamId": 3,
       "playerId": 3916433,
       "playerName": "Jakobi Meyers",
-      "lineupSlotId": 20,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183611589
     },
