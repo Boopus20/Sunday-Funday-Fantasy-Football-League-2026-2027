@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-27T20:10:05.284231+00:00"
+    "updatedAt": "2026-11-27T21:08:15.541181+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-27T20:10:05.284247+00:00",
+  "updatedAt": "2026-11-27T21:08:15.541204+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 93,
+      "transactionRecordCount": 95,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -5545,7 +5545,7 @@
             "type": "ADD",
             "fromTeamId": 0,
             "toTeamId": 1,
-            "playerName": "Michael Mayer"
+            "playerName": null
           },
           {
             "playerId": 5081397,
@@ -5625,6 +5625,30 @@
             "fromTeamId": 4,
             "toTeamId": 0,
             "playerName": "Bengals D/ST"
+          }
+        ]
+      },
+      {
+        "id": "20aca3ad-e247-42ca-a6e1-5282a1be1200",
+        "type": "FREEAGENT",
+        "status": "EXECUTED",
+        "executionDate": null,
+        "processDate": null,
+        "proposingTeamId": null,
+        "items": [
+          {
+            "playerId": 4432773,
+            "type": "ADD",
+            "fromTeamId": 0,
+            "toTeamId": 1,
+            "playerName": "Brian Thomas Jr."
+          },
+          {
+            "playerId": 4429086,
+            "type": "DROP",
+            "fromTeamId": 1,
+            "toTeamId": 0,
+            "playerName": null
           }
         ]
       }
@@ -15158,7 +15182,7 @@
       "teamId": 1,
       "playerId": 5081432,
       "playerName": "Antonio Williams",
-      "lineupSlotId": 4,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1795559167615
     },
@@ -15188,19 +15212,19 @@
     },
     {
       "teamId": 1,
-      "playerId": 4429086,
-      "playerName": "Michael Mayer",
-      "lineupSlotId": 20,
-      "acquisitionType": "ADD",
-      "acquisitionDate": 1795792347109
+      "playerId": 4871023,
+      "playerName": "Carnell Tate",
+      "lineupSlotId": 4,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795809086225
     },
     {
       "teamId": 1,
-      "playerId": 4871023,
-      "playerName": "Carnell Tate",
+      "playerId": 4432773,
+      "playerName": "Brian Thomas Jr.",
       "lineupSlotId": 20,
-      "acquisitionType": "TRADE",
-      "acquisitionDate": 1795809086225
+      "acquisitionType": "ADD",
+      "acquisitionDate": 1795811716795
     },
     {
       "teamId": 2,
