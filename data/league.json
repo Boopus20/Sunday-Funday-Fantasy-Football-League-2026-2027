@@ -133,11 +133,11 @@
         ]
       }
     ],
-    "updatedAt": "2026-11-27T19:11:21.297551+00:00"
+    "updatedAt": "2026-11-27T20:10:05.284231+00:00"
   },
   "leagueId": "204112345",
   "season": 2026,
-  "updatedAt": "2026-11-27T19:11:21.297580+00:00",
+  "updatedAt": "2026-11-27T20:10:05.284247+00:00",
   "currentWeek": 12,
   "completedMatchups": 55,
   "completedWeeks": 11,
@@ -2278,7 +2278,7 @@
           "error": "HTTP Error 400: "
         }
       ],
-      "transactionRecordCount": 78,
+      "transactionRecordCount": 93,
       "transactionHistoryComplete": false,
       "playerNamesResolved": 202
     },
@@ -15140,14 +15140,6 @@
     },
     {
       "teamId": 1,
-      "playerId": 4242335,
-      "playerName": "Jonathan Taylor",
-      "lineupSlotId": 20,
-      "acquisitionType": "TRADE",
-      "acquisitionDate": 1794148971959
-    },
-    {
-      "teamId": 1,
       "playerId": 14880,
       "playerName": "Kirk Cousins",
       "lineupSlotId": 0,
@@ -15201,6 +15193,14 @@
       "lineupSlotId": 20,
       "acquisitionType": "ADD",
       "acquisitionDate": 1795792347109
+    },
+    {
+      "teamId": 1,
+      "playerId": 4871023,
+      "playerName": "Carnell Tate",
+      "lineupSlotId": 20,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795809086225
     },
     {
       "teamId": 2,
@@ -15750,7 +15750,7 @@
       "teamId": 6,
       "playerId": 4426502,
       "playerName": "Drake London",
-      "lineupSlotId": 23,
+      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183613422
     },
@@ -15783,14 +15783,6 @@
       "playerId": 4685512,
       "playerName": "Jadarian Price",
       "lineupSlotId": 20,
-      "acquisitionType": "DRAFT",
-      "acquisitionDate": 1785183613422
-    },
-    {
-      "teamId": 6,
-      "playerId": 4871023,
-      "playerName": "Carnell Tate",
-      "lineupSlotId": 4,
       "acquisitionType": "DRAFT",
       "acquisitionDate": 1785183613422
     },
@@ -15875,6 +15867,14 @@
       "acquisitionDate": 1795007860210
     },
     {
+      "teamId": 6,
+      "playerId": 4242335,
+      "playerName": "Jonathan Taylor",
+      "lineupSlotId": 23,
+      "acquisitionType": "TRADE",
+      "acquisitionDate": 1795809086225
+    },
+    {
       "teamId": 7,
       "playerId": 4374302,
       "playerName": "Amon-Ra St. Brown",
@@ -15950,7 +15950,7 @@
       "teamId": 7,
       "playerId": 4685702,
       "playerName": "Quinshon Judkins",
-      "lineupSlotId": 20,
+      "lineupSlotId": 23,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1793803146499
     },
@@ -15958,7 +15958,7 @@
       "teamId": 7,
       "playerId": 2976212,
       "playerName": "Stefon Diggs",
-      "lineupSlotId": 23,
+      "lineupSlotId": 20,
       "acquisitionType": "TRADE",
       "acquisitionDate": 1793803146499
     },
